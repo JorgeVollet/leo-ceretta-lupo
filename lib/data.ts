@@ -96,7 +96,7 @@ export async function getProdutos(slug: string): Promise<Produto[]> {
 }
 
 export function getSegmentos(catalogos: Catalogo[]): string[] {
-  return [...new Set(catalogos.map((c) => c.segmento))];
+  return Array.from(new Set(catalogos.map((c) => c.segmento)));
 }
 
 export function linkPedido(titulo: string, segmento: string): string {
