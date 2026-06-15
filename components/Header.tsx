@@ -30,10 +30,17 @@ export default function Header({ compact = false }: { compact?: boolean }) {
           <h1 className="mt-5 max-w-[18ch] font-display text-4xl font-extrabold leading-[1.05] tracking-tight text-cloud md:text-6xl">
             Toda a linha Lupo, <span className="text-gradient">num só lugar.</span>
           </h1>
-          <p className="mt-4 max-w-[52ch] text-[15px] leading-relaxed text-cloud/60 md:text-lg">
-            Explore os catálogos por segmento, veja online, baixe o que precisar e
-            faça seu pedido direto comigo pelo WhatsApp.
-          </p>
+          <div className="mt-5 max-w-[62ch] space-y-3 text-[15px] leading-relaxed text-cloud/65 md:text-[16.5px]">
+            <p>
+              📖 Explore os catálogos por segmento, escolha as linhas mais adequadas para
+              o seu negócio e faça o download dos materiais de apoio.
+            </p>
+            <p>
+              📲 Agende seu atendimento presencial ou pelo WhatsApp e garanta condições
+              especiais, melhor planejamento de compras e maior segurança na entrega dos
+              produtos.
+            </p>
+          </div>
         </div>
       )}
 
