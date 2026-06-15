@@ -48,19 +48,25 @@ export async function getCatalogos(): Promise<Catalogo[]> {
       .order("ordem");
     if (data && data.length) {
       const baseStorage = `${process.env.NEXT_PUBLIC_SUPABASE_URL}/storage/v1/object/public/catalogos/`;
-      return data.map((c: any) => ({
-        slug: c.slug,
-        titulo: c.titulo,
-        segmento: c.segmento,
-        descricao: c.descricao ?? "",
-        // link de download direto do Supabase Storage (sem Drive, sem login)
-        drive: c.arquivo ? baseStorage + encodeURIComponent(c.arquivo) : "",
-        // capa servida pelo proprio site (public/capas/<slug>.jpg)
-        capa: c.capa_url || `/capas/${c.slug}.jpg`,
-        // padronizado: todos os catalogos abrem o PDF inteiro embutido (sem grade item-a-item)
-        navegavel: false,
-        total_produtos: null,
-      }));
+      return data.map((c: any) => {
+        // anti-cache: usa updated_at/criado_em da linha como "versao".
+        // Quando o PDF for trocado e a linha atualizada, o link muda e fura o cache do CDN.
+        const carimbo = c.updated_at || c.atualizado_em || c.criado_em || c.versao || "";
+        const v = carimbo ? `?v=${encodeURIComponent(String(carimbo))}` : "";
+        return {
+          slug: c.slug,
+          titulo: c.titulo,
+          segmento: c.segmento,
+          descricao: c.descricao ?? "",
+          // link de download direto do Supabase Storage (sem Drive, sem login)
+          drive: c.arquivo ? baseStorage + encodeURIComponent(c.arquivo) + v : "",
+          // capa servida pelo proprio site (public/capas/<slug>.jpg)
+          capa: c.capa_url || `/capas/${c.slug}.jpg`,
+          // padronizado: todos os catalogos abrem o PDF inteiro embutido (sem grade item-a-item)
+          navegavel: false,
+          total_produtos: null,
+        };
+      });
     }
   }
   return catalogosLocal as Catalogo[];
