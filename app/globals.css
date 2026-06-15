@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Realce de texto com gradiente azul (titulos) */
+.text-gradient {
+  background: linear-gradient(90deg, #ffffff 0%, #93c5fd 60%, #3b82f6 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* CTA com brilho sutil (inspirado na referencia) */
+@property --shine {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 0deg;
+}
+.cta-shine {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+}
+.cta-shine::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  padding: 1px;
+  background: conic-gradient(
+    from var(--shine),
+    transparent 0%,
+    #60a5fa 15%,
+    transparent 30%
+  );
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  animation: shine 4s linear infinite;
+}
+@keyframes shine {
+  to {
+    --shine: 360deg;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .cta-shine::before {
+    animation: none;
+  }
+}
+
+/* Reveal suave ao entrar (usado em listas) */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.reveal {
+  animation: fadeUp 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
+}

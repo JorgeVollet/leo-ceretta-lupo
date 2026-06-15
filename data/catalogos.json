@@ -1,0 +1,122 @@
+[
+  {
+    "slug": "cuecas",
+    "titulo": "Cuecas",
+    "segmento": "Íntimo Masculino",
+    "descricao": "Boxer, seamless e algodão. Primavera/Verão 27.",
+    "drive": "https://drive.google.com/drive/folders/1KIGkaR_biDTCUW7DuwBc0r0lQMOjEuwx",
+    "capa": "/capas/cuecas.jpg",
+    "navegavel": false,
+    "total_produtos": null
+  },
+  {
+    "slug": "lingerie",
+    "titulo": "Lingerie",
+    "segmento": "Íntimo Feminino",
+    "descricao": "Coleção Lingerie. Primavera/Verão 27.",
+    "drive": "https://drive.google.com/drive/folders/1KIGkaR_biDTCUW7DuwBc0r0lQMOjEuwx",
+    "capa": "/capas/lingerie.jpg",
+    "navegavel": false,
+    "total_produtos": null
+  },
+  {
+    "slug": "loba",
+    "titulo": "Loba",
+    "segmento": "Íntimo Feminino",
+    "descricao": "Coleção Loba. Primavera/Verão 27.",
+    "drive": "https://drive.google.com/drive/folders/1KIGkaR_biDTCUW7DuwBc0r0lQMOjEuwx",
+    "capa": "/capas/loba.jpg",
+    "navegavel": false,
+    "total_produtos": null
+  },
+  {
+    "slug": "beachwear",
+    "titulo": "Beachwear",
+    "segmento": "Praia",
+    "descricao": "Moda praia. Primavera/Verão 27.",
+    "drive": "https://drive.google.com/drive/folders/1a7L_zrUh_AAYb1UkIxj_2zcu9SOBsFXT",
+    "capa": "/capas/beachwear.jpg",
+    "navegavel": false,
+    "total_produtos": null
+  },
+  {
+    "slug": "meias-sport",
+    "titulo": "Meias Sport",
+    "segmento": "Meias",
+    "descricao": "Meias esportivas. Jul a Dez 26.",
+    "drive": "https://drive.google.com/drive/folders/16c6eymBPcKRk_GfidW4ZDfrnZ7DenmuW",
+    "capa": "/capas/meias-sport.jpg",
+    "navegavel": false,
+    "total_produtos": null
+  },
+  {
+    "slug": "meias-femininas",
+    "titulo": "Meias Femininas",
+    "segmento": "Meias",
+    "descricao": "Meias femininas. Jul a Dez 26.",
+    "drive": "https://drive.google.com/drive/folders/16c6eymBPcKRk_GfidW4ZDfrnZ7DenmuW",
+    "capa": "/capas/meias-femininas.jpg",
+    "navegavel": false,
+    "total_produtos": null
+  },
+  {
+    "slug": "meias-masculinas",
+    "titulo": "Meias Masculinas",
+    "segmento": "Meias",
+    "descricao": "Meias masculinas. Jul a Dez 26.",
+    "drive": "https://drive.google.com/drive/folders/16c6eymBPcKRk_GfidW4ZDfrnZ7DenmuW",
+    "capa": "/capas/meias-masculinas.jpg",
+    "navegavel": false,
+    "total_produtos": null
+  },
+  {
+    "slug": "meias-licenciadas",
+    "titulo": "Meias Licenciadas",
+    "segmento": "Meias",
+    "descricao": "Meias licenciadas (personagens). Jul a Dez 26.",
+    "drive": "https://drive.google.com/drive/folders/16c6eymBPcKRk_GfidW4ZDfrnZ7DenmuW",
+    "capa": "/capas/meias-licenciadas.jpg",
+    "navegavel": false,
+    "total_produtos": null
+  },
+  {
+    "slug": "meias-kids",
+    "titulo": "Meias Kids",
+    "segmento": "Infantil",
+    "descricao": "Meias infantis. Jul a Dez 26.",
+    "drive": "https://drive.google.com/drive/folders/16c6eymBPcKRk_GfidW4ZDfrnZ7DenmuW",
+    "capa": "/capas/meias-kids.jpg",
+    "navegavel": false,
+    "total_produtos": null
+  },
+  {
+    "slug": "meias-baby",
+    "titulo": "Meias Baby",
+    "segmento": "Infantil",
+    "descricao": "Meias para bebês. Primavera/Verão 26.",
+    "drive": "https://drive.google.com/drive/folders/16c6eymBPcKRk_GfidW4ZDfrnZ7DenmuW",
+    "capa": "/capas/meias-baby.jpg",
+    "navegavel": false,
+    "total_produtos": null
+  },
+  {
+    "slug": "uk",
+    "titulo": "UK",
+    "segmento": "Internacional",
+    "descricao": "Coleção UK. Primavera/Verão 27.",
+    "drive": "https://drive.google.com/drive/folders/16c6eymBPcKRk_GfidW4ZDfrnZ7DenmuW",
+    "capa": "/capas/uk.jpg",
+    "navegavel": false,
+    "total_produtos": null
+  },
+  {
+    "slug": "lsport",
+    "titulo": "Lupo Sport",
+    "segmento": "Lupo Sport",
+    "descricao": "Linha esportiva, varejo. Verão 27.",
+    "drive": "https://drive.google.com/drive/folders/1TV1xNt5NoS3jLGVGBttwkOZcnquhycRp",
+    "capa": "/capas/lsport.jpg",
+    "navegavel": false,
+    "total_produtos": null
+  }
+]
