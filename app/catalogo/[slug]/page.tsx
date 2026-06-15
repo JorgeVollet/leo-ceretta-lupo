@@ -2,16 +2,13 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import ProdutosGrid from "@/components/ProdutosGrid";
-import { getCatalogo, getProdutos, linkPedido } from "@/lib/data";
+import { getCatalogo, linkPedido } from "@/lib/data";
 
 export const dynamic = "force-dynamic";
 
 export default async function CatalogoPage({ params }: { params: { slug: string } }) {
   const cat = await getCatalogo(params.slug);
   if (!cat) notFound();
-
-  const produtos = cat.navegavel ? await getProdutos(cat.slug) : [];
 
   return (
     <>
@@ -31,39 +28,64 @@ export default async function CatalogoPage({ params }: { params: { slug: string 
             </h1>
             <p className="mt-1.5 max-w-[60ch] text-[14px] text-cloud/55">{cat.descricao}</p>
           </div>
-          <div className="flex flex-wrap gap-2">
-            {cat.drive && (
-              <a
-                href={cat.drive}
-                target="_blank"
-                rel="noopener"
-                download
-                className="rounded-xl border border-white/15 bg-white/5 px-4 py-2.5 text-[13.5px] font-semibold text-cloud transition hover:border-accent/50 hover:bg-white/10"
-              >
-                Baixar catalogo
-              </a>
-            )}
-            <a
-              href={linkPedido(cat.titulo, cat.segmento)}
-              target="_blank"
-              rel="noopener"
-              className="rounded-xl bg-accent px-4 py-2.5 text-[13.5px] font-semibold text-white transition hover:bg-accent-bright"
-            >
-              Fazer pedido
-            </a>
-          </div>
+          <a
+            href={linkPedido(cat.titulo, cat.segmento)}
+            target="_blank"
+            rel="noopener"
+            className="shrink-0 rounded-xl bg-accent px-5 py-3 text-center text-[14px] font-semibold text-white transition hover:bg-accent-bright"
+          >
+            Fazer pedido
+          </a>
         </div>
 
         <div className="mt-8">
-          {cat.navegavel && produtos.length > 0 ? (
-            <ProdutosGrid produtos={produtos} />
-          ) : cat.drive ? (
-            <div className="space-y-3">
-              <p className="text-[13.5px] text-cloud/55">
-                Folheie o catalogo completo abaixo, ou clique em <span className="font-semibold text-cloud">Baixar catalogo</span> pra salvar no seu aparelho.
-              </p>
-              <div className="overflow-hidden rounded-2xl border border-white/10 bg-navy-800">
-                <iframe src={cat.drive} title={cat.titulo} className="h-[78vh] w-full" loading="lazy" />
+          {cat.drive ? (
+            <div className="overflow-hidden rounded-3xl border border-white/8 bg-navy-800/40">
+              <div className="grid gap-0 md:grid-cols-[minmax(0,360px)_1fr]">
+                {/* Capa + acoes (sempre visivel, funciona no celular) */}
+                <div className="flex flex-col items-center gap-5 border-b border-white/8 p-7 md:border-b-0 md:border-r">
+                  {cat.capa && (
+                    // eslint-disable-next-line @next/next/no-img-element
+                    <img
+                      src={cat.capa}
+                      alt={`Capa do catalogo ${cat.titulo}`}
+                      className="w-full max-w-[300px] rounded-xl shadow-card ring-1 ring-white/10"
+                    />
+                  )}
+                  <div className="flex w-full max-w-[300px] flex-col gap-2.5">
+                    <a
+                      href={cat.drive}
+                      target="_blank"
+                      rel="noopener"
+                      className="rounded-xl bg-accent px-4 py-3.5 text-center text-[15px] font-semibold text-white transition hover:bg-accent-bright"
+                    >
+                      Abrir catalogo
+                    </a>
+                    <a
+                      href={cat.drive}
+                      target="_blank"
+                      rel="noopener"
+                      download
+                      className="rounded-xl border border-white/15 bg-white/5 px-4 py-3 text-center text-[14px] font-semibold text-cloud transition hover:border-accent/50 hover:bg-white/10"
+                    >
+                      Baixar PDF
+                    </a>
+                  </div>
+                  <p className="text-center text-[12px] leading-relaxed text-cloud/40">
+                    Toque em <span className="font-semibold text-cloud/70">Abrir catalogo</span> pra
+                    visualizar todas as paginas no seu celular ou computador.
+                  </p>
+                </div>
+
+                {/* Preview embutido — so no desktop (no mobile o iframe nao renderiza PDF) */}
+                <div className="hidden bg-navy-900 md:block">
+                  <iframe
+                    src={`${cat.drive}#toolbar=1&view=FitH`}
+                    title={cat.titulo}
+                    className="h-[80vh] w-full"
+                    loading="lazy"
+                  />
+                </div>
               </div>
             </div>
           ) : (
