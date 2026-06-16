@@ -12,16 +12,16 @@ export default function CatalogosBrowser({ catalogos }: { catalogos: Catalogo[] 
 
   return (
     <>
-      <div className="sticky top-0 z-30 border-b border-white/5 bg-navy-950/85 backdrop-blur-lg">
-        <div className="no-scrollbar mx-auto flex max-w-6xl gap-2 overflow-x-auto px-5 py-3.5">
+      <div className="mx-auto mt-8 max-w-6xl px-5">
+        <div className="no-scrollbar flex gap-2 overflow-x-auto pb-1">
           {segmentos.map((s) => (
             <button
               key={s}
               onClick={() => setFiltro(s)}
-              className={`whitespace-nowrap rounded-full border px-4 py-2 text-[13px] font-medium transition ${
+              className={`mono-label whitespace-nowrap rounded px-4 py-2.5 transition ${
                 filtro === s
-                  ? "border-accent bg-accent text-white shadow-[0_4px_14px_rgba(59,130,246,0.4)]"
-                  : "border-white/10 bg-white/[0.03] text-cloud/70 hover:border-white/25 hover:text-cloud"
+                  ? "bg-ink text-paper"
+                  : "glass text-ink/75 hover:text-ink"
               }`}
             >
               {s}
@@ -30,15 +30,16 @@ export default function CatalogosBrowser({ catalogos }: { catalogos: Catalogo[] 
         </div>
       </div>
 
-      <main className="mx-auto max-w-6xl px-5 pb-4 pt-2">
+      <div className="mx-auto max-w-6xl px-5 pb-4">
         {grupos.map((seg) => (
-          <section key={seg} className="mt-10">
+          <div key={seg} className="mt-10">
             <div className="mb-5 flex items-center gap-3">
-              <span className="h-5 w-1 rounded-full bg-accent" />
-              <h2 className="font-display text-xl font-bold text-cloud">{seg}</h2>
-              <span className="text-[12px] text-cloud/40">
+              <span className="mono-label text-accent-deep">›</span>
+              <h3 className="font-display text-[18px] font-extrabold tracking-tight text-ink">{seg}</h3>
+              <span className="mono-label text-ink/55">
                 {visiveis.filter((c) => c.segmento === seg).length} catálogo(s)
               </span>
+              <span className="h-px flex-1 bg-line" />
             </div>
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
               {visiveis
@@ -47,9 +48,9 @@ export default function CatalogosBrowser({ catalogos }: { catalogos: Catalogo[] 
                   <CatalogoCard key={c.slug} c={c} />
                 ))}
             </div>
-          </section>
+          </div>
         ))}
-      </main>
+      </div>
     </>
   );
 }

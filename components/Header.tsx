@@ -1,50 +1,89 @@
-import Link from "next/link";
-import { Logo } from "./Logo";
 import { CONTATO } from "@/lib/data";
+import HeroVideo from "./HeroVideo";
+import Nav from "./Nav";
 
 export default function Header({ compact = false }: { compact?: boolean }) {
+  /* ---------- PÁGINAS INTERNAS (compact): nav clara, sem vídeo ---------- */
+  if (compact) {
+    return (
+      <header className="bg-paper">
+        <Nav variant="solid" />
+        {/* espaçador pra compensar a nav fixa */}
+        <div className="h-[60px]" />
+      </header>
+    );
+  }
+
+  /* ---------- HOME: HERO FULL-BLEED EM VÍDEO ---------- */
   return (
-    <header className="relative overflow-hidden bg-navy-950 bg-navy-radial">
-      <div className="relative z-10 mx-auto flex max-w-6xl items-center justify-between gap-3 px-5 py-5">
-        <Link href="/" aria-label="Início">
-          <Logo />
-        </Link>
-        <div className="flex items-center gap-2">
+    <header className="relative isolate min-h-[88svh] overflow-hidden bg-ink text-paper md:min-h-screen">
+      {/* VÍDEO DE FUNDO (full-bleed, com parallax) */}
+      <HeroVideo />
+
+      {/* CAMADAS DE LEGIBILIDADE */}
+      <div className="absolute inset-0 -z-10 bg-ink/45" />
+      <div className="absolute inset-0 -z-10 bg-[linear-gradient(100deg,rgba(8,11,16,0.92)_0%,rgba(8,11,16,0.72)_34%,rgba(8,11,16,0.30)_62%,rgba(8,11,16,0.05)_100%)]" />
+      <div className="grain absolute inset-0 -z-10 opacity-[0.06]" />
+
+      {/* NAV (hide on scroll down / show on scroll up) */}
+      <Nav variant="hero" />
+
+      {/* CONTEÚDO DO HERO */}
+      <div className="relative z-10 mx-auto flex min-h-[calc(88svh-64px)] max-w-6xl flex-col justify-center px-5 pt-24 pb-16 md:min-h-[calc(100vh-68px)] md:py-20">
+        {/* status line */}
+        <div className="reveal mb-9 flex flex-wrap items-center gap-x-6 gap-y-2 border-b border-white/15 pb-6">
+          <span className="mono-label flex items-center gap-2 text-paper/90">
+            <span className="relative flex h-2 w-2">
+              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-70" />
+              <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-400" />
+            </span>
+            Status: Atendendo
+          </span>
+          <span className="mono-label text-paper/60">Representante Oficial Lupo</span>
+          <span className="mono-label ml-auto text-accent-sky">Coleção 26 / 27</span>
+        </div>
+
+        <div className="grid gap-10 md:grid-cols-[1fr_auto] md:items-end">
+          <div>
+            {/* bloco de dados */}
+            <div className="reveal mb-7 space-y-1">
+              <div className="mono-label text-accent-sky">Representante Oficial Lupo</div>
+              <div className="mono-label text-paper/60">Setor: Moda Íntima · Meias · Praia · Esporte</div>
+              <div className="mono-label text-paper/60">Região: Noroeste do RS</div>
+            </div>
+
+            <h1 className="headline text-paper [text-shadow:0_2px_30px_rgba(0,0,0,0.35)]" style={{ fontSize: "clamp(2.8rem, 9vw, 6.5rem)" }}>
+              <span className="hero-line" style={{ animationDelay: "0.05s" }}>TODA A LINHA</span><br />
+              <span className="hero-line text-paper/55" style={{ animationDelay: "0.18s" }}>LUPO</span><br />
+              <span className="hero-line text-accent-sky" style={{ animationDelay: "0.31s" }}>NUM SÓ LUGAR.</span>
+            </h1>
+          </div>
+
+          <p className="reveal max-w-[34ch] border-l-2 border-accent-sky pl-5 text-[15px] leading-relaxed text-paper/85 md:text-[16px]" style={{ fontFamily: "Georgia, serif" }}>
+            Sou o Leonardo, representante oficial Lupo no Noroeste do RS. Explore os
+            catálogos, escolha as linhas certas pra sua loja e fale comigo direto —
+            atendimento próximo, condições especiais e entrega no prazo combinado.
+          </p>
+        </div>
+
+        <div className="reveal mt-10 flex flex-wrap gap-3">
+          <a
+            href="/catalogos"
+            className="shimmer group inline-flex items-center gap-2 rounded bg-accent px-7 py-4 font-display text-[15px] font-bold uppercase tracking-wide text-paper transition hover:bg-accent-bright"
+          >
+            Ver catálogos
+            <span className="transition group-hover:translate-x-1">→</span>
+          </a>
           <a
             href={`https://wa.me/${CONTATO.whatsapp}`}
             target="_blank"
             rel="noopener"
-            className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-2 text-[13px] font-medium text-cloud transition hover:border-accent/60 hover:bg-white/10"
+            className="glass-dark inline-flex items-center gap-2 rounded px-7 py-4 font-display text-[15px] font-bold uppercase tracking-wide text-paper transition"
           >
-            WhatsApp
+            Falar no WhatsApp
           </a>
         </div>
       </div>
-
-      {!compact && (
-        <div className="relative z-10 mx-auto max-w-6xl px-5 pb-16 pt-8 md:pb-24 md:pt-12">
-          <span className="inline-flex items-center gap-2 rounded-full border border-accent/30 bg-accent/10 px-3.5 py-1.5 text-[11px] font-semibold uppercase tracking-[0.16em] text-accent-bright">
-            <span className="h-1.5 w-1.5 rounded-full bg-accent-bright" />
-            Catálogos 2026 / 2027
-          </span>
-          <h1 className="mt-5 max-w-[18ch] font-display text-4xl font-extrabold leading-[1.05] tracking-tight text-cloud md:text-6xl">
-            Toda a linha Lupo, <span className="text-gradient">num só lugar.</span>
-          </h1>
-          <div className="mt-5 max-w-[62ch] space-y-3 text-[15px] leading-relaxed text-cloud/65 md:text-[16.5px]">
-            <p>
-              📖 Explore os catálogos por segmento, escolha as linhas mais adequadas para
-              o seu negócio e faça o download dos materiais de apoio.
-            </p>
-            <p>
-              📲 Agende seu atendimento presencial ou pelo WhatsApp e garanta condições
-              especiais, melhor planejamento de compras e maior segurança na entrega dos
-              produtos.
-            </p>
-          </div>
-        </div>
-      )}
-
-      <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-accent/40 to-transparent" />
     </header>
   );
 }

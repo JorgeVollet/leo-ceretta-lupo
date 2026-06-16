@@ -34,6 +34,8 @@ const USA_SUPABASE =
 export const CONTATO = {
   whatsapp: "5555996267835",
   email: "leonardocerettasilveira@gmail.com",
+  instagram: "leonardorepresentante_",
+  instagramUrl: "https://instagram.com/leonardorepresentante_",
   rastreio: "https://www.braspress.com/",
   boletos: "https://lupo.portaldocliente.online/",
 };

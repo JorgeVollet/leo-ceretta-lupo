@@ -8,72 +8,277 @@ html {
 body {
   -webkit-font-smoothing: antialiased;
 }
-.no-scrollbar::-webkit-scrollbar {
-  display: none;
+section[id] {
+  scroll-margin-top: 80px;
 }
-.no-scrollbar {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* Display condensada (hero gigante estilo editorial-técnico) */
+.headline {
+  font-family: var(--font-display);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 0.92;
+  font-stretch: 75%;
 }
 
-/* Realce de texto com gradiente azul (titulos) */
-.text-gradient {
-  background: linear-gradient(90deg, #ffffff 0%, #93c5fd 60%, #3b82f6 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+/* Mono label com colchete [01] STATUS */
+.mono-label {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
 }
 
-/* CTA com brilho sutil (inspirado na referencia) */
-@property --shine {
-  syntax: "<angle>";
-  inherits: false;
-  initial-value: 0deg;
-}
-.cta-shine {
-  position: relative;
-  isolation: isolate;
-  overflow: hidden;
-}
-.cta-shine::before {
+/* Grão fino sobre blocos escuros */
+.grain::after {
   content: "";
   position: absolute;
   inset: 0;
-  border-radius: inherit;
-  padding: 1px;
-  background: conic-gradient(
-    from var(--shine),
-    transparent 0%,
-    #60a5fa 15%,
-    transparent 30%
-  );
-  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
-  -webkit-mask-composite: xor;
-  mask-composite: exclude;
-  animation: shine 4s linear infinite;
-}
-@keyframes shine {
-  to {
-    --shine: 360deg;
-  }
-}
-@media (prefers-reduced-motion: reduce) {
-  .cta-shine::before {
-    animation: none;
-  }
+  pointer-events: none;
+  opacity: 0.04;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }
 
-/* Reveal suave ao entrar (usado em listas) */
-@keyframes fadeUp {
-  from {
-    opacity: 0;
-    transform: translateY(14px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+/* CONCRETO — textura de cimento (seamless) sobre seções cinza.
+   A cor da seção (bg-stone/…) fica por baixo; a textura entra por cima
+   em multiply, dando o aspecto "concreto estiloso" da referência. */
+.concreto {
+  position: relative;
+  isolation: isolate;
 }
-.reveal {
-  animation: fadeUp 0.5s cubic-bezier(0.16, 1, 0.3, 1) both;
+.concreto::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-image: url("/concreto.png");
+  background-size: 480px 480px;
+  mix-blend-mode: multiply;
+  opacity: 0.16;
+}
+/* Divisor sutil entre seções (linha de relevo: sombra + brilho) */
+.sec-divider {
+  border-top: 1px solid rgba(20, 24, 30, 0.10);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.28);
+}
+
+/* VIDRO (glassmorphism) — translúcido, luminoso, SEM borda dura.
+   O fundo é um degradê suave que se dissolve nas extremidades (borda infinita). */
+.glass {
+  background-image: linear-gradient(
+    160deg,
+    rgba(255, 255, 255, 0.46) 0%,
+    rgba(255, 255, 255, 0.26) 45%,
+    rgba(255, 255, 255, 0.12) 100%
+  );
+  -webkit-backdrop-filter: blur(22px) saturate(135%);
+  backdrop-filter: blur(22px) saturate(135%);
+  border: none;
+  box-shadow: 0 12px 40px -16px rgba(10, 14, 22, 0.18);
+}
+/* grid de vidro (números, motivos, passos) — mesmo degradê, sem borda */
+.glass-grid {
+  background-image: linear-gradient(
+    160deg,
+    rgba(255, 255, 255, 0.42) 0%,
+    rgba(255, 255, 255, 0.22) 50%,
+    rgba(255, 255, 255, 0.10) 100%
+  );
+  -webkit-backdrop-filter: blur(22px) saturate(135%);
+  backdrop-filter: blur(22px) saturate(135%);
+  border: none;
+  box-shadow: 0 12px 40px -16px rgba(10, 14, 22, 0.18);
+}
+/* Célula do grid de vidro — divisória sutil + brilho que "varre" no hover */
+/* Vidro ESCURO — pra botões/elementos sobre o vídeo do hero (texto claro) */
+.glass-dark {
+  background-color: rgba(255, 255, 255, 0.10);
+  -webkit-backdrop-filter: blur(12px) saturate(120%);
+  backdrop-filter: blur(12px) saturate(120%);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  box-shadow: 0 8px 28px -12px rgba(0, 0, 0, 0.5);
+}
+.glass-dark:hover {
+  background-color: rgba(255, 255, 255, 0.18);
+  border-color: rgba(255, 255, 255, 0.45);
+}
+
+.glass-cell {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.10);
+  transition: background-color 0.45s ease;
+  overflow: hidden;
+}
+.glass-cell:hover {
+  background-color: rgba(255, 255, 255, 0.42);
+}
+/* o conteúdo da célula fica acima do brilho */
+.glass-cell > * {
+  position: relative;
+  z-index: 2;
+}
+/* o brilho diagonal que lava o quadro no hover (passa por baixo do texto) */
+.glass-cell::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background: linear-gradient(
+    115deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.55) 45%,
+    rgba(255, 255, 255, 0.0) 70%
+  );
+  transform: translateX(-120%);
+  transition: transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.glass-cell:hover::after {
+  transform: translateX(120%);
+}
+@media (prefers-reduced-motion: reduce) {
+  .glass-cell::after { transition: none; }
+}
+
+/* Linha-guia vertical à esquerda das seções (toque editorial) */
+.tick-line::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: linear-gradient(180deg, transparent, currentColor, transparent);
+  opacity: 0.15;
+}
+
+/* ===== EFEITOS — scroll-reveal, tilt, cortina, underline, shimmer ===== */
+
+/* SCROLL-REVEAL MARCANTE (sobe + escala + blur que some) — controlado por JS (.is-in) */
+.reveal-up {
+  opacity: 0;
+  transform: translateY(64px) scale(0.94);
+  filter: blur(8px);
+  transition:
+    opacity 0.9s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.9s cubic-bezier(0.22, 1, 0.36, 1),
+    filter 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, transform, filter;
+}
+.reveal-up.is-in {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+  filter: blur(0);
+}
+
+/* HERO — título revela linha por linha */
+@keyframes lineUp {
+  from { opacity: 0; transform: translateY(36px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.hero-line {
+  display: inline-block;
+  animation: lineUp 0.85s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+/* TILT 3D nos cards (segue o mouse via variáveis --rx/--ry setadas no JS) */
+.tilt {
+  transform: perspective(900px) rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg));
+  transition: transform 0.25s ease;
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+
+/* CORTINA — máscara desliza revelando a imagem ao entrar na tela */
+.curtain {
+  position: relative;
+  overflow: hidden;
+}
+.curtain::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  background: #c7cacf;
+  transform: translateX(0);
+  transition: transform 0.95s cubic-bezier(0.76, 0, 0.24, 1);
+}
+.curtain.is-in::after {
+  transform: translateX(101%);
+}
+
+/* UNDERLINE animado nos links da nav */
+.nav-underline {
+  position: relative;
+}
+.nav-underline::after {
+  content: "";
+  position: absolute;
+  left: 0.75rem;
+  right: 0.75rem;
+  bottom: 4px;
+  height: 1.5px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.nav-underline:hover::after {
+  transform: scaleX(1);
+}
+
+/* SHIMMER — brilho que varre o botão no hover */
+.shimmer {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+.shimmer::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background: linear-gradient(
+    115deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.35) 45%,
+    transparent 70%
+  );
+  transform: translateX(-130%);
+  transition: transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.shimmer:hover::after {
+  transform: translateX(130%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal-up { opacity: 1; transform: none; transition: none; }
+  .hero-line { animation: none; }
+  .tilt { transform: none; }
+  .curtain::after { display: none; }
+  .nav-underline::after,
+  .shimmer::after { transition: none; }
+}
+
+/* Reveal escalonado */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.reveal { animation: fadeUp 0.55s cubic-bezier(0.16, 1, 0.3, 1) both; }
+
+/* Marquee */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.marquee-track { animation: marquee 30s linear infinite; }
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal { animation: none; }
+  .marquee-track { animation: none; }
 }

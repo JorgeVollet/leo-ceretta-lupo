@@ -13,97 +13,74 @@ export default async function CatalogoPage({ params }: { params: { slug: string 
   return (
     <>
       <Header compact />
-      <div className="mx-auto max-w-6xl px-5 py-7">
-        <Link href="/" className="text-[13px] font-medium text-cloud/55 transition hover:text-accent-bright">
-          &larr; Voltar aos catalogos
-        </Link>
+      <main className="bg-paper">
+        <div className="mx-auto max-w-6xl px-5 py-8">
+          <Link href="/catalogos" className="mono-label text-ink/70 transition hover:text-accent-deep">
+            &larr; Voltar aos catalogos
+          </Link>
 
-        <div className="mt-5 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
-          <div>
-            <div className="text-[12px] font-semibold uppercase tracking-[0.16em] text-accent-bright">
-              {cat.segmento}
+          <div className="mt-5 flex flex-col gap-4 border-b border-line pb-8 sm:flex-row sm:items-end sm:justify-between">
+            <div>
+              <span className="mono-label text-accent-deep">{cat.segmento}</span>
+              <h1 className="headline mt-2 text-ink" style={{ fontSize: "clamp(2.2rem,6vw,4.2rem)" }}>
+                {cat.titulo}
+              </h1>
+              <p className="mt-2 max-w-[60ch] text-[14px] text-mute">{cat.descricao}</p>
             </div>
-            <h1 className="mt-1 font-display text-3xl font-extrabold tracking-tight text-cloud md:text-4xl">
-              {cat.titulo}
-            </h1>
-            <p className="mt-1.5 max-w-[60ch] text-[14px] text-cloud/55">{cat.descricao}</p>
+            <a
+              href={linkPedido(cat.titulo, cat.segmento)}
+              target="_blank"
+              rel="noopener"
+              className="mono-label shrink-0 rounded bg-ink px-6 py-3.5 text-center text-paper transition hover:bg-accent"
+            >
+              Fazer pedido
+            </a>
           </div>
-          <a
-            href={linkPedido(cat.titulo, cat.segmento)}
-            target="_blank"
-            rel="noopener"
-            className="shrink-0 rounded-xl bg-accent px-5 py-3 text-center text-[14px] font-semibold text-white transition hover:bg-accent-bright"
-          >
-            Fazer pedido
-          </a>
-        </div>
 
-        <div className="mt-8">
-          {cat.drive ? (
-            <div className="overflow-hidden rounded-3xl border border-white/8 bg-navy-800/40">
-              <div className="grid gap-0 md:grid-cols-[minmax(0,360px)_1fr]">
-                {/* Capa + acoes (sempre visivel, funciona no celular) */}
-                <div className="flex flex-col items-center gap-5 border-b border-white/8 p-7 md:border-b-0 md:border-r">
-                  {cat.capa && (
-                    // eslint-disable-next-line @next/next/no-img-element
-                    <img
-                      src={cat.capa}
-                      alt={`Capa do catalogo ${cat.titulo}`}
-                      className="w-full max-w-[300px] rounded-xl shadow-card ring-1 ring-white/10"
-                    />
-                  )}
-                  <div className="flex w-full max-w-[300px] flex-col gap-2.5">
-                    <a
-                      href={cat.drive}
-                      target="_blank"
-                      rel="noopener"
-                      className="rounded-xl bg-accent px-4 py-3.5 text-center text-[15px] font-semibold text-white transition hover:bg-accent-bright"
-                    >
-                      Abrir catalogo
-                    </a>
-                    <a
-                      href={cat.drive}
-                      target="_blank"
-                      rel="noopener"
-                      download
-                      className="rounded-xl border border-white/15 bg-white/5 px-4 py-3 text-center text-[14px] font-semibold text-cloud transition hover:border-accent/50 hover:bg-white/10"
-                    >
-                      Baixar PDF
-                    </a>
+          <div className="mt-8">
+            {cat.drive ? (
+              <div className="overflow-hidden rounded-lg border border-line bg-white">
+                <div className="grid gap-0 md:grid-cols-[minmax(0,360px)_1fr]">
+                  {/* capa + acoes (mobile-friendly) */}
+                  <div className="flex flex-col items-center gap-5 border-b border-line p-7 md:border-b-0 md:border-r">
+                    {cat.capa && (
+                      // eslint-disable-next-line @next/next/no-img-element
+                      <img src={cat.capa} alt={`Capa do catalogo ${cat.titulo}`} className="w-full max-w-[300px] rounded border border-line shadow-soft" />
+                    )}
+                    <div className="flex w-full max-w-[300px] flex-col gap-2.5">
+                      <a href={cat.drive} target="_blank" rel="noopener" className="mono-label rounded bg-accent px-4 py-3.5 text-center text-paper transition hover:bg-accent-bright">
+                        Abrir catalogo
+                      </a>
+                      <a href={cat.drive} target="_blank" rel="noopener" download className="mono-label rounded border border-line bg-white px-4 py-3 text-center text-ink transition hover:border-accent">
+                        Baixar PDF
+                      </a>
+                    </div>
+                    <p className="text-center text-[12px] leading-relaxed text-mute">
+                      Toque em <span className="font-semibold text-ink">Abrir catalogo</span> pra
+                      ver todas as paginas no celular ou computador.
+                    </p>
                   </div>
-                  <p className="text-center text-[12px] leading-relaxed text-cloud/40">
-                    Toque em <span className="font-semibold text-cloud/70">Abrir catalogo</span> pra
-                    visualizar todas as paginas no seu celular ou computador.
-                  </p>
-                </div>
-
-                {/* Preview embutido — so no desktop (no mobile o iframe nao renderiza PDF) */}
-                <div className="hidden bg-navy-900 md:block">
-                  <iframe
-                    src={`${cat.drive}#toolbar=1&view=FitH`}
-                    title={cat.titulo}
-                    className="h-[80vh] w-full"
-                    loading="lazy"
-                  />
+                  {/* preview embutido — desktop */}
+                  <div className="hidden bg-bone md:block">
+                    <iframe src={`${cat.drive}#toolbar=1&view=FitH`} title={cat.titulo} className="h-[80vh] w-full" loading="lazy" />
+                  </div>
                 </div>
               </div>
-            </div>
-          ) : (
-            <div className="flex flex-col items-center gap-4 rounded-2xl border border-white/8 bg-navy-800/50 py-14 text-center">
-              {cat.capa && (
-                // eslint-disable-next-line @next/next/no-img-element
-                <img src={cat.capa} alt={cat.titulo} className="h-44 w-auto rounded-xl object-contain shadow-card" />
-              )}
-              <div className="max-w-md px-6">
-                <div className="font-display text-lg font-bold text-cloud">Catalogo completo</div>
-                <p className="mt-1 text-[13.5px] text-cloud/50">
-                  O catalogo deste segmento entra em breve. Por enquanto, faca seu pedido pelo WhatsApp.
-                </p>
+            ) : (
+              <div className="flex flex-col items-center gap-4 rounded-lg border border-line bg-white py-14 text-center">
+                {cat.capa && (
+                  // eslint-disable-next-line @next/next/no-img-element
+                  <img src={cat.capa} alt={cat.titulo} className="h-44 w-auto rounded border border-line object-contain shadow-soft" />
+                )}
+                <div className="max-w-md px-6">
+                  <div className="font-display text-lg font-extrabold tracking-tight text-ink">Catalogo completo</div>
+                  <p className="mt-1 text-[13.5px] text-mute">O catalogo deste segmento entra em breve. Por enquanto, faca seu pedido pelo WhatsApp.</p>
+                </div>
               </div>
-            </div>
-          )}
+            )}
+          </div>
         </div>
-      </div>
+      </main>
       <Footer />
     </>
   );
