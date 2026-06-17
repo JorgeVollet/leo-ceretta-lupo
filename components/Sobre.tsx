@@ -23,24 +23,33 @@ export default function Sobre() {
             <div className="mt-6 max-w-[58ch] space-y-4 text-[15px] leading-relaxed text-ink/80">
               <p>
                 Sou Leonardo Ceretta Silveira, de Santo Ângelo, no Noroeste do Rio Grande
-                do Sul. Há <span className="font-semibold text-ink">14 anos vivo de vendas</span> —
-                e foi nelas que encontrei o meu lugar: estar presente, instruir, dar
-                suporte e ajudar o lojista a vender mais.
+                do Sul. Há mais de <span className="font-semibold text-ink">14 anos atuo na
+                área comercial</span>, e foi nas vendas que encontrei minha verdadeira
+                vocação: estar próximo dos clientes, orientar, oferecer suporte e contribuir
+                para o crescimento dos negócios.
               </p>
               <p>
-                Antes da Lupo, passei por marcas de peso como Hope, Mash e Döhler. Quando
-                veio a chance de representar a <span className="font-semibold text-ink">Lupo</span>,
-                foi a realização de um objetivo: sempre quis trabalhar com a marca líder do
-                segmento, uma empresa séria que busca excelência em tudo o que faz.
-                Representar a Lupo é um privilégio que eu honro todos os dias.
+                Antes de representar a <span className="font-semibold text-ink">Lupo</span>,
+                tive a oportunidade de trabalhar com marcas reconhecidas nacionalmente, como
+                Hope, Mash e Döhler. Quando surgiu a oportunidade de representar a Lupo,
+                realizei um objetivo profissional. Sempre admirei a marca pela sua liderança
+                no segmento, pela qualidade dos produtos e pela busca constante pela
+                excelência. Representá-la é uma responsabilidade e um privilégio que honro
+                todos os dias.
               </p>
               <p>
-                Meu jeito de atender se resume em poucas palavras:{" "}
+                Meu atendimento é baseado em valores que considero essenciais:{" "}
                 <span className="font-semibold text-ink">seriedade, honestidade, respeito
-                e amizade</span> — sempre unidos a conhecimento de produto e muita vontade
-                de resolver. Não desapareço depois do pedido: acompanho a entrega, ajudo na
-                exposição do ponto de venda e na escolha do mix, porque sei que a sua loja
-                só ganha quando o produto gira.
+                e amizade</span>. Tudo isso aliado a profundo conhecimento dos produtos,
+                atenção aos detalhes e compromisso em encontrar as melhores soluções para
+                cada cliente.
+              </p>
+              <p>
+                Meu trabalho não termina quando o pedido é fechado. Acompanho todo o
+                processo, desde a entrega até o suporte no ponto de venda, auxiliando na
+                exposição dos produtos e na definição do mix mais adequado para cada loja.
+                Afinal, acredito que o sucesso da minha parceria com o lojista acontece
+                quando os produtos vendem, giram e geram resultados consistentes.
               </p>
             </div>
 

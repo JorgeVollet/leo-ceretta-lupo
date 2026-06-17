@@ -59,10 +59,12 @@ export default function Header({ compact = false }: { compact?: boolean }) {
             </h1>
           </div>
 
-          <p className="reveal max-w-[34ch] border-l-2 border-accent-sky pl-5 text-[15px] leading-relaxed text-paper/85 md:text-[16px]" style={{ fontFamily: "Georgia, serif" }}>
-            Sou o Leonardo, representante oficial Lupo no Noroeste do RS. Explore os
-            catálogos, escolha as linhas certas pra sua loja e fale comigo direto —
-            atendimento próximo, condições especiais e entrega no prazo combinado.
+          <p className="reveal max-w-[42ch] border-l-2 border-accent-sky pl-5 text-[15px] leading-relaxed text-paper/85 md:text-[16px]" style={{ fontFamily: "Georgia, serif" }}>
+            Sou Leonardo, representante oficial da Lupo no Noroeste do RS. Explore os
+            catálogos, encontre as linhas ideais para o seu negócio e conte com um
+            atendimento personalizado e profissional. Garanta as melhores condições
+            comerciais, suporte dedicado e a segurança de trabalhar com quem conhece o
+            mercado da sua região.
           </p>
         </div>
 

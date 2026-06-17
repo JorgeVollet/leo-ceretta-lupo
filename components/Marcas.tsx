@@ -14,10 +14,10 @@ const marcas = [
 const maisVendidos = ["Meias", "Lingerie", "Cuecas", "Lupo Sport"];
 
 const motivos = [
-  { k: "A1", t: "Líder que dá segurança", d: "Produto líder no segmento. Passa credibilidade pro consumidor final — o cliente entra na sua loja já confiando na marca." },
-  { k: "A2", t: "A marca se vende sozinha", d: "Com a exposição adequada, a Lupo vende sozinha. E é aí que eu entro: ajudo você a montar a exposição e o mix certos pra acelerar o giro." },
-  { k: "A3", t: "Melhor custo-benefício", d: "Qualidade reconhecida com o melhor custo-benefício do segmento. Recompra constante e margem saudável pra sua loja." },
-  { k: "A4", t: "Linha completa, um só fornecedor", d: "Do íntimo ao esportivo, do adulto ao infantil. Você cobre várias frentes da loja com um único representante de confiança." },
+  { k: "A1", t: "Líder que transmite confiança", d: "Marca líder no segmento, reconhecida pela qualidade e credibilidade. O consumidor já entra na loja confiando na Lupo, o que facilita a venda e aumenta a segurança na compra." },
+  { k: "A2", t: "Uma marca que impulsiona vendas", d: "Com a exposição correta e um mix bem planejado, a Lupo tem alto poder de giro. É aí que faço a diferença: ajudo você a definir o mix ideal e a melhor exposição para maximizar os resultados." },
+  { k: "A3", t: "Qualidade que gera rentabilidade", d: "Produtos com excelente relação custo-benefício, alta aceitação no mercado e recompra frequente. Mais giro, margens saudáveis e resultados consistentes para sua loja." },
+  { k: "A4", t: "Tudo o que sua loja precisa em um só lugar", d: "Do íntimo ao esportivo, do adulto ao infantil. Meias, lingerie, cuecas, modeladores, pijamas, beachwear, Lupo Sport e muito mais. Um portfólio completo para atender diferentes públicos com a praticidade de um único representante." },
 ];
 
 export default function Marcas() {
@@ -28,10 +28,15 @@ export default function Marcas() {
         <div className="mx-auto max-w-6xl px-5">
           <SectionLabel num="02">O portfólio que você leva</SectionLabel>
           <p className="-mt-4 mb-8 max-w-[64ch] text-[15px] leading-relaxed text-ink/80">
-            Represento <span className="font-semibold text-ink">todo o mix Lupo</span>:
-            meias, meia-calça, lingerie, cuecas, modeladores, Lupo Sport, beachwear,
-            pijamas e linha infantil. Adulto e infantil, do íntimo ao esportivo — tudo com
-            um só representante.
+            Represento todo o <span className="font-semibold text-ink">portfólio Lupo</span>,
+            oferecendo uma solução completa para sua loja em um único atendimento. Trabalho
+            com as linhas de meias, meia-calça, lingerie, cuecas, modeladores, Lupo Sport,
+            beachwear, pijamas e linha infantil.
+            <br /><br />
+            Do íntimo ao esportivo, do adulto ao infantil, você encontra tudo o que precisa
+            com um único representante, garantindo mais praticidade, melhor planejamento de
+            compras e um atendimento próximo para ajudar sua loja a alcançar os melhores
+            resultados.
           </p>
         </div>
         <div className="relative flex overflow-hidden [mask-image:linear-gradient(90deg,transparent,#000_10%,#000_90%,transparent)]">
