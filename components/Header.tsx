@@ -55,7 +55,7 @@ export default function Header({ compact = false }: { compact?: boolean }) {
             <h1 className="headline text-paper [text-shadow:0_2px_30px_rgba(0,0,0,0.35)]" style={{ fontSize: "clamp(2.8rem, 9vw, 6.5rem)" }}>
               <span className="hero-line" style={{ animationDelay: "0.05s" }}>TODA A LINHA</span><br />
               <span className="hero-line text-paper/55" style={{ animationDelay: "0.18s" }}>LUPO</span><br />
-              <span className="hero-line text-accent-sky" style={{ animationDelay: "0.31s" }}>NUM SÓ LUGAR.</span>
+              <span className="hero-line text-accent-sky" style={{ animationDelay: "0.31s" }}>EM UM SÓ LUGAR.</span>
             </h1>
           </div>
 
