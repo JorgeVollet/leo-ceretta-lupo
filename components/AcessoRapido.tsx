@@ -84,7 +84,8 @@ export default function AcessoRapido({
 
       {open && (
         <div
-          className="absolute right-0 z-50 mt-2 w-[280px] overflow-hidden rounded-lg border border-line bg-white shadow-card"
+          className="absolute right-0 z-[60] mt-2 w-[280px] overflow-hidden rounded-lg border border-line shadow-2xl"
+          style={{ backgroundColor: "#FFFFFF" }}
           role="menu"
         >
           {atalhos.map((a) => (
@@ -92,7 +93,7 @@ export default function AcessoRapido({
               key={a.href}
               href={a.href}
               onClick={() => setOpen(false)}
-              className="flex items-center gap-3 border-b border-line/70 px-4 py-3.5 transition last:border-b-0 hover:bg-bone"
+              className="flex items-center gap-3 border-b border-line/70 bg-white px-4 py-4 transition last:border-b-0 hover:bg-bone"
               role="menuitem"
             >
               <span className="flex h-10 w-10 flex-none items-center justify-center rounded bg-accent/10 text-accent">

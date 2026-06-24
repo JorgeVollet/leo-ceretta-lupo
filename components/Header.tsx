@@ -32,7 +32,7 @@ export default function Header({ compact = false }: { compact?: boolean }) {
       {/* CONTEÚDO DO HERO */}
       <div className="relative z-10 mx-auto flex min-h-[calc(88svh-64px)] max-w-6xl flex-col justify-center px-5 pt-24 pb-16 md:min-h-[calc(100vh-68px)] md:py-20">
         {/* MOBILE: botão de acesso rápido no lugar do status */}
-        <div className="reveal mb-9 border-b border-white/15 pb-6 md:hidden">
+        <div className="reveal relative z-50 mb-9 border-b border-white/15 pb-6 md:hidden">
           <AcessoRapido variant="dark" />
         </div>
 
