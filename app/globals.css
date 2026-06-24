@@ -2,6 +2,48 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ===== GLOW RING — luz azul da marca correndo ao redor da borda do card ===== */
+@property --glow-angle {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 0deg;
+}
+@keyframes glowSpin {
+  to { --glow-angle: 360deg; }
+}
+.glow-ring {
+  position: relative;
+  z-index: 0;
+}
+/* só o contorno: uma luz fina percorrendo a borda, devagar */
+.glow-ring::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: inherit;
+  padding: 1.5px;
+  background: conic-gradient(
+    from var(--glow-angle),
+    transparent 0deg,
+    transparent 280deg,
+    #2563eb 330deg,
+    transparent 360deg
+  );
+  animation: glowSpin 6s linear infinite;
+  /* recorta o miolo, deixando só a moldura de luz */
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  mask-composite: exclude;
+}
+@media (prefers-reduced-motion: reduce) {
+  .glow-ring::before {
+    animation: none;
+    background: linear-gradient(135deg, #60a5fa, #2563eb);
+  }
+}
+
 html {
   scroll-behavior: smooth;
 }

@@ -23,10 +23,11 @@ export default function Servicos() {
         <div className="grid gap-4 md:grid-cols-3">
           {/* Materiais — destaque grande, escuro */}
           <a
+            id="materiais"
             href={MATERIAIS_URL}
             target="_blank"
             rel="noopener"
-            className="group relative flex flex-col justify-between overflow-hidden rounded-lg border border-ink bg-ink p-7 text-paper shadow-card transition hover:border-accent md:col-span-2 md:row-span-2"
+            className="group relative flex scroll-mt-24 flex-col justify-between overflow-hidden rounded-lg border border-ink bg-ink p-7 text-paper shadow-card transition hover:border-accent md:col-span-2 md:row-span-2"
           >
             {/* navy sólido + Spline animado por cima (clique passa direto: pointer-events-none) */}
             <SplineBG src={SPLINE_SRC} />
@@ -48,7 +49,7 @@ export default function Servicos() {
           </a>
 
           {/* Rastreio */}
-          <a href={CONTATO.rastreio} target="_blank" rel="noopener" className="group flex flex-col gap-3 rounded-lg border border-line bg-white p-6 shadow-card transition hover:border-accent">
+          <a id="rastreio" href={CONTATO.rastreio} target="_blank" rel="noopener" className="glow-ring group flex scroll-mt-24 flex-col gap-3 rounded-lg border border-line bg-white p-6 shadow-card transition hover:border-accent">
             <div className="flex items-center justify-between">
               <div className="flex h-10 w-10 items-center justify-center rounded bg-accent/10 text-accent"><Ic d="M3 7h11v8H3zM14 10h4l3 3v2h-7zM7 18a2 2 0 1 0 0-4 2 2 0 0 0 0 4zM18 18a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" /></div>
               <span className="mono-label text-ink/20">S2</span>
@@ -60,7 +61,7 @@ export default function Servicos() {
           </a>
 
           {/* Boletos */}
-          <a href={CONTATO.boletos} target="_blank" rel="noopener" className="group flex flex-col gap-3 rounded-lg border border-line bg-white p-6 shadow-card transition hover:border-accent">
+          <a id="boletos" href={CONTATO.boletos} target="_blank" rel="noopener" className="glow-ring group flex scroll-mt-24 flex-col gap-3 rounded-lg border border-line bg-white p-6 shadow-card transition hover:border-accent">
             <div className="flex items-center justify-between">
               <div className="flex h-10 w-10 items-center justify-center rounded bg-accent/10 text-accent"><Ic d="M5 3h14v18l-3-2-2 2-2-2-2 2-2-2-3 2zM9 8h6M9 12h6" /></div>
               <span className="mono-label text-ink/20">S3</span>

@@ -1,6 +1,7 @@
 import { CONTATO } from "@/lib/data";
 import HeroVideo from "./HeroVideo";
 import Nav from "./Nav";
+import AcessoRapido from "./AcessoRapido";
 
 export default function Header({ compact = false }: { compact?: boolean }) {
   /* ---------- PÁGINAS INTERNAS (compact): nav clara, sem vídeo ---------- */
@@ -30,8 +31,13 @@ export default function Header({ compact = false }: { compact?: boolean }) {
 
       {/* CONTEÚDO DO HERO */}
       <div className="relative z-10 mx-auto flex min-h-[calc(88svh-64px)] max-w-6xl flex-col justify-center px-5 pt-24 pb-16 md:min-h-[calc(100vh-68px)] md:py-20">
-        {/* status line */}
-        <div className="reveal mb-9 flex flex-wrap items-center gap-x-6 gap-y-2 border-b border-white/15 pb-6">
+        {/* MOBILE: botão de acesso rápido no lugar do status */}
+        <div className="reveal mb-9 border-b border-white/15 pb-6 md:hidden">
+          <AcessoRapido variant="dark" />
+        </div>
+
+        {/* DESKTOP: status line (mantida) */}
+        <div className="reveal mb-9 hidden flex-wrap items-center gap-x-6 gap-y-2 border-b border-white/15 pb-6 md:flex">
           <span className="mono-label flex items-center gap-2 text-paper/90">
             <span className="relative flex h-2 w-2">
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-70" />

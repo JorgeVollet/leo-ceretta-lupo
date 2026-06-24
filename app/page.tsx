@@ -17,6 +17,7 @@ export default function Home() {
       <Header />
       <MarqueeBar />
       <Sobre />
+      <Servicos />
       <Marcas />
 
       {/* Chamada pros catálogos — CINZA (texto navy) */}
@@ -39,7 +40,6 @@ export default function Home() {
         </div>
       </section>
 
-      <Servicos />
       <ComoFunciona />
       <FAQ />
       <CTAFinal />

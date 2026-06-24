@@ -3,6 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { Logo } from "./Logo";
 import { CONTATO } from "@/lib/data";
+import AcessoRapido from "./AcessoRapido";
 
 const navLinks = [
   { label: "Catálogos", href: "/catalogos" },
@@ -72,14 +73,18 @@ export default function Nav({ variant = "solid" }: { variant?: "hero" | "solid" 
             </a>
           ))}
         </div>
-        <a
-          href={`https://wa.me/${CONTATO.whatsapp}`}
-          target="_blank"
-          rel="noopener"
-          className={`mono-label inline-flex items-center gap-2 rounded px-4 py-2.5 transition ${pedidoBtn}`}
-        >
-          Fazer pedido
-        </a>
+        <div className="flex items-center gap-2.5">
+          {/* Acesso rápido — desktop (ao lado do Fazer pedido) */}
+          <AcessoRapido variant="light" className="hidden lg:block" />
+          <a
+            href={`https://wa.me/${CONTATO.whatsapp}`}
+            target="_blank"
+            rel="noopener"
+            className={`mono-label inline-flex items-center gap-2 rounded px-4 py-2.5 transition ${pedidoBtn}`}
+          >
+            Fazer pedido
+          </a>
+        </div>
       </div>
     </nav>
   );
