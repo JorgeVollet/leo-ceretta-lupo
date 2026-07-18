@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import PoliticaComercial from "@/components/PoliticaComercial";
 import { getCatalogo, linkPedido } from "@/lib/data";
 
 export const dynamic = "force-dynamic";
@@ -54,6 +55,7 @@ export default async function CatalogoPage({ params }: { params: { slug: string 
                       <a href={cat.drive} target="_blank" rel="noopener" download className="mono-label rounded border border-line bg-white px-4 py-3 text-center text-ink transition hover:border-accent">
                         Baixar PDF
                       </a>
+                      <PoliticaComercial variant="botao" className="mt-1.5" />
                     </div>
                     <p className="text-center text-[12px] leading-relaxed text-mute">
                       Toque em <span className="font-semibold text-ink">Abrir catalogo</span> pra
@@ -75,6 +77,9 @@ export default async function CatalogoPage({ params }: { params: { slug: string 
                 <div className="max-w-md px-6">
                   <div className="font-display text-lg font-extrabold tracking-tight text-ink">Catalogo completo</div>
                   <p className="mt-1 text-[13.5px] text-mute">O catalogo deste segmento entra em breve. Por enquanto, faca seu pedido pelo WhatsApp.</p>
+                </div>
+                <div className="w-full max-w-[320px] px-6">
+                  <PoliticaComercial variant="botao" />
                 </div>
               </div>
             )}

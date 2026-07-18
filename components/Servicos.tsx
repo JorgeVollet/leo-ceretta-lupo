@@ -1,6 +1,7 @@
 import SectionLabel from "./SectionLabel";
 import { CONTATO } from "@/lib/data";
 import SplineBG from "./SplineBG";
+import PoliticaComercial from "./PoliticaComercial";
 
 const SPLINE_SRC =
   "https://my.spline.design/animatedbackgroundgradientforweb-jvJDeBWjMvShkjPKxPRUswLq";
@@ -27,7 +28,7 @@ export default function Servicos() {
             href={MATERIAIS_URL}
             target="_blank"
             rel="noopener"
-            className="group relative flex scroll-mt-24 flex-col justify-between overflow-hidden rounded-lg border border-ink bg-ink p-7 text-paper shadow-card transition hover:border-accent md:col-span-2 md:row-span-2"
+            className="group relative flex scroll-mt-24 flex-col justify-center overflow-hidden rounded-lg border border-ink bg-ink p-8 text-paper shadow-card transition hover:border-accent md:col-span-2 md:row-span-3 md:p-10"
           >
             {/* navy sólido + Spline animado por cima (clique passa direto: pointer-events-none) */}
             <SplineBG src={SPLINE_SRC} />
@@ -35,15 +36,15 @@ export default function Servicos() {
             <div className="grain absolute inset-0 z-[1]" />
             <div className="relative z-10">
               <span className="mono-label text-accent-sky">S1 · Divulgação</span>
-              <h3 className="headline mt-4 text-paper" style={{ fontSize: "clamp(1.8rem,4vw,3rem)" }}>
+              <h3 className="headline mt-5 text-paper" style={{ fontSize: "clamp(2.1rem,5.2vw,3.8rem)" }}>
                 MATERIAIS DE DIVULGAÇÃO
               </h3>
-              <p className="mt-3 max-w-[42ch] text-[14px] leading-relaxed text-paper/65">
+              <p className="mt-5 max-w-[46ch] text-[15.5px] leading-relaxed text-paper/70 md:text-[16.5px]">
                 Baixe as fotos e artes oficiais dos produtos pra postar nas suas redes e
                 anúncios. Conteúdo pronto pra vender mais.
               </p>
             </div>
-            <span className="relative z-10 mt-8 inline-flex w-fit items-center gap-2 rounded bg-accent px-5 py-3 font-display text-[14px] font-bold uppercase tracking-wide text-paper transition group-hover:bg-accent-bright">
+            <span className="shimmer relative z-10 mt-7 inline-flex w-fit items-center gap-2 rounded bg-accent px-6 py-3.5 font-display text-[14.5px] font-bold uppercase tracking-wide text-paper transition group-hover:bg-accent-bright">
               Acessar materiais →
             </span>
           </a>
@@ -71,6 +72,9 @@ export default function Servicos() {
               <p className="mt-1 text-[13px] text-mute">Acesse seus boletos no portal da Lupo.</p>
             </div>
           </a>
+
+          {/* Política comercial (abre modal) */}
+          <PoliticaComercial variant="card" />
         </div>
 
         {/* ÁREA DO CLIENTE — EM BREVE (inclui devoluções) */}

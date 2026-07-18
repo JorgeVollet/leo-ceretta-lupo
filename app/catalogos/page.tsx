@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CatalogosBrowser from "@/components/CatalogosBrowser";
+import PoliticaComercial from "@/components/PoliticaComercial";
 import { getCatalogos } from "@/lib/data";
 
 export const dynamic = "force-dynamic";
@@ -20,6 +21,9 @@ export default async function CatalogosPage() {
             Toque num catálogo pra ver as páginas, baixar o PDF ou já fazer o pedido pelo
             WhatsApp.
           </p>
+          <div className="mt-5 max-w-[330px]">
+            <PoliticaComercial variant="botao" />
+          </div>
         </div>
         <CatalogosBrowser catalogos={catalogos} />
       </main>

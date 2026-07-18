@@ -27,6 +27,12 @@ const atalhos = [
     icon: "M5 3h14v18l-3-2-2 2-2-2-2 2-2-2-3 2zM9 8h6M9 12h6",
   },
   {
+    href: "/#politica",
+    label: "Política comercial",
+    desc: "Pedido mínimo e grades",
+    icon: "M8 3h8l4 4v14H4V3h4zM15 3v5h5M8 12h8M8 16h6",
+  },
+  {
     href: "/#area-cliente",
     label: "Área do cliente",
     desc: "Em breve",
