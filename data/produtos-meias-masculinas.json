@@ -1,0 +1,704 @@
+{
+  "produtos": [
+    {
+      "codigo": "03288-001",
+      "nome": "Meia Lupo Sapatilha AM",
+      "descricao": "A meia sapatilha básica sem costura se ajusta perfeitamente ao tamanho do pé. O calcanhar verdadeiro proporciona maior conforto e a faixa de silicone interna previne escorregões. Produzida com algodão penteado, é uma peça com toque suave, leve e macio. Fina e elegante, não aparece no calçado e combina com todo tipo de roupa e visual. Polivalente, vai bem com tênis, sapatênis, dockside e mocassim.",
+      "tamanho": "33 a 36 • 37 a 40 • 41 a 44",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-masculinas/03288-001/9990.jpg"
+        },
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/meias-masculinas/03288-001/1110.jpg"
+        },
+        {
+          "cod": "6550",
+          "nome": "Bege",
+          "img": "/produtos/meias-masculinas/03288-001/6550.jpg"
+        }
+      ],
+      "img": "/produtos/meias-masculinas/03288-001/9990.jpg"
+    },
+    {
+      "codigo": "03256-001",
+      "nome": "Meia Lupo AM Sportwear",
+      "descricao": "Meias confeccionadas em algodão com elastano para maior conforto e anatomia, calcanhar verdadeiro, possui puxador traseiro.",
+      "tamanho": "37 a 44",
+      "linha": "LANÇAMENTO",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-masculinas/03256-001/9990.jpg"
+        },
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-masculinas/03256-001/1120.jpg"
+        },
+        {
+          "cod": "8020",
+          "nome": "Cinza",
+          "img": "/produtos/meias-masculinas/03256-001/8020.jpg"
+        }
+      ],
+      "img": "/produtos/meias-masculinas/03256-001/9990.jpg"
+    },
+    {
+      "codigo": "01275-011",
+      "nome": "Meia Lupo AM Sportwear",
+      "descricao": "Meia sem punho em algodão livres de aditivos químicos e com elastano para maior ajuste e conforto, calcanhar verdadeiro. Cano de 18 cm aproximadamente.",
+      "tamanho": "45 a 48 • 37 a 44",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-masculinas/01275-011/9990.jpg"
+        },
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-masculinas/01275-011/1120.jpg"
+        },
+        {
+          "cod": "2800",
+          "nome": "Marinho",
+          "img": "/produtos/meias-masculinas/01275-011/2800.jpg"
+        },
+        {
+          "cod": "2891",
+          "nome": "Mescla Jeans",
+          "img": "/produtos/meias-masculinas/01275-011/2891.jpg"
+        },
+        {
+          "cod": "7570",
+          "nome": "Café",
+          "img": "/produtos/meias-masculinas/01275-011/7570.jpg"
+        },
+        {
+          "cod": "8020",
+          "nome": "Cinza",
+          "img": "/produtos/meias-masculinas/01275-011/8020.jpg"
+        },
+        {
+          "cod": "8120",
+          "nome": "Mescla Areia",
+          "img": "/produtos/meias-masculinas/01275-011/8120.jpg"
+        }
+      ],
+      "img": "/produtos/meias-masculinas/01275-011/9990.jpg"
+    },
+    {
+      "codigo": "01455-002",
+      "nome": "Meia Lupo AU Bambu Confort",
+      "descricao": "Meia sem punho confeccionada em fibra de Bambu que é tecnológica e sustentável. Proporciona suavidade e respirabilidade. Outra vantagem é que a fibra de Bambu é um ótimo isolante térmico.",
+      "tamanho": "37 a 44",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-masculinas/01455-002/9990.jpg"
+        }
+      ],
+      "img": "/produtos/meias-masculinas/01455-002/9990.jpg"
+    },
+    {
+      "codigo": "01540-002",
+      "nome": "Meia Lupo AU Basica",
+      "descricao": "Meia em algodão com elastano em toda a perna para maior conforto. Solado atoalhado para melhor sensação térmica. pontos de respirabilidade no dorso do pé. Cano 19 cm aproximadamente.",
+      "tamanho": "37 a 44",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-masculinas/01540-002/9990.jpg"
+        },
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/meias-masculinas/01540-002/1110.jpg"
+        }
+      ],
+      "img": "/produtos/meias-masculinas/01540-002/9990.jpg"
+    },
+    {
+      "codigo": "01210-201",
+      "nome": "Meia Lupo AM Sportwear",
+      "descricao": "Meia em algodão livres de aditivos químicos e com elastano para maior ajuste e conforto, calcanhar verdadeiro. Cano de 23 cm aproximadamente.",
+      "tamanho": "45 a 48 • 37 a 44",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-masculinas/01210-201/9990.jpg"
+        },
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/meias-masculinas/01210-201/1110.jpg"
+        },
+        {
+          "cod": "2800",
+          "nome": "Marinho",
+          "img": "/produtos/meias-masculinas/01210-201/2800.jpg"
+        },
+        {
+          "cod": "6550",
+          "nome": "Bege",
+          "img": "/produtos/meias-masculinas/01210-201/6550.jpg"
+        },
+        {
+          "cod": "7570",
+          "nome": "Café",
+          "img": "/produtos/meias-masculinas/01210-201/7570.jpg"
+        },
+        {
+          "cod": "8870",
+          "nome": "Grafite",
+          "img": "/produtos/meias-masculinas/01210-201/8870.jpg"
+        }
+      ],
+      "img": "/produtos/meias-masculinas/01210-201/9990.jpg"
+    },
+    {
+      "codigo": "01210-204",
+      "nome": "Meia Lupo AM Sportwear",
+      "descricao": "Meia em algodão livres de aditivos químicos e com elastano para maior ajuste e conforto, calcanhar verdadeiro. Cano de 23 cm aproximadamente.",
+      "tamanho": "37 a 44",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-masculinas/01210-204/9990.jpg"
+        },
+        {
+          "cod": "2800",
+          "nome": "Marinho",
+          "img": "/produtos/meias-masculinas/01210-204/2800.jpg"
+        },
+        {
+          "cod": "7570",
+          "nome": "Café",
+          "img": "/produtos/meias-masculinas/01210-204/7570.jpg"
+        },
+        {
+          "cod": "8870",
+          "nome": "Grafite",
+          "img": "/produtos/meias-masculinas/01210-204/8870.jpg"
+        }
+      ],
+      "img": "/produtos/meias-masculinas/01210-204/9990.jpg"
+    },
+    {
+      "codigo": "01210-088",
+      "nome": "Meia Lupo AM Sportwear K2",
+      "descricao": "Kit com 2 pares de Meias confeccionadas em algodão livres de aditivos químicos e com elastano para maior ajuste e conforto, calcanhar verdadeiro. Cano de 23 cm aproximadamente.",
+      "tamanho": "37 a 44",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "0903",
+          "nome": "Sortida",
+          "img": "/produtos/meias-masculinas/01210-088/0903.jpg"
+        }
+      ],
+      "img": "/produtos/meias-masculinas/01210-088/0903.jpg"
+    },
+    {
+      "codigo": "01795-001",
+      "nome": "Meia Lupo AM Modal",
+      "descricao": "Sensação de frescor para os seus pés. A tecnologia Modal assegura uma peça extremamente sedosa e macia ao toque, possui excelente absorção ao suor garantindo conforto térmico e respirabilidade da pele. Com formato anatômico, a Meia Modal estende-se até a panturrilha e ajusta perfeitamente ao pé trazendo mais proteção e fixação. Sinta agora mesmo o conforto de usar meias Lupo.",
+      "tamanho": "37 a 44",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "4432",
+          "nome": "Caqui Escuro",
+          "img": "/produtos/meias-masculinas/01795-001/4432.jpg"
+        },
+        {
+          "cod": "0799",
+          "nome": "Persian",
+          "img": "/produtos/meias-masculinas/01795-001/0799.jpg"
+        },
+        {
+          "cod": "8712",
+          "nome": "Chumbo",
+          "img": "/produtos/meias-masculinas/01795-001/8712.jpg"
+        },
+        {
+          "cod": "9992",
+          "nome": "Preto",
+          "img": "/produtos/meias-masculinas/01795-001/9992.jpg"
+        }
+      ],
+      "img": "/produtos/meias-masculinas/01795-001/4432.jpg"
+    },
+    {
+      "codigo": "01795-004",
+      "nome": "Meia Lupo AM Modal",
+      "descricao": "Sensação de frescor para os seus pés. A tecnologia Modal assegura uma peça extremamente sedosa e macia ao toque, possui excelente absorção ao suor garantindo conforto térmico e respirabilidade da pele. Com formato anatômico, a Meia Modal estende-se até a panturrilha e ajusta perfeitamente ao pé trazendo mais proteção e fixação. Sinta agora mesmo o conforto de usar meias Lupo.",
+      "tamanho": "37 a 44",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-masculinas/01795-004/9990.jpg"
+        },
+        {
+          "cod": "2800",
+          "nome": "Marinho",
+          "img": "/produtos/meias-masculinas/01795-004/2800.jpg"
+        },
+        {
+          "cod": "6550",
+          "nome": "Bege",
+          "img": "/produtos/meias-masculinas/01795-004/6550.jpg"
+        },
+        {
+          "cod": "7570",
+          "nome": "Café",
+          "img": "/produtos/meias-masculinas/01795-004/7570.jpg"
+        }
+      ],
+      "img": "/produtos/meias-masculinas/01795-004/9990.jpg"
+    },
+    {
+      "codigo": "01791-002",
+      "nome": "Meia Lupo AM Modal",
+      "descricao": "Sensação de frescor para os seus pés. A tecnologia Modal assegura uma peça extremamente sedosa e macia ao toque, possui excelente absorção ao suor garantindo conforto térmico e respirabilidade da pele. Com formato anatômico, a Meia Modal estende-se até a panturrilha e ajusta perfeitamente ao pé trazendo mais proteção e fixação. Sinta agora mesmo o conforto de usar meias Lupo.",
+      "tamanho": "37 a 44",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-masculinas/01791-002/9990.jpg"
+        },
+        {
+          "cod": "5940",
+          "nome": "Vinho",
+          "img": "/produtos/meias-masculinas/01791-002/5940.jpg"
+        },
+        {
+          "cod": "7570",
+          "nome": "Café",
+          "img": "/produtos/meias-masculinas/01791-002/7570.jpg"
+        }
+      ],
+      "img": "/produtos/meias-masculinas/01791-002/9990.jpg"
+    },
+    {
+      "codigo": "01800-001",
+      "nome": "Meia Lupo AM Sportwear",
+      "descricao": "Mais conforto para o dia a dia. Com formato anatômico, a Meia Longa Basic estende-se até a panturrilha e ajusta perfeitamente ao pé trazendo mais proteção e fixação. A combinação das composições assegura uma peça superconfortável e resistente, que pode ser utilizado por muito tempo. Sinta agora mesmo o conforto de usar meias Lupo.",
+      "tamanho": "39 a 43",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-masculinas/01800-001/9990.jpg"
+        },
+        {
+          "cod": "2800",
+          "nome": "Marinho",
+          "img": "/produtos/meias-masculinas/01800-001/2800.jpg"
+        },
+        {
+          "cod": "8870",
+          "nome": "Grafite",
+          "img": "/produtos/meias-masculinas/01800-001/8870.jpg"
+        }
+      ],
+      "img": "/produtos/meias-masculinas/01800-001/9990.jpg"
+    },
+    {
+      "codigo": "01450-007",
+      "nome": "Meia Lupo AU Bambu",
+      "descricao": "A meia de Bambu confeccionada em fibra tecnológica e sustentável. Proporciona suavidade e respirabilidade. Outra vantagem é que a fibra de Bambu é um ótimo isolante térmico. Cano 23 cm aproximadamente.",
+      "tamanho": "37 a 44",
+      "linha": "LANÇAMENTO",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-masculinas/01450-007/9990.jpg"
+        },
+        {
+          "cod": "2800",
+          "nome": "Marinho",
+          "img": "/produtos/meias-masculinas/01450-007/2800.jpg"
+        },
+        {
+          "cod": "7570",
+          "nome": "Café",
+          "img": "/produtos/meias-masculinas/01450-007/7570.jpg"
+        },
+        {
+          "cod": "8380",
+          "nome": "Cinza",
+          "img": "/produtos/meias-masculinas/01450-007/8380.jpg"
+        }
+      ],
+      "img": "/produtos/meias-masculinas/01450-007/9990.jpg"
+    },
+    {
+      "codigo": "01454-002",
+      "nome": "Meia Lupo AU Bambu",
+      "descricao": "A meia de Bambu confeccionada em fibra tecnológica e sustentável. Proporciona suavidade e respirabilidade. Outra vantagem é que a fibra de Bambu é um ótimo isolante térmico. Cano 23 cm aproximadamente.",
+      "tamanho": "37 a 44",
+      "linha": "LANÇAMENTO",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-masculinas/01454-002/9990.jpg"
+        },
+        {
+          "cod": "2800",
+          "nome": "Marinho",
+          "img": "/produtos/meias-masculinas/01454-002/2800.jpg"
+        },
+        {
+          "cod": "7570",
+          "nome": "Café",
+          "img": "/produtos/meias-masculinas/01454-002/7570.jpg"
+        }
+      ],
+      "img": "/produtos/meias-masculinas/01454-002/9990.jpg"
+    },
+    {
+      "codigo": "01215-126",
+      "nome": "Meia Lupo AM Sportwear",
+      "descricao": "Meia em algodão livres de aditivos químicos e com elastano para maior ajuste e conforto, calcanhar verdadeiro. Cano de 18 cm aproximadamente.",
+      "tamanho": "37 a 44",
+      "linha": "LANÇAMENTO",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-masculinas/01215-126/9990.jpg"
+        },
+        {
+          "cod": "2800",
+          "nome": "Marinho",
+          "img": "/produtos/meias-masculinas/01215-126/2800.jpg"
+        },
+        {
+          "cod": "7570",
+          "nome": "Café",
+          "img": "/produtos/meias-masculinas/01215-126/7570.jpg"
+        }
+      ],
+      "img": "/produtos/meias-masculinas/01215-126/9990.jpg"
+    },
+    {
+      "codigo": "01215-127",
+      "nome": "Meia Lupo AM Sportwear",
+      "descricao": "Meia em algodão livres de aditivos químicos e com elastano para maior ajuste e conforto, calcanhar verdadeiro. Cano de 18 cm aproximadamente.",
+      "tamanho": "37 a 44",
+      "linha": "LANÇAMENTO",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-masculinas/01215-127/9990.jpg"
+        },
+        {
+          "cod": "2800",
+          "nome": "Marinho",
+          "img": "/produtos/meias-masculinas/01215-127/2800.jpg"
+        },
+        {
+          "cod": "4550",
+          "nome": "Verde",
+          "img": "/produtos/meias-masculinas/01215-127/4550.jpg"
+        }
+      ],
+      "img": "/produtos/meias-masculinas/01215-127/9990.jpg"
+    },
+    {
+      "codigo": "01215-128",
+      "nome": "Meia Lupo AM Sportwear",
+      "descricao": "Meia em algodão livres de aditivos químicos e com elastano para maior ajuste e conforto, calcanhar verdadeiro. Cano de 18 cm aproximadamente.",
+      "tamanho": "37 a 44",
+      "linha": "LANÇAMENTO",
+      "cores": [
+        {
+          "cod": "2800",
+          "nome": "Marinho",
+          "img": "/produtos/meias-masculinas/01215-128/2800.jpg"
+        },
+        {
+          "cod": "6550",
+          "nome": "Bege",
+          "img": "/produtos/meias-masculinas/01215-128/6550.jpg"
+        },
+        {
+          "cod": "8055",
+          "nome": "Off White",
+          "img": "/produtos/meias-masculinas/01215-128/8055.jpg"
+        }
+      ],
+      "img": "/produtos/meias-masculinas/01215-128/2800.jpg"
+    },
+    {
+      "codigo": "01211-045",
+      "nome": "Meia Lupo AM Sportwear",
+      "descricao": "Meia em algodão livres de aditivos químicos e com elastano para maior ajuste e conforto, calcanhar verdadeiro. Cano de 23 cm aproximadamente.",
+      "tamanho": "37 a 44",
+      "linha": "LANÇAMENTO",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-masculinas/01211-045/9990.jpg"
+        },
+        {
+          "cod": "2800",
+          "nome": "Marinho",
+          "img": "/produtos/meias-masculinas/01211-045/2800.jpg"
+        },
+        {
+          "cod": "7570",
+          "nome": "Café",
+          "img": "/produtos/meias-masculinas/01211-045/7570.jpg"
+        }
+      ],
+      "img": "/produtos/meias-masculinas/01211-045/9990.jpg"
+    },
+    {
+      "codigo": "01211-046",
+      "nome": "Meia Lupo AM Sportwear",
+      "descricao": "Meia em algodão livres de aditivos químicos e com elastano para maior ajuste e conforto, calcanhar verdadeiro. Cano de 23 cm aproximadamente.",
+      "tamanho": "37 a 44",
+      "linha": "LANÇAMENTO",
+      "cores": [
+        {
+          "cod": "2800",
+          "nome": "Marinho",
+          "img": "/produtos/meias-masculinas/01211-046/2800.jpg"
+        },
+        {
+          "cod": "4841",
+          "nome": "Oliva",
+          "img": "/produtos/meias-masculinas/01211-046/4841.jpg"
+        },
+        {
+          "cod": "5940",
+          "nome": "Vinho",
+          "img": "/produtos/meias-masculinas/01211-046/5940.jpg"
+        },
+        {
+          "cod": "8710",
+          "nome": "Chumbo",
+          "img": "/produtos/meias-masculinas/01211-046/8710.jpg"
+        }
+      ],
+      "img": "/produtos/meias-masculinas/01211-046/2800.jpg"
+    },
+    {
+      "codigo": "01211-047",
+      "nome": "Meia Lupo AM Sportwear",
+      "descricao": "Meia em algodão livres de aditivos químicos e com elastano para maior ajuste e conforto, calcanhar verdadeiro. Cano de 23 cm aproximadamente.",
+      "tamanho": "37 a 44",
+      "linha": "LANÇAMENTO",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-masculinas/01211-047/9990.jpg"
+        },
+        {
+          "cod": "2800",
+          "nome": "Marinho",
+          "img": "/produtos/meias-masculinas/01211-047/2800.jpg"
+        },
+        {
+          "cod": "6550",
+          "nome": "Bege",
+          "img": "/produtos/meias-masculinas/01211-047/6550.jpg"
+        },
+        {
+          "cod": "8710",
+          "nome": "Chumbo",
+          "img": "/produtos/meias-masculinas/01211-047/8710.jpg"
+        }
+      ],
+      "img": "/produtos/meias-masculinas/01211-047/9990.jpg"
+    },
+    {
+      "codigo": "01211-048",
+      "nome": "Meia Lupo AM Sportwear",
+      "descricao": "Meia em algodão livres de aditivos químicos e com elastano para maior ajuste e conforto, calcanhar verdadeiro. Cano de 23 cm aproximadamente.",
+      "tamanho": "37 a 44",
+      "linha": "LANÇAMENTO",
+      "cores": [
+        {
+          "cod": "2800",
+          "nome": "Marinho",
+          "img": "/produtos/meias-masculinas/01211-048/2800.jpg"
+        },
+        {
+          "cod": "8040",
+          "nome": "Lunar Grey",
+          "img": "/produtos/meias-masculinas/01211-048/8040.jpg"
+        },
+        {
+          "cod": "4066",
+          "nome": "Verde Agua",
+          "img": "/produtos/meias-masculinas/01211-048/4066.jpg"
+        }
+      ],
+      "img": "/produtos/meias-masculinas/01211-048/2800.jpg"
+    },
+    {
+      "codigo": "01211-049",
+      "nome": "Meia Lupo AM Sportwear",
+      "descricao": "Meia em algodão livres de aditivos químicos e com elastano para maior ajuste e conforto, calcanhar verdadeiro. Cano de 23 cm aproximadamente.",
+      "tamanho": "37 a 44",
+      "linha": "LANÇAMENTO",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-masculinas/01211-049/9990.jpg"
+        },
+        {
+          "cod": "4430",
+          "nome": "Cáqui Escuro",
+          "img": "/produtos/meias-masculinas/01211-049/4430.jpg"
+        },
+        {
+          "cod": "8710",
+          "nome": "Chumbo",
+          "img": "/produtos/meias-masculinas/01211-049/8710.jpg"
+        }
+      ],
+      "img": "/produtos/meias-masculinas/01211-049/9990.jpg"
+    },
+    {
+      "codigo": "01212-024",
+      "nome": "Meia Lupo AM Sportwear",
+      "descricao": "Um produto que oferece ao seu usuário, conforto e estilo com estampa escocesa. Projetada com cano longo, é perfeita para quem busca qualidade e estilo usando uma peça em algodão com elastano, que traz conforto e ajuste ideais para você dar o seu melhor no escritório ou lazer. Cano de 23 cm aproximadamente.",
+      "tamanho": "37 a 44",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "2800",
+          "nome": "Marinho",
+          "img": "/produtos/meias-masculinas/01212-024/2800.jpg"
+        },
+        {
+          "cod": "7200",
+          "nome": "Mescla Chocolate",
+          "img": "/produtos/meias-masculinas/01212-024/7200.jpg"
+        },
+        {
+          "cod": "8120",
+          "nome": "Mescla Areia",
+          "img": "/produtos/meias-masculinas/01212-024/8120.jpg"
+        },
+        {
+          "cod": "9980",
+          "nome": "Preta",
+          "img": "/produtos/meias-masculinas/01212-024/9980.jpg"
+        }
+      ],
+      "img": "/produtos/meias-masculinas/01212-024/2800.jpg"
+    },
+    {
+      "codigo": "01212-034",
+      "nome": "Meia Lupo AM Sportwear",
+      "descricao": "Um produto que oferece ao seu usuário, conforto e estilo com estampas variadas. Projetada com cano longo, é perfeita para quem busca qualidade e estilo usando uma peça em algodão com elastano, que traz conforto e ajuste ideais para você dar o seu melhor no escritório ou lazer. Cano de 23 cm aproximadamente.",
+      "tamanho": "37 a 44",
+      "linha": "LANÇAMENTO",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-masculinas/01212-034/9990.jpg"
+        },
+        {
+          "cod": "5940",
+          "nome": "Vinho",
+          "img": "/produtos/meias-masculinas/01212-034/5940.jpg"
+        }
+      ],
+      "img": "/produtos/meias-masculinas/01212-034/9990.jpg"
+    },
+    {
+      "codigo": "01696-003",
+      "nome": "Meia Lupo AM Inverno",
+      "descricao": "Meia em Lã Merino, maior conforto térmico. Cano 27 cm aproximadamente.",
+      "tamanho": "37 a 44",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-masculinas/01696-003/9990.jpg"
+        },
+        {
+          "cod": "7570",
+          "nome": "Café",
+          "img": "/produtos/meias-masculinas/01696-003/7570.jpg"
+        },
+        {
+          "cod": "8020",
+          "nome": "Cinza",
+          "img": "/produtos/meias-masculinas/01696-003/8020.jpg"
+        },
+        {
+          "cod": "8710",
+          "nome": "Chumbo",
+          "img": "/produtos/meias-masculinas/01696-003/8710.jpg"
+        }
+      ],
+      "img": "/produtos/meias-masculinas/01696-003/9990.jpg"
+    },
+    {
+      "codigo": "01696-004",
+      "nome": "Meia Lupo AM Inverno",
+      "descricao": "Meia em Lã Merino, maior conforto térmico. Cano 27 cm aproximadamente.",
+      "tamanho": "37 a 44",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-masculinas/01696-004/9990.jpg"
+        },
+        {
+          "cod": "7570",
+          "nome": "Café",
+          "img": "/produtos/meias-masculinas/01696-004/7570.jpg"
+        },
+        {
+          "cod": "8020",
+          "nome": "Cinza",
+          "img": "/produtos/meias-masculinas/01696-004/8020.jpg"
+        },
+        {
+          "cod": "8710",
+          "nome": "Chumbo",
+          "img": "/produtos/meias-masculinas/01696-004/8710.jpg"
+        }
+      ],
+      "img": "/produtos/meias-masculinas/01696-004/9990.jpg"
+    }
+  ]
+}

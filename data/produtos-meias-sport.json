@@ -1,0 +1,974 @@
+{
+  "produtos": [
+    {
+      "codigo": "15676-002",
+      "nome": "Meia LSport Boston Ultrafina Cano Curto",
+      "descricao": "Aposte na performance com a Meia LSport Boston Ultrafina Cano Curto, desenvolvida para quem busca leveza, proteção e respirabilidade durante corridas e treinos. Com estrutura ultrafina e ajuste anatômico, proporciona sensação de segunda pele, sem volume ou desconforto. O calcanhar verdadeiro garante encaixe seguro, promovendo estabilidade e liberdade de movimento. Com estrutura para secagem rápida e pontos de respirabilidade na parte superior, acelera a evaporação do suor e mantém os pés secos mesmo em atividades intensas. O acabamento antiatrito reduz o risco de bolhas e irritações.",
+      "tamanho": "33 a 36 • 37 a 40 • 41 a 44",
+      "linha": "Performance Ultra fina",
+      "cores": [
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-sport/15676-002/1120.jpg"
+        },
+        {
+          "cod": "3715",
+          "nome": "Cenoura Fluor",
+          "img": "/produtos/meias-sport/15676-002/3715.jpg"
+        },
+        {
+          "cod": "4205",
+          "nome": "Verde Neon",
+          "img": "/produtos/meias-sport/15676-002/4205.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-sport/15676-002/9990.jpg"
+        }
+      ],
+      "img": "/produtos/meias-sport/15676-002/3715.jpg"
+    },
+    {
+      "codigo": "15686-001",
+      "nome": "Meia LSport Honolulu Microfibra Ultrafina Cano Curto",
+      "descricao": "A Meia LSport Honolulu Microfibra Ultrafina Cano Curto é a escolha ideal para quem busca conforto extremo, ajuste preciso e alta performance em corridas e treinos. Feita em microfibra de poliamida, ela oferece um toque ultra macio e sensação leve como uma segunda pele. Com estrutura ultrafina, essa meia proporciona liberdade total nos movimentos, sem volume e sem incômodos. O ajuste anatômico com calcanhar verdadeiro garante estabilidade e firmeza a cada passo, enquanto o acabamento antiatrito protege contra bolhas e irritações mesmo em treinos mais longos. Com estrutura desenvolvida para secagem rápida, a meia acelera a evaporação do suor e mantém os pés secos, favorecendo o desempenho e o conforto do início ao fim da atividade.",
+      "tamanho": "33 a 36 • 37 a 40 • 41 a 44",
+      "linha": "Performance Ultra fina",
+      "cores": [
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-sport/15686-001/1120.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-sport/15686-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/meias-sport/15686-001/9990.jpg"
+    },
+    {
+      "codigo": "03350-003",
+      "nome": "Meia LSport Rio Movimento Invisivel",
+      "descricao": "A Meia LSport Rio Movimento invisivel é ideal para quem busca desempenho, conforto e proteção em modalidades como corrida, ciclismo e treino. Sua estrutura foi cuidadosamente desenvolvida para oferecer o que realmente importa: proteção contra atrito, secagem rápida, estabilidade e respirabilidade. Com design funcional, ajuda a prevenir bolhas e irritações causadas pela fricção constante. Com estrutura desenvolvida para secagem rápida e pontos de respirabilidade na parte superior, a meia acelera a evaporação do suor e mantém os pés secos, mesmo durante os treinos mais intensos. O calcanhar verdadeiro proporciona um encaixe seguro e anatômico, aumentando a estabilidade a cada passada ou pedalada. Seu desempenho começa pelos pés, sinta a diferença na proteção e no conforto!",
+      "tamanho": "33 a 36 • 37 a 40 • 41 a 44",
+      "linha": "Performance Movimento - Corrida Treino",
+      "cores": [
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-sport/03350-003/1120.jpg"
+        },
+        {
+          "cod": "8600",
+          "nome": "Medium Grey",
+          "img": "/produtos/meias-sport/03350-003/8600.jpg"
+        },
+        {
+          "cod": "9980",
+          "nome": "Preta",
+          "img": "/produtos/meias-sport/03350-003/9980.jpg"
+        }
+      ],
+      "img": "/produtos/meias-sport/03350-003/9980.jpg"
+    },
+    {
+      "codigo": "03276-001",
+      "nome": "Meia LSport T",
+      "descricao": "A Meia LSport T quem exige desempenho com conforto, combinando tecnologia, ajuste anatômico e praticidade em cada detalhe. Com estrutura anatômica e calcanhar verdadeiro, essa meia garante um encaixe preciso que oferece alta estabilidade nos movimentos, reduzindo o risco de escorregamentos ou torções durante corridas, treinos e caminhadas. O destaque vai para o puxador traseiro, que facilita o calce e mantém a meia perfeitamente posicionada no pé, evitando que ela deslize para dentro do calçado. Com estrutura desenvolvida para secagem rápida e pontos de respirabilidade na parte superior, a meia acelera a evaporação do suor e mantém os pés secos. T ecnologia aplicada ao ajuste: suporte firme, calce fácil e confiança do início ao fim do treino.",
+      "tamanho": "33 a 36 • 37 a 40 • 41 a 44",
+      "linha": "Performance Movimento - Corrida Treino",
+      "cores": [
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-sport/03276-001/1120.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preto",
+          "img": "/produtos/meias-sport/03276-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/meias-sport/03276-001/9990.jpg"
+    },
+    {
+      "codigo": "03276-002",
+      "nome": "Meia LSport T",
+      "descricao": "A Meia LSport T quem exige desempenho com conforto, combinando tecnologia, ajuste anatômico e praticidade em cada detalhe. Com estrutura anatômica e calcanhar verdadeiro, essa meia garante um encaixe preciso que oferece alta estabilidade nos movimentos, reduzindo o risco de escorregamentos ou torções durante corridas, treinos e caminhadas. O destaque vai para o puxador traseiro, que facilita o calce e mantém a meia perfeitamente posicionada no pé.",
+      "tamanho": "33 a 36 • 37 a 40 • 41 a 44",
+      "linha": "Performance Movimento - Corrida Treino",
+      "cores": [
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-sport/03276-002/1120.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-sport/03276-002/9990.jpg"
+        }
+      ],
+      "img": "/produtos/meias-sport/03276-002/9990.jpg"
+    },
+    {
+      "codigo": "15570-001",
+      "nome": "Meia LSport Milão Movimento Cano Curto",
+      "descricao": "A Meia LSport Milão Movimento Cano Curto foi desenvolvida para atletas que buscam performance, conforto e segurança em cada movimento. Com compressão forte e modelagem anatômica para os pés direito e esquerdo, proporciona um ajuste preciso e estabilidade, tornando-se a escolha ideal para corridas e treinos intensos. Sua estrutura inovadora foi projetada para reduzir o atrito, prevenindo bolhas e desconfortos durante longas sessões de corrida e treino.",
+      "tamanho": "33 a 36 • 37 a 40 • 41 a 44 • 45 a 48",
+      "linha": "Performance Movimento - Corrida Treino",
+      "cores": [
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-sport/15570-001/1120.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-sport/15570-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/meias-sport/15570-001/9990.jpg"
+    },
+    {
+      "codigo": "03360-002",
+      "nome": "Meia LSport Rio Movimento Cano Curto",
+      "descricao": "A Meia LSport Rio Movimento Cano Curto é ideal para quem busca desempenho, conforto e proteção em modalidades como corrida, ciclismo e treino. Sua estrutura foi cuidadosamente desenvolvida para oferecer o que realmente importa: proteção contra atrito, secagem rápida, estabilidade e respirabilidade. Com design funcional, ajuda a prevenir bolhas e irritações causadas pela fricção constante. A tecnologia Lupo Dry aliada a estrutura de pontos de respirabilidade na parte superior do produto acelera a evaporação do suor mesmo nos treinos mais intensos. O calcanhar verdadeiro proporciona um encaixe seguro e anatômico, aumentando a estabilidade a cada passo ou pedalada. A ação antimicrobial combate odores e bactérias, garantindo higiene e frescor prolongados. Já o cano curto oferece maior liberdade de movimento e ventilação, ideal para dias quentes ou práticas ao ar livre. Seu desempenho começa pelos pés, sinta a diferença na proteção e no conforto!",
+      "tamanho": "33 a 36 • 37 a 40 • 41 a 44",
+      "linha": "Performance Movimento - Corrida Treino",
+      "cores": [
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-sport/03360-002/1120.jpg"
+        },
+        {
+          "cod": "9980",
+          "nome": "Preta",
+          "img": "/produtos/meias-sport/03360-002/9980.jpg"
+        }
+      ],
+      "img": "/produtos/meias-sport/03360-002/1120.jpg"
+    },
+    {
+      "codigo": "15424-001",
+      "nome": "Meia LSport Londres Máxima Cano Médio",
+      "descricao": "A Meia LSport Londres foi projetada para quem busca performance com suporte técnico e conforto duradouro. Sua estrutura anatômica com modelagem ergonômica se adapta ao formato do pé, proporcionando estabilidade superior, maior segurança e minimizando o risco de lesões. O forro duplo oferece uma camada extra de proteção, aumentando o conforto e reduzindo o atrito nas áreas de maior impacto. Ideal para treinos intensos e provas longas. O destaque vai para a compressão localizada, que dá suporte à musculatura durante o exercício. Sinta a diferença desde o primeiro treino.",
+      "tamanho": "33 a 36 • 37 a 40 • 41 a 44",
+      "linha": "Performance Máxima - Corrida Treino",
+      "cores": [
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-sport/15424-001/1120.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-sport/15424-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/meias-sport/15424-001/9990.jpg"
+    },
+    {
+      "codigo": "03375-004",
+      "nome": "Meia LSport Roma Emana Movimento Cano Curto",
+      "descricao": "Meia LSport Roma Emana cano curto da linha Movimento é a escolha ideal para quem enfrenta treinos intensos e busca o equilíbrio entre conforto e performance. Ela entrega exatamente o que importa: proteção contra atrito, secagem rápida e alta estabilidade. Com modelagem anatômica para pé direito e esquerdo, oferece ajuste preciso, maior controle dos movimentos e segurança em cada passada ou pedalada — reduzindo o risco de atrito e torções. O fio inteligente Emana® estimula a microcirculação sanguínea e auxilia na redução da fadiga muscular. Ultrapasse seus limites com estabilidade, conforto e tecnologia avançada.",
+      "tamanho": "33 a 36 • 37 a 40 • 41 a 44 • 45 a 48",
+      "linha": "Performance Movimento Tecnologia Emana",
+      "cores": [
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-sport/03375-004/1120.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-sport/03375-004/9990.jpg"
+        }
+      ],
+      "img": "/produtos/meias-sport/03375-004/9990.jpg"
+    },
+    {
+      "codigo": "03385-015",
+      "nome": "Meia LSport Roma Emana Movimento Cano Médio",
+      "descricao": "Meia LSport Roma é a escolha ideal para quem enfrenta treinos intensos e busca o equilíbrio entre conforto e performance. Ela entrega exatamente o que importa: proteção contra atrito, secagem rápida e alta estabilidade. Com modelagem anatômica para pé direito e esquerdo, oferece ajuste preciso, maior controle dos movimentos e segurança em cada passada ou pedalada — reduzindo o risco de atrito e torções. O fio inteligente Emana® estimula a microcirculação sanguínea e auxilia na redução da fadiga muscular. Ultrapasse seus limites com estabilidade, conforto e tecnologia avançada.",
+      "tamanho": "33 a 36 • 37 a 40 • 41 a 44 • 45 a 48",
+      "linha": "Performance Movimento Tecnologia Emana",
+      "cores": [
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-sport/03385-015/1120.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-sport/03385-015/9990.jpg"
+        }
+      ],
+      "img": "/produtos/meias-sport/03385-015/9990.jpg"
+    },
+    {
+      "codigo": "03264-001",
+      "nome": "Meia Lsport Frankfurt Emana Movimento Cano Longo",
+      "descricao": "Desenvolvida para atletas que buscam conforto e proteção, a Meia LSport Frankfurt combina design anatômico e tecnologias que garantem proteção contra atritos, secagem rápida, estabilidade e respirabilidade. Indicada para corrida, ciclismo e treino, ajuda a prevenir bolhas mesmo em treinos intensos. Sua estrutura acelera a evaporação do suor e mantém os pés secos. O calcanhar verdadeiro e o ajuste anatômico garantem estabilidade e segurança. O fio inteligente Emana®️ estimula a microcirculação sanguínea e auxilia na redução da fadiga muscular. Eleve seu desempenho com a meia preferida dos atletas!",
+      "tamanho": "33 a 36 • 37 a 40 • 41 a 44",
+      "linha": "Performance Movimento Tecnologia Emana",
+      "cores": [
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-sport/03264-001/1120.jpg"
+        },
+        {
+          "cod": "5180",
+          "nome": "Rosa",
+          "img": "/produtos/meias-sport/03264-001/5180.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-sport/03264-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/meias-sport/03264-001/5180.jpg"
+    },
+    {
+      "codigo": "03265-001",
+      "nome": "Meia LSport Nova Y Cano Longo",
+      "descricao": "Desenvolvida para atletas que buscam o equilíbrio ideal entre conforto e proteção, a Meia LSport Nova Y design anatômico e tecnologias avançadas para entregar o que realmente importa: proteção contra atritos, secagem rápida, estabilidade e respirabilidade. Indicada para corrida, ciclismo e treino, sua estrutura ajuda a prevenir bolhas, mesmo em sessões longas e intensas. Com estrutura desenvolvida para secagem rápida, a meia acelera a evaporação do suor e mantém os pés secos, mesmo durante os treinos mais intensos. O calcanhar verdadeiro e o ajuste anatômico proporcionam máxima estabilidade e segurança a cada passada ou pedalada. O fio inteligente Emana® estimula a microcirculação sanguínea e auxilia na redução da fadiga muscular. Eleve seu desempenho com a meia preferida dos atletas!",
+      "tamanho": "33 a 36 • 37 a 40 • 41 a 44",
+      "linha": "Performance Movimento Tecnologia Emana",
+      "cores": [
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-sport/03265-001/1120.jpg"
+        },
+        {
+          "cod": "2780",
+          "nome": "Anil",
+          "img": "/produtos/meias-sport/03265-001/2780.jpg"
+        },
+        {
+          "cod": "5180",
+          "nome": "Rosa",
+          "img": "/produtos/meias-sport/03265-001/5180.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-sport/03265-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/meias-sport/03265-001/2780.jpg"
+    },
+    {
+      "codigo": "15006-001",
+      "nome": "Meia LSport Veneza Emana Movimento Cano Extra Longo",
+      "descricao": "A Meia LSport Veneza Movimento Cano Extra Longo foi criada para quem busca proteção, conforto térmico e estabilidade em treinos desafiadores. Ideal para corrida, ciclismo e trilha, oferece redução de atrito, secagem rápida e suporte muscular O cano extra longo proporciona compressão leve e maior cobertura, auxiliando na estabilidade muscular e proteção contra impactos. O calcanhar verdadeiro garante encaixe preciso e evita deslizamentos. Com estrutura de secagem rápida, mantém os pés secos e confortáveis por mais tempo. O fio inteligente Emana®️ atua na microcirculação sanguínea, auxiliando na recuperação muscular e redução da fadiga.",
+      "tamanho": "33 a 36 • 37 a 40 • 41 a 44",
+      "linha": "Performance Movimento Tecnologia Emana",
+      "cores": [
+        {
+          "cod": "9980",
+          "nome": "Preta",
+          "img": "/produtos/meias-sport/15006-001/9980.jpg"
+        }
+      ],
+      "img": "/produtos/meias-sport/15006-001/9980.jpg"
+    },
+    {
+      "codigo": "15006-002",
+      "nome": "Meia LSport Veneza Emana Movimento Cano Extra Longo",
+      "descricao": "A Meia LSport Veneza Movimento Cano Extra Longo foi criada para quem busca proteção, conforto térmico e estabilidade em treinos desafiadores. Ideal para corrida, ciclismo e trilha, oferece redução de atrito, secagem rápida e suporte muscular O cano extra longo proporciona compressão leve e maior cobertura, auxiliando na estabilidade muscular e proteção contra impactos. O calcanhar verdadeiro garante encaixe preciso e evita deslizamentos. Com estrutura de secagem rápida, mantém os pés secos e confortáveis por mais tempo. O fio inteligente Emana®️ atua na microcirculação sanguínea, auxiliando na recuperação muscular e redução da fadiga.",
+      "tamanho": "33 a 36 • 37 a 40 • 41 a 44",
+      "linha": "Performance Movimento Tecnologia Emana",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-sport/15006-002/9990.jpg"
+        }
+      ],
+      "img": "/produtos/meias-sport/15006-002/9990.jpg"
+    },
+    {
+      "codigo": "15250-001",
+      "nome": "Meia LSport Napoli Emana Movimento Cano Extra Longo",
+      "descricao": "A Meia LSport Napoli Emana cano extra longo da linha Movimento combina compressão forte e proteção para quem busca estabilidade e resistência em corrida, ciclismo ou trilha. Sua estrutura anatômica e o calcanhar verdadeiro garantem ajuste preciso. Com secagem rápida, mantém os pés secos e confortáveis. A tecnologia Emana®️ favorece a microcirculação e reduz a fadiga muscular. Com ventilação estratégica na panturrilha e detalhe refletivo para mais segurança em treinos noturnos, a Napoli entrega suporte completo em cada movimento.",
+      "tamanho": "33 a 36 • 37 a 40 • 41 a 44",
+      "linha": "Performance Movimento Tecnologia Emana",
+      "cores": [
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-sport/15250-001/1120.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-sport/15250-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/meias-sport/15250-001/1120.jpg"
+    },
+    {
+      "codigo": "04942-006",
+      "nome": "Meia Sapatilha LSport Los Angeles",
+      "descricao": "A Meia Sapatilha LSport Los Angeles foi desenvolvida para práticas que exigem precisão, controle e suavidade, como pilates, ioga e dança. Com design anatômico, ela proporciona um ajuste perfeito aos pés, favorecendo a liberdade de movimento com estabilidade e segurança. O solado antiderrapante em silicone garante firmeza no contato com o solo, ajudando a manter o equilíbrio mesmo nos movimentos mais delicados. Confeccionada com algodão penteado, elastano e poliamida, a meia oferece um toque macio, leve e respirável, mantendo os pés confortáveis e arejados durante toda a prática. Movimente-se com segurança, leveza e bem- estar.",
+      "tamanho": "33 a 36 • 37 a 40",
+      "linha": "Performance Especialidades Ioga / Estúdio",
+      "cores": [
+        {
+          "cod": "5285",
+          "nome": "Malva",
+          "img": "/produtos/meias-sport/04942-006/5285.jpg"
+        },
+        {
+          "cod": "8300",
+          "nome": "Cinza Chumbo",
+          "img": "/produtos/meias-sport/04942-006/8300.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-sport/04942-006/9990.jpg"
+        }
+      ],
+      "img": "/produtos/meias-sport/04942-006/8300.jpg"
+    },
+    {
+      "codigo": "03286-002",
+      "nome": "Meia Sapatilha LSport Santa Mônica",
+      "descricao": "A Meia Sapatilha LSport Santa Mônica foi criada para oferecer máximo conforto e equilíbrio em práticas como pilates, ioga e dança. Seu design anatômico proporciona um ajuste preciso, favorecendo movimentos controlados e contínuos, com total liberdade e segurança. Com solado antiderrapante em silicone, garante firmeza ao solo e reduz o risco de deslizes durante os exercícios. A tecnologia sem costura elimina pontos de pressão e atrito, oferecendo uma experiência mais suave e confortável, mesmo nas atividades mais longas. O tecido em algodão penteado, com elastano e poliamida, é macio, leve e respirável, mantendo os pés arejados e com sensação de frescor o tempo todo. Movimente-se com segurança, leveza e bem-estar",
+      "tamanho": "33 a 36 • 37 a 40",
+      "linha": "Performance Especialidades Ioga / Estúdio",
+      "cores": [
+        {
+          "cod": "5700",
+          "nome": "Cereja",
+          "img": "/produtos/meias-sport/03286-002/5700.jpg"
+        },
+        {
+          "cod": "8020",
+          "nome": "Cinza",
+          "img": "/produtos/meias-sport/03286-002/8020.jpg"
+        },
+        {
+          "cod": "8300",
+          "nome": "Cinza Chumbo",
+          "img": "/produtos/meias-sport/03286-002/8300.jpg"
+        }
+      ],
+      "img": "/produtos/meias-sport/03286-002/5700.jpg"
+    },
+    {
+      "codigo": "03286-003",
+      "nome": "Meia Sapatilha LSport Santa Mônica",
+      "descricao": "A Meia Sapatilha LSport Santa Mônica foi criada para oferecer máximo conforto e equilíbrio em práticas como pilates, ioga e dança. Seu design anatômico proporciona um ajuste preciso, favorecendo movimentos controlados e contínuos, com total liberdade e segurança. Com solado antiderrapante em silicone, garante firmeza ao solo e reduz o risco de deslizes durante os exercícios. A tecnologia sem costura elimina pontos de pressão e atrito, oferecendo uma experiência mais suave e confortável, mesmo nas atividades mais longas. O tecido em algodão penteado, com elastano e poliamida, é macio, leve e respirável, mantendo os pés arejados e com sensação de frescor o tempo todo. Movimente-se com segurança, leveza e bem-estar",
+      "tamanho": "33 a 36 • 37 a 40",
+      "linha": "Performance Especialidades Ioga / Estúdio",
+      "cores": [
+        {
+          "cod": "5285",
+          "nome": "Malva",
+          "img": "/produtos/meias-sport/03286-003/5285.jpg"
+        },
+        {
+          "cod": "8380",
+          "nome": "Cinza",
+          "img": "/produtos/meias-sport/03286-003/8380.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-sport/03286-003/9990.jpg"
+        }
+      ],
+      "img": "/produtos/meias-sport/03286-003/5285.jpg"
+    },
+    {
+      "codigo": "03315-001",
+      "nome": "Meia LSport San Diego Cano Curto",
+      "descricao": "A Meia LSport San Diego Cano Curto foi desenvolvida para oferecer estabilidade, conforto e leveza em atividades que exigem precisão e controle, como pilates, ioga e dança. Com design anatômico e calcanhar verdadeiro, proporciona um ajuste firme e seguro, permitindo total liberdade de movimento. O solado antiderrapante em silicone garante equilíbrio e aderência durante os movimentos. O tecido em poliamida com pontos de ventilação ajudam a controlar a temperatura dos pés, promovendo respirabilidade, secagem rápida e conforto térmico. Além disso, a meia reduz o atrito, ajudando a prevenir desconfortos em treinos mais intensos ou de longa duração. Movimente-se com segurança, leveza e bem-estar.",
+      "tamanho": "33 a 36 • 37 a 40 • 41 a 44",
+      "linha": "Performance Especialidades Ioga / Estúdio",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-sport/03315-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/meias-sport/03315-001/9990.jpg"
+    },
+    {
+      "codigo": "03310-003",
+      "nome": "Meia LSport San Diego Cano Curto",
+      "descricao": "A Meia LSport San Diego Cano Curto foi desenvolvida para oferecer estabilidade, conforto e leveza em atividades que exigem precisão e controle, como pilates, ioga e dança. Com design anatômico e calcanhar verdadeiro, proporciona um ajuste firme e seguro, permitindo total liberdade de movimento. O solado antiderrapante em silicone garante equilíbrio e aderência durante os movimentos. A estrutura atoalhada e o tecido em poliamida com pontos de ventilação ajudam a controlar a temperatura dos pés, promovendo respirabilidade, secagem rápida e conforto térmico. Além disso, a meia reduz o atrito, ajudando a prevenir desconfortos em treinos mais intensos ou de longa duração. Movimente-se com segurança, leveza e bem-estar",
+      "tamanho": "33 a 36 • 37 a 40 • 41 a 44",
+      "linha": "Performance Especialidades Ioga / Estúdio",
+      "cores": [
+        {
+          "cod": "8300",
+          "nome": "Cinza Chumbo",
+          "img": "/produtos/meias-sport/03310-003/8300.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-sport/03310-003/9990.jpg"
+        }
+      ],
+      "img": "/produtos/meias-sport/03310-003/8300.jpg"
+    },
+    {
+      "codigo": "15582-002",
+      "nome": "Meia LSport Quebec Cano Extra Longo",
+      "descricao": "A Meia LSport Quebec Warm foi desenvolvida para oferecer proteção térmica, conforto e respirabilidade nos dias frios, sem abrir mão da leveza e do ajuste ideal. Indicada para uso casual, é perfeita para quem busca bem-estar e tecnologia nos momentos de descanso ou na rotina diária. Com isolamento térmico eficiente (Warm), essa meia mantém os pés aquecidos e confortáveis em temperaturas mais baixas. Com estrutura desenvolvida para secagem rápida, a meia acelera a evaporação do suor e mantém os pés secos, mesmo em ambientes fechados ou com variação de clima. A estrutura anatômica com calcanhar verdadeiro proporciona ajuste perfeito e mais estabilidade, enquanto o acabamento antiatrito protege contra bolhas e desconfortos causados pelo uso prolongado.",
+      "tamanho": "37 a 40 • 41 a 44",
+      "linha": "Performance Especialidade Quebec Tecnologia Warn",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-sport/15582-002/9990.jpg"
+        }
+      ],
+      "img": "/produtos/meias-sport/15582-002/9990.jpg"
+    },
+    {
+      "codigo": "02810-005",
+      "nome": "Meião Infantil LSport Futebol",
+      "descricao": "O Meião Infantil LSport Futebol foi desenvolvido para acompanhar a garotada em suas partidas, garantindo estabilidade e conforto durante todo o jogo. Com faixa de compressão no peito do pé, oferece um ajuste firme e seguro, que auxilia no controle dos movimentos e na proteção das regiões de maior impacto. Sua estrutura atoalhada protege a sola e outras áreas estratégicas, proporcionando amortecimento extra e conforto mesmo nas partidas mais intensas. O cano conta com pontos de ventilação que ajudam a melhorar a respirabilidade, mantendo o conforto durante o jogo. Com modelagem anatômica e calcanhar verdadeiro, o meião proporciona ajuste perfeito e liberdade para driblar, correr e chutar com confiança. Ideal para jogos em campo ou salão, é um produto unissex pensado para o máximo desempenho dos pequenos atletas. Equipe os pequenos para o jogo com conforto e proteção.",
+      "tamanho": "25 a 28 • 29 a 32 • 33 a 36",
+      "linha": "Performance Futebol",
+      "cores": [
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-sport/02810-005/1120.jpg"
+        },
+        {
+          "cod": "2780",
+          "nome": "Anil",
+          "img": "/produtos/meias-sport/02810-005/2780.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preto",
+          "img": "/produtos/meias-sport/02810-005/9990.jpg"
+        }
+      ],
+      "img": "/produtos/meias-sport/02810-005/9990.jpg"
+    },
+    {
+      "codigo": "01995-004",
+      "nome": "Meião Adulto LSport Futebol",
+      "descricao": "O Meião Adulto LSport Futebol foi desenvolvido para oferecer estabilidade e conforto essenciais durante partidas no campo ou no salão. Com faixa de compressão no peito do pé, proporciona um ajuste firme que ajuda a manter a meia no lugar, garantindo suporte seguro para os movimentos mais intensos. Sua estrutura atoalhada protege a sola e as regiões de maior impacto, proporcionando amortecimento extra e maciez, ideal para quem joga com frequência e intensidade. O cano conta com pontos de ventilação que melhoram a respirabilidade, ajudando a manter o conforto durante o jogo. Com modelagem anatômica e calcanhar verdadeiro, o meião oferece um ajuste perfeito, acompanhando o formato do pé para máxima liberdade de movimento e desempenho. Produto unissex, pensado para jogadores que buscam qualidade e proteção. Conforto e suporte para os seus melhores lances.",
+      "tamanho": "37 a 40 • 41 a 44",
+      "linha": "Performance Futebol",
+      "cores": [
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-sport/01995-004/1120.jpg"
+        },
+        {
+          "cod": "2780",
+          "nome": "Anil",
+          "img": "/produtos/meias-sport/01995-004/2780.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preto",
+          "img": "/produtos/meias-sport/01995-004/9990.jpg"
+        }
+      ],
+      "img": "/produtos/meias-sport/01995-004/1120.jpg"
+    },
+    {
+      "codigo": "15011-001",
+      "nome": "Canelito LSport PowerFut Emana Futebol",
+      "descricao": "Desenvolvido para quem busca máximo rendimento em campo ou no salão, o Canelito LSport PowerFut oferece compressão estratégica, conforto térmico e ajuste firme na panturrilha, mantendo a caneleira estável durante a partida. O fio Emana® estimula a microcirculação sanguínea, reduzindo a fadiga muscular e acelerando a recuperação. A ação antimicrobial combate odores e mantém a sensação de frescor. Para melhor desempenho, utilize com a Meia 15300-001 LSport PowerFut Emana Futebol.",
+      "tamanho": "P (Panturrilha 25 a 31) • M (Panturrilha 32 a 38) • G (Panturrilha 39 a 45)",
+      "linha": "Performance Futebol",
+      "cores": [
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-sport/15011-001/1120.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-sport/15011-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/meias-sport/15011-001/9990.jpg"
+    },
+    {
+      "codigo": "15300-001",
+      "nome": "Meia Adulto LSport PowerFut Emana Futebol",
+      "descricao": "A Meia Adulto LSport PowerFut Emana Futebol foi desenvolvida para jogadores que buscam desempenho e conforto. O silicone antiderrapante na sola proporciona excelente grip, mantendo o pé firme dentro do calçado. Sua estrutura atoalhada protege as regiões de maior impacto, reduzindo atrito e bolhas. A tecnologia Emana®️ auxilia na microcirculação e redução da fadiga muscular. Com ação antimicrobial, secagem rápida, modelagem anatômica e calcanhar verdadeiro, oferece ajuste perfeito, estabilidade e conforto durante toda a partida.",
+      "tamanho": "33 a 36 • 37 a 40 • 41 a 44",
+      "linha": "Performance Futebol",
+      "cores": [
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-sport/15300-001/1120.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-sport/15300-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/meias-sport/15300-001/1120.jpg"
+    },
+    {
+      "codigo": "03220-001",
+      "nome": "Meia Lupo AU Sport",
+      "descricao": "A meia básica confeccionada com tecido de algodão, com pontos de ventilação assegura conforto térmico, por permitir rápida evaporação do suor e da umidade. Calcanhar verdadeiro e cano curto oferece ajuste perfeito nos pés e sensação de bem-estar ao vestir.",
+      "tamanho": "33 a 36 • 37 a 40 • 41 a 44",
+      "linha": "Básicas",
+      "cores": [
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-sport/03220-001/1120.jpg"
+        },
+        {
+          "cod": "8022",
+          "nome": "Cinza",
+          "img": "/produtos/meias-sport/03220-001/8022.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-sport/03220-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/meias-sport/03220-001/9990.jpg"
+    },
+    {
+      "codigo": "03250-001",
+      "nome": "Meia Lupo AM Sport Básica",
+      "descricao": "Produzida com algodão penteado, elastano e poliamida, é leve, macia e com toque suave. Ideal para práticas esportivas indoor e outdoor. Ela é atoalhada e tem cano 16cm.Unissex.",
+      "tamanho": "33 a 36 • 37 a 40 • 41 a 44 • 45 a 48",
+      "linha": "Básicas",
+      "cores": [
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-sport/03250-001/1120.jpg"
+        },
+        {
+          "cod": "8022",
+          "nome": "Cinza",
+          "img": "/produtos/meias-sport/03250-001/8022.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preto",
+          "img": "/produtos/meias-sport/03250-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/meias-sport/03250-001/8022.jpg"
+    },
+    {
+      "codigo": "03250-002",
+      "nome": "Meia Lupo AM Sport Básica",
+      "descricao": "Produzida com algodão penteado, elastano e poliamida, é leve, macia e com toque suave. Ideal para práticas esportivas indoor e outdoor. Ela é atoalha e tem cano 16cm.Unissex.",
+      "tamanho": "33 a 36 • 37 a 40 • 41 a 44 • 45 a 48",
+      "linha": "Básicas",
+      "cores": [
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-sport/03250-002/1120.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preto",
+          "img": "/produtos/meias-sport/03250-002/9990.jpg"
+        }
+      ],
+      "img": "/produtos/meias-sport/03250-002/9990.jpg"
+    },
+    {
+      "codigo": "03250-003",
+      "nome": "Meia Lupo AU Sport Basica",
+      "descricao": "Produzida com algodão penteado, elastano e poliamida, é leve, macia e com toque suave. Ideal para práticas esportivas indoor e outdoor. Ela é atoalhada e tem cano 16cm.Unissex.",
+      "tamanho": "33 a 36 • 37 a 40 • 41 a 44 • 45 a 48",
+      "linha": "Básicas",
+      "cores": [
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-sport/03250-003/1120.jpg"
+        },
+        {
+          "cod": "5410",
+          "nome": "Bubble Gum",
+          "img": "/produtos/meias-sport/03250-003/5410.jpg"
+        },
+        {
+          "cod": "8020",
+          "nome": "Cinza",
+          "img": "/produtos/meias-sport/03250-003/8020.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preto",
+          "img": "/produtos/meias-sport/03250-003/9990.jpg"
+        }
+      ],
+      "img": "/produtos/meias-sport/03250-003/5410.jpg"
+    },
+    {
+      "codigo": "03290-009",
+      "nome": "Meia Lupo AM Sport",
+      "descricao": "Beleza, bem-estar e elegância. A meia básica cano longo tem design com punho elástico canelado e calcanhar verdadeiro que proporciona ajuste perfeito nos pés e conforto o dia todo. Confeccionada com algodão penteado, tem toque leve, macio, suave e excelente respirabilidade da pele.",
+      "tamanho": "37 a 40 • 41 a 44 • 45 a 48",
+      "linha": "Básicas",
+      "cores": [
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/meias-sport/03290-009/1110.jpg"
+        },
+        {
+          "cod": "8020",
+          "nome": "Cinza",
+          "img": "/produtos/meias-sport/03290-009/8020.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preto",
+          "img": "/produtos/meias-sport/03290-009/9990.jpg"
+        }
+      ],
+      "img": "/produtos/meias-sport/03290-009/9990.jpg"
+    },
+    {
+      "codigo": "03292-009",
+      "nome": "Meia Lupo AM Sport",
+      "descricao": "Meia de algodão com elastano, Cano alto, ideal para compôr looks atlêticos e cheio de estilo. Cano elástico para ajuste perfeito e conforto ao usuário.",
+      "tamanho": "37 a 40 • 41 a 44 • 45 a 48",
+      "linha": "Básicas",
+      "cores": [
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-sport/03292-009/1120.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preto",
+          "img": "/produtos/meias-sport/03292-009/9990.jpg"
+        }
+      ],
+      "img": "/produtos/meias-sport/03292-009/9990.jpg"
+    },
+    {
+      "codigo": "03292-010",
+      "nome": "Meia Lupo AM Sport",
+      "descricao": "Meia de algodão com elastano, Cano alto, ideal para compor looks atléticos e cheio de estilo. Cano elástico para ajuste perfeito e conforto ao usuário.",
+      "tamanho": "37 a 40 • 41 a 44 • 45 a 48",
+      "linha": "Básicas",
+      "cores": [
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-sport/03292-010/1120.jpg"
+        },
+        {
+          "cod": "8600",
+          "nome": "Medium Grey",
+          "img": "/produtos/meias-sport/03292-010/8600.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preto",
+          "img": "/produtos/meias-sport/03292-010/9990.jpg"
+        }
+      ],
+      "img": "/produtos/meias-sport/03292-010/8600.jpg"
+    },
+    {
+      "codigo": "03287-088",
+      "nome": "Meia Lupo AM Sapatilha K2",
+      "descricao": "Conforto, discrição e qualidade! Kit 2 pares de meia sapatilha sem costura, ajustáveis ao tamanho do pé. Confortável, com calcanhar verdadeiro e faixa de silicone para evitar escorregões. Feita de algodão penteado, é suave, leve e elegante, combinando com diversos estilos e calçados, como tênis e mocassim. Unissex.",
+      "tamanho": "33 a 36 • 37 a 40 • 41 a 44",
+      "linha": "Básicas - Kits",
+      "cores": [
+        {
+          "cod": "0901",
+          "nome": "Sortida",
+          "img": "/produtos/meias-sport/03287-088/0901.jpg"
+        },
+        {
+          "cod": "0902",
+          "nome": "Sortida",
+          "img": "/produtos/meias-sport/03287-088/0902.jpg"
+        },
+        {
+          "cod": "0903",
+          "nome": "Sortida",
+          "img": "/produtos/meias-sport/03287-088/0903.jpg"
+        }
+      ],
+      "img": "/produtos/meias-sport/03287-088/0901.jpg"
+    },
+    {
+      "codigo": "03282-088",
+      "nome": "Meia Lupo AM Sapatilha K2",
+      "descricao": "Conforto, discrição e qualidade. Kit com 2 pares de meia sapatilha básica sem costura que se ajusta perfeitamente ao tamanho do pé. O calcanhar verdadeiro proporciona maior conforto e a faixa de silicone interna previne escorregões. Produzida com algodão penteado, é uma peça com toque suave, leve e macio. Fina e elegante, não aparece no calçado e combina com todo tipo de roupa e visual. Polivalente, vai bem com tênis, sapatênis, dockside e mocassim.",
+      "tamanho": "33 a 36 • 37 a 40 • 41 a 44",
+      "linha": "Básicas - Kits",
+      "cores": [
+        {
+          "cod": "0900",
+          "nome": "Sortida",
+          "img": "/produtos/meias-sport/03282-088/0900.jpg"
+        },
+        {
+          "cod": "0901",
+          "nome": "Sortida",
+          "img": "/produtos/meias-sport/03282-088/0901.jpg"
+        },
+        {
+          "cod": "0902",
+          "nome": "Sortida",
+          "img": "/produtos/meias-sport/03282-088/0902.jpg"
+        }
+      ],
+      "img": "/produtos/meias-sport/03282-088/0900.jpg"
+    },
+    {
+      "codigo": "03170-089",
+      "nome": "Meia Lupo AU Sap. Invisivel K3",
+      "descricao": "Qualidade e conforto todos os dias. Cada meia sapatilha do kit com três unidades possui faixa de compressão no peito do pé para assegurar estabilidade. O calcanhar verdadeiro proporciona ajuste perfeito e conforto superior. Item de vestuário clássico. Invisível no calçado, combina com todos os estilos e looks. Polivalente, é perfeita para fazer atividade física e usar no trabalho e em todas as ocasiões.",
+      "tamanho": "33 a 36 • 37 a 40 • 41 a 44 • 45 a 48",
+      "linha": "Básicas - Kits",
+      "cores": [
+        {
+          "cod": "0900",
+          "nome": "Sortida",
+          "img": "/produtos/meias-sport/03170-089/0900.jpg"
+        },
+        {
+          "cod": "0901",
+          "nome": "Sortida",
+          "img": "/produtos/meias-sport/03170-089/0901.jpg"
+        },
+        {
+          "cod": "0904",
+          "nome": "Sortida",
+          "img": "/produtos/meias-sport/03170-089/0904.jpg"
+        },
+        {
+          "cod": "0905",
+          "nome": "Sortida",
+          "img": "/produtos/meias-sport/03170-089/0905.jpg"
+        }
+      ],
+      "img": "/produtos/meias-sport/03170-089/0900.jpg"
+    },
+    {
+      "codigo": "03171-089",
+      "nome": "Meia Lupo AF Sport Sap. K3",
+      "descricao": "Estilo, discrição e comodidade. Cada meia sapatilha do kit com três unidades possui faixa de compressão no peito do pé para assegurar estabilidade. O calcanhar verdadeiro proporciona ajuste perfeito e conforto superior. Durável e resistente, é confeccionada com algodão penteado, conferindo toque macio, suave, leve e excelente respirabilidade da pele. Discreta e prática, é invisível no calçado e perfeita para fazer atividade física e usar no trabalho.",
+      "tamanho": "33 a 36 • 37 a 40",
+      "linha": "Básicas - Kits",
+      "cores": [
+        {
+          "cod": "0900",
+          "nome": "Sortida",
+          "img": "/produtos/meias-sport/03171-089/0900.jpg"
+        },
+        {
+          "cod": "0903",
+          "nome": "Sortida",
+          "img": "/produtos/meias-sport/03171-089/0903.jpg"
+        }
+      ],
+      "img": "/produtos/meias-sport/03171-089/0900.jpg"
+    },
+    {
+      "codigo": "03225-089",
+      "nome": "Meia Lupo AU Sport Kit3",
+      "descricao": "Cada meia do kit com três unidades é confeccionada com tecido de algodão, com pontos de ventilação assegura conforto térmico, por permitir rápida evaporação do suor e da umidade.Calcanhar verdadeiro e cano curto oferece ajuste perfeito nos pés e sensação de bem-estar ao vestir.",
+      "tamanho": "33 a 36 • 37 a 40 • 41 a 44",
+      "linha": "Básicas - Kits",
+      "cores": [
+        {
+          "cod": "0901",
+          "nome": "Sortida",
+          "img": "/produtos/meias-sport/03225-089/0901.jpg"
+        },
+        {
+          "cod": "0905",
+          "nome": "Sortida",
+          "img": "/produtos/meias-sport/03225-089/0905.jpg"
+        },
+        {
+          "cod": "0931",
+          "nome": "Sortida",
+          "img": "/produtos/meias-sport/03225-089/0931.jpg"
+        },
+        {
+          "cod": "0932",
+          "nome": "Sortida",
+          "img": "/produtos/meias-sport/03225-089/0932.jpg"
+        }
+      ],
+      "img": "/produtos/meias-sport/03225-089/0931.jpg"
+    },
+    {
+      "codigo": "03226-089",
+      "nome": "Meia Lupo Sport Kit3",
+      "descricao": "Cada meia do kit com três unidades é confeccionada com tecido de algodão, com pontos de ventilação assegura conforto térmico, por permitir rápida evaporação do suor e da umidade. Calcanhar verdadeiro e cano curto oferece ajuste perfeito nos pés e sensação de bem-estar ao vestir.",
+      "tamanho": "33 a 36 • 37 a 40",
+      "linha": "Básicas - Kits",
+      "cores": [
+        {
+          "cod": "0900",
+          "nome": "Sortida",
+          "img": "/produtos/meias-sport/03226-089/0900.jpg"
+        },
+        {
+          "cod": "0906",
+          "nome": "Sortida",
+          "img": "/produtos/meias-sport/03226-089/0906.jpg"
+        },
+        {
+          "cod": "0907",
+          "nome": "Sortida",
+          "img": "/produtos/meias-sport/03226-089/0907.jpg"
+        }
+      ],
+      "img": "/produtos/meias-sport/03226-089/0900.jpg"
+    },
+    {
+      "codigo": "03223-089",
+      "nome": "Meia Lupo AU Sport Lupo K3",
+      "descricao": "Qualidade e conforto todos os dias. Cada meia do kit com três unidades possui cano médio e calcanhar verdadeiro, proporcionando ajuste perfeito e conforto superior. Produzida com algodão penteado, tem toque macio, suave, leve e oferece excelente respirabilidade da pele. Polivalente, é perfeita para fazer atividade física e usar no trabalho.",
+      "tamanho": "37 a 40 • 41 a 44 • 45 a 48",
+      "linha": "Básicas - Kits",
+      "cores": [
+        {
+          "cod": "0900",
+          "nome": "Sortida",
+          "img": "/produtos/meias-sport/03223-089/0900.jpg"
+        },
+        {
+          "cod": "0903",
+          "nome": "Sortida",
+          "img": "/produtos/meias-sport/03223-089/0903.jpg"
+        },
+        {
+          "cod": "0906",
+          "nome": "Sortida",
+          "img": "/produtos/meias-sport/03223-089/0906.jpg"
+        }
+      ],
+      "img": "/produtos/meias-sport/03223-089/0903.jpg"
+    },
+    {
+      "codigo": "03148-089",
+      "nome": "Meia Lupo AM Sport Kit3",
+      "descricao": "Bem-estar, qualidade e estilo. Cada meia do kit com três unidades é atoalhada com felpa para proteger a sola e as regiões de maior impacto. O cano médio e o calcanhar verdadeiro garantem ajuste perfeito e conforto o dia todo. Confeccionada com algodão penteado, elastano que oferece toque macio, suave, leve e excelente respirabilidade da pele.",
+      "tamanho": "37 a 40 • 41 a 44",
+      "linha": "Básicas - Kits",
+      "cores": [
+        {
+          "cod": "0900",
+          "nome": "Sortida",
+          "img": "/produtos/meias-sport/03148-089/0900.jpg"
+        },
+        {
+          "cod": "0901",
+          "nome": "Sortida",
+          "img": "/produtos/meias-sport/03148-089/0901.jpg"
+        },
+        {
+          "cod": "0902",
+          "nome": "Sortida",
+          "img": "/produtos/meias-sport/03148-089/0902.jpg"
+        },
+        {
+          "cod": "0903",
+          "nome": "Sortida",
+          "img": "/produtos/meias-sport/03148-089/0903.jpg"
+        }
+      ],
+      "img": "/produtos/meias-sport/03148-089/0903.jpg"
+    },
+    {
+      "codigo": "03292-089",
+      "nome": "Meia Lupo AM Sport Kit3",
+      "descricao": "Cada meia do kit com três unidades possui cano longo e calcanhar verdadeiro, proporcionando ajuste perfeito e conforto superior. Produzida com algodão penteado, é macia, suave, leve e oferece excelente respirabilidade da pele. Elegante, é perfeita para fazer atividade física e usar no trabalho e em todas as ocasiões.",
+      "tamanho": "37 a 40 • 41 a 44",
+      "linha": "Básicas - Kits",
+      "cores": [
+        {
+          "cod": "0900",
+          "nome": "Sortida",
+          "img": "/produtos/meias-sport/03292-089/0900.jpg"
+        },
+        {
+          "cod": "0901",
+          "nome": "Sortida",
+          "img": "/produtos/meias-sport/03292-089/0901.jpg"
+        },
+        {
+          "cod": "0902",
+          "nome": "Sortida",
+          "img": "/produtos/meias-sport/03292-089/0902.jpg"
+        }
+      ],
+      "img": "/produtos/meias-sport/03292-089/0901.jpg"
+    },
+    {
+      "codigo": "05598-900",
+      "nome": "Meia Loba AF De Prova",
+      "descricao": "Produto para prova de sapatos.",
+      "tamanho": "",
+      "linha": "Básicas - Kits",
+      "cores": [
+        {
+          "cod": "05598-900",
+          "nome": "Padrão",
+          "img": ""
+        }
+      ],
+      "img": ""
+    },
+    {
+      "codigo": "36004-900",
+      "nome": "Máscara Zero Costura Virus-Bac OFF",
+      "descricao": "A máscara zero costura vírus bac-off é desenvolvida com fio especial que possui ação antiviral e bacteriana. Com dupla camada e higienizada para o primeiro uso.",
+      "tamanho": "ÚNICO",
+      "linha": "Básicas - Kits",
+      "cores": [
+        {
+          "cod": "0904",
+          "nome": "Sortida",
+          "img": "/produtos/meias-sport/36004-900/0904.jpg"
+        }
+      ],
+      "img": "/produtos/meias-sport/36004-900/0904.jpg"
+    }
+  ]
+}

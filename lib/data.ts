@@ -4,8 +4,18 @@
 
 import catalogosLocal from "@/data/catalogos.json";
 import produtosCuecas from "@/data/produtos-cuecas.json";
+import produtosLoba from "@/data/produtos-loba.json";
+import produtosBeachwear from "@/data/produtos-beachwear.json";
+import produtosMeiasSport from "@/data/produtos-meias-sport.json";
+import produtosMeiasFemininas from "@/data/produtos-meias-femininas.json";
+import produtosMeiasMasculinas from "@/data/produtos-meias-masculinas.json";
+import produtosMeiasLicenciadas from "@/data/produtos-meias-licenciadas.json";
+import produtosMeiasKids from "@/data/produtos-meias-kids.json";
+import produtosMeiasBaby from "@/data/produtos-meias-baby.json";
+import produtosUk from "@/data/produtos-uk.json";
+import produtosLsport from "@/data/produtos-lsport.json";
 
-export type Cor = { cod: string; nome: string };
+export type Cor = { cod: string; nome: string; img?: string };
 export type Produto = {
   codigo: string;
   nome: string;
@@ -40,6 +50,24 @@ export const CONTATO = {
   boletos: "https://lupo.portaldocliente.online/",
 };
 
+// Produtos locais por slug de catálogo (fallback e uso padrão sem Supabase).
+// Pra ativar um novo catálogo navegável: gere data/produtos-<slug>.json (mesmo
+// formato dos outros) e acrescente uma linha aqui — não precisa mexer em mais
+// nada nesta função.
+const PRODUTOS_LOCAIS: Record<string, { produtos: Produto[] }> = {
+  cuecas: produtosCuecas as any,
+  loba: produtosLoba as any,
+  beachwear: produtosBeachwear as any,
+  "meias-sport": produtosMeiasSport as any,
+  "meias-femininas": produtosMeiasFemininas as any,
+  "meias-masculinas": produtosMeiasMasculinas as any,
+  "meias-licenciadas": produtosMeiasLicenciadas as any,
+  "meias-kids": produtosMeiasKids as any,
+  "meias-baby": produtosMeiasBaby as any,
+  uk: produtosUk as any,
+  lsport: produtosLsport as any,
+};
+
 export async function getCatalogos(): Promise<Catalogo[]> {
   if (USA_SUPABASE) {
     const { supabase } = await import("./supabase");
@@ -64,8 +92,8 @@ export async function getCatalogos(): Promise<Catalogo[]> {
           drive: c.arquivo ? baseStorage + encodeURIComponent(c.arquivo) + v : "",
           // capa servida pelo proprio site (public/capas/<slug>.jpg)
           capa: c.capa_url || `/capas/${c.slug}.jpg`,
-          // padronizado: todos os catalogos abrem o PDF inteiro embutido (sem grade item-a-item)
-          navegavel: false,
+          // grade de produtos clicavel ativada por catalogo (ver PRODUTOS_LOCAIS / tabela "produtos" no Supabase)
+          navegavel: !!c.navegavel,
           total_produtos: null,
         };
       });
@@ -99,8 +127,7 @@ export async function getProdutos(slug: string): Promise<Produto[]> {
       }));
     }
   }
-  if (slug === "cuecas") return (produtosCuecas as any).produtos as Produto[];
-  return [];
+  return (PRODUTOS_LOCAIS[slug]?.produtos as Produto[]) ?? [];
 }
 
 export function getSegmentos(catalogos: Catalogo[]): string[] {

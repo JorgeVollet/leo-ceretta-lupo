@@ -1,0 +1,919 @@
+{
+  "produtos": [
+    {
+      "codigo": "02333-007",
+      "nome": "Meia Disney KU Sap. Anti.",
+      "descricao": "Sapatilha em algodão com elastano para melhor ajuste e conforto. Alças e solado antiderrapante para segurança ao caminhar. Tornando a brincadeira das crianças ainda mais divertida. Linha Disney Kids.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "Disney",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-licenciadas/02333-007/9990.jpg"
+        },
+        {
+          "cod": "5650",
+          "nome": "Vermelho",
+          "img": "/produtos/meias-licenciadas/02333-007/5650.jpg"
+        }
+      ],
+      "img": "/produtos/meias-licenciadas/02333-007/9990.jpg"
+    },
+    {
+      "codigo": "02367-015",
+      "nome": "Meia Disney KF Sap. Anti.",
+      "descricao": "Sapatilha em algodão com elastano para melhor ajuste e conforto. Alças e solado antiderrapante para segurança ao caminhar. Tornando a brincadeira das crianças ainda mais divertida. Linha Disney Kids.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "Disney",
+      "cores": [
+        {
+          "cod": "2550",
+          "nome": "Violeta",
+          "img": "/produtos/meias-licenciadas/02367-015/2550.jpg"
+        },
+        {
+          "cod": "3710",
+          "nome": "Cenoura",
+          "img": "/produtos/meias-licenciadas/02367-015/3710.jpg"
+        },
+        {
+          "cod": "5350",
+          "nome": "Candy",
+          "img": "/produtos/meias-licenciadas/02367-015/5350.jpg"
+        }
+      ],
+      "img": "/produtos/meias-licenciadas/02367-015/2550.jpg"
+    },
+    {
+      "codigo": "02438-005",
+      "nome": "Meia Disney KU Sap. Anti.",
+      "descricao": "Sapatilha em algodão com elastano para melhor ajuste e conforto. Alças e solado antiderrapante para segurança ao caminhar. Tornando a brincadeira das crianças ainda mais divertida. Linha Disney Kids.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "Disney",
+      "cores": [
+        {
+          "cod": "2380",
+          "nome": "Azul",
+          "img": "/produtos/meias-licenciadas/02438-005/2380.jpg"
+        },
+        {
+          "cod": "5370",
+          "nome": "Rosa",
+          "img": "/produtos/meias-licenciadas/02438-005/5370.jpg"
+        }
+      ],
+      "img": "/produtos/meias-licenciadas/02438-005/2380.jpg"
+    },
+    {
+      "codigo": "02238-011",
+      "nome": "Meia Disney KM Sap. Anti.",
+      "descricao": "Sapatilha em algodão com elastano para melhor ajuste e conforto. Alças e solado antiderrapante para segurança ao caminhar. Tornando a brincadeira das crianças ainda mais divertida. Linha Disney Kids.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "Disney",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-licenciadas/02238-011/9990.jpg"
+        },
+        {
+          "cod": "2780",
+          "nome": "Anil",
+          "img": "/produtos/meias-licenciadas/02238-011/2780.jpg"
+        }
+      ],
+      "img": "/produtos/meias-licenciadas/02238-011/9990.jpg"
+    },
+    {
+      "codigo": "02357-004",
+      "nome": "Meia Spider Man KM Sap. Anti.",
+      "descricao": "Sapatilha em algodão com elastano para melhor ajuste e conforto. Alças e solado antiderrapante para segurança ao caminhar. Tornando a brincadeira das crianças ainda mais divertida. Linha Disney Kids.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "Spider Man",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-licenciadas/02357-004/9990.jpg"
+        },
+        {
+          "cod": "2800",
+          "nome": "Marinho",
+          "img": "/produtos/meias-licenciadas/02357-004/2800.jpg"
+        }
+      ],
+      "img": "/produtos/meias-licenciadas/02357-004/9990.jpg"
+    },
+    {
+      "codigo": "02365-009",
+      "nome": "Meia Marvel KM Ving. Sap. Anti.",
+      "descricao": "Sapatilha em algodão com elastano para melhor ajuste e conforto. Alças e solado antiderrapante para segurança ao caminhar. Tornando a brincadeira das crianças ainda mais divertida. Linha Disney Kids.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "Marvel",
+      "cores": [
+        {
+          "cod": "2770",
+          "nome": "Azul Místico",
+          "img": "/produtos/meias-licenciadas/02365-009/2770.jpg"
+        },
+        {
+          "cod": "5650",
+          "nome": "Vermelho",
+          "img": "/produtos/meias-licenciadas/02365-009/5650.jpg"
+        },
+        {
+          "cod": "4610",
+          "nome": "Verde",
+          "img": "/produtos/meias-licenciadas/02365-009/4610.jpg"
+        }
+      ],
+      "img": "/produtos/meias-licenciadas/02365-009/2770.jpg"
+    },
+    {
+      "codigo": "02942-004",
+      "nome": "Meia Disney KU Antiderrap.",
+      "descricao": "Meia em algodão com elastano, cano 10 cm aproximadamente, com antiderrapante para conforto e segurança dos pequenos em suas brincadeiras cotidianas. Linha Disney Kids.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "Disney",
+      "cores": [
+        {
+          "cod": "2770",
+          "nome": "Azul Místico",
+          "img": "/produtos/meias-licenciadas/02942-004/2770.jpg"
+        },
+        {
+          "cod": "5350",
+          "nome": "Candy",
+          "img": "/produtos/meias-licenciadas/02942-004/5350.jpg"
+        }
+      ],
+      "img": "/produtos/meias-licenciadas/02942-004/2770.jpg"
+    },
+    {
+      "codigo": "02944-003",
+      "nome": "Meia Disney KU Antiderrap.",
+      "descricao": "Meia em algodão com elastano, cano 10 cm aproximadamente, com antiderrapante para conforto e segurança dos pequenos em suas brincadeiras cotidianas. Linha Disney Kids.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "Disney",
+      "cores": [
+        {
+          "cod": "2380",
+          "nome": "Azul",
+          "img": "/produtos/meias-licenciadas/02944-003/2380.jpg"
+        },
+        {
+          "cod": "5370",
+          "nome": "Rosa",
+          "img": "/produtos/meias-licenciadas/02944-003/5370.jpg"
+        }
+      ],
+      "img": "/produtos/meias-licenciadas/02944-003/2380.jpg"
+    },
+    {
+      "codigo": "02943-003",
+      "nome": "Meia Spider Man KM Antiderrap.",
+      "descricao": "Meia em algodão com elastano, cano 10 cm aproximadamente, com antiderrapante para conforto e segurança dos pequenos em suas brincadeiras cotidianas. Linha Disney Kids.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "Spider Man",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-licenciadas/02943-003/9990.jpg"
+        }
+      ],
+      "img": "/produtos/meias-licenciadas/02943-003/9990.jpg"
+    },
+    {
+      "codigo": "02394-010",
+      "nome": "Meia Disney KU Mickey",
+      "descricao": "Meia em algodão com elastano para maior conforto e anatomia, calcanhar verdadeiro que mantém o produto no lugar certo. Cano 10 cm aproximadamente. Linha Disney Kids.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "Disney",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-licenciadas/02394-010/9990.jpg"
+        },
+        {
+          "cod": "9980",
+          "nome": "Preta",
+          "img": "/produtos/meias-licenciadas/02394-010/9980.jpg"
+        }
+      ],
+      "img": "/produtos/meias-licenciadas/02394-010/9990.jpg"
+    },
+    {
+      "codigo": "02345-001",
+      "nome": "Meia Disney KU STITCH",
+      "descricao": "Meia em algodão com elastano para maior conforto e anatomia, calcanhar verdadeiro que mantém o produto no lugar certo. Cano 10 cm aproximadamente. Linha Disney Kids.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "Disney",
+      "cores": [
+        {
+          "cod": "2380",
+          "nome": "Azul",
+          "img": "/produtos/meias-licenciadas/02345-001/2380.jpg"
+        },
+        {
+          "cod": "5180",
+          "nome": "Rosa",
+          "img": "/produtos/meias-licenciadas/02345-001/5180.jpg"
+        }
+      ],
+      "img": "/produtos/meias-licenciadas/02345-001/2380.jpg"
+    },
+    {
+      "codigo": "02766-002",
+      "nome": "Meia Disney KU MICKEY",
+      "descricao": "Meia em algodão com elastano para maior conforto e anatomia, calcanhar verdadeiro que mantém o produto no lugar certo. Cano 6 cm aproximadamente. Linha Disney Kids.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "Disney",
+      "cores": [
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-licenciadas/02766-002/1120.jpg"
+        },
+        {
+          "cod": "1130",
+          "nome": "Branca",
+          "img": "/produtos/meias-licenciadas/02766-002/1130.jpg"
+        }
+      ],
+      "img": "/produtos/meias-licenciadas/02766-002/1120.jpg"
+    },
+    {
+      "codigo": "02446-001",
+      "nome": "Meia Marvel KM Spider Man",
+      "descricao": "Meia em algodão com elastano para maior conforto e anatomia, calcanhar verdadeiro que mantém o produto no lugar certo. Linha Disney Kids. Cano de 12 cm aproximadamente.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "Marvel",
+      "cores": [
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-licenciadas/02446-001/1120.jpg"
+        },
+        {
+          "cod": "5650",
+          "nome": "Vermelho",
+          "img": "/produtos/meias-licenciadas/02446-001/5650.jpg"
+        }
+      ],
+      "img": "/produtos/meias-licenciadas/02446-001/1120.jpg"
+    },
+    {
+      "codigo": "02452-001",
+      "nome": "Meia Marvel KM Avengers",
+      "descricao": "Meia em algodão com elastano para maior conforto e anatomia, calcanhar verdadeiro que mantém o produto no lugar certo. Cano 12 cm aproximadamente. Linha Disney Kids.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "Marvel",
+      "cores": [
+        {
+          "cod": "2770",
+          "nome": "Azul Místico",
+          "img": "/produtos/meias-licenciadas/02452-001/2770.jpg"
+        },
+        {
+          "cod": "5650",
+          "nome": "Vermelho",
+          "img": "/produtos/meias-licenciadas/02452-001/5650.jpg"
+        }
+      ],
+      "img": "/produtos/meias-licenciadas/02452-001/2770.jpg"
+    },
+    {
+      "codigo": "02452-002",
+      "nome": "Meia Marvel KM Avengers",
+      "descricao": "Meia em algodão com elastano para maior conforto e anatomia, calcanhar verdadeiro que mantém o produto no lugar certo. Cano 12cm aproximadamente. Linha Disney Kids.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "Marvel",
+      "cores": [
+        {
+          "cod": "4610",
+          "nome": "Verde",
+          "img": "/produtos/meias-licenciadas/02452-002/4610.jpg"
+        },
+        {
+          "cod": "8710",
+          "nome": "Chumbo",
+          "img": "/produtos/meias-licenciadas/02452-002/8710.jpg"
+        }
+      ],
+      "img": "/produtos/meias-licenciadas/02452-002/4610.jpg"
+    },
+    {
+      "codigo": "02453-001",
+      "nome": "Meia Disney KU DIVERTIDAMENTE",
+      "descricao": "Emoção e conforto com a Disney/Pixar e Lupo. Com estampa exclusiva, esta meia é produzida com materiais de qualidade e pode ser utilizada por muito tempo. Super confortável e resistente, possui formato anatômico e se ajusta perfeitamente no calcanhar.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "Disney",
+      "cores": [
+        {
+          "cod": "2380",
+          "nome": "Azul",
+          "img": "/produtos/meias-licenciadas/02453-001/2380.jpg"
+        },
+        {
+          "cod": "3510",
+          "nome": "Amarelo",
+          "img": "/produtos/meias-licenciadas/02453-001/3510.jpg"
+        },
+        {
+          "cod": "4201",
+          "nome": "Verde",
+          "img": "/produtos/meias-licenciadas/02453-001/4201.jpg"
+        },
+        {
+          "cod": "3710",
+          "nome": "Cenoura",
+          "img": "/produtos/meias-licenciadas/02453-001/3710.jpg"
+        },
+        {
+          "cod": "5650",
+          "nome": "Vermelho",
+          "img": "/produtos/meias-licenciadas/02453-001/5650.jpg"
+        }
+      ],
+      "img": "/produtos/meias-licenciadas/02453-001/2380.jpg"
+    },
+    {
+      "codigo": "02495-001",
+      "nome": "Meia Disney KF Frozen",
+      "descricao": "Meia em algodão com elastano para maior conforto e anatomia, calcanhar verdadeiro que mantém o produto no lugar certo. Cano de 15 cm aproximadamente. Linha Disney Kids.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "Disney",
+      "cores": [
+        {
+          "cod": "2140",
+          "nome": "Azul",
+          "img": "/produtos/meias-licenciadas/02495-001/2140.jpg"
+        },
+        {
+          "cod": "5110",
+          "nome": "Rosa",
+          "img": "/produtos/meias-licenciadas/02495-001/5110.jpg"
+        }
+      ],
+      "img": "/produtos/meias-licenciadas/02495-001/2140.jpg"
+    },
+    {
+      "codigo": "02500-001",
+      "nome": "Meia Disney KF Princesas",
+      "descricao": "Meia em algodão com elastano para maior conforto e anatomia, calcanhar verdadeiro que mantém o produto no lugar certo. Cano 15 cm aproximadamente. Linha Disney Kids.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "Disney",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-licenciadas/02500-001/9990.jpg"
+        },
+        {
+          "cod": "4290",
+          "nome": "Verde",
+          "img": "/produtos/meias-licenciadas/02500-001/4290.jpg"
+        },
+        {
+          "cod": "4380",
+          "nome": "Verde",
+          "img": "/produtos/meias-licenciadas/02500-001/4380.jpg"
+        }
+      ],
+      "img": "/produtos/meias-licenciadas/02500-001/9990.jpg"
+    },
+    {
+      "codigo": "02500-002",
+      "nome": "Meia Disney KF Princesas",
+      "descricao": "Meia em algodão com elastano para maior conforto e anatomia, calcanhar verdadeiro que mantém o produto no lugar certo. Cano 15 cm aproximadamente. Linha Disney Kids.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "Disney",
+      "cores": [
+        {
+          "cod": "5370",
+          "nome": "Rosa",
+          "img": "/produtos/meias-licenciadas/02500-002/5370.jpg"
+        },
+        {
+          "cod": "5500",
+          "nome": "Lilás",
+          "img": "/produtos/meias-licenciadas/02500-002/5500.jpg"
+        },
+        {
+          "cod": "8055",
+          "nome": "Off White",
+          "img": "/produtos/meias-licenciadas/02500-002/8055.jpg"
+        }
+      ],
+      "img": "/produtos/meias-licenciadas/02500-002/5370.jpg"
+    },
+    {
+      "codigo": "02500-003",
+      "nome": "Meia Disney KU MICKEY",
+      "descricao": "Meia em algodão com elastano para maior conforto e anatomia, calcanhar verdadeiro que mantém o produto no lugar certo. Cano 15 cm aproximadamente. Linha Disney Kids.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "Disney",
+      "cores": [
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-licenciadas/02500-003/1120.jpg"
+        },
+        {
+          "cod": "2490",
+          "nome": "Lavanda",
+          "img": "/produtos/meias-licenciadas/02500-003/2490.jpg"
+        },
+        {
+          "cod": "8020",
+          "nome": "Cinza",
+          "img": "/produtos/meias-licenciadas/02500-003/8020.jpg"
+        },
+        {
+          "cod": "5110",
+          "nome": "Rosa",
+          "img": "/produtos/meias-licenciadas/02500-003/5110.jpg"
+        }
+      ],
+      "img": "/produtos/meias-licenciadas/02500-003/1120.jpg"
+    },
+    {
+      "codigo": "02408-001",
+      "nome": "Meia Disney KU Stitch",
+      "descricao": "Meia em algodão com elastano para maior conforto e anatomia, calcanhar verdadeiro que mantém o produto no lugar certo. Cano 15 cm aproximadamente. Linha Disney Kids.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "Disney",
+      "cores": [
+        {
+          "cod": "0210",
+          "nome": "Azul",
+          "img": "/produtos/meias-licenciadas/02408-001/0210.jpg"
+        },
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-licenciadas/02408-001/1120.jpg"
+        },
+        {
+          "cod": "2080",
+          "nome": "Azul",
+          "img": "/produtos/meias-licenciadas/02408-001/2080.jpg"
+        }
+      ],
+      "img": "/produtos/meias-licenciadas/02408-001/0210.jpg"
+    },
+    {
+      "codigo": "02430-001",
+      "nome": "Meia Disney KM Carros",
+      "descricao": "Meia em algodão com elastano para maior conforto e anatomia, calcanhar verdadeiro que mantém o produto no lugar certo. Cano 15 cm aproximadamente. Linha Disney Kids.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "Disney",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-licenciadas/02430-001/9990.jpg"
+        },
+        {
+          "cod": "2770",
+          "nome": "Azul Místico",
+          "img": "/produtos/meias-licenciadas/02430-001/2770.jpg"
+        },
+        {
+          "cod": "5650",
+          "nome": "Vermelho",
+          "img": "/produtos/meias-licenciadas/02430-001/5650.jpg"
+        }
+      ],
+      "img": "/produtos/meias-licenciadas/02430-001/9990.jpg"
+    },
+    {
+      "codigo": "02300-293",
+      "nome": "Meia Disney KU MICKEY",
+      "descricao": "Meia em algodão com elastano para maior conforto e anatomia, calcanhar verdadeiro que mantém o produto no lugar certo. Cano 10 cm aproximadamente. Linha Disney Kids.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "Disney",
+      "cores": [
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-licenciadas/02300-293/1120.jpg"
+        },
+        {
+          "cod": "5650",
+          "nome": "Vermelho",
+          "img": "/produtos/meias-licenciadas/02300-293/5650.jpg"
+        },
+        {
+          "cod": "8710",
+          "nome": "Chumbo",
+          "img": "/produtos/meias-licenciadas/02300-293/8710.jpg"
+        }
+      ],
+      "img": "/produtos/meias-licenciadas/02300-293/1120.jpg"
+    },
+    {
+      "codigo": "02350-064",
+      "nome": "Meia Disney KU TOY STORY",
+      "descricao": "Meia em algodão com elastano para maior conforto e anatomia, calcanhar verdadeiro que mantém o produto no lugar certo. Cano 10 cm aproximadamente. Linha Disney Kids.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "Disney",
+      "cores": [
+        {
+          "cod": "2690",
+          "nome": "Marinho",
+          "img": "/produtos/meias-licenciadas/02350-064/2690.jpg"
+        },
+        {
+          "cod": "8055",
+          "nome": "Off White",
+          "img": "/produtos/meias-licenciadas/02350-064/8055.jpg"
+        },
+        {
+          "cod": "8300",
+          "nome": "Cinza Chumbo",
+          "img": "/produtos/meias-licenciadas/02350-064/8300.jpg"
+        }
+      ],
+      "img": "/produtos/meias-licenciadas/02350-064/2690.jpg"
+    },
+    {
+      "codigo": "02445-040",
+      "nome": "Meia Spider Man KM",
+      "descricao": "Meia em algodão com elastano para maior conforto e anatomia, calcanhar verdadeiro que mantém o produto no lugar certo. Cano 8 cm aproximadamente. Linha Disney Kids.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "Spider Man",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-licenciadas/02445-040/9990.jpg"
+        },
+        {
+          "cod": "2770",
+          "nome": "Azul Místico",
+          "img": "/produtos/meias-licenciadas/02445-040/2770.jpg"
+        },
+        {
+          "cod": "5650",
+          "nome": "Vermelho",
+          "img": "/produtos/meias-licenciadas/02445-040/5650.jpg"
+        }
+      ],
+      "img": "/produtos/meias-licenciadas/02445-040/9990.jpg"
+    },
+    {
+      "codigo": "02445-041",
+      "nome": "Meia Spider Man KM",
+      "descricao": "Meia em algodão com elastano para maior conforto e anatomia, calcanhar verdadeiro que mantém o produto no lugar certo. Cano 8 cm aproximadamente. Linha Disney Kids.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "Spider Man",
+      "cores": [
+        {
+          "cod": "2660",
+          "nome": "Azul",
+          "img": "/produtos/meias-licenciadas/02445-041/2660.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-licenciadas/02445-041/9990.jpg"
+        },
+        {
+          "cod": "2780",
+          "nome": "Anil",
+          "img": "/produtos/meias-licenciadas/02445-041/2780.jpg"
+        }
+      ],
+      "img": "/produtos/meias-licenciadas/02445-041/2660.jpg"
+    },
+    {
+      "codigo": "16857-008",
+      "nome": "Meia Kids Super Mario Bros",
+      "descricao": "Meia Super Mario, confeccionada em algodão e elastano de primeira linha, maior conforto e absorção de suor. Calcanhar verdadeiro e cano de 18 cm aproximadamente. Divirta-se e colecione.",
+      "tamanho": "22 a 27 • 28 a 33",
+      "linha": "Super Mario Bros",
+      "cores": [
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-licenciadas/16857-008/1120.jpg"
+        },
+        {
+          "cod": "1130",
+          "nome": "Branca",
+          "img": "/produtos/meias-licenciadas/16857-008/1130.jpg"
+        },
+        {
+          "cod": "1140",
+          "nome": "Branca",
+          "img": "/produtos/meias-licenciadas/16857-008/1140.jpg"
+        }
+      ],
+      "img": "/produtos/meias-licenciadas/16857-008/1120.jpg"
+    },
+    {
+      "codigo": "16857-009",
+      "nome": "Meia Kids Super Mario Bros",
+      "descricao": "Meia Super Mario, confeccionada em algodão e elastano de primeira linha, maior conforto e absorção de suor. Calcanhar verdadeiro e cano de 18 cm aproximadamente. Divirta-se e colecione.",
+      "tamanho": "22 a 27 • 28 a 33",
+      "linha": "Super Mario Bros",
+      "cores": [
+        {
+          "cod": "2230",
+          "nome": "Mescla Azul",
+          "img": "/produtos/meias-licenciadas/16857-009/2230.jpg"
+        },
+        {
+          "cod": "8020",
+          "nome": "Cinza",
+          "img": "/produtos/meias-licenciadas/16857-009/8020.jpg"
+        },
+        {
+          "cod": "8300",
+          "nome": "Cinza Chumbo",
+          "img": "/produtos/meias-licenciadas/16857-009/8300.jpg"
+        }
+      ],
+      "img": "/produtos/meias-licenciadas/16857-009/2230.jpg"
+    },
+    {
+      "codigo": "16320-009",
+      "nome": "Meia Disney AU Marvel",
+      "descricao": "Meia Marvel, confeccionada em algodão e elastano de primeira linha, maior conforto e absorção de suor. Calcanhar verdadeiro e cano de 12 cm aproximadamente. Divirta-se e colecione.",
+      "tamanho": "34 a 38 • 39 a 43",
+      "linha": "Marvel",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-licenciadas/16320-009/9990.jpg"
+        },
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-licenciadas/16320-009/1120.jpg"
+        },
+        {
+          "cod": "5650",
+          "nome": "Vermelho",
+          "img": "/produtos/meias-licenciadas/16320-009/5650.jpg"
+        }
+      ],
+      "img": "/produtos/meias-licenciadas/16320-009/9990.jpg"
+    },
+    {
+      "codigo": "16310-008",
+      "nome": "Meia Disney Pixar AU Divertidamente",
+      "descricao": "Meia Disney Pixar, confeccionada em algodão e elastano de primeira linha, maior conforto e absorção de suor. Calcanhar verdadeiro e cano de 12 cm aproximadamente. Divirta-se e colecione.",
+      "tamanho": "34 a 38 • 39 a 43",
+      "linha": "Disney Pixar",
+      "cores": [
+        {
+          "cod": "0210",
+          "nome": "Azul",
+          "img": "/produtos/meias-licenciadas/16310-008/0210.jpg"
+        },
+        {
+          "cod": "5600",
+          "nome": "Vermelho Queimado",
+          "img": "/produtos/meias-licenciadas/16310-008/5600.jpg"
+        }
+      ],
+      "img": "/produtos/meias-licenciadas/16310-008/0210.jpg"
+    },
+    {
+      "codigo": "16990-036",
+      "nome": "Meia Disney AU Mickey and Friends",
+      "descricao": "Meia Disney, confeccionada em algodão e elastano de primeira linha, maior conforto e absorção de suor. Calcanhar verdadeiro e cano de 22 cm aproximadamente. Divirta-se e colecione.",
+      "tamanho": "34 a 38 • 39 a 43",
+      "linha": "Disney",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-licenciadas/16990-036/9990.jpg"
+        },
+        {
+          "cod": "8040",
+          "nome": "Lunar Grey",
+          "img": "/produtos/meias-licenciadas/16990-036/8040.jpg"
+        }
+      ],
+      "img": "/produtos/meias-licenciadas/16990-036/9990.jpg"
+    },
+    {
+      "codigo": "16990-037",
+      "nome": "Meia Disney AU Stitch",
+      "descricao": "Meia Disney, confeccionada em algodão e elastano de primeira linha, maior conforto e absorção de suor. Calcanhar verdadeiro e cano de 22 cm aproximadamente. Divirta-se e colecione.",
+      "tamanho": "34 a 38 • 39 a 43",
+      "linha": "Disney",
+      "cores": [
+        {
+          "cod": "5090",
+          "nome": "Rosa",
+          "img": "/produtos/meias-licenciadas/16990-037/5090.jpg"
+        },
+        {
+          "cod": "5290",
+          "nome": "Coral",
+          "img": "/produtos/meias-licenciadas/16990-037/5290.jpg"
+        }
+      ],
+      "img": "/produtos/meias-licenciadas/16990-037/5090.jpg"
+    },
+    {
+      "codigo": "16990-038",
+      "nome": "Meia Disney AU Alice in Wonderland",
+      "descricao": "Meia Disney, confeccionada em algodão e elastano de primeira linha, maior conforto e absorção de suor. Calcanhar verdadeiro e cano de 22 cm aproximadamente. Divirta-se e colecione.",
+      "tamanho": "34 a 38 • 39 a 43",
+      "linha": "Disney",
+      "cores": [
+        {
+          "cod": "2140",
+          "nome": "Azul",
+          "img": "/produtos/meias-licenciadas/16990-038/2140.jpg"
+        },
+        {
+          "cod": "5450",
+          "nome": "Rosa Fruti",
+          "img": "/produtos/meias-licenciadas/16990-038/5450.jpg"
+        }
+      ],
+      "img": "/produtos/meias-licenciadas/16990-038/2140.jpg"
+    },
+    {
+      "codigo": "16990-039",
+      "nome": "Meia Disney AU Toy Story",
+      "descricao": "Meia Disney Pixar, confeccionada em algodão e elastano de primeira linha, maior conforto e absorção de suor. Calcanhar verdadeiro e cano de 22 cm aproximadamente. Divirta-se e colecione.",
+      "tamanho": "34 a 38 • 39 a 43",
+      "linha": "Disney",
+      "cores": [
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-licenciadas/16990-039/1120.jpg"
+        },
+        {
+          "cod": "3220",
+          "nome": "Amarelo",
+          "img": "/produtos/meias-licenciadas/16990-039/3220.jpg"
+        }
+      ],
+      "img": "/produtos/meias-licenciadas/16990-039/1120.jpg"
+    },
+    {
+      "codigo": "16990-040",
+      "nome": "Meia Disney AU DIVERTIDAMENTE",
+      "descricao": "Meia Disney Pixar, confeccionada em algodão e elastano de primeira linha, maior conforto e absorção de suor. Calcanhar verdadeiro e cano de 22 cm aproximadamente. Divirta-se e colecione.",
+      "tamanho": "34 a 38 • 39 a 43",
+      "linha": "Disney",
+      "cores": [
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-licenciadas/16990-040/1120.jpg"
+        },
+        {
+          "cod": "5370",
+          "nome": "Rosa",
+          "img": "/produtos/meias-licenciadas/16990-040/5370.jpg"
+        },
+        {
+          "cod": "8040",
+          "nome": "Lunar Grey",
+          "img": "/produtos/meias-licenciadas/16990-040/8040.jpg"
+        }
+      ],
+      "img": "/produtos/meias-licenciadas/16990-040/1120.jpg"
+    },
+    {
+      "codigo": "16990-041",
+      "nome": "Meia Disney AU Mickey and Friends",
+      "descricao": "Meia Disney, confeccionada em algodão e elastano de primeira linha, maior conforto e absorção de suor. Calcanhar verdadeiro e cano de 22 cm aproximadamente. Divirta-se e colecione.",
+      "tamanho": "34 a 38 • 39 a 43",
+      "linha": "Disney",
+      "cores": [
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-licenciadas/16990-041/1120.jpg"
+        }
+      ],
+      "img": "/produtos/meias-licenciadas/16990-041/1120.jpg"
+    },
+    {
+      "codigo": "16990-042",
+      "nome": "Meia Disney AU Stitch",
+      "descricao": "Meia Disney, confeccionada em algodão e elastano de primeira linha, maior conforto e absorção de suor. Calcanhar verdadeiro e cano de 22 cm aproximadamente. Divirta-se e colecione.",
+      "tamanho": "34 a 38 • 39 a 43",
+      "linha": "Disney",
+      "cores": [
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-licenciadas/16990-042/1120.jpg"
+        },
+        {
+          "cod": "1130",
+          "nome": "Branca",
+          "img": "/produtos/meias-licenciadas/16990-042/1130.jpg"
+        }
+      ],
+      "img": "/produtos/meias-licenciadas/16990-042/1120.jpg"
+    },
+    {
+      "codigo": "16990-043",
+      "nome": "Meia Disney Pixar AU Toy Story",
+      "descricao": "Meia Disney Pixar, confeccionada em algodão e elastano de primeira linha, maior conforto e absorção de suor. Calcanhar verdadeiro e cano de 22 cm aproximadamente. Divirta-se e colecione.",
+      "tamanho": "34 a 38 • 39 a 43",
+      "linha": "Disney Pixar",
+      "cores": [
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-licenciadas/16990-043/1120.jpg"
+        },
+        {
+          "cod": "8055",
+          "nome": "Off White",
+          "img": "/produtos/meias-licenciadas/16990-043/8055.jpg"
+        }
+      ],
+      "img": "/produtos/meias-licenciadas/16990-043/1120.jpg"
+    },
+    {
+      "codigo": "16908-034",
+      "nome": "Meia Disney AU Marvel",
+      "descricao": "Meia Marvel, confeccionada em algodão e elastano de primeira linha, maior conforto e absorção de suor. Calcanhar verdadeiro e cano de 22 cm aproximadamente. Divirta-se e colecione.",
+      "tamanho": "34 a 38 • 39 a 43",
+      "linha": "Marvel",
+      "cores": [
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-licenciadas/16908-034/1120.jpg"
+        },
+        {
+          "cod": "8870",
+          "nome": "Grafite",
+          "img": "/produtos/meias-licenciadas/16908-034/8870.jpg"
+        }
+      ],
+      "img": "/produtos/meias-licenciadas/16908-034/1120.jpg"
+    },
+    {
+      "codigo": "16906-011",
+      "nome": "Meia Adulto Super Mario Bros",
+      "descricao": "Meia Super Mario, confeccionada em algodão e elastano de primeira linha, maior conforto e absorção de suor. Calcanhar verdadeiro e cano de 22 cm aproximadamente. Divirta-se e colecione.",
+      "tamanho": "34 a 38 • 39 a 43",
+      "linha": "Super Mario Bros",
+      "cores": [
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-licenciadas/16906-011/1120.jpg"
+        },
+        {
+          "cod": "1130",
+          "nome": "Branca",
+          "img": "/produtos/meias-licenciadas/16906-011/1130.jpg"
+        },
+        {
+          "cod": "1140",
+          "nome": "Branca",
+          "img": "/produtos/meias-licenciadas/16906-011/1140.jpg"
+        }
+      ],
+      "img": "/produtos/meias-licenciadas/16906-011/1120.jpg"
+    },
+    {
+      "codigo": "16906-012",
+      "nome": "Meia Adulto Super Mario Bros",
+      "descricao": "Meia Super Mario, confeccionada em algodão e elastano de primeira linha, maior conforto e absorção de suor. Calcanhar verdadeiro e cano de 22 cm aproximadamente. Divirta-se e colecione.",
+      "tamanho": "34 a 38 • 39 a 43",
+      "linha": "Super Mario Bros",
+      "cores": [
+        {
+          "cod": "2230",
+          "nome": "Mescla Azul",
+          "img": "/produtos/meias-licenciadas/16906-012/2230.jpg"
+        },
+        {
+          "cod": "8020",
+          "nome": "Cinza",
+          "img": "/produtos/meias-licenciadas/16906-012/8020.jpg"
+        },
+        {
+          "cod": "8300",
+          "nome": "Cinza Chumbo",
+          "img": "/produtos/meias-licenciadas/16906-012/8300.jpg"
+        }
+      ],
+      "img": "/produtos/meias-licenciadas/16906-012/2230.jpg"
+    }
+  ]
+}

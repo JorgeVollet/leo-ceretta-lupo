@@ -1,0 +1,881 @@
+{
+  "produtos": [
+    {
+      "codigo": "05898-001",
+      "nome": "Meia-calça Opaca Fio 20",
+      "descricao": "• Sem demarcação de calça • Sem demarcação de ponteira",
+      "tamanho": "",
+      "linha": "Linha Opaca",
+      "cores": [],
+      "img": ""
+    },
+    {
+      "codigo": "05830-001",
+      "nome": "Meia-calça Opaca Fio 40",
+      "descricao": "• Sem demarcação de calça • Sem demarcação de ponteira",
+      "tamanho": "P • GG",
+      "linha": "Linha Opaca",
+      "cores": [
+        {
+          "cod": "1000",
+          "nome": "Branco Antártida",
+          "img": "/produtos/loba/05830-001/1000.jpg"
+        },
+        {
+          "cod": "5680",
+          "nome": "Vermelho Intenso",
+          "img": "/produtos/loba/05830-001/5680.jpg"
+        },
+        {
+          "cod": "6540",
+          "nome": "Pó de Arroz",
+          "img": "/produtos/loba/05830-001/6540.jpg"
+        },
+        {
+          "cod": "7570",
+          "nome": "Café",
+          "img": "/produtos/loba/05830-001/7570.jpg"
+        }
+      ],
+      "img": "/produtos/loba/05830-001/7570.jpg"
+    },
+    {
+      "codigo": "05837-001",
+      "nome": "Meia-calça Opaca Plus",
+      "descricao": "• Tamanho XG: possui forro de algodão • Tamanho XXG: possui complemento de calça",
+      "tamanho": "",
+      "linha": "Linha Opaca",
+      "cores": [],
+      "img": ""
+    },
+    {
+      "codigo": "05716-001",
+      "nome": "Meia-calça Ballet Versátil",
+      "descricao": "Meia com abertura no solado, que garante maior praticidade para as bailarinas. • Sem demarcação de calça • Sem demarcação de ponteira",
+      "tamanho": "",
+      "linha": "Linha Opaca",
+      "cores": [],
+      "img": ""
+    },
+    {
+      "codigo": "05805-001",
+      "nome": "Meia Calça Fio 80 Adulto Acrílico Opaca Loba",
+      "descricao": "• Sem demarcação de calça • Sem demarcação de ponteira",
+      "tamanho": "",
+      "linha": "Linha Opaca",
+      "cores": [],
+      "img": ""
+    },
+    {
+      "codigo": "05858-001",
+      "nome": "Meia-calça Opaca Fio 80",
+      "descricao": "• Sem demarcação de calça • Sem demarcação de ponteira",
+      "tamanho": "",
+      "linha": "Linha Opaca",
+      "cores": [],
+      "img": ""
+    },
+    {
+      "codigo": "05852-001",
+      "nome": "Meia-calça Opaca Plus Fio 80",
+      "descricao": "• Sem demarcação de calça • Sem demarcação de ponteira • Tamanho XG: possui forro de algodão • Tamanho XXG: possui complemento de calça",
+      "tamanho": "",
+      "linha": "Linha Opaca",
+      "cores": [],
+      "img": ""
+    },
+    {
+      "codigo": "17613-001",
+      "nome": "Meia-calça Opaca Plus Raschel",
+      "descricao": "• Sem demarcação de calça • Sem demarcação de ponteira",
+      "tamanho": "",
+      "linha": "Linha Opaca",
+      "cores": [],
+      "img": ""
+    },
+    {
+      "codigo": "05687-001",
+      "nome": "Meia-calça Clássica Poá",
+      "descricao": "• Com demarcação de calça • Sem demarcação de ponteira",
+      "tamanho": "P • G",
+      "linha": "Linha Fina",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/loba/05687-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/loba/05687-001/9990.jpg"
+    },
+    {
+      "codigo": "05097-002",
+      "nome": "Meia-Calça Arrastão Raschel",
+      "descricao": "• Sem demarcação de calça • Sem demarcação de ponteira",
+      "tamanho": "M • G",
+      "linha": "Linha Fina",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/loba/05097-002/9990.jpg"
+        }
+      ],
+      "img": "/produtos/loba/05097-002/9990.jpg"
+    },
+    {
+      "codigo": "17610-001",
+      "nome": "Meia-calça Arrastão Raschel Plus",
+      "descricao": "• Sem demarcação de calça • Sem demarcação de ponteira",
+      "tamanho": "",
+      "linha": "Linha Fina",
+      "cores": [],
+      "img": ""
+    },
+    {
+      "codigo": "05590-001",
+      "nome": "Meia 7/8 Tradicional",
+      "descricao": "• Punho Comfort Band • Com ponteira transparente",
+      "tamanho": "U",
+      "linha": "Linha Fina",
+      "cores": [
+        {
+          "cod": "1000",
+          "nome": "Branco Antártida",
+          "img": "/produtos/loba/05590-001/1000.jpg"
+        },
+        {
+          "cod": "6700",
+          "nome": "Natural Peach",
+          "img": "/produtos/loba/05590-001/6700.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/loba/05590-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/loba/05590-001/9990.jpg"
+    },
+    {
+      "codigo": "05660-001",
+      "nome": "Meia 7/8 com renda",
+      "descricao": "• Sem demarcação de ponteira • Renda com elastano e silicone",
+      "tamanho": "",
+      "linha": "Linha Fina",
+      "cores": [],
+      "img": ""
+    },
+    {
+      "codigo": "05870-002",
+      "nome": "Meia-calça Invisível",
+      "descricao": "• Com demarcação de calça • Com ponteira transparente",
+      "tamanho": "",
+      "linha": "Linha Fina",
+      "cores": [],
+      "img": ""
+    },
+    {
+      "codigo": "05765-001",
+      "nome": "Meia-calça Clássica Fina Dedos Livres",
+      "descricao": "• Com demarcação de calça • Com ponteira dedos livres",
+      "tamanho": "P",
+      "linha": "Linha Fina",
+      "cores": [
+        {
+          "cod": "6700",
+          "nome": "Natural Peach",
+          "img": "/produtos/loba/05765-001/6700.jpg"
+        },
+        {
+          "cod": "6930",
+          "nome": "Cacao",
+          "img": "/produtos/loba/05765-001/6930.jpg"
+        }
+      ],
+      "img": "/produtos/loba/05765-001/6930.jpg"
+    },
+    {
+      "codigo": "05760-001",
+      "nome": "Meia-calça Clássica Fina",
+      "descricao": "• Com demarcação de calça • Sem demarcação de ponteira • Tamanhos P, M, G e GG: possui demarcação de ponteira",
+      "tamanho": "P • M • G • GG",
+      "linha": "Linha Fina",
+      "cores": [
+        {
+          "cod": "1000",
+          "nome": "Branco Antártida",
+          "img": "/produtos/loba/05760-001/1000.jpg"
+        },
+        {
+          "cod": "6540",
+          "nome": "Pó de Arroz",
+          "img": "/produtos/loba/05760-001/6540.jpg"
+        },
+        {
+          "cod": "6700",
+          "nome": "Natural Peach",
+          "img": "/produtos/loba/05760-001/6700.jpg"
+        },
+        {
+          "cod": "7780",
+          "nome": "Café",
+          "img": "/produtos/loba/05760-001/7780.jpg"
+        }
+      ],
+      "img": "/produtos/loba/05760-001/6700.jpg"
+    },
+    {
+      "codigo": "05795-001",
+      "nome": "Meia-calça Clássica Plus",
+      "descricao": "• Com demarcação de calça • Com demarcação de ponteira • Tamanho XG: possui forro de algodão • Tamanho XXG: possui complemento de calça",
+      "tamanho": "",
+      "linha": "Linha Fina",
+      "cores": [],
+      "img": ""
+    },
+    {
+      "codigo": "05770-002",
+      "nome": "Meia-calça Essencial",
+      "descricao": "• Sem demarcação de calça • Sem demarcação de ponteira",
+      "tamanho": "P",
+      "linha": "Linha Fina",
+      "cores": [
+        {
+          "cod": "6540",
+          "nome": "Pó de Arroz",
+          "img": "/produtos/loba/05770-002/6540.jpg"
+        }
+      ],
+      "img": "/produtos/loba/05770-002/6540.jpg"
+    },
+    {
+      "codigo": "05685-001",
+      "nome": "Meia-calça Risca Atrás",
+      "descricao": "• Com demarcação de calça • Sem demarcação de ponteira",
+      "tamanho": "GG",
+      "linha": "Linha Fina",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/loba/05685-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/loba/05685-001/9990.jpg"
+    },
+    {
+      "codigo": "05680-001",
+      "nome": "MEIA-CALÇA NEWS",
+      "descricao": "• Com demarcação de calça • Sem demarcação de ponteira",
+      "tamanho": "P",
+      "linha": "Linha Fina",
+      "cores": [
+        {
+          "cod": "6540",
+          "nome": "Pó de Arroz",
+          "img": "/produtos/loba/05680-001/6540.jpg"
+        },
+        {
+          "cod": "6700",
+          "nome": "Natural Peach",
+          "img": "/produtos/loba/05680-001/6700.jpg"
+        }
+      ],
+      "img": "/produtos/loba/05680-001/6540.jpg"
+    },
+    {
+      "codigo": "17622-001",
+      "nome": "Soquete Raschel",
+      "descricao": "",
+      "tamanho": "U",
+      "linha": "Linha 3/4",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preto",
+          "img": "/produtos/loba/17622-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/loba/17622-001/9990.jpg"
+    },
+    {
+      "codigo": "17623-001",
+      "nome": "Soquete Floral Raschel",
+      "descricao": "",
+      "tamanho": "U",
+      "linha": "Linha 3/4",
+      "cores": [
+        {
+          "cod": "6140",
+          "nome": "Natural Peach",
+          "img": "/produtos/loba/17623-001/6140.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preto",
+          "img": "/produtos/loba/17623-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/loba/17623-001/9990.jpg"
+    },
+    {
+      "codigo": "05552-001",
+      "nome": "Meia Sapatilha Invisível Adulto Lupo",
+      "descricao": "Com calcanhar verdadeiro.",
+      "tamanho": "33 a 36 • 37 a 40",
+      "linha": "Linha 3/4",
+      "cores": [
+        {
+          "cod": "6140",
+          "nome": "Natural Peach",
+          "img": "/produtos/loba/05552-001/6140.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preto",
+          "img": "/produtos/loba/05552-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/loba/05552-001/9990.jpg"
+    },
+    {
+      "codigo": "05520-001",
+      "nome": "Sapatilha",
+      "descricao": "",
+      "tamanho": "U",
+      "linha": "Linha 3/4",
+      "cores": [
+        {
+          "cod": "6540",
+          "nome": "Pó de Arroz",
+          "img": "/produtos/loba/05520-001/6540.jpg"
+        }
+      ],
+      "img": "/produtos/loba/05520-001/6540.jpg"
+    },
+    {
+      "codigo": "05510-001",
+      "nome": "Mini Lu 3/4 Básica",
+      "descricao": "",
+      "tamanho": "",
+      "linha": "Linha 3/4",
+      "cores": [],
+      "img": ""
+    },
+    {
+      "codigo": "05530-001",
+      "nome": "Soquete Fina",
+      "descricao": "• Sem demarcação de ponteira",
+      "tamanho": "U",
+      "linha": "Linha 3/4",
+      "cores": [
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/loba/05530-001/1110.jpg"
+        }
+      ],
+      "img": "/produtos/loba/05530-001/1110.jpg"
+    },
+    {
+      "codigo": "05531-001",
+      "nome": "Soquete Opaca Fio 40",
+      "descricao": "• Sem demarcação de ponteira",
+      "tamanho": "",
+      "linha": "Linha 3/4",
+      "cores": [],
+      "img": ""
+    },
+    {
+      "codigo": "05550-001",
+      "nome": "Mini Lu 3/4 Opaca Fio 40",
+      "descricao": "• Sem demarcação de ponteira",
+      "tamanho": "",
+      "linha": "Linha 3/4",
+      "cores": [],
+      "img": ""
+    },
+    {
+      "codigo": "17752-001",
+      "nome": "Body Raschel",
+      "descricao": "",
+      "tamanho": "ÚNICO",
+      "linha": "Linha Segunda Pele",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/loba/17752-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/loba/17752-001/9990.jpg"
+    },
+    {
+      "codigo": "00840-001",
+      "nome": "Segunda Pele Gola Alta",
+      "descricao": "",
+      "tamanho": "U",
+      "linha": "Linha Segunda Pele",
+      "cores": [
+        {
+          "cod": "1000",
+          "nome": "Branco Antártida",
+          "img": "/produtos/loba/00840-001/1000.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/loba/00840-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/loba/00840-001/1000.jpg"
+    },
+    {
+      "codigo": "00800-001",
+      "nome": "Blusa Segunda Pele Manga Longa",
+      "descricao": "",
+      "tamanho": "GG • U",
+      "linha": "Linha Segunda Pele",
+      "cores": [
+        {
+          "cod": "1000",
+          "nome": "Branco Antártida",
+          "img": "/produtos/loba/00800-001/1000.jpg"
+        },
+        {
+          "cod": "6540",
+          "nome": "Pó de Arroz",
+          "img": "/produtos/loba/00800-001/6540.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/loba/00800-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/loba/00800-001/1000.jpg"
+    },
+    {
+      "codigo": "05690-003",
+      "nome": "Short Up-Line",
+      "descricao": "",
+      "tamanho": "M • G • GG",
+      "linha": "Linha Atributos",
+      "cores": [
+        {
+          "cod": "6006",
+          "nome": "Nude",
+          "img": "/produtos/loba/05690-003/6006.jpg"
+        },
+        {
+          "cod": "6540",
+          "nome": "Pó de Arroz",
+          "img": "/produtos/loba/05690-003/6540.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/loba/05690-003/9990.jpg"
+        }
+      ],
+      "img": "/produtos/loba/05690-003/6006.jpg"
+    },
+    {
+      "codigo": "05695-001",
+      "nome": "Bermuda Up-Line",
+      "descricao": "",
+      "tamanho": "P • M • G • GG • XG",
+      "linha": "Linha Atributos",
+      "cores": [
+        {
+          "cod": "6540",
+          "nome": "Pó de Arroz",
+          "img": "/produtos/loba/05695-001/6540.jpg"
+        }
+      ],
+      "img": "/produtos/loba/05695-001/6540.jpg"
+    },
+    {
+      "codigo": "05865-001",
+      "nome": "Corsário Up-Line",
+      "descricao": "",
+      "tamanho": "",
+      "linha": "Linha Atributos",
+      "cores": [],
+      "img": ""
+    },
+    {
+      "codigo": "05895-001",
+      "nome": "Meia-Calça Up-Line",
+      "descricao": "",
+      "tamanho": "",
+      "linha": "Linha Atributos",
+      "cores": [],
+      "img": ""
+    },
+    {
+      "codigo": "05694-001",
+      "nome": "Short Slim",
+      "descricao": "",
+      "tamanho": "",
+      "linha": "Linha Atributos",
+      "cores": [],
+      "img": ""
+    },
+    {
+      "codigo": "05696-001",
+      "nome": "Bermuda Slim",
+      "descricao": "",
+      "tamanho": "M",
+      "linha": "Linha Atributos",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/loba/05696-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/loba/05696-001/9990.jpg"
+    },
+    {
+      "codigo": "05697-001",
+      "nome": "Bermuda Slim Plus",
+      "descricao": "",
+      "tamanho": "",
+      "linha": "Linha Atributos",
+      "cores": [],
+      "img": ""
+    },
+    {
+      "codigo": "59000-002",
+      "nome": "Meia-calça Suave Compressão Importada",
+      "descricao": "",
+      "tamanho": "P • M • G • GG",
+      "linha": "Linha Terapêutica",
+      "cores": [
+        {
+          "cod": "6540",
+          "nome": "Pó de Arroz",
+          "img": "/produtos/loba/59000-002/6540.jpg"
+        }
+      ],
+      "img": "/produtos/loba/59000-002/6540.jpg"
+    },
+    {
+      "codigo": "59100-002",
+      "nome": "Meia-calça Média Compressão Importada",
+      "descricao": "",
+      "tamanho": "P • M • G • GG",
+      "linha": "Linha Terapêutica",
+      "cores": [
+        {
+          "cod": "6540",
+          "nome": "Pó de Arroz",
+          "img": "/produtos/loba/59100-002/6540.jpg"
+        }
+      ],
+      "img": "/produtos/loba/59100-002/6540.jpg"
+    },
+    {
+      "codigo": "59200-002",
+      "nome": "Meia-calça Alta Compressão Importada",
+      "descricao": "",
+      "tamanho": "P • M • G • GG",
+      "linha": "Linha Terapêutica",
+      "cores": [
+        {
+          "cod": "6540",
+          "nome": "Pó de Arroz",
+          "img": "/produtos/loba/59200-002/6540.jpg"
+        }
+      ],
+      "img": "/produtos/loba/59200-002/6540.jpg"
+    },
+    {
+      "codigo": "59700-002",
+      "nome": "Meia 3/4 Suave Compressão Importada",
+      "descricao": "",
+      "tamanho": "34 a 36 • 37 a 39",
+      "linha": "Linha Terapêutica",
+      "cores": [
+        {
+          "cod": "6540",
+          "nome": "Pó de Arroz",
+          "img": "/produtos/loba/59700-002/6540.jpg"
+        }
+      ],
+      "img": "/produtos/loba/59700-002/6540.jpg"
+    },
+    {
+      "codigo": "59800-002",
+      "nome": "Meia 3/4 Média Compressão Importada",
+      "descricao": "",
+      "tamanho": "34 a 36 • 37 a 39",
+      "linha": "Linha Terapêutica",
+      "cores": [
+        {
+          "cod": "6540",
+          "nome": "Pó de Arroz",
+          "img": "/produtos/loba/59800-002/6540.jpg"
+        }
+      ],
+      "img": "/produtos/loba/59800-002/6540.jpg"
+    },
+    {
+      "codigo": "59900-002",
+      "nome": "Meia 3/4 Alta Compressão Importada",
+      "descricao": "",
+      "tamanho": "34 a 36 • 37 a 39",
+      "linha": "Linha Terapêutica",
+      "cores": [
+        {
+          "cod": "6540",
+          "nome": "Pó de Arroz",
+          "img": "/produtos/loba/59900-002/6540.jpg"
+        }
+      ],
+      "img": "/produtos/loba/59900-002/6540.jpg"
+    },
+    {
+      "codigo": "41850-002",
+      "nome": "Legging Sem Costura",
+      "descricao": "•Opaca •Punho confortável •Amni Bac Off •Antiviral e Bacteriostático",
+      "tamanho": "P • M • G • GG • XG",
+      "linha": "Leggings Sem Costura",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/loba/41850-002/9990.jpg"
+        }
+      ],
+      "img": "/produtos/loba/41850-002/9990.jpg"
+    },
+    {
+      "codigo": "41851-001",
+      "nome": "Legging Sem Costura",
+      "descricao": "• Superopaca • Punho confortável • Fio texturizado a ar, toque macio",
+      "tamanho": "P • M • G • GG • XG",
+      "linha": "Leggings Sem Costura",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/loba/41851-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/loba/41851-001/9990.jpg"
+    },
+    {
+      "codigo": "41853-002",
+      "nome": "Legging Gestante",
+      "descricao": "•Opaca •Punho confortável •Envolve e suporta suavemente a barriga •Malha canelada nas costas para aliviar a lombar •Malha macia e flexível, conforto extremo em todo período da gestação •Amni Bac Off •Antiviral e Bateriostático",
+      "tamanho": "P • M • G • GG",
+      "linha": "Leggings Sem Costura",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/loba/41853-002/9990.jpg"
+        }
+      ],
+      "img": "/produtos/loba/41853-002/9990.jpg"
+    },
+    {
+      "codigo": "41888-001",
+      "nome": "Calça Alfaiataria",
+      "descricao": "•Superopaca •Liberdade de movimento •Bolso frontal verdadeiro",
+      "tamanho": "P • M • G • GG",
+      "linha": "Calças Comfy",
+      "cores": [
+        {
+          "cod": "2800",
+          "nome": "Marinho",
+          "img": "/produtos/loba/41888-001/2800.jpg"
+        },
+        {
+          "cod": "8820",
+          "nome": "Chumbo Mescla",
+          "img": "/produtos/loba/41888-001/8820.jpg"
+        },
+        {
+          "cod": "7530",
+          "nome": "Canela",
+          "img": "/produtos/loba/41888-001/7530.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/loba/41888-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/loba/41888-001/9990.jpg"
+    },
+    {
+      "codigo": "41886-001",
+      "nome": "Calça Ballon",
+      "descricao": "•Superopaca •Cós com botão e passante para cinto •Braguilha com zíper •Botão na barra •Detalhe de bolso traseiro",
+      "tamanho": "P • M • G • GG",
+      "linha": "Calças Comfy",
+      "cores": [
+        {
+          "cod": "5144",
+          "nome": "Telha",
+          "img": "/produtos/loba/41886-001/5144.jpg"
+        },
+        {
+          "cod": "6670",
+          "nome": "Cáqui",
+          "img": "/produtos/loba/41886-001/6670.jpg"
+        },
+        {
+          "cod": "2805",
+          "nome": "Marinho",
+          "img": "/produtos/loba/41886-001/2805.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/loba/41886-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/loba/41886-001/2805.jpg"
+    },
+    {
+      "codigo": "41887-001",
+      "nome": "Calça Alfaiataria Cropped",
+      "descricao": "•Superopaca •Liberdade de movimento •Bolso frontal verdadeiro",
+      "tamanho": "P • M • G • GG",
+      "linha": "Calças Comfy",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/loba/41887-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/loba/41887-001/9990.jpg"
+    },
+    {
+      "codigo": "41885-001",
+      "nome": "Calça com zíper na barra",
+      "descricao": "•Superopaca •Com zíper na barra",
+      "tamanho": "P • M • G • GG",
+      "linha": "Calças Comfy",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/loba/41885-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/loba/41885-001/9990.jpg"
+    },
+    {
+      "codigo": "41867-001",
+      "nome": "Calça Alfaiataria",
+      "descricao": "•Liberdade de movimento •Superopaca •Braguilha •Cós com passantes para cinto •Barra italiana",
+      "tamanho": "P • M • G • GG",
+      "linha": "Calças Comfy",
+      "cores": [
+        {
+          "cod": "2300",
+          "nome": "Blue Nights",
+          "img": "/produtos/loba/41867-001/2300.jpg"
+        },
+        {
+          "cod": "2800",
+          "nome": "Marinho",
+          "img": "/produtos/loba/41867-001/2800.jpg"
+        },
+        {
+          "cod": "8020",
+          "nome": "Cinza",
+          "img": "/produtos/loba/41867-001/8020.jpg"
+        },
+        {
+          "cod": "8820",
+          "nome": "Chumbo Mescla",
+          "img": "/produtos/loba/41867-001/8820.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/loba/41867-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/loba/41867-001/9990.jpg"
+    },
+    {
+      "codigo": "05857-001",
+      "nome": "CALÇA MONTARIA",
+      "descricao": "•Superopaca •Braguilha •Detalhe de bolso frontal",
+      "tamanho": "P • M • G • GG",
+      "linha": "Calças Comfy",
+      "cores": [
+        {
+          "cod": "7560",
+          "nome": "Cravo",
+          "img": "/produtos/loba/05857-001/7560.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/loba/05857-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/loba/05857-001/9990.jpg"
+    },
+    {
+      "codigo": "41880-001",
+      "nome": "Calca Jogging Cargo",
+      "descricao": "•Liberdade de movimento •Super opaca •Bolso frontal em fechamento zíper •Cordão de ajuste •Bolso lateral cargo •Malha elástica no cós e entrepernas para liberdade de movimento",
+      "tamanho": "P • M • G • GG",
+      "linha": "Calças Comfy",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/loba/41880-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/loba/41880-001/9990.jpg"
+    },
+    {
+      "codigo": "41883-001",
+      "nome": "CALÇA COTTON",
+      "descricao": "•Liberdade de movimento •Superopaca •Toque macio e natural •Detalhe de bolso frontal •Bolso traseiro verdadeiro",
+      "tamanho": "P • M • G • GG • XG",
+      "linha": "Calças Comfy",
+      "cores": [
+        {
+          "cod": "2800",
+          "nome": "Marinho",
+          "img": "/produtos/loba/41883-001/2800.jpg"
+        },
+        {
+          "cod": "4990",
+          "nome": "Verde Selva",
+          "img": "/produtos/loba/41883-001/4990.jpg"
+        },
+        {
+          "cod": "5940",
+          "nome": "Vinho",
+          "img": "/produtos/loba/41883-001/5940.jpg"
+        },
+        {
+          "cod": "6670",
+          "nome": "Cáqui",
+          "img": "/produtos/loba/41883-001/6670.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/loba/41883-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/loba/41883-001/4990.jpg"
+    }
+  ]
+}

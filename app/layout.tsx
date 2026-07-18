@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Archivo, DM_Sans, IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
 import WhatsappFloat from "@/components/WhatsappFloat";
+import CarrinhoFlutuante from "@/components/CarrinhoFlutuante";
+import { CartProvider } from "@/lib/cart-context";
 
 const display = Archivo({
   subsets: ["latin"],
@@ -29,8 +31,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="pt-BR" className={`${display.variable} ${sans.variable} ${mono.variable}`}>
       <body className="bg-stone font-sans text-ink antialiased">
-        {children}
-        <WhatsappFloat />
+        <CartProvider>
+          {children}
+          <WhatsappFloat />
+          <CarrinhoFlutuante />
+        </CartProvider>
       </body>
     </html>
   );

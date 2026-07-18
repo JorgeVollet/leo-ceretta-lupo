@@ -1,0 +1,1049 @@
+{
+  "produtos": [
+    {
+      "codigo": "11251-032",
+      "nome": "Meia Lupo KF Sap. Anti.",
+      "descricao": "Sapatilha em algodão com elastano para melhor ajuste e conforto. Alças e solado antiderrapante para segurança ao caminhar. Tornando a brincadeira das crianças ainda mais divertida.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "2800",
+          "nome": "Marinho",
+          "img": "/produtos/meias-kids/11251-032/2800.jpg"
+        },
+        {
+          "cod": "5285",
+          "nome": "Malva",
+          "img": "/produtos/meias-kids/11251-032/5285.jpg"
+        }
+      ],
+      "img": "/produtos/meias-kids/11251-032/5285.jpg"
+    },
+    {
+      "codigo": "11251-033",
+      "nome": "Meia Lupo KU Sap. Anti.",
+      "descricao": "Sapatilha em algodão com elastano para melhor ajuste e conforto. Alças e solado antiderrapante para segurança ao caminhar. Tornando a brincadeira das crianças ainda mais divertida.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "0799",
+          "nome": "Persian",
+          "img": "/produtos/meias-kids/11251-033/0799.jpg"
+        },
+        {
+          "cod": "8710",
+          "nome": "Chumbo",
+          "img": "/produtos/meias-kids/11251-033/8710.jpg"
+        }
+      ],
+      "img": "/produtos/meias-kids/11251-033/0799.jpg"
+    },
+    {
+      "codigo": "02142-031",
+      "nome": "Meia Lupo KU Sap. Anti.",
+      "descricao": "Sapatilha em algodão com elastano para melhor ajuste e conforto. Solado antiderrapante para segurança ao caminhar. Tornando a brincadeira das crianças ainda mais divertida.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "5450",
+          "nome": "Rosa Fruti",
+          "img": "/produtos/meias-kids/02142-031/5450.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-kids/02142-031/9990.jpg"
+        }
+      ],
+      "img": "/produtos/meias-kids/02142-031/9990.jpg"
+    },
+    {
+      "codigo": "02142-032",
+      "nome": "Meia Lupo KU Sap. Anti.",
+      "descricao": "Sapatilha em algodão com elastano para melhor ajuste e conforto. Solado antiderrapante para segurança ao caminhar. Tornando a brincadeira das crianças ainda mais divertida.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "2491",
+          "nome": "Lilás",
+          "img": "/produtos/meias-kids/02142-032/2491.jpg"
+        },
+        {
+          "cod": "2690",
+          "nome": "Marinho",
+          "img": "/produtos/meias-kids/02142-032/2690.jpg"
+        }
+      ],
+      "img": "/produtos/meias-kids/02142-032/2491.jpg"
+    },
+    {
+      "codigo": "02627-004",
+      "nome": "Meia Lupo KU Sap. Atoal. Ant.",
+      "descricao": "Sapatilha em algodão com elastano para melhor ajuste e conforto, alças e solado antiderrapante para segurança ao caminhar, tornando a brincadeira das crianças ainda mais divertida.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "5350",
+          "nome": "Candy",
+          "img": "/produtos/meias-kids/02627-004/5350.jpg"
+        },
+        {
+          "cod": "8020",
+          "nome": "Cinza",
+          "img": "/produtos/meias-kids/02627-004/8020.jpg"
+        },
+        {
+          "cod": "9970",
+          "nome": "Preta",
+          "img": "/produtos/meias-kids/02627-004/9970.jpg"
+        }
+      ],
+      "img": "/produtos/meias-kids/02627-004/5350.jpg"
+    },
+    {
+      "codigo": "02286-002",
+      "nome": "Meia Lupo KU Sap. Anti.",
+      "descricao": "Sapatilha em algodão, totalmente sem costura. Abertura frontal para ajuste e respirabilidade. Solado antiderrapante para maior segurança e proteção na hora de brincar ou praticar exercícios de solo.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "5110",
+          "nome": "Rosa",
+          "img": "/produtos/meias-kids/02286-002/5110.jpg"
+        },
+        {
+          "cod": "5285",
+          "nome": "Malva",
+          "img": "/produtos/meias-kids/02286-002/5285.jpg"
+        },
+        {
+          "cod": "8600",
+          "nome": "Medium Grey",
+          "img": "/produtos/meias-kids/02286-002/8600.jpg"
+        }
+      ],
+      "img": "/produtos/meias-kids/02286-002/8600.jpg"
+    },
+    {
+      "codigo": "02911-003",
+      "nome": "Meia Lupo KU Antiderrap.",
+      "descricao": "Meia em poliamida com elastano, Cano 5 cm aproximadamente. Com antiderrapante para conforto e segurança dos pequenos em suas brincadeiras cotidianas.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "2030",
+          "nome": "Hortência",
+          "img": "/produtos/meias-kids/02911-003/2030.jpg"
+        },
+        {
+          "cod": "5400",
+          "nome": "Rosa Neon",
+          "img": "/produtos/meias-kids/02911-003/5400.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preto",
+          "img": "/produtos/meias-kids/02911-003/9990.jpg"
+        }
+      ],
+      "img": "/produtos/meias-kids/02911-003/2030.jpg"
+    },
+    {
+      "codigo": "02910-023",
+      "nome": "Meia Lupo KU Antiderrap.",
+      "descricao": "Meia em algodão com elastano, cano 2 cm, com antiderrapante para conforto e segurança dos pequenos em suas brincadeiras cotidianas.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "2690",
+          "nome": "Marinho",
+          "img": "/produtos/meias-kids/02910-023/2690.jpg"
+        },
+        {
+          "cod": "5450",
+          "nome": "Rosa Fruti",
+          "img": "/produtos/meias-kids/02910-023/5450.jpg"
+        }
+      ],
+      "img": "/produtos/meias-kids/02910-023/2690.jpg"
+    },
+    {
+      "codigo": "02941-008",
+      "nome": "Meia Lupo KU Antiderrap.",
+      "descricao": "Meia em algodão com elastano, cano 10 cm aproximadamente, com antiderrapante para conforto e segurança dos pequenos em suas brincadeiras cotidianas.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "4610",
+          "nome": "Verde",
+          "img": "/produtos/meias-kids/02941-008/4610.jpg"
+        },
+        {
+          "cod": "5450",
+          "nome": "Rosa Fruti",
+          "img": "/produtos/meias-kids/02941-008/5450.jpg"
+        }
+      ],
+      "img": "/produtos/meias-kids/02941-008/5450.jpg"
+    },
+    {
+      "codigo": "02685-012",
+      "nome": "Meia Lupo KF Aplicativo",
+      "descricao": "Meia em algodão com elastano para maior conforto e anatomia, Com aplicativo no punho, calcanhar verdadeiro que mantém o produto no lugar certo. Cano 8 cm aproximadamente.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-kids/02685-012/1120.jpg"
+        },
+        {
+          "cod": "1140",
+          "nome": "Branca",
+          "img": "/produtos/meias-kids/02685-012/1140.jpg"
+        },
+        {
+          "cod": "1160",
+          "nome": "Branco",
+          "img": "/produtos/meias-kids/02685-012/1160.jpg"
+        },
+        {
+          "cod": "1180",
+          "nome": "Branca",
+          "img": "/produtos/meias-kids/02685-012/1180.jpg"
+        }
+      ],
+      "img": "/produtos/meias-kids/02685-012/1160.jpg"
+    },
+    {
+      "codigo": "02262-001",
+      "nome": "Meia Lupo KF Artesanal",
+      "descricao": "A Meia Infantil Lisa com Aplique Lupo é um produto de alta qualidade e conforto, ideal para manter os pés das crianças protegidos e confortáveis. Feita com 100% de poliamida, essa meia oferece um toque suave e macio, além de ser respirável e durável. Com cano de 10cm, ela proporciona um ajuste perfeito e cobertura adequada para os pés. O design liso e elegante, juntamente com o aplique decorativo, adiciona um toque de estilo e diversão ao visual. A tecnologia sem costura evita atritos e incômodos, garantindo ainda mais conforto durante o uso.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "0990",
+          "nome": "Sortida",
+          "img": "/produtos/meias-kids/02262-001/0990.jpg"
+        }
+      ],
+      "img": "/produtos/meias-kids/02262-001/0990.jpg"
+    },
+    {
+      "codigo": "02640-037",
+      "nome": "Meia Lupo KM 3D",
+      "descricao": "Meia em algodão com elastano para maior conforto e anatomia, calcanhar verdadeiro que mantém o produto no lugar certo. Efeito 3D no desenho. Cano 10 cm aproximadamente.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "2370",
+          "nome": "Azul",
+          "img": "/produtos/meias-kids/02640-037/2370.jpg"
+        },
+        {
+          "cod": "4610",
+          "nome": "Verde",
+          "img": "/produtos/meias-kids/02640-037/4610.jpg"
+        },
+        {
+          "cod": "3581",
+          "nome": "Antilope",
+          "img": "/produtos/meias-kids/02640-037/3581.jpg"
+        }
+      ],
+      "img": "/produtos/meias-kids/02640-037/4610.jpg"
+    },
+    {
+      "codigo": "02640-038",
+      "nome": "Meia Lupo KF 3D",
+      "descricao": "Meia em algodão com elastano para maior conforto e anatomia, calcanhar verdadeiro que mantém o produto no lugar certo. Efeito 3D no desenho. Cano 12 cm aproximadamente.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-kids/02640-038/1120.jpg"
+        },
+        {
+          "cod": "6170",
+          "nome": "Natural",
+          "img": "/produtos/meias-kids/02640-038/6170.jpg"
+        },
+        {
+          "cod": "8020",
+          "nome": "Cinza",
+          "img": "/produtos/meias-kids/02640-038/8020.jpg"
+        }
+      ],
+      "img": "/produtos/meias-kids/02640-038/6170.jpg"
+    },
+    {
+      "codigo": "02650-003",
+      "nome": "Meia Lupo KF Felpuda",
+      "descricao": "As nossas meias feitas com fio de poliéster felpudo são tão macias que parecem um abraço, proporcionando conforto e aconchego para os pés. Disponíveis em três modelos encantadores oferecemos numerações que atendem tanto o público infantil quanto o adulto, garantindo que todos possam se sentir quentinhos e desfrutar de um toque de suavidade.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-kids/02650-003/1120.jpg"
+        },
+        {
+          "cod": "5410",
+          "nome": "Bubble Gum",
+          "img": "/produtos/meias-kids/02650-003/5410.jpg"
+        },
+        {
+          "cod": "6210",
+          "nome": "Bege",
+          "img": "/produtos/meias-kids/02650-003/6210.jpg"
+        }
+      ],
+      "img": "/produtos/meias-kids/02650-003/1120.jpg"
+    },
+    {
+      "codigo": "02630-267",
+      "nome": "Meia Lupo KM",
+      "descricao": "Meia em algodão com elastano para maior conforto e anatomia, calcanhar verdadeiro que mantém o produto no lugar certo, cano 10 cm aproximadamente.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-kids/02630-267/1120.jpg"
+        },
+        {
+          "cod": "3710",
+          "nome": "Cenoura",
+          "img": "/produtos/meias-kids/02630-267/3710.jpg"
+        },
+        {
+          "cod": "4550",
+          "nome": "Verde",
+          "img": "/produtos/meias-kids/02630-267/4550.jpg"
+        }
+      ],
+      "img": "/produtos/meias-kids/02630-267/1120.jpg"
+    },
+    {
+      "codigo": "02630-989",
+      "nome": "Meia Lupo KM Kit3",
+      "descricao": "Kit com 3 pares de Meias confeccionadas em algodão com elastano para maior conforto e anatomia, calcanhar verdadeiro que mantém o produto no lugar certo.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "Inclusão de cor",
+      "cores": [
+        {
+          "cod": "0926",
+          "nome": "Sortida",
+          "img": "/produtos/meias-kids/02630-989/0926.jpg"
+        },
+        {
+          "cod": "0927",
+          "nome": "Sortida",
+          "img": "/produtos/meias-kids/02630-989/0927.jpg"
+        },
+        {
+          "cod": "0929",
+          "nome": "Sortida",
+          "img": "/produtos/meias-kids/02630-989/0929.jpg"
+        },
+        {
+          "cod": "0930",
+          "nome": "Sortida",
+          "img": "/produtos/meias-kids/02630-989/0930.jpg"
+        }
+      ],
+      "img": "/produtos/meias-kids/02630-989/0930.jpg"
+    },
+    {
+      "codigo": "02680-311",
+      "nome": "Meia Lupo KF",
+      "descricao": "Meia em algodão com elastano para maior conforto e anatomia, calcanhar verdadeiro que mantém o produto no lugar certo. Cano 10 cm aproximadamente.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "5090",
+          "nome": "Rosa",
+          "img": "/produtos/meias-kids/02680-311/5090.jpg"
+        },
+        {
+          "cod": "8055",
+          "nome": "Off White",
+          "img": "/produtos/meias-kids/02680-311/8055.jpg"
+        },
+        {
+          "cod": "8380",
+          "nome": "Cinza",
+          "img": "/produtos/meias-kids/02680-311/8380.jpg"
+        }
+      ],
+      "img": "/produtos/meias-kids/02680-311/5090.jpg"
+    },
+    {
+      "codigo": "02680-989",
+      "nome": "Meia Lupo KF Kit3",
+      "descricao": "Kit com 3 pares de Meias confeccionadas em algodão com elastano para maior conforto e anatomia, calcanhar verdadeiro que mantém o produto no lugar certo.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "Inclusão de cor",
+      "cores": [
+        {
+          "cod": "0931",
+          "nome": "Sortida",
+          "img": "/produtos/meias-kids/02680-989/0931.jpg"
+        },
+        {
+          "cod": "0932",
+          "nome": "Sortida",
+          "img": "/produtos/meias-kids/02680-989/0932.jpg"
+        },
+        {
+          "cod": "0933",
+          "nome": "Sortida",
+          "img": "/produtos/meias-kids/02680-989/0933.jpg"
+        },
+        {
+          "cod": "0934",
+          "nome": "Sortida",
+          "img": "/produtos/meias-kids/02680-989/0934.jpg"
+        },
+        {
+          "cod": "0935",
+          "nome": "Sortida",
+          "img": "/produtos/meias-kids/02680-989/0935.jpg"
+        }
+      ],
+      "img": "/produtos/meias-kids/02680-989/0935.jpg"
+    },
+    {
+      "codigo": "02728-004",
+      "nome": "Meia Lupo KF",
+      "descricao": "Meia em algodão com elastano para maior conforto e anatomia, calcanhar verdadeiro que mantém o produto no lugar certo. Cano 12 cm aproximadamente.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-kids/02728-004/1120.jpg"
+        },
+        {
+          "cod": "1130",
+          "nome": "Branca",
+          "img": "/produtos/meias-kids/02728-004/1130.jpg"
+        },
+        {
+          "cod": "1140",
+          "nome": "Branca",
+          "img": "/produtos/meias-kids/02728-004/1140.jpg"
+        }
+      ],
+      "img": "/produtos/meias-kids/02728-004/1120.jpg"
+    },
+    {
+      "codigo": "02728-005",
+      "nome": "Meia Lupo KU",
+      "descricao": "Meia em algodão com elastano para maior conforto e anatomia, calcanhar verdadeiro que mantém o produto no lugar certo. Cano 12 cm aproximadamente.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-kids/02728-005/1120.jpg"
+        },
+        {
+          "cod": "2800",
+          "nome": "Marinho",
+          "img": "/produtos/meias-kids/02728-005/2800.jpg"
+        },
+        {
+          "cod": "8020",
+          "nome": "Cinza",
+          "img": "/produtos/meias-kids/02728-005/8020.jpg"
+        }
+      ],
+      "img": "/produtos/meias-kids/02728-005/2800.jpg"
+    },
+    {
+      "codigo": "02728-006",
+      "nome": "Meia Lupo KF",
+      "descricao": "Meia em algodão com elastano para maior conforto e anatomia, calcanhar verdadeiro que mantém o produto no lugar certo. Cano 12 cm aproximadamente.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-kids/02728-006/1120.jpg"
+        },
+        {
+          "cod": "6170",
+          "nome": "Natural",
+          "img": "/produtos/meias-kids/02728-006/6170.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-kids/02728-006/9990.jpg"
+        }
+      ],
+      "img": "/produtos/meias-kids/02728-006/9990.jpg"
+    },
+    {
+      "codigo": "02728-089",
+      "nome": "Meia Lupo KU Kit3",
+      "descricao": "Kit com 3 pares de Meias confeccionadas em algodão com elastano para maior conforto e anatomia, calcanhar verdadeiro que mantém o produto no lugar certo.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "Inclusão de cor",
+      "cores": [
+        {
+          "cod": "0900",
+          "nome": "Sortida",
+          "img": "/produtos/meias-kids/02728-089/0900.jpg"
+        },
+        {
+          "cod": "0901",
+          "nome": "Sortida",
+          "img": "/produtos/meias-kids/02728-089/0901.jpg"
+        },
+        {
+          "cod": "0902",
+          "nome": "Sortida",
+          "img": "/produtos/meias-kids/02728-089/0902.jpg"
+        },
+        {
+          "cod": "0903",
+          "nome": "Sortida",
+          "img": "/produtos/meias-kids/02728-089/0903.jpg"
+        },
+        {
+          "cod": "0904",
+          "nome": "Sortida",
+          "img": "/produtos/meias-kids/02728-089/0904.jpg"
+        }
+      ],
+      "img": "/produtos/meias-kids/02728-089/0904.jpg"
+    },
+    {
+      "codigo": "02645-001",
+      "nome": "Meia Lupo KU",
+      "descricao": "Meia em algodão com elastano para maior conforto e anatomia, calcanhar verdadeiro que mantém o produto no lugar certo, cano 20 cm aproximadamente.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "4066",
+          "nome": "Verde Agua",
+          "img": "/produtos/meias-kids/02645-001/4066.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-kids/02645-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/meias-kids/02645-001/9990.jpg"
+    },
+    {
+      "codigo": "02725-005",
+      "nome": "Meia Lupo KM Sport",
+      "descricao": "Meia em algodão com elastano, calcanhar verdadeiro e tecido com ventilação adequada, garantindo o conforto durante o uso. Cano 5 cm aproximadamente.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-kids/02725-005/1120.jpg"
+        },
+        {
+          "cod": "8022",
+          "nome": "Cinza",
+          "img": "/produtos/meias-kids/02725-005/8022.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preto",
+          "img": "/produtos/meias-kids/02725-005/9990.jpg"
+        }
+      ],
+      "img": "/produtos/meias-kids/02725-005/1120.jpg"
+    },
+    {
+      "codigo": "02835-005",
+      "nome": "Meia Lupo KU",
+      "descricao": "Meia em algodão com elastano para maior Conforto e anatomia, calcanhar verdadeiro que mantém o produto no lugar certo. Cano 5 cm aproximadamente.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/meias-kids/02835-005/1110.jpg"
+        },
+        {
+          "cod": "8020",
+          "nome": "Cinza",
+          "img": "/produtos/meias-kids/02835-005/8020.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preto",
+          "img": "/produtos/meias-kids/02835-005/9990.jpg"
+        }
+      ],
+      "img": "/produtos/meias-kids/02835-005/8020.jpg"
+    },
+    {
+      "codigo": "02670-047",
+      "nome": "Meia 3/4 Lupo KF",
+      "descricao": "Meia em algodão com elastano para maior conforto e anatonia, cano 3/4, calcanhar verdadeiro que mantém o produto no lugar certo.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/meias-kids/02670-047/1110.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preto",
+          "img": "/produtos/meias-kids/02670-047/9990.jpg"
+        }
+      ],
+      "img": "/produtos/meias-kids/02670-047/1110.jpg"
+    },
+    {
+      "codigo": "02810-005",
+      "nome": "Meião Infantil LSport Futebol",
+      "descricao": "O Meião Infantil LSport Futebol foi desenvolvido para acompanhar a garotada em suas partidas, garantindo estabilidade e conforto durante todo o jogo. Com faixa de compressão no peito do pé, oferece um ajuste firme e seguro, que auxilia no controle dos movimentos e na proteção das regiões de maior impacto. Sua estrutura atoalhada protege a sola e outras áreas estratégicas, proporcionando amortecimento extra e conforto mesmo nas partidas mais intensas. O cano conta com pontos de ventilação que ajudam a melhorar a respirabilidade, mantendo o conforto durante o jogo. Com modelagem anatômica e calcanhar verdadeiro, o meião proporciona ajuste perfeito e liberdade para driblar, correr e chutar com confiança. Ideal para jogos em campo ou salão, é um produto unissex pensado para o máximo desempenho dos pequenos atletas. Equipe os pequenos para o jogo com conforto e proteção.",
+      "tamanho": "25 a 28 • 29 a 32 • 33 a 36",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-kids/02810-005/1120.jpg"
+        },
+        {
+          "cod": "2780",
+          "nome": "Anil",
+          "img": "/produtos/meias-kids/02810-005/2780.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preto",
+          "img": "/produtos/meias-kids/02810-005/9990.jpg"
+        }
+      ],
+      "img": "/produtos/meias-kids/02810-005/9990.jpg"
+    },
+    {
+      "codigo": "03701-001",
+      "nome": "Meia Lupo KU Felpa Cano Médio",
+      "descricao": "Meia Infantil Sport Cano Médio é uma opção de alta qualidade e conforto para crianças. Feitas com uma mistura de algodão e elastano essas meias são atoalhas e oferecem um ajuste perfeito aos pés dos pequenos, além de serem suaves e macias ao toque garantindo o conforto durante o uso. Cano de 7 cm aproximadamente.",
+      "tamanho": "24 a 29 • 30 a 36 • 37 a 41",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "0210",
+          "nome": "Azul",
+          "img": "/produtos/meias-kids/03701-001/0210.jpg"
+        },
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-kids/03701-001/1120.jpg"
+        },
+        {
+          "cod": "5285",
+          "nome": "Malva",
+          "img": "/produtos/meias-kids/03701-001/5285.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preto",
+          "img": "/produtos/meias-kids/03701-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/meias-kids/03701-001/1120.jpg"
+    },
+    {
+      "codigo": "03718-001",
+      "nome": "Meia Lupo KF Felpa Cano Longo",
+      "descricao": "Meia Infantil Sport Cano Longo com punho aeróbico, é uma opção de alta qualidade e conforto para crianças. Feitas com uma mistura de algodão e elastano essas meias são atoalhas e oferecem um ajuste perfeito aos pés dos pequenos, além de serem suaves e macias ao toque garantindo o conforto durante o uso. Cano de 13 cm aproximadamente.",
+      "tamanho": "24 a 29 • 37 a 41 • 30 a 36",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "2490",
+          "nome": "Lavanda",
+          "img": "/produtos/meias-kids/03718-001/2490.jpg"
+        },
+        {
+          "cod": "5285",
+          "nome": "Malva",
+          "img": "/produtos/meias-kids/03718-001/5285.jpg"
+        },
+        {
+          "cod": "8055",
+          "nome": "Off White",
+          "img": "/produtos/meias-kids/03718-001/8055.jpg"
+        }
+      ],
+      "img": "/produtos/meias-kids/03718-001/8055.jpg"
+    },
+    {
+      "codigo": "03750-001",
+      "nome": "Meia Lupo KU Felpa Cano Longo",
+      "descricao": "Meia Infantil Sport Cano Longo com punho canelado, é uma opção de alta qualidade e conforto para crianças. Feitas com uma mistura de algodão e elastano essas meias são atoalhadas e oferecem um ajuste perfeito aos pés dos pequenos, além de serem suaves e macias ao toque garantindo o conforto durante o uso. Cano de 18 cm aproximadamente.",
+      "tamanho": "24 a 29 • 37 a 41 • 30 a 36",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-kids/03750-001/1120.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-kids/03750-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/meias-kids/03750-001/1120.jpg"
+    },
+    {
+      "codigo": "02170-088",
+      "nome": "Meia Lupo KU Sap. Invisivel K2",
+      "descricao": "O Kit com 2 Pares de Sapatilhas sortida Lupo possui faixa de compressão no dorso do pé, confeccionada com uma mistura de algodão, poliamida e Elastano. Essas meias oferecem um ajuste perfeito aos pés dos pequenos, além de serem suaves e macias ao toque, garantindo o conforto durante o uso.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "0900",
+          "nome": "Sortida",
+          "img": "/produtos/meias-kids/02170-088/0900.jpg"
+        },
+        {
+          "cod": "0901",
+          "nome": "Sortida",
+          "img": "/produtos/meias-kids/02170-088/0901.jpg"
+        }
+      ],
+      "img": "/produtos/meias-kids/02170-088/0901.jpg"
+    },
+    {
+      "codigo": "02725-089",
+      "nome": "Meia Lupo KM Sport Kit3",
+      "descricao": "O Kit com 3 Pares de Meia Infantil Cano Curto Lupo Sport é uma opção de alta qualidade e conforto para crianças. Feitas com uma mistura de algodão, poliamida e outras fibras, essas meias oferecem um ajuste perfeito aos pés dos pequenos, além de serem suaves e macias ao toque. O cano curto proporciona liberdade de movimento e ventilação adequada, garantindo o conforto durante o uso. Características Tecido de algodão suave e respirável Sem costura, evitando atritos e incômodos Cano curto para liberdade de movimento Design moderno e elegante Costura reforçada para maior durabilidade Ajuste confortável aos pés Disponível em várias cores e tamanhos",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "0923",
+          "nome": "Sortida",
+          "img": "/produtos/meias-kids/02725-089/0923.jpg"
+        },
+        {
+          "cod": "0925",
+          "nome": "Sortida",
+          "img": "/produtos/meias-kids/02725-089/0925.jpg"
+        },
+        {
+          "cod": "0926",
+          "nome": "Sortida",
+          "img": "/produtos/meias-kids/02725-089/0926.jpg"
+        },
+        {
+          "cod": "0927",
+          "nome": "Sortida",
+          "img": "/produtos/meias-kids/02725-089/0927.jpg"
+        },
+        {
+          "cod": "0928",
+          "nome": "Sortida",
+          "img": "/produtos/meias-kids/02725-089/0928.jpg"
+        },
+        {
+          "cod": "0929",
+          "nome": "Sortida",
+          "img": "/produtos/meias-kids/02725-089/0929.jpg"
+        }
+      ],
+      "img": "/produtos/meias-kids/02725-089/0926.jpg"
+    },
+    {
+      "codigo": "02835-088",
+      "nome": "Meia Lupo KU Kit2",
+      "descricao": "O Kit com 2 Pares De Meia Cano Curto Infantil Sortidas Lupo é perfeito para garantir o conforto e proteção dos pés das crianças. Cada par de meias é feito com uma composição de alta qualidade, sendo 70% algodão, 27% poliamida e 3% Elastano. Essa combinação de materiais proporciona um ajuste perfeito, além de serem suaves e macios ao toque. As meias cano médio são ideais para uso diário e possuem um design moderno e elegante.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "0900",
+          "nome": "Sortida",
+          "img": "/produtos/meias-kids/02835-088/0900.jpg"
+        },
+        {
+          "cod": "0901",
+          "nome": "Sortida",
+          "img": "/produtos/meias-kids/02835-088/0901.jpg"
+        },
+        {
+          "cod": "0903",
+          "nome": "Sortida",
+          "img": "/produtos/meias-kids/02835-088/0903.jpg"
+        },
+        {
+          "cod": "0904",
+          "nome": "Sortida",
+          "img": "/produtos/meias-kids/02835-088/0904.jpg"
+        },
+        {
+          "cod": "0905",
+          "nome": "Sortida",
+          "img": "/produtos/meias-kids/02835-088/0905.jpg"
+        }
+      ],
+      "img": "/produtos/meias-kids/02835-088/0903.jpg"
+    },
+    {
+      "codigo": "02830-088",
+      "nome": "Meia Lupo KM Basica Kit2",
+      "descricao": "Kit com 2 Pares de Meia em algodão com elastano para maior conforto e anatomia, calcanhar verdadeiro que mantém o produto no lugar certo. Cano 8 cm aproximadamente.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "0900",
+          "nome": "Sortida",
+          "img": "/produtos/meias-kids/02830-088/0900.jpg"
+        },
+        {
+          "cod": "0901",
+          "nome": "Sortida",
+          "img": "/produtos/meias-kids/02830-088/0901.jpg"
+        }
+      ],
+      "img": "/produtos/meias-kids/02830-088/0900.jpg"
+    },
+    {
+      "codigo": "02727-088",
+      "nome": "Meia Lupo KM Sport Kit2",
+      "descricao": "Kit com 2 Pares de Meia canelada em algodão com elastano para maior conforto e anatomia, calcanhar verdadeiro que mantém o produto no lugar certo. Cano 10 cm aproximadamente.",
+      "tamanho": "24 a 29 • 30 a 36",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "0900",
+          "nome": "Sortida",
+          "img": "/produtos/meias-kids/02727-088/0900.jpg"
+        },
+        {
+          "cod": "0901",
+          "nome": "Sortida",
+          "img": "/produtos/meias-kids/02727-088/0901.jpg"
+        },
+        {
+          "cod": "0902",
+          "nome": "Sortida",
+          "img": "/produtos/meias-kids/02727-088/0902.jpg"
+        }
+      ],
+      "img": "/produtos/meias-kids/02727-088/0902.jpg"
+    },
+    {
+      "codigo": "02526-001",
+      "nome": "Meia-Calca Lobinha KF Cotton",
+      "descricao": "Meia-calça Infantil, confeccionada em algodão e elastano para maior conforto e beleza.",
+      "tamanho": "P (03 a 05 anos) • M (06 a 08 anos) • G (09 a 11 anos)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "1000",
+          "nome": "Branco Antártida",
+          "img": "/produtos/meias-kids/02526-001/1000.jpg"
+        },
+        {
+          "cod": "5110",
+          "nome": "Rosa",
+          "img": "/produtos/meias-kids/02526-001/5110.jpg"
+        },
+        {
+          "cod": "8055",
+          "nome": "Off White",
+          "img": "/produtos/meias-kids/02526-001/8055.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-kids/02526-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/meias-kids/02526-001/8055.jpg"
+    },
+    {
+      "codigo": "02600-011",
+      "nome": "Meia-Calca Lobinha KF Legging",
+      "descricao": "Meia-calça Legging confeccionada em algodão e elastano para maior conforto e beleza.",
+      "tamanho": "PP (01 a 02 anos) • P (03 a 05 anos) • M (06 a 08 anos)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "8020",
+          "nome": "Cinza",
+          "img": "/produtos/meias-kids/02600-011/8020.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-kids/02600-011/9990.jpg"
+        }
+      ],
+      "img": "/produtos/meias-kids/02600-011/8020.jpg"
+    },
+    {
+      "codigo": "02515-001",
+      "nome": "Meia-Calça Poá",
+      "descricao": "",
+      "tamanho": "",
+      "linha": "COR 9990 APENAS TAM P, M E G",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": ""
+        }
+      ],
+      "img": ""
+    },
+    {
+      "codigo": "02515-003",
+      "nome": "Meia-Calça Estrelinhas",
+      "descricao": "",
+      "tamanho": "BB (05 a 11 meses) • P • M • G",
+      "linha": "COR 9990 APENAS TAM P, M E G",
+      "cores": [
+        {
+          "cod": "1000",
+          "nome": "Branco Antártida",
+          "img": "/produtos/meias-kids/02515-003/1000.jpg"
+        },
+        {
+          "cod": "5220",
+          "nome": "Rosa",
+          "img": "/produtos/meias-kids/02515-003/5220.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-kids/02515-003/9990.jpg"
+        }
+      ],
+      "img": "/produtos/meias-kids/02515-003/1000.jpg"
+    },
+    {
+      "codigo": "02570-001",
+      "nome": "Meia-Calça Fina",
+      "descricao": "",
+      "tamanho": "P",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "5220",
+          "nome": "Rosa",
+          "img": "/produtos/meias-kids/02570-001/5220.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-kids/02570-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/meias-kids/02570-001/5220.jpg"
+    },
+    {
+      "codigo": "02530-001",
+      "nome": "Meia-Calça Opaca",
+      "descricao": "",
+      "tamanho": "BB (05 a 11 meses) • P • M • G",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "2800",
+          "nome": "Marinho",
+          "img": "/produtos/meias-kids/02530-001/2800.jpg"
+        },
+        {
+          "cod": "5680",
+          "nome": "Vermelho Intenso",
+          "img": "/produtos/meias-kids/02530-001/5680.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-kids/02530-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/meias-kids/02530-001/9990.jpg"
+    },
+    {
+      "codigo": "02561-001",
+      "nome": "Meia-calça Fashion Tricô Infantil Feminina Lupo",
+      "descricao": "",
+      "tamanho": "G",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "1000",
+          "nome": "Branco Antártida",
+          "img": "/produtos/meias-kids/02561-001/1000.jpg"
+        }
+      ],
+      "img": "/produtos/meias-kids/02561-001/1000.jpg"
+    },
+    {
+      "codigo": "02576-001",
+      "nome": "Meia-Calça Microfibra",
+      "descricao": "",
+      "tamanho": "RN • BB • G",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "1000",
+          "nome": "Branco Antártida",
+          "img": "/produtos/meias-kids/02576-001/1000.jpg"
+        },
+        {
+          "cod": "5220",
+          "nome": "Rosa",
+          "img": "/produtos/meias-kids/02576-001/5220.jpg"
+        },
+        {
+          "cod": "6290",
+          "nome": "Pérola",
+          "img": "/produtos/meias-kids/02576-001/6290.jpg"
+        }
+      ],
+      "img": "/produtos/meias-kids/02576-001/1000.jpg"
+    }
+  ]
+}

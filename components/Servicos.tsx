@@ -2,12 +2,10 @@ import SectionLabel from "./SectionLabel";
 import { CONTATO } from "@/lib/data";
 import SplineBG from "./SplineBG";
 import PoliticaComercial from "./PoliticaComercial";
+import MateriaisModal from "./MateriaisModal";
 
 const SPLINE_SRC =
   "https://my.spline.design/animatedbackgroundgradientforweb-jvJDeBWjMvShkjPKxPRUswLq";
-
-const MATERIAIS_URL =
-  "https://forms.cloud.microsoft/pages/responsepage.aspx?id=ryEij2KI8U24-1OrLHwGB7TUAuQtse5Pn-r82ddrGUZUOEk3TTI5VU02SFFTMExNVkRFVlgxTjJXOS4u&route=shorturl";
 
 const Ic = ({ d }: { d: string }) => (
   <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
@@ -21,14 +19,10 @@ export default function Servicos() {
       <div className="mx-auto max-w-6xl px-5">
         <SectionLabel num="05">Serviços e suporte</SectionLabel>
 
-        <div className="grid gap-4 md:grid-cols-3">
-          {/* Materiais — destaque grande, escuro */}
-          <a
-            id="materiais"
-            href={MATERIAIS_URL}
-            target="_blank"
-            rel="noopener"
-            className="group relative flex scroll-mt-24 flex-col justify-center overflow-hidden rounded-lg border border-ink bg-ink p-8 text-paper shadow-card transition hover:border-accent md:col-span-2 md:row-span-3 md:p-10"
+        <div id="materiais" className="grid scroll-mt-24 gap-4 md:grid-cols-3">
+          {/* Materiais — destaque grande, escuro (abre o modal de acesso) */}
+          <MateriaisModal
+            className="group relative flex w-full scroll-mt-24 flex-col justify-center overflow-hidden rounded-lg border border-ink bg-ink p-8 text-left text-paper shadow-card transition hover:border-accent md:col-span-2 md:row-span-3 md:p-10"
           >
             {/* navy sólido + Spline animado por cima (clique passa direto: pointer-events-none) */}
             <SplineBG src={SPLINE_SRC} />
@@ -47,7 +41,7 @@ export default function Servicos() {
             <span className="shimmer relative z-10 mt-7 inline-flex w-fit items-center gap-2 rounded bg-accent px-6 py-3.5 font-display text-[14.5px] font-bold uppercase tracking-wide text-paper transition group-hover:bg-accent-bright">
               Acessar materiais →
             </span>
-          </a>
+          </MateriaisModal>
 
           {/* Rastreio */}
           <a id="rastreio" href={CONTATO.rastreio} target="_blank" rel="noopener" className="glow-ring group flex scroll-mt-24 flex-col gap-3 rounded-lg border border-line bg-white p-6 shadow-card transition hover:border-accent">

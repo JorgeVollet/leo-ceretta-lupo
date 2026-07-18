@@ -1,0 +1,3399 @@
+{
+  "produtos": [
+    {
+      "codigo": "73405-001",
+      "nome": "Top LSport Seamless Alça Duo Ayra",
+      "descricao": "Top sem costura, confeccionado com fio antimicrobial, que ajuda a inibir a proliferação de bactérias e odores, proporcionando mais frescor e conforto durante o uso. Possui alças finas que cruzam nas costas, garantindo melhor ajuste ao corpo, liberdade de movimento e um visual moderno e feminino. Ideal para treinos de leve a média intensidade.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "3600",
+          "nome": "Camarão",
+          "img": "/produtos/lsport/73405-001/3600.jpg"
+        },
+        {
+          "cod": "4402",
+          "nome": "Lima Citrico",
+          "img": "/produtos/lsport/73405-001/4402.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/73405-001/4402.jpg"
+    },
+    {
+      "codigo": "73403-001",
+      "nome": "Top LSport Seamless Ondas",
+      "descricao": "Top sem costura, confeccionado com fio antimicrobial, que ajuda a inibir a proliferação de bactérias e odores, garantindo mais frescor e conforto durante o uso. Possui detalhes em texturas, que valorizam o design e contribuem para melhor respirabilidade, além de oferecer alto suporte, ideal para atividades de maior impacto. Conta ainda com detalhe refletivo, que agrega segurança em ambientes de baixa luminosidade.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "2143",
+          "nome": "Azul Claro",
+          "img": "/produtos/lsport/73403-001/2143.jpg"
+        },
+        {
+          "cod": "6750",
+          "nome": "Noz",
+          "img": "/produtos/lsport/73403-001/6750.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/73403-001/2143.jpg"
+    },
+    {
+      "codigo": "73402-001",
+      "nome": "Top LSport Seamless Dupla Face Core",
+      "descricao": "Top sem costura, confeccionado com fio antimicrobial, que ajuda a inibir a proliferação de bactérias e odores, garantindo mais frescor e conforto durante o uso. Possui construção dupla face, com top duplo que proporciona alto suporte, oferecendo maior sustentação e segurança durante atividades de média a alta intensidade. O decote com costas nadador favorece a mobilidade e valoriza o design esportivo.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "2560",
+          "nome": "Azul",
+          "img": "/produtos/lsport/73402-001/2560.jpg"
+        },
+        {
+          "cod": "6750",
+          "nome": "Noz",
+          "img": "/produtos/lsport/73402-001/6750.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/73402-001/6750.jpg"
+    },
+    {
+      "codigo": "73401-001",
+      "nome": "Top LSport Raschel Alça Textura",
+      "descricao": "Top seamless desenvolvido em tecnologia Raschel, que proporciona ajuste confortável e adaptação ao corpo com excelente elasticidade. Com suporte leve, é ideal para o dia a dia e atividades de baixa intensidade, oferecendo liberdade de movimento sem abrir mão do bem-estar. Possui alças finas com design cruzado nas costas, que valorizam o visual e garantem melhor distribuição do ajuste. Conta ainda com tecnologia antimicrobial, que auxilia no controle de odores, mantendo a peça fresca por mais tempo.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "2783",
+          "nome": "Anil",
+          "img": "/produtos/lsport/73401-001/2783.jpg"
+        },
+        {
+          "cod": "4322",
+          "nome": "Verde",
+          "img": "/produtos/lsport/73401-001/4322.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/73401-001/2783.jpg"
+    },
+    {
+      "codigo": "73400-001",
+      "nome": "Top LSport Raschel Gota",
+      "descricao": "Top sem costura desenvolvido em tecnologia Raschel, que garante ajuste confortável e adaptação ao corpo com excelente elasticidade. Com modelagem mais fechada, oferece maior cobertura e segurança durante o uso, sendo ideal para o dia a dia e atividades leves. Possui detalhe em pontos nas costas, que agrega ventilação estratégica e um toque moderno ao visual. Conta com tecnologia antimicrobial, que auxilia no controle de odores, mantendo a peça fresca por mais tempo.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "2801",
+          "nome": "Marinho",
+          "img": "/produtos/lsport/73400-001/2801.jpg"
+        },
+        {
+          "cod": "5556",
+          "nome": "Fucsia Glam",
+          "img": "/produtos/lsport/73400-001/5556.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/73400-001/5556.jpg"
+    },
+    {
+      "codigo": "71911-001",
+      "nome": "Top LSport Slim",
+      "descricao": "Top sem costura (tecnologia Seamless Dry) com modelagem slim, decote arrendondado na frente e nas costas e alças finas. Possui detalhe na parte frontal para desenho e suporte da região do busto, garantindo maior conforto no uso. Indicado para atividades de baixo e médio impacto, possui suporte leve. Sua base em poliamida e elastano entrega um ajuste perfeito ao corpo, toque agradável e secagem rápida.",
+      "tamanho": "P • M • G",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "2143",
+          "nome": "Azul Claro",
+          "img": "/produtos/lsport/71911-001/2143.jpg"
+        },
+        {
+          "cod": "5920",
+          "nome": "Carmim",
+          "img": "/produtos/lsport/71911-001/5920.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/71911-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/71911-001/2143.jpg"
+    },
+    {
+      "codigo": "71914-001",
+      "nome": "Top Canelado Basic Seamless",
+      "descricao": "Top sem costura com estrutura canelada. Possui decote quadrado na frente e levemente mais aprofundado nas costas. Sua alça larga traz uma vestidade mais segura e confortável. Possui leve suporte, sendo ideal para práticas de atividades físicas ou até para uso casual e urbano.",
+      "tamanho": "P • M • G",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "0510",
+          "nome": "Coral",
+          "img": "/produtos/lsport/71914-001/0510.jpg"
+        },
+        {
+          "cod": "4402",
+          "nome": "Lima Citrico",
+          "img": "/produtos/lsport/71914-001/4402.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/71914-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/71914-001/0510.jpg"
+    },
+    {
+      "codigo": "71401-001",
+      "nome": "Top Attack II",
+      "descricao": "Top sem costura (tecnologia Seamless Dry) que permite maior respirabilidade e secagem rápida do suor, de leve suporte para esportes de baixo impacto. Possui decote arredondado com pontos que melhoram a sustentação do busto, mesmo com a alça mais fina e delicada.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "2783",
+          "nome": "Anil",
+          "img": "/produtos/lsport/71401-001/2783.jpg"
+        },
+        {
+          "cod": "3600",
+          "nome": "Camarão",
+          "img": "/produtos/lsport/71401-001/3600.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/71401-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/71401-001/2783.jpg"
+    },
+    {
+      "codigo": "71828-001",
+      "nome": "Top Lupo AF Energy Raschel",
+      "descricao": "Top sem costura de leve suporte para esportes de baixo impacto. Produzido com a tecnologia Raschel que contém micro furos na alça e por toda a peça para melhor respirabilidade e secagem rápida do suor. Ainda com a tecnologia antimicrobial que elimina bactérias que causam odor.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "5920",
+          "nome": "Carmim",
+          "img": "/produtos/lsport/71828-001/5920.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/71828-001/9990.jpg"
+        },
+        {
+          "cod": "6750",
+          "nome": "Noz",
+          "img": "/produtos/lsport/71828-001/6750.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/71828-001/6750.jpg"
+    },
+    {
+      "codigo": "71926-001",
+      "nome": "Top LSport Seamless Max II",
+      "descricao": "Top sem costura com a tecnologia Seamless Dry que proporciona maior respirabilidade e secagem rápida do suor. Possui decote, frontal e posterior, quadrado. Alças médias para suporte médio, ideal para atividades como yoga. Possui detalhe de desenhos de listras e texturas. Pontos que trazem sustentação interna, dando mais conforto durante a prática esportiva. Com tecnologia Antimicrobial.",
+      "tamanho": "P • M • G • GG • XG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "2760",
+          "nome": "Azul",
+          "img": "/produtos/lsport/71926-001/2760.jpg"
+        },
+        {
+          "cod": "2801",
+          "nome": "Marinho",
+          "img": "/produtos/lsport/71926-001/2801.jpg"
+        },
+        {
+          "cod": "5780",
+          "nome": "Magenta",
+          "img": "/produtos/lsport/71926-001/5780.jpg"
+        },
+        {
+          "cod": "8872",
+          "nome": "Grafite",
+          "img": "/produtos/lsport/71926-001/8872.jpg"
+        },
+        {
+          "cod": "2498",
+          "nome": "Lavanda Suave",
+          "img": "/produtos/lsport/71926-001/2498.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/71926-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/71926-001/5780.jpg"
+    },
+    {
+      "codigo": "71843-001",
+      "nome": "Top LSport Canelado Essential",
+      "descricao": "Top sem costura (tecnologia Seamless Dry) que permite maior respirabilidade e secagem rápida do suor. Top duplo com decote em V e bojo removível. Possui cós mais largo, com detalhe da logo, e alças confortáveis. Top de médio suporte para esportes de baixo impacto.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lsport/71843-001/1110.jpg"
+        },
+        {
+          "cod": "2498",
+          "nome": "Lavanda Suave",
+          "img": "/produtos/lsport/71843-001/2498.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/71843-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/71843-001/1110.jpg"
+    },
+    {
+      "codigo": "71403-003",
+      "nome": "Top Up Control",
+      "descricao": "Top sem costura desenvolvido com tecnologia Seamless Dry, que proporciona ajuste perfeito ao corpo, respirabilidade e maior liberdade de movimento. Produzido com fio Emana, auxilia na melhora do conforto térmico e no bem-estar durante o uso. Com decote nadador, oferece sustentação alta e segurança para diversas práticas, aliando funcionalidade e estilo. Possui pontos estratégicos de ventilação nas áreas de maior transpiração, favorecendo a respirabilidade, além de áreas de sustentação que garantem melhor suporte e conforto ao longo do uso.",
+      "tamanho": "P • M • G • GG • XG",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "2760",
+          "nome": "Azul",
+          "img": "/produtos/lsport/71403-003/2760.jpg"
+        },
+        {
+          "cod": "5780",
+          "nome": "Magenta",
+          "img": "/produtos/lsport/71403-003/5780.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/71403-003/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/71403-003/2760.jpg"
+    },
+    {
+      "codigo": "71856-001",
+      "nome": "Top Seamless Basic com Bojo",
+      "descricao": "Top sem costura (Tecnologia Seamless Dry), que permite maior respirabilidade e secagem rápida do suor. Top duplo com alto suporte e decote nadador nas costas, o que possibilita conforto até em esportes de alto impacto. Os pontos específicos de sustentação reforçam o bem-estar na atividade.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "4322",
+          "nome": "Verde",
+          "img": "/produtos/lsport/71856-001/4322.jpg"
+        },
+        {
+          "cod": "5556",
+          "nome": "Fucsia Glam",
+          "img": "/produtos/lsport/71856-001/5556.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/71856-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/71856-001/5556.jpg"
+    },
+    {
+      "codigo": "71851-001",
+      "nome": "Top LSport Alta Compressão",
+      "descricao": "Top sem costura (Tecnologia Seamless Dry), para maior respirabilidade e secagem rápida do suor. Top duplo com alto suporte, possui uma modelagem um pouco mais fechada no decote e nas costas. Desenhos e pontos específicos de sustentação e o cos mais largo possibilitam o conforto, até em esportes de alto impacto.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lsport/71851-001/1110.jpg"
+        },
+        {
+          "cod": "8000",
+          "nome": "Cinza Mescla",
+          "img": "/produtos/lsport/71851-001/8000.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preto",
+          "img": "/produtos/lsport/71851-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/71851-001/8000.jpg"
+    },
+    {
+      "codigo": "73234-001",
+      "nome": "Shorts LSport Seamless Ayra",
+      "descricao": "Shorts sem costura, confeccionada em tecido com tecnologia antimicrobial, que ajuda a inibir a proliferação de bactérias e odores, garantindo mais frescor durante o uso. Possui cós anatômico, que se adapta perfeitamente ao corpo oferecendo sustentação e conforto, além de aplicação de silicone no cós, proporcionando melhor aderência e segurança nos movimentos.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "3600",
+          "nome": "Camarão",
+          "img": "/produtos/lsport/73234-001/3600.jpg"
+        },
+        {
+          "cod": "4402",
+          "nome": "Lima Citrico",
+          "img": "/produtos/lsport/73234-001/4402.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/73234-001/3600.jpg"
+    },
+    {
+      "codigo": "73233-001",
+      "nome": "Shorts LSport Seamless Ondas",
+      "descricao": "Shorts sem costura, confeccionado em tecido com tecnologia antimicrobial, que ajuda a inibir a proliferação de bactérias e odores, garantindo mais frescor durante o uso. Possui pontos com textura estrategicamente posicionados, que valorizam o design e contribuem para melhor respirabilidade e conforto. O cós anatômico se adapta ao corpo oferecendo sustentação, além de aplicação de silicone no cós, proporcionando melhor aderência e segurança durante os movimentos.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "2143",
+          "nome": "Azul Claro",
+          "img": "/produtos/lsport/73233-001/2143.jpg"
+        },
+        {
+          "cod": "6750",
+          "nome": "Noz",
+          "img": "/produtos/lsport/73233-001/6750.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/73233-001/6750.jpg"
+    },
+    {
+      "codigo": "71382-002",
+      "nome": "Shorts Canelado Seamless Lupo",
+      "descricao": "Shorts sem costura canelado com cós alto e anatômico que modela a silhueta e proporciona conforto durante a atividade, enquanto a borda de silicone garante que ele não saia do lugar. Sua estrutura em pontos canelados garante uma vestibilidade ajustada e uma textura interessante ao produto. Uma peça moderna para compor looks esportivos, casuais e urbanos.",
+      "tamanho": "P • M • G",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "0510",
+          "nome": "Coral",
+          "img": "/produtos/lsport/71382-002/0510.jpg"
+        },
+        {
+          "cod": "4402",
+          "nome": "Lima Citrico",
+          "img": "/produtos/lsport/71382-002/4402.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/71382-002/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/71382-002/0510.jpg"
+    },
+    {
+      "codigo": "71144-001",
+      "nome": "Shorts Attack",
+      "descricao": "Shorts com modelagem mais curta e sem costura. A tecnologia Seamsless Dry proporciona maior respirabilidade e secagem rápida do suor, enquanto o Antimicrobial protege das bactérias que causam mal odor. O cós anatômico para modelar a silhueta e garantir recorte curvo lateral.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "2783",
+          "nome": "Anil",
+          "img": "/produtos/lsport/71144-001/2783.jpg"
+        },
+        {
+          "cod": "3600",
+          "nome": "Camarão",
+          "img": "/produtos/lsport/71144-001/3600.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/71144-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/71144-001/3600.jpg"
+    },
+    {
+      "codigo": "71348-001",
+      "nome": "Shorts LSport Basic",
+      "descricao": "Shorts sem costura com modelagem que se adapta ao corpo de forma confortável. Cós alto e anatômico dá liberdade e conforto nas atividades por permitir que a peça continue ajustada ao corpo durante os movimentos, incluindo o alto impacto. Possui detalhe de linhas laterais.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "2143",
+          "nome": "Azul Claro",
+          "img": "/produtos/lsport/71348-001/2143.jpg"
+        },
+        {
+          "cod": "4322",
+          "nome": "Verde",
+          "img": "/produtos/lsport/71348-001/4322.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/71348-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/71348-001/2143.jpg"
+    },
+    {
+      "codigo": "76561-001",
+      "nome": "Shorts Feminino LSport Pala Treino",
+      "descricao": "Shorts com modelagem mais curta, possui o cós mais alto para mais segurança e forro interno que auxilia em práticas como corrida e caminhada. Possui detalhe de abertura na lateral para facilitar os movimento e um bolso discreto no cós.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lsport/76561-001/1110.jpg"
+        },
+        {
+          "cod": "2143",
+          "nome": "Azul Claro",
+          "img": "/produtos/lsport/76561-001/2143.jpg"
+        },
+        {
+          "cod": "6980",
+          "nome": "Bege",
+          "img": "/produtos/lsport/76561-001/6980.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/76561-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/76561-001/6980.jpg"
+    },
+    {
+      "codigo": "77261-002",
+      "nome": "Shorts Duplo Running Feminino",
+      "descricao": "Shorts com modelagem mais curta e levemente ampla. Possui Shorts interno justo ao corpo com bolso interno na lateral para pequenos objetos. Cós largo com elástico interno e detalhes refletivos.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "0510",
+          "nome": "Coral",
+          "img": "/produtos/lsport/77261-002/0510.jpg"
+        },
+        {
+          "cod": "2498",
+          "nome": "Lavanda Suave",
+          "img": "/produtos/lsport/77261-002/2498.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/77261-002/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/77261-002/0510.jpg"
+    },
+    {
+      "codigo": "76460-003",
+      "nome": "Shorts LSport Run Feminino",
+      "descricao": "Shorts com modelagem mais curta e levemente folgada com forro interno. Possui cós mais largo com elástico interno e cordão para ajuste. Barra com entrada nas laterais e detalhe do logo refletivo. Possui bolso faca na lateral e bolso para itens menores nas costas.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "4402",
+          "nome": "Lima Citrico",
+          "img": "/produtos/lsport/76460-003/4402.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/76460-003/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/76460-003/9990.jpg"
+    },
+    {
+      "codigo": "76128-001",
+      "nome": "Shorts Saia LSport Fit",
+      "descricao": "Shorts Saia para ir do beach tennis ao casual. A modelagem justa do Shorts e evasê da saia com pregas, dá mais movimento à peça. Produzida em poliamida para mais leveza e respirabilidade e Shorts interno com bolso para pequenos objetos.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lsport/76128-001/1110.jpg"
+        },
+        {
+          "cod": "2143",
+          "nome": "Azul Claro",
+          "img": "/produtos/lsport/76128-001/2143.jpg"
+        },
+        {
+          "cod": "5780",
+          "nome": "Magenta",
+          "img": "/produtos/lsport/76128-001/5780.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/76128-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/76128-001/1110.jpg"
+    },
+    {
+      "codigo": "71311-001",
+      "nome": "Bermuda Max Lupo",
+      "descricao": "Shorts tipo biker sem costura. O cós anatômico e os pontos de sustentação permitem maior segurança nos esportes de alto impacto. Peça produzida em fio texturizado que se assemelha ao fio de algodão, garantindo conforto extremo. A tecnologia antimicrobial impede a proliferação de bactérias que causam odores.",
+      "tamanho": "P • M • G • GG • XG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "2760",
+          "nome": "Azul",
+          "img": "/produtos/lsport/71311-001/2760.jpg"
+        },
+        {
+          "cod": "2801",
+          "nome": "Marinho",
+          "img": "/produtos/lsport/71311-001/2801.jpg"
+        },
+        {
+          "cod": "5780",
+          "nome": "Magenta",
+          "img": "/produtos/lsport/71311-001/5780.jpg"
+        },
+        {
+          "cod": "2498",
+          "nome": "Lavanda Suave",
+          "img": "/produtos/lsport/71311-001/2498.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/71311-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/71311-001/2760.jpg"
+    },
+    {
+      "codigo": "76235-001",
+      "nome": "Bermuda Feminina LSport Run 7 Pockets Curta",
+      "descricao": "Bermuda Pocket Curta é ideal para atividades físicas, especialmente para corrida. Com 7 bolsos estrategicamente posicionados — dois nas laterais no corpo da peça e cinco no cós sendo: dois na parte frontal do cós e três na parte traseira — você tem espaço de sobra para armazenar seus itens essenciais e com fácil acesso durante sua corrida. O cós ainda conta com um prático elástico para pendurar sua camiseta. A barra possui interno emborrachado, para maior aderência evitando movimentação do comprimento. Detalhe da logo LSport na lateral.",
+      "tamanho": "P • M • G • GG • XG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "5920",
+          "nome": "Carmim",
+          "img": "/produtos/lsport/76235-001/5920.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/76235-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/76235-001/9990.jpg"
+    },
+    {
+      "codigo": "76234-001",
+      "nome": "Bermuda Feminina LSport Run 5 Pockets",
+      "descricao": "Bermuda Pocket é ideal para atividades f ísicas, especialmente para corrida. Com 5 bolsos estrategicamente posicionados — três nas laterais no corpo da peça e três no cós na parte traseira — você tem espaço de sobra para armazenar seus itens essenciais e com fácil acesso durante sua corrida. Possui modelagem mais comprida. Detalhe da logo LSport na lateral.",
+      "tamanho": "P • M • G • GG • XG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "2760",
+          "nome": "Azul",
+          "img": "/produtos/lsport/76234-001/2760.jpg"
+        },
+        {
+          "cod": "5920",
+          "nome": "Carmim",
+          "img": "/produtos/lsport/76234-001/5920.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/76234-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/76234-001/9990.jpg"
+    },
+    {
+      "codigo": "71376-001",
+      "nome": "Calça Capri Slim Lupo",
+      "descricao": "Calça capri sem costura, possui detalhes de pontos de sustetanção na cintura e ao longo da peça proporcionando ajuste e compressão. O cós anatômico desenha a silhueta e deixa o exercício físico com mais conforto e segurança.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "5920",
+          "nome": "Carmim",
+          "img": "/produtos/lsport/71376-001/5920.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/71376-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/71376-001/5920.jpg"
+    },
+    {
+      "codigo": "73235-001",
+      "nome": "Calça Legging LSport Seamless Ayra",
+      "descricao": "Legging sem costura, confeccionada em tecido com tecnologia antimicrobial, que ajuda a inibir a proliferação de bactérias e odores, garantindo mais frescor durante o uso. Possui cós anatômico, que se adapta perfeitamente ao corpo oferecendo sustentação e conforto, além de aplicação de silicone no cós, proporcionando melhor aderência e segurança nos movimentos. Ideal para treinos e atividades, unindo funcionalidade, conforto e design moderno.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "3600",
+          "nome": "Camarão",
+          "img": "/produtos/lsport/73235-001/3600.jpg"
+        },
+        {
+          "cod": "4402",
+          "nome": "Lima Citrico",
+          "img": "/produtos/lsport/73235-001/4402.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/73235-001/3600.jpg"
+    },
+    {
+      "codigo": "73232-001",
+      "nome": "Calça Legging LSport Seamless Ondas",
+      "descricao": "Legging sem costura, confeccionada em tecido com tecnologia antimicrobial, que ajuda a inibir a proliferação de bactérias e odores, garantindo mais frescor durante o uso. Possui pontos com textura estrategicamente posicionados, que valorizam o design e contribuem para melhor respirabilidade e conforto. O cós anatômico se adapta ao corpo oferecendo sustentação, além de aplicação de silicone no cós, proporcionando melhor aderência e segurança durante os movimentos.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "2143",
+          "nome": "Azul Claro",
+          "img": "/produtos/lsport/73232-001/2143.jpg"
+        },
+        {
+          "cod": "6750",
+          "nome": "Noz",
+          "img": "/produtos/lsport/73232-001/6750.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/73232-001/2143.jpg"
+    },
+    {
+      "codigo": "73231-001",
+      "nome": "Calça LSport Legging Raschel Textura",
+      "descricao": "Legging seamless desenvolvida com tecnologia Raschel, que proporciona ajuste confortável e excelente adaptação ao corpo. Sua estrutura com micro perfurações favorece a ventilação e a respirabilidade, garantindo maior conforto térmico durante o uso, além de oferecer total liberdade de movimento. O design dos pontos acompanha a silhueta, valorizando o corpo com um visual moderno e funcional. Conta ainda com cós anatômico, que proporciona melhor ajuste, segurança e sustentação ao longo das atividades.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "2783",
+          "nome": "Anil",
+          "img": "/produtos/lsport/73231-001/2783.jpg"
+        },
+        {
+          "cod": "4322",
+          "nome": "Verde",
+          "img": "/produtos/lsport/73231-001/4322.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/73231-001/2783.jpg"
+    },
+    {
+      "codigo": "73230-001",
+      "nome": "Calça Legging LSport Raschel Gota",
+      "descricao": "Legging seamless desenvolvida com tecnologia Raschel, que proporciona ajuste confortável e excelente adaptação ao corpo. Sua estrutura com micro perfurações favorece a ventilação e a respirabilidade, garantindo maior conforto térmico durante o uso, além de oferecer total liberdade de movimento. O design dos pontos acompanha a silhueta, valorizando o corpo com um visual moderno e funcional. Conta ainda com cós anatômico, que proporciona melhor ajuste, segurança e sustentação ao longo das atividades.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "2801",
+          "nome": "Marinho",
+          "img": "/produtos/lsport/73230-001/2801.jpg"
+        },
+        {
+          "cod": "5556",
+          "nome": "Fucsia Glam",
+          "img": "/produtos/lsport/73230-001/5556.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/73230-001/2801.jpg"
+    },
+    {
+      "codigo": "71502-003",
+      "nome": "Calça Legging Up Control",
+      "descricao": "Calça legging seamless, justa ao corpo, desenvolvida com fio Emana, que contribui para o conforto e o bem-estar durante o uso. Sem costuras, sua modelagem se adapta perfeitamente ao corpo, proporcionando liberdade de movimento e ajuste confortável nas atividades do dia a dia ou esportivas. O cós mais largo garante maior segurança e estabilidade, sem marcar, mantendo a peça sempre no lugar mesmo em movimento.",
+      "tamanho": "P • M • G • GG • XG",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "2760",
+          "nome": "Azul",
+          "img": "/produtos/lsport/71502-003/2760.jpg"
+        },
+        {
+          "cod": "5780",
+          "nome": "Magenta",
+          "img": "/produtos/lsport/71502-003/5780.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/71502-003/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/71502-003/5780.jpg"
+    },
+    {
+      "codigo": "71392-001",
+      "nome": "Calça Legging Basic Sem Costura Canelada",
+      "descricao": "Calça legging justa ao corpo com tecnologia Seamless Dry, que proporciona maior respirabilidade e secagem rápida do suor. Peça toda sem costura com textura canelada com a tecnologia Antimicrobial. Possui cintura alta com cós largo e anatômico. A borda de silicone garante ainda maior conforto durante os movimentos do exercício.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "0510",
+          "nome": "Coral",
+          "img": "/produtos/lsport/71392-001/0510.jpg"
+        },
+        {
+          "cod": "8384",
+          "nome": "Cinza",
+          "img": "/produtos/lsport/71392-001/8384.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/71392-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/71392-001/9990.jpg"
+    },
+    {
+      "codigo": "71756-001",
+      "nome": "Calça Legging Seamless Basic",
+      "descricao": "Legging sem costura com a tecnologia Seamless Dry, que permite maior respirabilidade e secagem rápida do suor. Com modelagem básica, possui cós largo e anatômico com texturas para melhor sustentação, modelando a silhueta e dando mais conforto.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "4322",
+          "nome": "Verde",
+          "img": "/produtos/lsport/71756-001/4322.jpg"
+        },
+        {
+          "cod": "5556",
+          "nome": "Fucsia Glam",
+          "img": "/produtos/lsport/71756-001/5556.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/71756-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/71756-001/5556.jpg"
+    },
+    {
+      "codigo": "71774-001",
+      "nome": "Calça Legging LSport Essential",
+      "descricao": "Legging sem costura com a tecnologia Seamless Dry, que permite maior respirabilidade e secagem rápida do suor, e a Antimicrobial, que protege das bactérias que causam odor. O cós largo e anatômico modela a silhueta e o recorte curvo na lateral. Possui logo na parte posterior do cós.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lsport/71774-001/1110.jpg"
+        },
+        {
+          "cod": "2498",
+          "nome": "Lavanda Suave",
+          "img": "/produtos/lsport/71774-001/2498.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/71774-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/71774-001/1110.jpg"
+    },
+    {
+      "codigo": "71053-001",
+      "nome": "Calça Legging Max Lupo",
+      "descricao": "Calça legging com modelagem justa ao corpo sem costura. Não marca e se adequa confortavelmente sem apertar. Possui pontos de sustentação e compressão para atividades de alto impacto. O fio texturizado a ar tem toque como algodão e permite uma vestimenta com conforto extremo. Cós anatômico dá liberdade e conforto nas atividades por permitir que a peça continue ajustada ao corpo durante os movimentos",
+      "tamanho": "P • M • G • GG • XG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "2760",
+          "nome": "Azul",
+          "img": "/produtos/lsport/71053-001/2760.jpg"
+        },
+        {
+          "cod": "2801",
+          "nome": "Marinho",
+          "img": "/produtos/lsport/71053-001/2801.jpg"
+        },
+        {
+          "cod": "8872",
+          "nome": "Grafite",
+          "img": "/produtos/lsport/71053-001/8872.jpg"
+        },
+        {
+          "cod": "2498",
+          "nome": "Lavanda Suave",
+          "img": "/produtos/lsport/71053-001/2498.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/71053-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/71053-001/2760.jpg"
+    },
+    {
+      "codigo": "71716-002",
+      "nome": "Calça Legging Act Seamless",
+      "descricao": "Calça legging sem costura ( tecnologia Seamless Dry) que proporciona secagem rápida do suor e maior respirabilidade. Cós largo e anatômico te deixa mais segura no exercício, além de modelar a silhueta. Nas laterais, detalhe de listras acompanham a calça.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "2783",
+          "nome": "Anil",
+          "img": "/produtos/lsport/71716-002/2783.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/71716-002/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/71716-002/2783.jpg"
+    },
+    {
+      "codigo": "76233-001",
+      "nome": "Calça Legging LSport Feminina Run 5 Pockets",
+      "descricao": "Legging Pocket é ideal para atividades físicas, especialmente para corrida. Com 5 bolsos estrategicamente posicionados — três nas laterais no corpo da peça e três no cós na parte traseira — você tem espaço de sobra para armazenar seus itens essenciais e com fácil acesso durante sua corrida. Possui detalhe em zíper na parte de trás próximo a barra. Detalhe da logo LSport na lateral.",
+      "tamanho": "P • M • G • GG • XG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "2760",
+          "nome": "Azul",
+          "img": "/produtos/lsport/76233-001/2760.jpg"
+        },
+        {
+          "cod": "5920",
+          "nome": "Carmim",
+          "img": "/produtos/lsport/76233-001/5920.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/76233-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/76233-001/9990.jpg"
+    },
+    {
+      "codigo": "71752-001",
+      "nome": "Calça Lupo Feminino Energy Raschel",
+      "descricao": "Legging sem costura com a tecnologia Raschel. Os micro furos na estrutura da peça possibilitam mais capacidade de ventilação e liberdade nos movimentos, além de construir desenhos que conversam com a silhueta do corpo. O cós anatômico permite mais segurança durante a atividade.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "5920",
+          "nome": "Carmim",
+          "img": "/produtos/lsport/71752-001/5920.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/71752-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/71752-001/5920.jpg"
+    },
+    {
+      "codigo": "71582-001",
+      "nome": "Calça Legging Underwear Warm Lupo Feminina",
+      "descricao": "Calça legging feminina justa ao corpo, desenvolvida com a tecnologia WARM em fio SENSIL® Heat, produzido a partir de resíduos da torra de grãos de café, esta peça oferece isolamento térmico natural e inteligente. A tecnologia atua retardando a perda de calor corporal em ambientes de baixa temperatura, ajudando a manter o corpo aquecido por mais tempo. Com base em poliamida, este produto possui indicação de uso como primeira camada, associado com peças bloqueadoras de vento em condições de baixas temperaturas, potencializando o efeito e proporcionando assim conforto, bem-estar e performance mesmo em condições frias.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preto",
+          "img": "/produtos/lsport/71582-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/71582-001/9990.jpg"
+    },
+    {
+      "codigo": "71570-002",
+      "nome": "Calça Legging LSport Mom",
+      "descricao": "Calça legging ideal para grávidas. Possui cós super alto com tecnologia que proporciona conforto e não aperta a barriga. Seamless Dry, ainda garante maior respirabilidade e secagem rápida do suor e tecnologia Amni Off que protege do agente viral e antibacteriano. Perfeita para a prática de yoga.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/71570-002/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/71570-002/9990.jpg"
+    },
+    {
+      "codigo": "76307-003",
+      "nome": "Calça Bailarina Action",
+      "descricao": "Calça longa com design enxuto e reto no comprimento e barra um pouco mais ampla, formando a modelagem bailarina. Possui cós alto que modela a silhueta e proteção contra os raios solares UV+50.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50) • XG (54 a 56)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "2660",
+          "nome": "Azul",
+          "img": "/produtos/lsport/76307-003/2660.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/76307-003/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/76307-003/9990.jpg"
+    },
+    {
+      "codigo": "73211-001",
+      "nome": "Macaquinho LSport Max Lupo",
+      "descricao": "Macaquinho sem costura (tecnologia Seamless Dry) que proporciona vestibilidade sem atrito, melhor ajuste e maior conforto. Possui decote arredondado frontal e alças médias para suporte médio. O comprimento é similar ao da Bermuda Max Lupo. Produto ideal para atividades como treino, yoga ou uso casual. Possui detalhe de desenhos de listras e texturas característicos da família Max Lupo. Com tecnologia Antimicrobial.",
+      "tamanho": "P • M • G",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "2783",
+          "nome": "Anil",
+          "img": "/produtos/lsport/73211-001/2783.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/73211-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/73211-001/2783.jpg"
+    },
+    {
+      "codigo": "71368-001",
+      "nome": "Macacão Seamless Basic",
+      "descricao": "Macacão sem costura (Tecnologia Seamless Dry) que proporciona maior respirabilidade ao corpo e secagem rápida do suor. A peça justa ao corpo modela a silhueta e possui pontos de compressão que ajudam na performance do exercício de médio suporte. O decote nas costas valoriza a peça e melhora o frescor.",
+      "tamanho": "P • M • G",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preto",
+          "img": "/produtos/lsport/71368-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/71368-001/9990.jpg"
+    },
+    {
+      "codigo": "73646-001",
+      "nome": "Regata LSport Raschel Gota",
+      "descricao": "Regata sem costura produzida com a tecnologia Raschel. Os microfuros na estrutura da peça possibilitam mais capacidade de ventilação e liberdade nos movimentos, além de construir desenhos que conversam com a silhueta do corpo.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "2801",
+          "nome": "Marinho",
+          "img": "/produtos/lsport/73646-001/2801.jpg"
+        },
+        {
+          "cod": "5556",
+          "nome": "Fucsia Glam",
+          "img": "/produtos/lsport/73646-001/5556.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/73646-001/5556.jpg"
+    },
+    {
+      "codigo": "73637-001",
+      "nome": "Regata Raschel LSport SolarFit",
+      "descricao": "Regata sem costura produzida com a tecnologia Raschel. Os microfuros na estrutura da peça possibilitam mais capacidade de ventilação e liberdade nos movimentos, além de construir desenhos que conversam com a silhueta do corpo.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "0510",
+          "nome": "Coral",
+          "img": "/produtos/lsport/73637-001/0510.jpg"
+        },
+        {
+          "cod": "1830",
+          "nome": "Off White",
+          "img": "/produtos/lsport/73637-001/1830.jpg"
+        },
+        {
+          "cod": "2143",
+          "nome": "Azul Claro",
+          "img": "/produtos/lsport/73637-001/2143.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/73637-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/73637-001/0510.jpg"
+    },
+    {
+      "codigo": "77225-001",
+      "nome": "Regata Cropped LSport AirDry Feminina",
+      "descricao": "Camiseta tipo regata cropped sem mangas com modelagem curta e um pouco mais solta do corpo. Com tecido em 100% poliamida, possui a tecnologia Dry, que proporciona frescor no uso diário e secagem mais rápida do suor. Peça confortável e leve, ideal para inserir na rotina e construir produções que vão das atividades f ísicas até o uso urbano.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lsport/77225-001/1110.jpg"
+        },
+        {
+          "cod": "2143",
+          "nome": "Azul Claro",
+          "img": "/produtos/lsport/77225-001/2143.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/77225-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/77225-001/1110.jpg"
+    },
+    {
+      "codigo": "73631-001",
+      "nome": "Regata Nassau II",
+      "descricao": "Regata feminina sem costura com decote nadador, toque leve e modelagem reta. Possui detalhes de furinhos, deixando a peça respirável e com fácil absorção da umidade. Ideal para atividades externas como corrida e beach tennis.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "3600",
+          "nome": "Camarão",
+          "img": "/produtos/lsport/73631-001/3600.jpg"
+        },
+        {
+          "cod": "4402",
+          "nome": "Lima Citrico",
+          "img": "/produtos/lsport/73631-001/4402.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/73631-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/73631-001/3600.jpg"
+    },
+    {
+      "codigo": "77076-004",
+      "nome": "Regata Poliamida Basic Run",
+      "descricao": "Regata em poliamida para uma sensação de frescor durante o treino. Possui modelagem reta, decote redondo na frente e nadador nas costas. Versátil para diversas práticas de atividades físicas pela sua modelagem clássica e tecido respirável.",
+      "tamanho": "P • M • G • GG • XG",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lsport/77076-004/1110.jpg"
+        },
+        {
+          "cod": "5141",
+          "nome": "Rosa",
+          "img": "/produtos/lsport/77076-004/5141.jpg"
+        },
+        {
+          "cod": "5920",
+          "nome": "Carmim",
+          "img": "/produtos/lsport/77076-004/5920.jpg"
+        },
+        {
+          "cod": "8810",
+          "nome": "Mescla Grafite",
+          "img": "/produtos/lsport/77076-004/8810.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/77076-004/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/77076-004/1110.jpg"
+    },
+    {
+      "codigo": "77383-001",
+      "nome": "T-shirt LSport alongada com fenda lateral",
+      "descricao": "T-Shirt LSport alongada, desenvolvida em poliamida, que proporciona toque macio, leveza e excelente caimento ao corpo. Com modelagem mais longa, oferece cobertura adicional e um visual moderno, enquanto a fenda lateral garante maior liberdade de movimento e melhor ajuste durante as atividades. Conta com tecnologia de secagem rápida, que auxilia na evaporação do suor, mantendo o corpo seco e confortável ao longo do treino ou no dia a dia. Ideal para quem busca desempenho aliado a estilo e praticidade.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lsport/77383-001/1110.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/77383-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/77383-001/1110.jpg"
+    },
+    {
+      "codigo": "77226-001",
+      "nome": "T-shirt LSport AirDry Feminina",
+      "descricao": "Camiseta básica com modelagem um pouco mais soltinha do corpo e tecido bem leve e com toque suave. Possui gola redonda, manga curta, ideal para uso diário, tanto em exercícios, quanto em uso urbano. Com tecido em 100% poliamida, possui a tecnologia Dry, que proporciona frescor no uso diário e secagem mais rápida do suor.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "0510",
+          "nome": "Coral",
+          "img": "/produtos/lsport/77226-001/0510.jpg"
+        },
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lsport/77226-001/1110.jpg"
+        },
+        {
+          "cod": "4402",
+          "nome": "Lima Citrico",
+          "img": "/produtos/lsport/77226-001/4402.jpg"
+        },
+        {
+          "cod": "5556",
+          "nome": "Fucsia Glam",
+          "img": "/produtos/lsport/77226-001/5556.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/77226-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/77226-001/0510.jpg"
+    },
+    {
+      "codigo": "77317-001",
+      "nome": "Camiseta LSport Run Feminina",
+      "descricao": "T-shirt LSport com modelagem reta e gola redonda, desenvolvida em poliamida, que proporciona toque macio, leveza e excelente caimento ao corpo. Versátil e confortável, é ideal para o dia a dia e para a prática de atividades f ísicas, garantindo liberdade de movimento sem comprometer o estilo. Conta com tecnologia de secagem rápida, que auxilia na evaporação do suor, mantendo o corpo seco e confortável ao longo do uso.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lsport/77317-001/1110.jpg"
+        },
+        {
+          "cod": "2498",
+          "nome": "Lavanda Suave",
+          "img": "/produtos/lsport/77317-001/2498.jpg"
+        },
+        {
+          "cod": "3915",
+          "nome": "Damasco Claro",
+          "img": "/produtos/lsport/77317-001/3915.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/77317-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/77317-001/1110.jpg"
+    },
+    {
+      "codigo": "77282-003",
+      "nome": "T-Shirt Poliamida Básica Feminina III",
+      "descricao": "Camiseta básica com modelagem reta, manga curta e gola redonda. Possui transfer refletivo na frente e proteção contra os raios solares UV +50. Produzida especialmente com fio de poliamida biodegradável que reduz o tempo de biodegradação da peça para menos de três anos quando descartada em aterros sanitários.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lsport/77282-003/1110.jpg"
+        },
+        {
+          "cod": "2143",
+          "nome": "Azul Claro",
+          "img": "/produtos/lsport/77282-003/2143.jpg"
+        },
+        {
+          "cod": "2498",
+          "nome": "Lavanda Suave",
+          "img": "/produtos/lsport/77282-003/2498.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/77282-003/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/77282-003/1110.jpg"
+    },
+    {
+      "codigo": "77052-005",
+      "nome": "T-Shirt Poliamida Básica Feminina",
+      "descricao": "Camiseta básica com modelagem reta, manga curta e gola redonda. Possui transfer refletivo na frente e proteção contra os raios solares UV +50. Produzida especialmente com fio de poliamida biodegradável que reduz o tempo de biodegradação da peça para menos de três anos quando descartada em aterros sanitários.",
+      "tamanho": "P • M • G • GG • XG • XXG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lsport/77052-005/1110.jpg"
+        },
+        {
+          "cod": "2783",
+          "nome": "Anil",
+          "img": "/produtos/lsport/77052-005/2783.jpg"
+        },
+        {
+          "cod": "5780",
+          "nome": "Magenta",
+          "img": "/produtos/lsport/77052-005/5780.jpg"
+        },
+        {
+          "cod": "2660",
+          "nome": "Azul",
+          "img": "/produtos/lsport/77052-005/2660.jpg"
+        },
+        {
+          "cod": "3915",
+          "nome": "Damasco Claro",
+          "img": "/produtos/lsport/77052-005/3915.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/77052-005/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/77052-005/5780.jpg"
+    },
+    {
+      "codigo": "77153-003",
+      "nome": "T-Shirt LSport Ampla",
+      "descricao": "Camiseta básica com modelagem ampla e leve. Possui gola redonda, manga curta e a barra da parte de trás um pouco mais alongada para mais segurança nas atividades. Possui detalhes refletivos na parte da frente da peça.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "4322",
+          "nome": "Verde",
+          "img": "/produtos/lsport/77153-003/4322.jpg"
+        },
+        {
+          "cod": "8000",
+          "nome": "Cinza Mescla",
+          "img": "/produtos/lsport/77153-003/8000.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/77153-003/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/77153-003/9990.jpg"
+    },
+    {
+      "codigo": "77028-003",
+      "nome": "T-Shirt Repelente UV Feminina",
+      "descricao": "Camiseta feminina com proteção UV50+, manga longa e gola redonda. Modelagem ajustada ao corpo e com detalhes refletivos. Possui ação repelente, tecido em poliamida com princípios ativos utilizados para afastar mosquitos. Produzida especialmente com fio de poliamida biodegradável que reduz o tempo de biodegradação da peça para menos de três anos quando descartada em aterros sanitários. Detalhe da logo refletiva, ideal para atividades externas, que vão desde dias de sol até exercícios noturnos.",
+      "tamanho": "P • M • G • GG • XG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lsport/77028-003/1110.jpg"
+        },
+        {
+          "cod": "5780",
+          "nome": "Magenta",
+          "img": "/produtos/lsport/77028-003/5780.jpg"
+        },
+        {
+          "cod": "4402",
+          "nome": "Lima Citrico",
+          "img": "/produtos/lsport/77028-003/4402.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/77028-003/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/77028-003/4402.jpg"
+    },
+    {
+      "codigo": "71012-002",
+      "nome": "T-shirt Térmica I-Max",
+      "descricao": "Camiseta reta de proteção térmica com manga longa e gola redonda. Possui tecnologia Seamdless Dry que proporciona mais respirabilidade e secagem rápida do suor. A peça é produzida em níveis diferentes de compressão que melhoram a postura e equilibram o peso do músculos. Desenvolvida com poliamida antiviral e antibacteriano.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lsport/71012-002/1110.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preto",
+          "img": "/produtos/lsport/71012-002/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/71012-002/1110.jpg"
+    },
+    {
+      "codigo": "77306-001",
+      "nome": "Jaqueta Femina Translúcida Packable II",
+      "descricao": "Jaqueta modelo corta vento com manga longa e gola alta. Possui capuz abertura em baixo do braço para maior respirabilidade e detalhes refletivos. É possível dobrar a jaqueta de forma que se transforme em uma bolsa, prática de carregar até pela alça. Uma aliada para exercícios outdoor e que traz a versatilidade para prática a atividade física.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lsport/77306-001/1110.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/77306-001/1110.jpg"
+    },
+    {
+      "codigo": "77260-001",
+      "nome": "Jaqueta Translucida Packable Feminina",
+      "descricao": "Jaqueta modelo corta vento com manga longa e gola alta. Possui capuz e detalhes refletivos. É possível dobrar a jaqueta de forma que se transforme em uma bolsa, prática de carregar até pela alça. Uma aliada para exercícios outdoor e que traz a versatilidade para prática a atividade física.",
+      "tamanho": "P • M • G • GG",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "1830",
+          "nome": "Off White",
+          "img": "/produtos/lsport/77260-001/1830.jpg"
+        },
+        {
+          "cod": "2721",
+          "nome": "Azul",
+          "img": "/produtos/lsport/77260-001/2721.jpg"
+        },
+        {
+          "cod": "4841",
+          "nome": "Oliva",
+          "img": "/produtos/lsport/77260-001/4841.jpg"
+        },
+        {
+          "cod": "5270",
+          "nome": "Rosa Nostalgia",
+          "img": "/produtos/lsport/77260-001/5270.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/77260-001/1830.jpg"
+    },
+    {
+      "codigo": "77121-003",
+      "nome": "Jaqueta LSport AF Windbreak",
+      "descricao": "Jaqueta corta-vento confeccionada em tecido leve, ideal para atividades externas. Possui capuz embutido, regulagem com puxador e fechamento em zíper selado, garantindo proteção e praticidade. Os detalhes refletivos trazem versatilidade para uso outdoor, do casual aos exercícios. Além disso, a peça é compactável e pode ser dobrada e transformada em uma bolsinha quando fechada, facilitando o transporte no dia a dia.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lsport/77121-003/1110.jpg"
+        },
+        {
+          "cod": "2143",
+          "nome": "Azul Claro",
+          "img": "/produtos/lsport/77121-003/2143.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/77121-003/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/77121-003/2143.jpg"
+    },
+    {
+      "codigo": "77118-002",
+      "nome": "Blusão Fleece Básico Feminino",
+      "descricao": "Blusa com modelagem reta e manga longa, ideal para as temperaturas mais frias. Com gola alta, possui zíper de abertura e dois bolsos na frente. Perfeita para prática de atividade f ísica ou em looks casuais.",
+      "tamanho": "P • M • G • GG",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "4110",
+          "nome": "Lime",
+          "img": "/produtos/lsport/77118-002/4110.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/77118-002/4110.jpg"
+    },
+    {
+      "codigo": "70000-001",
+      "nome": "Regata Running",
+      "descricao": "Regata básica sem costura (Tecnologia Seamless Dry) proporciona maior respirabilidade e uma secagem mais rápida do suor. Modelagem reta e alongada acompanha pontos estratégicos respiráveis. Detalhes refletivos para atividades externas e tecnologia antimicrobial.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lsport/70000-001/1110.jpg"
+        },
+        {
+          "cod": "2783",
+          "nome": "Anil",
+          "img": "/produtos/lsport/70000-001/2783.jpg"
+        },
+        {
+          "cod": "4402",
+          "nome": "Lima Citrico",
+          "img": "/produtos/lsport/70000-001/4402.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/70000-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/70000-001/1110.jpg"
+    },
+    {
+      "codigo": "77227-001",
+      "nome": "Regata LSport AirDry Masculina",
+      "descricao": "Camiseta masculina tipo regata, sem mangas, com modelagem um pouco mais soltinha do corpo e tecido bem leve e com toque suave. Com gola redonda mais aberta, é perfeita para todos os exercícios e uma boa escolha também para uso diário. Com tecido em 100% poliamida, possui a tecnologia Dry, que proporciona frescor no uso diário e secagem mais rápida do suor.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lsport/77227-001/1110.jpg"
+        },
+        {
+          "cod": "2143",
+          "nome": "Azul Claro",
+          "img": "/produtos/lsport/77227-001/2143.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/77227-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/77227-001/2143.jpg"
+    },
+    {
+      "codigo": "77173-002",
+      "nome": "Regata Poliamida Básica Masculina",
+      "descricao": "Regata reta, com alça larga e gola redonda. Produzida especialmente com fio de poliamida biodegradável que reduz o tempo de biodegradação da peça para menos de três anos quando descartada em aterros sanitários. Proporciona um toque macio e confortável e também maior respirabilidade, possui qualidade mais durável que a poliamida convencional. Possui transfer refletivo na frente e proteção contra os raios solares UV +50.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "2760",
+          "nome": "Azul",
+          "img": "/produtos/lsport/77173-002/2760.jpg"
+        },
+        {
+          "cod": "4322",
+          "nome": "Verde",
+          "img": "/produtos/lsport/77173-002/4322.jpg"
+        },
+        {
+          "cod": "8872",
+          "nome": "Grafite",
+          "img": "/produtos/lsport/77173-002/8872.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/77173-002/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/77173-002/2760.jpg"
+    },
+    {
+      "codigo": "70712-001",
+      "nome": "Regata Machão LSport",
+      "descricao": "Regata com alça larga e gola redonda. Peça com a tecnologia Seamless Dry, que proporciona maior respirabilidade ao corpo e a secagem rápida do suor. A modelagem um pouco mais alongada conta também com pontos estratégicos que melhoram a circulação do ar. Com detalhes refletivos e tecnologia antimicrobial.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lsport/70712-001/1110.jpg"
+        },
+        {
+          "cod": "4322",
+          "nome": "Verde",
+          "img": "/produtos/lsport/70712-001/4322.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/70712-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/70712-001/1110.jpg"
+    },
+    {
+      "codigo": "70040-001",
+      "nome": "T-shirt Térmica I-Power",
+      "descricao": "Camiseta manga curta, com gola redonda e modelagem ajustada ao corpo. Possui tecnologia Seamless Dry que garante maior transpirabilidade e secagem rápida do suor. Peça desenvolvida com diferentes níveis de compressão que melhoram a postura corporal e o contrapeso do músculo, além do fio especial com ação antiviral e antimicrobial.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lsport/70040-001/1110.jpg"
+        },
+        {
+          "cod": "4831",
+          "nome": "Verde",
+          "img": "/produtos/lsport/70040-001/4831.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/70040-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/70040-001/9990.jpg"
+    },
+    {
+      "codigo": "70775-001",
+      "nome": "T-Shirt LSport Seamless Mescla Fit",
+      "descricao": "Camiseta masculina sem costura, confeccionada com fio antimicrobial, que ajuda a inibir a proliferação de bactérias e odores, garantindo mais frescor e conforto durante o uso. Desenvolvida em fio mescla, que confere visual moderno e textura diferenciada à peça. Possui detalhe refletivo, agregando segurança em atividades realizadas em ambientes de baixa luminosidade.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "2801",
+          "nome": "Marinho",
+          "img": "/produtos/lsport/70775-001/2801.jpg"
+        },
+        {
+          "cod": "6750",
+          "nome": "Noz",
+          "img": "/produtos/lsport/70775-001/6750.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/70775-001/2801.jpg"
+    },
+    {
+      "codigo": "77353-002",
+      "nome": "T-Shirt LSport Smart",
+      "descricao": "Camiseta masculina clássica com modelagem reta um pouco mais soltinha do corpo e tecido fresco. Possui gola redonda, manga curta, ideal para o dia a dia, tanto na prática de atividade física, quanto no uso urbano. Possui detalhe frontal da logo LSport.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lsport/77353-002/1110.jpg"
+        },
+        {
+          "cod": "2800",
+          "nome": "Marinho",
+          "img": "/produtos/lsport/77353-002/2800.jpg"
+        },
+        {
+          "cod": "8230",
+          "nome": "Cinza",
+          "img": "/produtos/lsport/77353-002/8230.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/77353-002/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/77353-002/1110.jpg"
+    },
+    {
+      "codigo": "70728-001",
+      "nome": "T-shirt LSport Boston",
+      "descricao": "Camiseta em Seamless Dry, que proporciona maior respirabilidade ao corpo e secagem rápida do suor. Pontos estratégicos na t-shirt facilitam a transpirabilidade. Com gola redonda e manga curta, os detalhes refletivos permitem a prática de atividades externas.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "2760",
+          "nome": "Azul",
+          "img": "/produtos/lsport/70728-001/2760.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/70728-001/9990.jpg"
+        },
+        {
+          "cod": "6750",
+          "nome": "Noz",
+          "img": "/produtos/lsport/70728-001/6750.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/70728-001/6750.jpg"
+    },
+    {
+      "codigo": "77230-001",
+      "nome": "T-shirt LSport AirDry Masculina",
+      "descricao": "Camiseta masculina tipo t-shirt clássica com modelagem um pouco mais soltinha do corpo e tecido bem leve e com toque suave. Possui gola redonda, manga curta, ideal para o dia a dia de exercícios e em uso urbano. Com tecido em 100% poliamida, possui a tecnologia Dry, que proporciona frescor no uso diário e secagem mais rápida do suor.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lsport/77230-001/1110.jpg"
+        },
+        {
+          "cod": "2780",
+          "nome": "Anil",
+          "img": "/produtos/lsport/77230-001/2780.jpg"
+        },
+        {
+          "cod": "8384",
+          "nome": "Cinza",
+          "img": "/produtos/lsport/77230-001/8384.jpg"
+        },
+        {
+          "cod": "4402",
+          "nome": "Lima Citrico",
+          "img": "/produtos/lsport/77230-001/4402.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/77230-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/77230-001/9990.jpg"
+    },
+    {
+      "codigo": "77326-001",
+      "nome": "T-Shirt LSport Run Masculina",
+      "descricao": "T-shirt LSport com modelagem reta e gola redonda, desenvolvida em poliamida, que proporciona toque macio, leveza e excelente caimento ao corpo. Versátil e confortável, é ideal para o dia a dia e para a prática de atividades f ísicas, garantindo liberdade de movimento sem comprometer o estilo. Conta com tecnologia de secagem rápida, que auxilia na evaporação do suor, mantendo o corpo seco e confortável ao longo do uso.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lsport/77326-001/1110.jpg"
+        },
+        {
+          "cod": "2143",
+          "nome": "Azul Claro",
+          "img": "/produtos/lsport/77326-001/2143.jpg"
+        },
+        {
+          "cod": "3915",
+          "nome": "Damasco Claro",
+          "img": "/produtos/lsport/77326-001/3915.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/77326-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/77326-001/9990.jpg"
+    },
+    {
+      "codigo": "77268-003",
+      "nome": "T-Shirt Poliamida Básica Masculina II",
+      "descricao": "Camiseta com modelagem reta básica, manga curta, gola redonda e detalhe refletivo na frente. Com proteção UV, é confeccionada em fio de poliamida biodegradável que reduz o tempo de degradação da peça. Toque macio e confortável e também maior respirabilidade, possui qualidade mais durável que a poliamida convencional",
+      "tamanho": "P • M • G • GG • XG • XXG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lsport/77268-003/1110.jpg"
+        },
+        {
+          "cod": "2760",
+          "nome": "Azul",
+          "img": "/produtos/lsport/77268-003/2760.jpg"
+        },
+        {
+          "cod": "3915",
+          "nome": "Damasco Claro",
+          "img": "/produtos/lsport/77268-003/3915.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/77268-003/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/77268-003/1110.jpg"
+    },
+    {
+      "codigo": "77053-004",
+      "nome": "T-Shirt Poliamida Básica Masculina II",
+      "descricao": "Camiseta básica com modelagem reta, manga curta e gola redonda. Possui transfer refletivo na frente e proteção contra os raios solares UV +50. Produzida especialmente com fio de poliamida biodegradável que reduz o tempo de biodegradação da peça para menos de três anos quando descartada em aterros sanitários.",
+      "tamanho": "P • M • G • GG • XG • XXG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "6750",
+          "nome": "Noz",
+          "img": "/produtos/lsport/77053-004/6750.jpg"
+        },
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lsport/77053-004/1110.jpg"
+        },
+        {
+          "cod": "2783",
+          "nome": "Anil",
+          "img": "/produtos/lsport/77053-004/2783.jpg"
+        },
+        {
+          "cod": "8872",
+          "nome": "Grafite",
+          "img": "/produtos/lsport/77053-004/8872.jpg"
+        },
+        {
+          "cod": "3915",
+          "nome": "Damasco Claro",
+          "img": "/produtos/lsport/77053-004/3915.jpg"
+        },
+        {
+          "cod": "4402",
+          "nome": "Lima Citrico",
+          "img": "/produtos/lsport/77053-004/4402.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/77053-004/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/77053-004/1110.jpg"
+    },
+    {
+      "codigo": "77085-004",
+      "nome": "T-Shirt Poliamida Básica Run Masculina",
+      "descricao": "Camiseta com modelagem reta clássica, manga curta e gola redonda. Produzida em poliamida para mais frescor e tecido confortável ao toque. Possui detalhes refletivos, ideal para uso em atividades externas.",
+      "tamanho": "P • M • G • GG • XG • XXG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lsport/77085-004/1110.jpg"
+        },
+        {
+          "cod": "5920",
+          "nome": "Carmim",
+          "img": "/produtos/lsport/77085-004/5920.jpg"
+        },
+        {
+          "cod": "6980",
+          "nome": "Bege",
+          "img": "/produtos/lsport/77085-004/6980.jpg"
+        },
+        {
+          "cod": "8810",
+          "nome": "Mescla Grafite",
+          "img": "/produtos/lsport/77085-004/8810.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/77085-004/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/77085-004/9990.jpg"
+    },
+    {
+      "codigo": "77285-002",
+      "nome": "T-Shirt Basic CoreFit Masculina",
+      "descricao": "Camiseta masculina tipo t-shirt clássica com modelagem reta um pouco mais soltinha do corpo e tecido fresco. Possui gola redonda, manga curta, ideal para o dia a dia, tanto na prática de atividade física, quanto no uso urbano. Possui detalhe frontal da logo LSport.",
+      "tamanho": "P • M • G • GG • XG • XXG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/77285-002/9990.jpg"
+        },
+        {
+          "cod": "0400",
+          "nome": "Azul Caribe",
+          "img": "/produtos/lsport/77285-002/0400.jpg"
+        },
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lsport/77285-002/1110.jpg"
+        },
+        {
+          "cod": "4021",
+          "nome": "Verde Fresh",
+          "img": "/produtos/lsport/77285-002/4021.jpg"
+        },
+        {
+          "cod": "5760",
+          "nome": "Açaí",
+          "img": "/produtos/lsport/77285-002/5760.jpg"
+        },
+        {
+          "cod": "7860",
+          "nome": "Cerâmica",
+          "img": "/produtos/lsport/77285-002/7860.jpg"
+        },
+        {
+          "cod": "8872",
+          "nome": "Grafite",
+          "img": "/produtos/lsport/77285-002/8872.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/77285-002/5760.jpg"
+    },
+    {
+      "codigo": "77283-002",
+      "nome": "T-Shirt Basic Cotton Masculina",
+      "descricao": "Camiseta produzida em algodão nobre, oferece toque macio, caimento leve e excelente respirabilidade, trazendo conforto e estilo, ideal para acompanhar sua rotina, do treino ao dia a dia.",
+      "tamanho": "P • M • G • GG",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lsport/77283-002/1110.jpg"
+        },
+        {
+          "cod": "2721",
+          "nome": "Azul",
+          "img": "/produtos/lsport/77283-002/2721.jpg"
+        },
+        {
+          "cod": "4021",
+          "nome": "Verde Fresh",
+          "img": "/produtos/lsport/77283-002/4021.jpg"
+        },
+        {
+          "cod": "5760",
+          "nome": "Açaí",
+          "img": "/produtos/lsport/77283-002/5760.jpg"
+        },
+        {
+          "cod": "8230",
+          "nome": "Cinza",
+          "img": "/produtos/lsport/77283-002/8230.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/77283-002/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/77283-002/4021.jpg"
+    },
+    {
+      "codigo": "77031-002",
+      "nome": "T-Shirt Repelente UV Masculina",
+      "descricao": "Camiseta masculina com proteção UV50+, manga longa e gola redonda. Modelagem ajustada ao corpo e com detalhes refletivos. Possui ação repelente, tecido em poliamida com princípios ativos utilizados para afastar mosquitos. Produzida especialmente com fio de poliamida biodegradável que reduz o tempo de biodegradação da peça para menos de três anos quando descartada em aterros sanitários. Detalhe da logo refletiva, ideal para atividades externas, que vão desde dias de sol até exercícios noturnos.",
+      "tamanho": "P • M • G • GG • XG • XXG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lsport/77031-002/1110.jpg"
+        },
+        {
+          "cod": "2783",
+          "nome": "Anil",
+          "img": "/produtos/lsport/77031-002/2783.jpg"
+        },
+        {
+          "cod": "4322",
+          "nome": "Verde",
+          "img": "/produtos/lsport/77031-002/4322.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/77031-002/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/77031-002/9990.jpg"
+    },
+    {
+      "codigo": "70045-002",
+      "nome": "T-shirt Térmica Run",
+      "descricao": "Camiseta manga longa térmica, que mantém a temperatura, com tecnologia Seamless Dry proporciona maior respirabilidade ao corpo e secagem rápida do suor. A peça é produzida com diferentes níveis de compressão que melhoram o contrapeso do músculo e a postura corporal, além do fio Amni-Off com ação antiviral e antibactericida.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lsport/70045-002/1110.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preto",
+          "img": "/produtos/lsport/70045-002/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/70045-002/9990.jpg"
+    },
+    {
+      "codigo": "70050-003",
+      "nome": "Bermuda Térmica I-Max",
+      "descricao": "Bermuda justa ao corpo para atividades de alto impacto. Confeccionada em Seamless Dry que proporciona maior respirabilidade ao corpo e secagem rápida do suor. Desenvolvido com diferentes níveis de compressão, possui ação que melhora a postura corporal e o contrapeso do músculo. O fio Amni Off ainda garante ação antiviral e antibacteriana.",
+      "tamanho": "P • M • G • GG • XG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "2801",
+          "nome": "Marinho",
+          "img": "/produtos/lsport/70050-003/2801.jpg"
+        },
+        {
+          "cod": "5810",
+          "nome": "Grená",
+          "img": "/produtos/lsport/70050-003/5810.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/70050-003/9990.jpg"
+        },
+        {
+          "cod": "6750",
+          "nome": "Noz",
+          "img": "/produtos/lsport/70050-003/6750.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/70050-003/6750.jpg"
+    },
+    {
+      "codigo": "70602-001",
+      "nome": "Bermuda Térmica X-Run Emana",
+      "descricao": "Bermuda justa ao corpo com alta compressão. Em Seamless Dry que proporciona maior respirabilidade ao corpo e secagem rápida do suor, foi confeccionada com fio inteligente de poliamida que converte o calor do corpo em benefícios que reduz a fadiga e melhora a elasticidade da pele. Possui cós anatômico.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preto",
+          "img": "/produtos/lsport/70602-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/70602-001/9990.jpg"
+    },
+    {
+      "codigo": "76236-001",
+      "nome": "Bermuda LSport Masculina Run 2 Pokets",
+      "descricao": "Shorts Pocket Masculino é ideal para atividades físicas, especialmente para corrida. Com 2 bolsos estrategicamente posicionados nas laterais, você tem espaço de sobra para armazenar seus itens essenciais e com fácil acesso durante sua corrida. O cós ainda conta com um prático elástico para pendurar sua camiseta. A barra possui interno emborrachado, para maior aderência evitando movimentação do comprimento. Detalhe da logo LSport na lateral.",
+      "tamanho": "P • M • G • GG • XG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "2760",
+          "nome": "Azul",
+          "img": "/produtos/lsport/76236-001/2760.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/76236-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/76236-001/9990.jpg"
+    },
+    {
+      "codigo": "76557-002",
+      "nome": "Shorts LSport Curto Running",
+      "descricao": "Shorts para exercícios de alta performance com modelagem reta e curta. Possui leve abertura na lateral da barra e forro interno para maior conforto. Os detalhes refletivos possibilitam atividades também externas e noturnas.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "2143",
+          "nome": "Azul Claro",
+          "img": "/produtos/lsport/76557-002/2143.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/76557-002/9990.jpg"
+        },
+        {
+          "cod": "6750",
+          "nome": "Noz",
+          "img": "/produtos/lsport/76557-002/6750.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/76557-002/9990.jpg"
+    },
+    {
+      "codigo": "76422-003",
+      "nome": "Shorts Budapeste II",
+      "descricao": "Shorts masculino com modelagem reta e comprimento acima do joelho, ideal para um visual versátil e confortável. Possui cós com cordão ajustável para melhor encaixe ao corpo.",
+      "tamanho": "P • M • G • GG • XG • XXG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "2800",
+          "nome": "Marinho",
+          "img": "/produtos/lsport/76422-003/2800.jpg"
+        },
+        {
+          "cod": "8000",
+          "nome": "Cinza Mescla",
+          "img": "/produtos/lsport/76422-003/8000.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/76422-003/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/76422-003/9990.jpg"
+    },
+    {
+      "codigo": "77422-001",
+      "nome": "Shorts Budapeste Com Bolso",
+      "descricao": "Shorts masculino com modelagem reta e comprimento acima do joelho, ideal para um visual versátil e confortável. Possui cós com cordão ajustável para melhor encaixe ao corpo e bolsos laterais funcionais, garantindo praticidade.",
+      "tamanho": "P • M • G • GG • XG • XXG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lsport/77422-001/1110.jpg"
+        },
+        {
+          "cod": "2800",
+          "nome": "Marinho",
+          "img": "/produtos/lsport/77422-001/2800.jpg"
+        },
+        {
+          "cod": "5920",
+          "nome": "Carmim",
+          "img": "/produtos/lsport/77422-001/5920.jpg"
+        },
+        {
+          "cod": "6980",
+          "nome": "Bege",
+          "img": "/produtos/lsport/77422-001/6980.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/77422-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/77422-001/5920.jpg"
+    },
+    {
+      "codigo": "76107-004",
+      "nome": "Shorts LSport Elastano",
+      "descricao": "- Bolso lateral; - Cordão interno para ajustes; - Sunkini interno; -Detalhes refletivos.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "2783",
+          "nome": "Anil",
+          "img": "/produtos/lsport/76107-004/2783.jpg"
+        },
+        {
+          "cod": "8670",
+          "nome": "Grafite",
+          "img": "/produtos/lsport/76107-004/8670.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/76107-004/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/76107-004/8670.jpg"
+    },
+    {
+      "codigo": "76350-002",
+      "nome": "Shorts M Runner",
+      "descricao": "Shorts com modelagem ampla e leve para atividades físicas ou uso casual. Possui forro interno para proporcionar maior conforto, detalhe de faixa lateral em outra cor e detalhes refletivos.",
+      "tamanho": "P • M • G • GG • XG • XXG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "8040",
+          "nome": "Lunar Grey",
+          "img": "/produtos/lsport/76350-002/8040.jpg"
+        },
+        {
+          "cod": "8670",
+          "nome": "Grafite",
+          "img": "/produtos/lsport/76350-002/8670.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/76350-002/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/76350-002/8040.jpg"
+    },
+    {
+      "codigo": "76285-001",
+      "nome": "Bermuda LSport TrainingFit Mascul.",
+      "descricao": "Shorts masculino com design funcional e moderno, ideal para treinos e atividades ao ar livre. O modelo duplo oferece mais conforto e segurança durante os movimentos, enquanto o cordão interno garante ajuste preciso ao corpo. Conta com bolsos laterais práticos para pequenos objetos e detalhes refletivos que aumentam a visibilidade em ambientes de baixa iluminação, proporcionando mais segurança nas práticas esportivas.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "4322",
+          "nome": "Verde",
+          "img": "/produtos/lsport/76285-001/4322.jpg"
+        },
+        {
+          "cod": "8710",
+          "nome": "Chumbo",
+          "img": "/produtos/lsport/76285-001/8710.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/76285-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/76285-001/9990.jpg"
+    },
+    {
+      "codigo": "76456-003",
+      "nome": "Shorts Run Duplo Masculino",
+      "descricao": "Shorts masculino duplo com forro ajustado ao corpo em tecido com elastano. Possui bolso na lateral para comportar o celular e bolso posterior com zíper discreto para outros objetos menores. Cós com elástico para mais segurança e conforto nas atividades de alto impacto. Medida entre pernas: 16cm",
+      "tamanho": "P • M • G • GG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "2800",
+          "nome": "Marinho",
+          "img": "/produtos/lsport/76456-003/2800.jpg"
+        },
+        {
+          "cod": "8384",
+          "nome": "Cinza",
+          "img": "/produtos/lsport/76456-003/8384.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/76456-003/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/76456-003/8384.jpg"
+    },
+    {
+      "codigo": "70601-001",
+      "nome": "Calça Térmica X-Run Emana",
+      "descricao": "Calça legging de alta compressão. Em Seamless Dry que proporciona maior respirabilidade ao corpo e secagem rápida do suor, foi confeccionada com fio inteligente de poliamida que converte o calor do corpo em benefícios que reduz a fadiga e melhora a elasticidade da pele. Possui cós anatômico para mais conforto no exercício.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/70601-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/70601-001/9990.jpg"
+    },
+    {
+      "codigo": "70054-001",
+      "nome": "Calça Underwear Warm Lupo Masculina",
+      "descricao": "Calça legging masculina justa ao corpo, desenvolvida com a tecnologia WARM em fio SENSIL® Heat, produzido a partir de resíduos da torra de grãos de café, esta peça oferece isolamento térmico natural e inteligente. A tecnologia atua retardando a perda de calor corporal em ambientes de baixa temperatura, ajudando a manter o corpo aquecido por mais tempo. Com base em poliamida, este produto possui indicação de uso como primeira camada, associado com peças bloqueadoras de vento em condições de baixas temperaturas, potencializando o efeito e proporcionando assim conforto, bem-estar e performance mesmo em condições frias.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preto",
+          "img": "/produtos/lsport/70054-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/70054-001/9990.jpg"
+    },
+    {
+      "codigo": "77263-001",
+      "nome": "Jaqueta Translucida Packable Masculina",
+      "descricao": "Jaqueta modelo corta vento com manga longa e gola alta. Possui capuz, abertura em baixo do braço para maior respirabilidade e detalhes refletivos. É possível dobrar a jaqueta de forma que se transforme em uma bolsa, prática de carregar até pela alça. Uma aliada para exercícios outdoor e que traz a versatilidade para prática a atividade física.",
+      "tamanho": "P • M • G • GG",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "1830",
+          "nome": "Off White",
+          "img": "/produtos/lsport/77263-001/1830.jpg"
+        },
+        {
+          "cod": "2721",
+          "nome": "Azul",
+          "img": "/produtos/lsport/77263-001/2721.jpg"
+        },
+        {
+          "cod": "6750",
+          "nome": "Noz",
+          "img": "/produtos/lsport/77263-001/6750.jpg"
+        },
+        {
+          "cod": "7870",
+          "nome": "Tijolo",
+          "img": "/produtos/lsport/77263-001/7870.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/77263-001/7870.jpg"
+    },
+    {
+      "codigo": "77131-003",
+      "nome": "Jaqueta LSport AM Windbreak",
+      "descricao": "- Capuz incluso; - Repele água; - Puxador ajustável; - Detalhes refletivos.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lsport/77131-003/1110.jpg"
+        },
+        {
+          "cod": "6980",
+          "nome": "Bege",
+          "img": "/produtos/lsport/77131-003/6980.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/77131-003/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/77131-003/6980.jpg"
+    },
+    {
+      "codigo": "77124-002",
+      "nome": "Blusão Fleece Básico Masculino",
+      "descricao": "Blusa com modelagem reta e manga longa, ideal para as temperaturas mais frias. Com gola alta, possui zíper de abertura e dois bolsos na frente. Perfeita para prática de atividade f ísica ou em looks casuais.",
+      "tamanho": "P • M • G • GG",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "8760",
+          "nome": "Grafite Mescla",
+          "img": "/produtos/lsport/77124-002/8760.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/77124-002/9990.jpg"
+        },
+        {
+          "cod": "6750",
+          "nome": "Noz",
+          "img": "/produtos/lsport/77124-002/6750.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/77124-002/9990.jpg"
+    },
+    {
+      "codigo": "28994-001",
+      "nome": "Top Lsport Sunkini",
+      "descricao": "Top sunkini com design moderno e funcional, ideal para quem busca conforto e praticidade na prática esportiva aquática. O modelo possui fechamento em zíper nas costas, que facilita o vestir, além de um puxador emborrachado personalizado que agrega valor e identidade à peça. Conta com forro interno para maior segurança e melhor ajuste ao corpo. Desenvolvido com tecido de proteção UV 50+, oferece alta proteção contra os raios solares, garantindo mais tranquilidade para atividades ao ar livre.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/28994-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/28994-001/9990.jpg"
+    },
+    {
+      "codigo": "28995-001",
+      "nome": "Sunkini Lsport",
+      "descricao": "Sunkini com modelagem super confortável, desenvolvido para garantir liberdade de movimentos e ajuste perfeito ao corpo. Ideal para suas atividades aquáticas, combina leveza e praticidade, proporcionando bem-estar durante todo o uso. Seu design versátil une funcionalidade e estilo, enquanto a tecnologia com proteção UV 50+ oferece mais segurança contra os raios solares.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/28995-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/28995-001/9990.jpg"
+    },
+    {
+      "codigo": "28993-001",
+      "nome": "Maio Lsport Manga Longa",
+      "descricao": "Maiô manga longa com design funcional e moderno, ideal para quem busca proteção e praticidade dentro e fora d’água. Possui abertura nas costas com meio zíper, facilitando o vestir, além de puxador emborrachado personalizado. Confeccionado em material confortável e de toque macio, conta com forro interno que garante segurança e melhor acabamento. A modelagem ajustada ao corpo proporciona liberdade de movimento e maior conforto durante o uso, sendo perfeito para atividades aquáticas. Desenvolvido com tecido de proteção UV 50+, oferece alta proteção contra os raios solares, garantindo mais tranquilidade para atividades ao ar livre.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/28993-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/28993-001/9990.jpg"
+    },
+    {
+      "codigo": "28990-900",
+      "nome": "Top LSport Bali",
+      "descricao": "Top cropped justo ao corpo com gola próxima ao pescoço em decote nadador. O tecido maleável garante segurança e liberdade nos movimentos. Zíper frontal que regula o decote e possui detalhe de puxador emborrachado. A peça perfeita para esportes aquáticos pelo conforto e secagem rápida.",
+      "tamanho": "P • M • G • GG",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "0650",
+          "nome": "Tentação",
+          "img": "/produtos/lsport/28990-900/0650.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preto",
+          "img": "/produtos/lsport/28990-900/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/28990-900/0650.jpg"
+    },
+    {
+      "codigo": "28988-900",
+      "nome": "Bottom Sunkini Bali",
+      "descricao": "Sunkini com modelagem super confortável perfeito para as suas atividades aquáticas. A calcinha com cintura alta possui detalhe de logo emborrachada e bolsinho funcional na lateral para pequenos objetos. Uma peça clássica com secagem rápida e modelagem que valoriza a silhueta.",
+      "tamanho": "P • M • G • GG",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "0650",
+          "nome": "Tentação",
+          "img": "/produtos/lsport/28988-900/0650.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preto",
+          "img": "/produtos/lsport/28988-900/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/28988-900/0650.jpg"
+    },
+    {
+      "codigo": "28938-900",
+      "nome": "Maiô LSport Bali",
+      "descricao": "Maiô sem manga com gola mais alta e próxima do pescoço. Possui decote nadador e zíper, com puxador emborrachado, na parte frontal para regular o decote. Possui secagem rápida e tecido maleável que se ajusta ao corpo e é ideal para te deixar segura nos exercícios aquáticos.",
+      "tamanho": "P • M • G • GG",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "0650",
+          "nome": "Tentação",
+          "img": "/produtos/lsport/28938-900/0650.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/28938-900/0650.jpg"
+    },
+    {
+      "codigo": "28944-003",
+      "nome": "Maio Lupo Sport Feminino Itapua Luna",
+      "descricao": "Maiô Itapuã confeccionado com tecido tecnológico de alta resistência ao cloro e com proteção UV+. Ideal para atividades aquáticas, possui abertura nas costas que garante conforto e liberdade de movimento durante os exercícios.",
+      "tamanho": "P • M • G • GG",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "5920",
+          "nome": "Carmim",
+          "img": "/produtos/lsport/28944-003/5920.jpg"
+        },
+        {
+          "cod": "2660",
+          "nome": "Azul",
+          "img": "/produtos/lsport/28944-003/2660.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/28944-003/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/28944-003/9990.jpg"
+    },
+    {
+      "codigo": "28947-003",
+      "nome": "Macaquinho Lupo Sport Feminino Maracaipe",
+      "descricao": "Maiô com modelagem de macaquinho confeccionado com lycra xtra life, garantindo proteção para o cloro e proteção UV+. Esse macaquinho conta um design moderno com alças largas e decote em U se ajustando perfeitamente ao corpo, proporcionando liberdade de movimento e evitando desconfortos durante os exercícios.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "5920",
+          "nome": "Carmim",
+          "img": "/produtos/lsport/28947-003/5920.jpg"
+        },
+        {
+          "cod": "2660",
+          "nome": "Azul",
+          "img": "/produtos/lsport/28947-003/2660.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/28947-003/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/28947-003/2660.jpg"
+    },
+    {
+      "codigo": "28975-900",
+      "nome": "Sunga Beach com Bolso",
+      "descricao": "Sunga estilo boxer para esportes aquáticos. Possui detalhe de bolso na lateral para pequenos objetos e zíper invisível para fechá-lo. A modelagem um pouco mais alongada garante segurança e conforto, além do tecido resistente ao cloro e de toque suave que não incomoda.",
+      "tamanho": "P (38 a 40) • M (42 a 44) • G (46 a 48) • GG (50 a 52)",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "2783",
+          "nome": "Anil",
+          "img": "/produtos/lsport/28975-900/2783.jpg"
+        },
+        {
+          "cod": "4622",
+          "nome": "Verde",
+          "img": "/produtos/lsport/28975-900/4622.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/28975-900/2783.jpg"
+    },
+    {
+      "codigo": "28991-001",
+      "nome": "Sunga LSport Masculino Lisa",
+      "descricao": "Sunga com modelagem mais larga, ideal para atividades aquáticas, proporciona conforto e liberdade nos movimentos. Possui cós elástico, cordão regulador interno, garantindo proteção para o cloro e proteção UV+.",
+      "tamanho": "P (38 a 40) • M (42 a 44) • G (46 a 48) • GG (50 a 52)",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "2760",
+          "nome": "Azul",
+          "img": "/produtos/lsport/28991-001/2760.jpg"
+        },
+        {
+          "cod": "2660",
+          "nome": "Azul",
+          "img": "/produtos/lsport/28991-001/2660.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/28991-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/28991-001/2760.jpg"
+    },
+    {
+      "codigo": "28992-001",
+      "nome": "Sunga LSport Masculino Boxer Lisa",
+      "descricao": "Sunga com modelagem boxer, ideal para atividades aquáticas, proporciona conforto e liberdade nos movimentos. Possui cós elástico, cordão regulador interno, garantindo proteção para o cloro e proteção UV+.",
+      "tamanho": "P (38 a 40) • M (42 a 44) • G (46 a 48) • GG (50 a 52)",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "2760",
+          "nome": "Azul",
+          "img": "/produtos/lsport/28992-001/2760.jpg"
+        },
+        {
+          "cod": "2660",
+          "nome": "Azul",
+          "img": "/produtos/lsport/28992-001/2660.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/28992-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/28992-001/2760.jpg"
+    },
+    {
+      "codigo": "75083-001",
+      "nome": "Camiseta LSport Feminina Manga Longa UV",
+      "descricao": "Camisa de manga longa produzida com proteção UV. Possui gola redonda fechada e modelagem reta, com tecido maleável. Confortável, se ajusta ao corpo e proporciona bem-estar dentro e fora da água. Possui detalhe da logo na manga.",
+      "tamanho": "P • M • G • GG",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "4061",
+          "nome": "Lagoon",
+          "img": "/produtos/lsport/75083-001/4061.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preto",
+          "img": "/produtos/lsport/75083-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/75083-001/9990.jpg"
+    },
+    {
+      "codigo": "75086-001",
+      "nome": "Camiseta Manga longa UV Masculina",
+      "descricao": "Camisa de manga longa produzida com proteção UV. Possui gola redonda fechada e modelagem reta, ideal para uso em exercícios aquáticos o uso casual. O tecido maleável com secagem rápida proporciona fácil respiração e conforto. Possui detalhe da logo na manga.",
+      "tamanho": "P • M • G • GG",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "2721",
+          "nome": "Azul",
+          "img": "/produtos/lsport/75086-001/2721.jpg"
+        },
+        {
+          "cod": "2783",
+          "nome": "Anil",
+          "img": "/produtos/lsport/75086-001/2783.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preto",
+          "img": "/produtos/lsport/75086-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/75086-001/2721.jpg"
+    },
+    {
+      "codigo": "15002-001",
+      "nome": "Manguito UV Unissex",
+      "descricao": "O Manguito Proteção UV Unissex LSport é um acessório versátil e funcional. Em poliamida e elastano, possui tecnologia Breeze, que proporciona frescor durante o uso e proteção UV 50 +. Por ser um produto Seamless Dry, possui menos areas de atrito, ajuste e vestibilidade perfeita e toque agradável. Características: > Leve, macio e ultraconfortável; > Alta durabilidade e performance; > Detalhes refletivos para maior segurança durante atividades noturnas. Esse produto pode ser usado em diversas práticas esportivas, entre elas corrida e ciclismo, trazendo facilidade de vestir ou tirar o produto durante o treino.",
+      "tamanho": "P • M • G",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "0510",
+          "nome": "Coral",
+          "img": "/produtos/lsport/15002-001/0510.jpg"
+        },
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lsport/15002-001/1110.jpg"
+        },
+        {
+          "cod": "2783",
+          "nome": "Anil",
+          "img": "/produtos/lsport/15002-001/2783.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/15002-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/15002-001/0510.jpg"
+    },
+    {
+      "codigo": "15013-900",
+      "nome": "Manguito Lupo Warm",
+      "descricao": "Mangas com proteção Warm unissex de fácil vestimenta. Versátil, protege os braços proporcionando conforto, promove Isolamento térmico, mantendo a temperatura corporal e retardando a troca de calor com o ambiente externo.Ideal para atividades físicas ao ar livre, como o ciclismo e corrida. A tecnologia sem costura evita atritos, não marca a pele e se ajusta ao corpo.",
+      "tamanho": "P • M • G",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preto",
+          "img": "/produtos/lsport/15013-900/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/15013-900/9990.jpg"
+    },
+    {
+      "codigo": "15007-002",
+      "nome": "Manguito UV Com Luva - Unissex",
+      "descricao": "Mangas com proteção UV unissex com luva que encaixa no polegar. De fácil vestimenta, protege os braços da exposição solar e proporciona conforto térmico na prática de atividades físicas ao ar livre, como o ciclismo e corrida. A tecnologia sem costura evita atritos, não marca a pele e se ajusta ao corpo.",
+      "tamanho": "ÚNICO",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "2801",
+          "nome": "Marinho",
+          "img": "/produtos/lsport/15007-002/2801.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/15007-002/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/15007-002/2801.jpg"
+    },
+    {
+      "codigo": "15014-001",
+      "nome": "Manguito UV Emana para Relógio com Luva - Unissex",
+      "descricao": "Desenvolvido para oferecer desempenho e praticidade, este manguito conta com abertura estratégica para o relógio, permitindo fácil acesso para acompanhar seu treino. Produzido com fio Emana®, que ajuda a melhorar a microcirculação sanguínea e contribui para a redução da fadiga muscular, ele proporciona conforto, e liberdade de movimento. O produto conta também com proteção UV 50+, garantindo segurança contra os raios solares durante atividades ao ar livre. Ideal para corrida e ciclismo, mantendo proteção e performance em todas as etapas.",
+      "tamanho": "ÚNICO",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lsport/15014-001/1110.jpg"
+        },
+        {
+          "cod": "4402",
+          "nome": "Lima Citrico",
+          "img": "/produtos/lsport/15014-001/4402.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/15014-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/15014-001/4402.jpg"
+    },
+    {
+      "codigo": "80086-900",
+      "nome": "Luva LSport Training",
+      "descricao": "A luva de treino foi desenvolvida para proporcionar máximo conforto, proteção e segurança durante as atividades físicas. Ideal para musculação e treinos intensos, ajuda a melhorar a pegada nos equipamentos, reduzindo o deslizamento e prevenindo o surgimento de calos e desconfortos. Com modelagem anatômica e ajuste firme ao punho, oferece estabilidade e suporte durante os movimentos, garantindo mais confiança e desempenho ao longo do treino.",
+      "tamanho": "P • M • G",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/80086-900/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/80086-900/9990.jpg"
+    },
+    {
+      "codigo": "80087-900",
+      "nome": "Meia Luva LSport Training",
+      "descricao": "A luva de treino meia luva foi desenvolvida para oferecer mais conforto, firmeza e proteção durante os exercícios. Ideal para atividades como musculação, funcional e treinos intensos, garante melhor aderência aos equipamentos, reduzindo o atrito e prevenindo calos nas mãos. Seu design anatômico proporciona ajuste seguro e liberdade de movimento, enquanto o modelo meia luva mantém os dedos livres para maior sensibilidade e contato durante a prática esportiva. Leve e funcional, é a escolha perfeita para quem busca desempenho com praticidade.",
+      "tamanho": "P • M • G • GG",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/80087-900/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/80087-900/9990.jpg"
+    },
+    {
+      "codigo": "03360-905",
+      "nome": "Meia LSport AU Movimento Cano Curto",
+      "descricao": "A Meia LSport Rio Movimento Cano Curto é ideal para quem busca desempenho, conforto e proteção em modalidades como corrida, ciclismo e treino. Sua estrutura foi cuidadosamente desenvolvida para oferecer o que realmente importa: proteção contra atrito, secagem rápida, estabilidade e respirabilidade. Com design funcional, ajuda a prevenir bolhas e irritações causadas pela fricção constante. Com estrutura desenvolvida para secagem rápida e pontos de respirabilidade na parte superior, a meia acelera a evaporação do suor e mantém os pés secos, mesmo durante os treinos mais intensos. O calcanhar verdadeiro proporciona um encaixe seguro e anatômico, aumentando a estabilidade a cada passada ou pedalada. Seu desempenho começa pelos pés, sinta a diferença na proteção e no conforto!",
+      "tamanho": "41 a 44 • 37 a 40",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "4550",
+          "nome": "Verde",
+          "img": "/produtos/lsport/03360-905/4550.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/03360-905/4550.jpg"
+    },
+    {
+      "codigo": "15570-901",
+      "nome": "Meia Lsport AU CC Milao Movimento",
+      "descricao": "A Meia LSport Milão Movimento Cano Curto foi desenvolvida para atletas que buscam performance, conforto e segurança em cada movimento. Com compressão forte e modelagem anatômica para os pés direito e esquerdo, proporciona um ajuste preciso e estabilidade, tornando-se a escolha ideal para corridas e treinos intensos. Sua estrutura inovadora foi projetada para reduzir o atrito, prevenindo bolhas e desconfortos durante longas sessões de corrida e treino. Com estrutura desenvolvida para secagem rápida e pontos de respirabilidade na parte superior, a meia acelera a evaporação do suor e mantém os pés secos. O calcanhar verdadeiro oferece um encaixe firme e seguro, enquanto a ação antimicrobial mantém os pés protegidos contra odores e bactérias, garantindo frescor e higiene por mais tempo. Aproveite o conforto e a tecnologia que só a LSport pode oferecer e leve seus treinos para o próximo nível!",
+      "tamanho": "45 a 48",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "4250",
+          "nome": "Verde",
+          "img": "/produtos/lsport/15570-901/4250.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/15570-901/4250.jpg"
+    },
+    {
+      "codigo": "03264-900",
+      "nome": "Meia LSport AU CL Frankfurt Emana Mov.",
+      "descricao": "Desenvolvida para atletas que buscam o equilíbrio ideal entre conforto e proteção, a Meia LSport Frankfurt Emana Cano Longo, combina design anatômico e tecnologias avançadas para entregar o que realmente importa: proteção contra atritos, secagem rápida, estabilidade e respirabilidade .",
+      "tamanho": "33 a 36 • 37 a 40 • 41 a 44",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "2690",
+          "nome": "Marinho",
+          "img": "/produtos/lsport/03264-900/2690.jpg"
+        },
+        {
+          "cod": "3090",
+          "nome": "Amarela",
+          "img": "/produtos/lsport/03264-900/3090.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/03264-900/2690.jpg"
+    },
+    {
+      "codigo": "03265-910",
+      "nome": "Meia LSport AU Nova York Emana Mov.",
+      "descricao": "Desenvolvida para atletas que buscam o equilíbrio ideal entre conforto e proteção, a Meia LSport Nova York Emana, combina design anatômico e tecnologias avançadas para entregar o que realmente importa: proteção contra atritos, secagem rápida, estabilidade e respirabilidade. Indicada para corrida, ciclismo e treino, sua estrutura ajuda a prevenir bolhas, mesmo em sessões longas e intensas. Com estrutura desenvolvida para secagem rápida, a meia acelera a evaporação do suor e mantém os pés secos, mesmo durante os treinos mais intensos. O calcanhar verdadeiro e o ajuste anatômico proporcionam máxima estabilidade e segurança a cada passada ou pedalada. O fio inteligente Emana® estimula a microcirculação sanguínea e auxilia na redução da fadiga muscular. Eleve seu desempenho com a meia preferida dos atletas!",
+      "tamanho": "41 a 44",
+      "linha": "1ª Entrada",
+      "cores": [
+        {
+          "cod": "3600",
+          "nome": "Camarão",
+          "img": "/produtos/lsport/03265-910/3600.jpg"
+        },
+        {
+          "cod": "8600",
+          "nome": "Medium Grey",
+          "img": "/produtos/lsport/03265-910/8600.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/03265-910/8600.jpg"
+    },
+    {
+      "codigo": "15012-900",
+      "nome": "Faixa Sem Costura",
+      "descricao": "A faixa de pescoço Sem Costura é o item ideal para acompanhar suas atividades físicas no inverno, em dias de frio moderado e intenso. Desenvolvida em material leve e confortável. Possui várias funcionalidades, produzida com a tecnologia seamless dry que permite maior respirabilidade e secagem rápida.",
+      "tamanho": "ÚNICO",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/15012-900/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/15012-900/9990.jpg"
+    },
+    {
+      "codigo": "80082-900",
+      "nome": "Faixa para Cabelo LSport Regulável",
+      "descricao": "Leve, discreta e superfuncional! Nossa faixa de cabelo foi pensada para quem quer manter cada fio no lugar sem abrir mão do conforto. Possui borda interna de silicone que garante fixação extra, impedindo que o cabelo escape durante treinos, corridas ou no dia a dia. Conta também com regulador ajustável, permitindo um encaixe perfeito para diferentes tamanhos e garantindo ainda mais estabilidade. Um acessório essencial para unir estilo e praticidade.",
+      "tamanho": "ÚNICO",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "5260",
+          "nome": "Begônia",
+          "img": "/produtos/lsport/80082-900/5260.jpg"
+        },
+        {
+          "cod": "3915",
+          "nome": "Damasco Claro",
+          "img": "/produtos/lsport/80082-900/3915.jpg"
+        },
+        {
+          "cod": "5705",
+          "nome": "Cereja Rubro",
+          "img": "/produtos/lsport/80082-900/5705.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/80082-900/5705.jpg"
+    },
+    {
+      "codigo": "80093-089",
+      "nome": "Kit Faixa para Cabelo Lsport - kit 3",
+      "descricao": "Leve, discreta e superfuncional! Nossa faixa de cabelo foi pensada para quem quer manter cada fio no lugar sem abrir mão do conforto. Possui borda interna de silicone que garante fixação extra, impedindo que o cabelo escape durante treinos, corridas ou no dia a dia. Um acessório essencial para unir estilo e praticidade.",
+      "tamanho": "ÚNICO",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "0920",
+          "nome": "Sortida",
+          "img": "/produtos/lsport/80093-089/0920.jpg"
+        },
+        {
+          "cod": "0930",
+          "nome": "Sortida",
+          "img": "/produtos/lsport/80093-089/0930.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/80093-089/0930.jpg"
+    },
+    {
+      "codigo": "80072-900",
+      "nome": "Viseira LSport Mesh Dry Refletiva",
+      "descricao": "Leve, respirável e cheia de estilo. A viseria mesh dry refletiva foi desenvolvida para acompanhar o ritmo das suas atividades ao ar livre. Possui acabamento interno em mesh, que garantem máxima ventilação, rápida secagem e conforto térmico durante o uso. O logo com detalhe refletivo proporciona maior visibilidade e segurança em treinos com pouca luz.",
+      "tamanho": "ÚNICO",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "4770",
+          "nome": "Verde Militar",
+          "img": "/produtos/lsport/80072-900/4770.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/80072-900/4770.jpg"
+    },
+    {
+      "codigo": "80077-900",
+      "nome": "VISEIRA BORDADA RACKET",
+      "descricao": "Viseira esportiva com logo bordada na parte frontal, trazendo um toque de estilo e autenticidade. Possui acabamento em mesh, que garante leveza, respirabilidade e secagem rápida.",
+      "tamanho": "ÚNICO",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "3381",
+          "nome": "Amarelo Suave",
+          "img": "/produtos/lsport/80077-900/3381.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/80077-900/3381.jpg"
+    },
+    {
+      "codigo": "80063-002",
+      "nome": "Viseira Lsport Running",
+      "descricao": "Ideal para treinos ao ar livre, a viseira esportiva une conforto e praticidade. Conta com fechamento traseiro em elástico com regulador, garantindo ajuste perfeito à cabeça durante os movimentos. O detalhe especial fica por conta da logo refletiva, que aumenta a visibilidade em ambientes com pouca luz, perfeita para quem não abre mão de performance e segurança.",
+      "tamanho": "ÚNICO",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "2143",
+          "nome": "Azul Claro",
+          "img": "/produtos/lsport/80063-002/2143.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/80063-002/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/80063-002/9990.jpg"
+    },
+    {
+      "codigo": "80035-002",
+      "nome": "Viseira LSport Knit Unissex",
+      "descricao": "\"Viseira LSport Knit – Estilo, conforto e performance! Ideal para as práticas esportivas. Material de alta qualidade em tecido malha e design ergonômico;\"",
+      "tamanho": "ÚNICO",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lsport/80035-002/1110.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/80035-002/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/80035-002/9990.jpg"
+    },
+    {
+      "codigo": "80088-900",
+      "nome": "Boné Aba Mesh LSport",
+      "descricao": "Boné com design moderno e respirável, ideal para o dia a dia e atividades ao ar livre. Possui detalhes em mesh na aba e nas laterais, que favorecem a ventilação e ajudam a manter a sensação de frescor durante o uso. Leve e confortável, oferece ajuste prático e acabamento versátil, garantindo estilo e funcionalidade em diferentes ocasiões.",
+      "tamanho": "ÚNICO",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "1830",
+          "nome": "Off White",
+          "img": "/produtos/lsport/80088-900/1830.jpg"
+        },
+        {
+          "cod": "2491",
+          "nome": "Lilás",
+          "img": "/produtos/lsport/80088-900/2491.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/80088-900/2491.jpg"
+    },
+    {
+      "codigo": "80081-900",
+      "nome": "Boné LSport Mesh Dry Refletivo",
+      "descricao": "Boné leve e funcional, com estrutura em mesh externo que garante excelente ventilação e conforto térmico durante os treinos. Possui detalhes refletivos que aumentam a visibilidade em ambientes de pouca luz, unindo estilo e segurança para quem não abre mão de performance em qualquer hora do dia.",
+      "tamanho": "ÚNICO",
+      "linha": "1ª Entrada",
+      "cores": [
+        {
+          "cod": "6110",
+          "nome": "Baunilha",
+          "img": "/produtos/lsport/80081-900/6110.jpg"
+        },
+        {
+          "cod": "4305",
+          "nome": "Folhagem",
+          "img": "/produtos/lsport/80081-900/4305.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/80081-900/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/80081-900/6110.jpg"
+    },
+    {
+      "codigo": "80062-002",
+      "nome": "Boné Lsport Running",
+      "descricao": "Desenvolvido para acompanhar seu ritmo, o Boné Lsport Running une funcionalidade, conforto e um design moderno. Fabricado com materiais leves e respiráveis, oferece excelente ventilação durante os treinos mais intensos, mantendo você focado e protegido. Seu ajuste confortável proporciona firmeza sem apertar, enquanto a aba curva protege contra o sol com estilo. Ideal para corridas, caminhadas, treinos ao ar livre ou simplesmente para compor um visual esportivo no dia a dia.",
+      "tamanho": "ÚNICO",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "2783",
+          "nome": "Anil",
+          "img": "/produtos/lsport/80062-002/2783.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/80062-002/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/80062-002/2783.jpg"
+    },
+    {
+      "codigo": "80061-002",
+      "nome": "Boné Lsport Laser",
+      "descricao": "Produzido com materiais de alta qualidade, este boné oferece ventilação estratégica e acabamento impecável graças ao processo de corte a laser, que garante detalhes precisos e durabilidade superior. Com ajuste confortável, é a escolha ideal para quem valoriza estilo e funcionalidade, seja na prática de esportes ou na rotina do dia a dia.",
+      "tamanho": "ÚNICO",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/80061-002/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/80061-002/9990.jpg"
+    },
+    {
+      "codigo": "80085-001",
+      "nome": "Garrafa LSport Portátil Dobrável 250ml",
+      "descricao": "Garrafa esportiva com design ergonômico e estrutura flexível, ideal para acompanhar treinos, corridas e atividades ao ar livre com praticidade. Leve e compacta, adapta-se facilmente à mão e ao movimento, garantindo mais conforto durante o uso. Possui bico anatômico que facilita a hidratação rápida, além de corpo com marcação de volume para melhor controle da ingestão de líquidos. Produzida em material maleável, permite redução de volume conforme o uso, otimizando espaço durante o transporte.",
+      "tamanho": "U",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lsport/80085-001/1110.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/80085-001/1110.jpg"
+    },
+    {
+      "codigo": "80049-001",
+      "nome": "Garrafa Lupo Sport 350ml",
+      "descricao": "Garrafa em aço inoxidável que mantém a temperatura fria por até 12 horas e quente por até 10 horas. Possui logo Lupo Sport, design anatômico e alça de silicone que facilitam o transporte, além do tamanho compacto.",
+      "tamanho": "ÚNICO",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "8100",
+          "nome": "Prata",
+          "img": "/produtos/lsport/80049-001/8100.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/80049-001/8100.jpg"
+    },
+    {
+      "codigo": "80040-002",
+      "nome": "Garrafa LSport 500ml",
+      "descricao": "Garrafa em aço inoxidável que mantém a temperatura fria por até 12 horas e quente por até 10 horas. Possui logo Lupo Sport, design anatômico e alça de silicone que facilitam o transporte, além do tamanho compacto.",
+      "tamanho": "ÚNICO",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "0510",
+          "nome": "Coral",
+          "img": "/produtos/lsport/80040-002/0510.jpg"
+        },
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lsport/80040-002/1110.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/80040-002/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/80040-002/1110.jpg"
+    },
+    {
+      "codigo": "80057-001",
+      "nome": "Garrafa Matte Lsport 500ML",
+      "descricao": "Garrafa em aço inoxidável que mantém a temperatura fria por até 12 horas e quente por até 10 horas. Fabricada com a pintura efeito matte combina estilo e funcionalidade não só nas práticas esportivas como no dia dia a dia.",
+      "tamanho": "ÚNICO",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "3915",
+          "nome": "Damasco Claro",
+          "img": "/produtos/lsport/80057-001/3915.jpg"
+        },
+        {
+          "cod": "4305",
+          "nome": "Folhagem",
+          "img": "/produtos/lsport/80057-001/4305.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/80057-001/4305.jpg"
+    },
+    {
+      "codigo": "80058-001",
+      "nome": "Garrafa Mountain LSport 750ml",
+      "descricao": "Garrafa Lupo Sport 750ml Garrafa em aço inoxidável que mantém a temperatura fria por até 12 horas e quente por até 10 horas. Possui logo Lupo Sport, design anatômico e alça que facilitam o transporte.",
+      "tamanho": "ÚNICO",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "2143",
+          "nome": "Azul Claro",
+          "img": "/produtos/lsport/80058-001/2143.jpg"
+        },
+        {
+          "cod": "5705",
+          "nome": "Cereja Rubro",
+          "img": "/produtos/lsport/80058-001/5705.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/80058-001/5705.jpg"
+    },
+    {
+      "codigo": "80060-001",
+      "nome": "Garrafa Matte LSport 1L",
+      "descricao": "Garrafa em aço inoxidável que mantém a temperatura fria por até 12 horas e quente por até 10 horas. Fabricada com a pintura efeito matte combina estilo e funcionalidade não só nas práticas esportivas como no dia dia a dia.",
+      "tamanho": "ÚNICO",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "2783",
+          "nome": "Anil",
+          "img": "/produtos/lsport/80060-001/2783.jpg"
+        },
+        {
+          "cod": "3381",
+          "nome": "Amarelo Suave",
+          "img": "/produtos/lsport/80060-001/3381.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/80060-001/2783.jpg"
+    },
+    {
+      "codigo": "80042-002",
+      "nome": "Garrafa Lupo Sport 960ml",
+      "descricao": "Garrafa em aço inoxidável que mantém a temperatura fria por até 12 horas e quente por até 10 horas. Possui logo Lupo Sport, design anatômico e alça de silicone que facilitam o transporte, além do tamanho compacto.",
+      "tamanho": "ÚNICO",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "4622",
+          "nome": "Verde",
+          "img": "/produtos/lsport/80042-002/4622.jpg"
+        },
+        {
+          "cod": "5260",
+          "nome": "Begônia",
+          "img": "/produtos/lsport/80042-002/5260.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/80042-002/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/80042-002/4622.jpg"
+    },
+    {
+      "codigo": "80067-001",
+      "nome": "Pochete Lsport Pace",
+      "descricao": "- Zíper frontal com trava; - Bolso frontal em tule; - Bolso traseiro; - Cintura regulável; - Logo refletivo.",
+      "tamanho": "ÚNICO",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/80067-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/80067-001/9990.jpg"
+    },
+    {
+      "codigo": "80044-002",
+      "nome": "Pochete LSport Running/Training",
+      "descricao": "Pochete em neoprene, material flexível e resistente, com modelagem anatômica e regulagem para melhor ajuste ao corpo durante a prática esportiva. > Neoprene. > Abertura em zíper. > Regulagem na cintura. Indicado para uso em corridas, caminhadas, passeios casuais, entre outros.",
+      "tamanho": "ÚNICO",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preto",
+          "img": "/produtos/lsport/80044-002/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/80044-002/9990.jpg"
+    },
+    {
+      "codigo": "80043-001",
+      "nome": "Bolsa Crossbody Lupo Sport",
+      "descricao": "A bolsa crossbody LSport tem design leve e compacto, permite que você se mova com facilidade enquanto mantém seus itens essenciais organizados e acessíveis. A alça transversal e ajustável oferece versatilidade. > Logo emborrachada. > Design compacto e leve. > Tecido de poliéster resistente e durável. > Facilita o acesso rápido aos seus pertences. > Alça ajustável para se adequar ao seu tamanho. > Perfeita para armazenar itens como celular, carteira, chaves, entre outros. Medidas: Altura: 17cm Largura: 12cm Profundidade: 3,5cm Capacidade: 0,7L",
+      "tamanho": "ÚNICO",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "1830",
+          "nome": "Off White",
+          "img": "/produtos/lsport/80043-001/1830.jpg"
+        },
+        {
+          "cod": "4305",
+          "nome": "Folhagem",
+          "img": "/produtos/lsport/80043-001/4305.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/80043-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/80043-001/4305.jpg"
+    },
+    {
+      "codigo": "80050-001",
+      "nome": "Pochete Lupo Sport Maxi",
+      "descricao": "A Pochete LSport é um acessório versátil e funcional, ideal para quem busca praticidade durante atividades esportivas ou em momentos de lazer. Com um design moderno e elegante, essa pochete oferece praticidade para transportar seus pertences essenciais de forma segura e confortável. > Logo emborrachada. > Possui 2 bolsos interno. > Design compacto e leve. > Tecido de poliéster resistente e durável. > Alça ajustável para se adequar ao seu tamanho. > Ideal para corridas, caminhadas, passeios e viagens. > Perfeita para armazenar itens como celular, carteira, chaves, entre outros. > Facilita o acesso rápido aos seus pertences. Medidas: Altura:14,5cm Largura: 26cm Profundidade: 6,5cm Capacidade: 1,3L",
+      "tamanho": "ÚNICO",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preto",
+          "img": "/produtos/lsport/80050-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/80050-001/9990.jpg"
+    },
+    {
+      "codigo": "80051-001",
+      "nome": "Pochete Lupo Sport Over Body",
+      "descricao": "A pochete LSport é um acessório versátil e funcional, ideal para quem busca praticidade durante atividades esportivas ou em momentos de lazer. Com um design moderno e elegante, essa pochete oferece praticidade para transportar seus pertences essenciais de forma segura e confortável. > Logo emborrachada. > Design compacto e leve. > Tecido de poliéster resistente e durável. > Facilita o acesso rápido aos seus pertences. > Alça ajustável para se adequar ao seu tamanho. > Ideal para corridas, caminhadas, passeios e viagens. > Perfeita para armarzenar itens como celular, carteira, chaves, entre outros. Medidas: Altura: 16cm Largura: 32cm Profundidade: 7cm Capacidade: 1,5L",
+      "tamanho": "ÚNICO",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preto",
+          "img": "/produtos/lsport/80051-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/80051-001/9990.jpg"
+    },
+    {
+      "codigo": "80080-900",
+      "nome": "Bolsa Tote Mesh LSport",
+      "descricao": "Perfeita para o dia a dia e momentos de lazer, a bolsa mesh une praticidade, leveza e funcionalidade. Seu design em tela proporciona ventilação e fácil visualização dos itens, ideal para atividades esportivas, praia ou rotina urbana. Dimensões ideais: 40 x 36 x 18 cm (L x A x P) Alça confortável: 60 cm, garantindo praticidade no uso Alta funcionalidade: 7 bolsos externos – 4 de um lado e 3 do outro – para organização inteligente Fechamento em zíper: mais segurança para seus pertences Material em mesh: leve, respirável e moderno Uma opção versátil para quem busca organização, estilo e praticidade em todos os momentos.",
+      "tamanho": "U",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/80080-900/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/80080-900/9990.jpg"
+    },
+    {
+      "codigo": "80053-001",
+      "nome": "Bolsa Lupo Sport Yoga Active",
+      "descricao": "A bolsa Yoga Active LSport é uma bolsa de alta qualidade, especialmente projetada para atender às necessidades das praticantes de yoga. Feita com 100% de poliéster, essa bolsa oferece durabilidade e resistência, permitindo transportar seus pertences de forma segura. Possui compartimento frontal para transporte de tapete de yoga. > Logo emborrachada. > Possui 1 Bolso interno. > Design prático e funcional. > Tecido resistente e durável. > Fechamento seguro com zíper. > Alça de ombro ajustável para maior conforto. > Tamanho adequado para acomodar acessórios de yoga. Medidas: Altura: 30cm Largura: 40cm Profundidade: 17cm Capacidade: 20L",
+      "tamanho": "ÚNICO",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "4305",
+          "nome": "Folhagem",
+          "img": "/produtos/lsport/80053-001/4305.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/80053-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/80053-001/4305.jpg"
+    },
+    {
+      "codigo": "80065-900",
+      "nome": "Mochila LSport AU Everyday Resistente",
+      "descricao": "A Mochila LSport Everyday Resistente é uma bolsa de alta qualidade, funcionalidade e versátil. Feita com 100% poliéster, ela oferece durabilidade e resistência, sendo ideal para diversas ocasiões. Seu design espaçoso e prático permite acomodar todos os itens necessários, tornando-a perfeita para viagens, academia ou uso diário. Medidas: Altura: 39cm Largura: 30cm Profundidade: 13cm Capacidade 15L",
+      "tamanho": "ÚNICO",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "4305",
+          "nome": "Folhagem",
+          "img": "/produtos/lsport/80065-900/4305.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/80065-900/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/80065-900/4305.jpg"
+    },
+    {
+      "codigo": "80047-001",
+      "nome": "Mochila Lupo Sport Acolchoada",
+      "descricao": "A Mochila LSport é uma bolsa de alta qualidade e funcionalidade. Feita com 100% poliéster, ela oferece durabilidade e resistência, sendo ideal para diversas ocasiões. Seu design espaçoso e prático permite acomodar todos os itens necessários, tornando-a perfeita para viagens, academia ou uso diário. > Logo emborrachada. > Possui 2 bolsos internos. > Tecido resistente e durável. > Design moderno e elegante. > Compartimento para garrafa. > Alças confortáveis e ajustáveis. > Compartimento para computador. > Acompanha bolsa adicional com zíper. > Zíperes robustos para maior segurança. > Compartimentos internos e externos para organização. > Design espaçoso com amplo espaço de armazenamento. Medidas: Altura: 32cm Largura: 31cm Profundidade: 17cm Capacidade 16L",
+      "tamanho": "ÚNICO",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/80047-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/80047-001/9990.jpg"
+    },
+    {
+      "codigo": "80047-002",
+      "nome": "Mochila LSport AU Acolchoada",
+      "descricao": "A Mochila LSport é uma bolsa de alta qualidade e funcionalidade. Feita com 100% poliéster, ela oferece durabilidade e resistência, sendo ideal para diversas ocasiões. Seu design espaçoso e prático permite acomodar todos os itens necessários, tornando-a perfeita para viagens, academia ou uso diário. Medidas: Altura: 32cm Largura: 31cm Profundidade: 17cm Capacidade 16L",
+      "tamanho": "U",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "1830",
+          "nome": "Off White",
+          "img": "/produtos/lsport/80047-002/1830.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lsport/80047-002/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/80047-002/1830.jpg"
+    },
+    {
+      "codigo": "80047-003",
+      "nome": "Mochila Lupo Sport Acolchoada",
+      "descricao": "",
+      "tamanho": "ÚNICO",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "2560",
+          "nome": "Azul",
+          "img": "/produtos/lsport/80047-003/2560.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/80047-003/2560.jpg"
+    },
+    {
+      "codigo": "80054-001",
+      "nome": "Bolsa Lupo Sport Maxi",
+      "descricao": "A Bolsa LSport Maxi é uma bolsa de alta qualidade e funcionalidade. Feita com 100% poliéster, ela oferece durabilidade e resistência, sendo ideal para diversas ocasiões. Seu design espaçoso e prático permite acomodar todos os itens necessários, tornando-a perfeita para viagens, academia ou uso diário. > Logo emborrachada. > Possui 1 Bolso interno. > Tecido resistente e durável. > Design moderno e elegante. > Alças confortáveis e ajustáveis. > Zíperes robustos para maior segurança. > Compartimentos internos e externos para organização. > Design espaçoso com amplo espaço de armazenamento. Medidas: Altura: 30cm Largura: 43cm Profundidade: 21cm Capacidade: 27L",
+      "tamanho": "ÚNICO",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preto",
+          "img": "/produtos/lsport/80054-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/80054-001/9990.jpg"
+    },
+    {
+      "codigo": "80055-001",
+      "nome": "Toalha Lupo Sport P",
+      "descricao": "A Toalha Adulto Long Tamanho P 25x40 Lupo Sport é um produto de alta qualidade, ideal para atividades esportivas, academia, praia ou uso diário. Feita com 100% algodão, ela é macia, absorvente, proporcionando conforto. > Tamanho (25cm x 40cm). > Toque suave e confortável. > Design moderno e elegante. > Tecido de algodão macio e absorvente. > Costura reforçada para maior durabilidade.",
+      "tamanho": "ÚNICO",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lsport/80055-001/1110.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/80055-001/1110.jpg"
+    },
+    {
+      "codigo": "80038-001",
+      "nome": "Yoga Mat Lupo Sport (61x176cm)",
+      "descricao": "Feito com borracha sintética de alta durabilidade, sendo superior a PVC ou EVA. Possui textura especial que garante conforto e boa aderência e acompanha um porta mat. ajustável.Usado em práticas de solo como abdominais, alongamento e exercícios funcionais.",
+      "tamanho": "U",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "5950",
+          "nome": "Blush",
+          "img": "/produtos/lsport/80038-001/5950.jpg"
+        }
+      ],
+      "img": "/produtos/lsport/80038-001/5950.jpg"
+    }
+  ]
+}

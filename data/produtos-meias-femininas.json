@@ -1,0 +1,984 @@
+{
+  "produtos": [
+    {
+      "codigo": "03287-088",
+      "nome": "Meia Lupo AM Sapatilha K2",
+      "descricao": "Conforto, discrição e qualidade! Kit 2 pares de meia sapatilha sem costura, ajustáveis ao tamanho do pé. Confortável, com calcanhar verdadeiro e faixa de silicone para evitar escorregões. Feita de algodão penteado, é suave, leve e elegante, combinando com diversos estilos e calçados, como tênis e mocassim. Unissex.",
+      "tamanho": "33 a 36 • 37 a 40 • 41 a 44",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "0901",
+          "nome": "Sortida",
+          "img": "/produtos/meias-femininas/03287-088/0901.jpg"
+        },
+        {
+          "cod": "0902",
+          "nome": "Sortida",
+          "img": "/produtos/meias-femininas/03287-088/0902.jpg"
+        },
+        {
+          "cod": "0903",
+          "nome": "Sortida",
+          "img": "/produtos/meias-femininas/03287-088/0903.jpg"
+        },
+        {
+          "cod": "0904",
+          "nome": "Sortida",
+          "img": "/produtos/meias-femininas/03287-088/0904.jpg"
+        }
+      ],
+      "img": "/produtos/meias-femininas/03287-088/0901.jpg"
+    },
+    {
+      "codigo": "04270-088",
+      "nome": "Meia Lupo AF Sap. Kit2",
+      "descricao": "Invisibilidade para os seus pés. Cada meia sapatilha do kit com 2 unidades proporciona conforto, proteção e absorção de umidade, sem perder a aparência discreta. Com formato anatômico, a Meia Soquete ajusta perfeitamente ao calcanhar, garantindo um encaixe adequado. Sinta agora mesmo a sensação de usar meias sem se preocupar com a aparência.",
+      "tamanho": "34 a 39",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "0900",
+          "nome": "Sortida",
+          "img": "/produtos/meias-femininas/04270-088/0900.jpg"
+        },
+        {
+          "cod": "0901",
+          "nome": "Sortida",
+          "img": "/produtos/meias-femininas/04270-088/0901.jpg"
+        },
+        {
+          "cod": "0902",
+          "nome": "Sortida",
+          "img": "/produtos/meias-femininas/04270-088/0902.jpg"
+        }
+      ],
+      "img": "/produtos/meias-femininas/04270-088/0900.jpg"
+    },
+    {
+      "codigo": "04572-088",
+      "nome": "Meia Lupo AF Kit2",
+      "descricao": "Conforto e durabilidade em apenas uma peça. Cada par de meias do kit com 2 unidades é feita com a combinação das composições assegurando uma meia superconfortável e resistente, que pode ser utilizado por muito tempo. Com formato anatômico, ajusta perfeitamente ao calcanhar, garantindo um encaixe adequado. Sinta agora mesmo o conforto de usar meias Lupo.",
+      "tamanho": "34 a 39",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "0900",
+          "nome": "Sortida",
+          "img": "/produtos/meias-femininas/04572-088/0900.jpg"
+        },
+        {
+          "cod": "0901",
+          "nome": "Sortida",
+          "img": "/produtos/meias-femininas/04572-088/0901.jpg"
+        },
+        {
+          "cod": "0902",
+          "nome": "Sortida",
+          "img": "/produtos/meias-femininas/04572-088/0902.jpg"
+        },
+        {
+          "cod": "0903",
+          "nome": "Sortida",
+          "img": "/produtos/meias-femininas/04572-088/0903.jpg"
+        }
+      ],
+      "img": "/produtos/meias-femininas/04572-088/0900.jpg"
+    },
+    {
+      "codigo": "04200-088",
+      "nome": "Meia Lupo AF Basic Kit2",
+      "descricao": "Conforto e durabilidade em apenas uma peça. Cada par de meias do kit com 2 unidades é feita com a combinação das composições assegurando uma meia superconfortável e resistente, que pode ser utilizado por muito tempo. Com formato anatômico, ajusta perfeitamente ao calcanhar, garantindo um encaixe adequado. Sinta agora mesmo o conforto de usar meias Lupo.",
+      "tamanho": "34 a 39",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "0900",
+          "nome": "Sortida",
+          "img": "/produtos/meias-femininas/04200-088/0900.jpg"
+        },
+        {
+          "cod": "0901",
+          "nome": "Sortida",
+          "img": "/produtos/meias-femininas/04200-088/0901.jpg"
+        },
+        {
+          "cod": "0902",
+          "nome": "Sortida",
+          "img": "/produtos/meias-femininas/04200-088/0902.jpg"
+        }
+      ],
+      "img": "/produtos/meias-femininas/04200-088/0900.jpg"
+    },
+    {
+      "codigo": "04571-088",
+      "nome": "Meia Lupo AF Kit2",
+      "descricao": "Kit com 2 pares de Meia confeccionadas em algodão livres de aditivos químicos e com elastano para maior ajuste e conforto, calcanhar verdadeiro. Cano de 9 cm aproximadamente.",
+      "tamanho": "34 a 39",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "0900",
+          "nome": "Sortida",
+          "img": "/produtos/meias-femininas/04571-088/0900.jpg"
+        },
+        {
+          "cod": "0901",
+          "nome": "Sortida",
+          "img": "/produtos/meias-femininas/04571-088/0901.jpg"
+        },
+        {
+          "cod": "0902",
+          "nome": "Sortida",
+          "img": "/produtos/meias-femininas/04571-088/0902.jpg"
+        },
+        {
+          "cod": "0903",
+          "nome": "Sortida",
+          "img": "/produtos/meias-femininas/04571-088/0903.jpg"
+        }
+      ],
+      "img": "/produtos/meias-femininas/04571-088/0900.jpg"
+    },
+    {
+      "codigo": "04576-088",
+      "nome": "Meia Lupo AF Kit2",
+      "descricao": "Conforto e durabilidade em apenas uma peça. Cada par de meias do kit com 2 unidades é feita com a combinação das composições assegurando uma meia superconfortável e resistente, que pode ser utilizado por muito tempo. Com formato anatômico, ajusta perfeitamente ao calcanhar, garantindo um encaixe adequado. Sinta agora mesmo o conforto de usar meias Lupo.",
+      "tamanho": "34 a 39",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "0900",
+          "nome": "Sortida",
+          "img": "/produtos/meias-femininas/04576-088/0900.jpg"
+        },
+        {
+          "cod": "0901",
+          "nome": "Sortida",
+          "img": "/produtos/meias-femininas/04576-088/0901.jpg"
+        },
+        {
+          "cod": "0902",
+          "nome": "Sortida",
+          "img": "/produtos/meias-femininas/04576-088/0902.jpg"
+        },
+        {
+          "cod": "0903",
+          "nome": "Sortida",
+          "img": "/produtos/meias-femininas/04576-088/0903.jpg"
+        }
+      ],
+      "img": "/produtos/meias-femininas/04576-088/0900.jpg"
+    },
+    {
+      "codigo": "04575-088",
+      "nome": "Meia Lupo AF Basic Kit2",
+      "descricao": "Mais conforto para o dia a dia. Cada par de meias do kit com 2 unidades possui formato anatômico, a Meia Longa Basic estende-se até a panturrilha e ajusta perfeitamente ao pé trazendo mais proteção e fixação. A combinação das composições assegura uma peça superconfortável e resistente, que pode ser utilizado por muito tempo. Sinta agora mesmo o conforto de usar meias Lupo.",
+      "tamanho": "34 a 39",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "0900",
+          "nome": "Sortida",
+          "img": "/produtos/meias-femininas/04575-088/0900.jpg"
+        },
+        {
+          "cod": "0901",
+          "nome": "Sortida",
+          "img": "/produtos/meias-femininas/04575-088/0901.jpg"
+        },
+        {
+          "cod": "0902",
+          "nome": "Sortida",
+          "img": "/produtos/meias-femininas/04575-088/0902.jpg"
+        },
+        {
+          "cod": "0903",
+          "nome": "Sortida",
+          "img": "/produtos/meias-femininas/04575-088/0903.jpg"
+        }
+      ],
+      "img": "/produtos/meias-femininas/04575-088/0900.jpg"
+    },
+    {
+      "codigo": "04536-089",
+      "nome": "Meia Lupo AF Kit3",
+      "descricao": "Kit com 3 pares de Meias confeccionadas em algodão com elastano para maior conforto e anatomia, calcanhar verdadeiro, possui puxador traseiro. Cano de 3 cm aproximadamente.",
+      "tamanho": "34 a 39",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "0902",
+          "nome": "Sortida",
+          "img": "/produtos/meias-femininas/04536-089/0902.jpg"
+        }
+      ],
+      "img": "/produtos/meias-femininas/04536-089/0902.jpg"
+    },
+    {
+      "codigo": "05280-002",
+      "nome": "Meia Lupo AF Conforto",
+      "descricao": "O conforto está no ar! Feita de tecido macio e agradável ao toque, proporciona bem-estar durante o uso. Com formato anatômico, estende-se até a panturrilha e ajusta perfeitamente ao pé trazendo mais proteção e fixação. A tecnologia Punho Soft oferece uma compressão suave que mantém a peça no lugar sem causar sensação de aperto. Sinta agora mesmo o conforto de usar meias Lupo.",
+      "tamanho": "34 a 39",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-femininas/05280-002/9990.jpg"
+        },
+        {
+          "cod": "2490",
+          "nome": "Lavanda",
+          "img": "/produtos/meias-femininas/05280-002/2490.jpg"
+        },
+        {
+          "cod": "8020",
+          "nome": "Cinza",
+          "img": "/produtos/meias-femininas/05280-002/8020.jpg"
+        }
+      ],
+      "img": "/produtos/meias-femininas/05280-002/9990.jpg"
+    },
+    {
+      "codigo": "04450-012",
+      "nome": "Meia 3/4 Lupo Basic",
+      "descricao": "Mais conforto para o dia a dia. Com formato anatômico, a Meia ¾ Basic estende-se até dois dedos abaixo do joelho garantindo um ajuste perfeito. A combinação das composições assegura uma meia superconfortável e resistente, que pode ser utilizado por muito tempo. Sinta agora mesmo o conforto de usar meias Lupo.",
+      "tamanho": "34 a 39",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-femininas/04450-012/9990.jpg"
+        },
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-femininas/04450-012/1120.jpg"
+        }
+      ],
+      "img": "/produtos/meias-femininas/04450-012/9990.jpg"
+    },
+    {
+      "codigo": "04661-001",
+      "nome": "Meia 3/4 Lupo Inverno",
+      "descricao": "A maciez da lã aos seus pés. Feita de lã supermacia e confortável, a Meia ¾ Inverno não causa incômodos na pele e gera uma ótima respirabilidade. Com formato anatômico, estende-se até dois dedos abaixo do joelho e ajusta perfeitamente ao pé trazendo mais proteção e fixação. Sinta agora mesmo o conforto de usar meias Lupo.",
+      "tamanho": "34 a 39",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-femininas/04661-001/9990.jpg"
+        },
+        {
+          "cod": "7570",
+          "nome": "Café",
+          "img": "/produtos/meias-femininas/04661-001/7570.jpg"
+        },
+        {
+          "cod": "8020",
+          "nome": "Cinza",
+          "img": "/produtos/meias-femininas/04661-001/8020.jpg"
+        },
+        {
+          "cod": "8710",
+          "nome": "Chumbo",
+          "img": "/produtos/meias-femininas/04661-001/8710.jpg"
+        }
+      ],
+      "img": "/produtos/meias-femininas/04661-001/9990.jpg"
+    },
+    {
+      "codigo": "04662-001",
+      "nome": "Meia Lupo AF Inverno",
+      "descricao": "A maciez da lã aos seus pés. Feita de lã supermacia e confortável, a Meia Inverno não causa incômodos na pele e gera uma ótima respirabilidade. Com formato anatômico, estende-se até a panturrilha e ajusta perfeitamente ao pé trazendo mais proteção e fixação. Cano 17 cm aproximadamente. Sinta agora mesmo o conforto de usar meias Lupo.",
+      "tamanho": "34 a 39",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-femininas/04662-001/9990.jpg"
+        },
+        {
+          "cod": "7570",
+          "nome": "Café",
+          "img": "/produtos/meias-femininas/04662-001/7570.jpg"
+        },
+        {
+          "cod": "8020",
+          "nome": "Cinza",
+          "img": "/produtos/meias-femininas/04662-001/8020.jpg"
+        },
+        {
+          "cod": "8710",
+          "nome": "Chumbo",
+          "img": "/produtos/meias-femininas/04662-001/8710.jpg"
+        }
+      ],
+      "img": "/produtos/meias-femininas/04662-001/9990.jpg"
+    },
+    {
+      "codigo": "04457-001",
+      "nome": "Meia Lupo AF Bambu",
+      "descricao": "A meia de Bambu confeccionada em fibra tecnológica e sustentável. Proporciona suavidade e respirabilidade. Outra vantagem é que a fibra de Bambu é um ótimo isolante térmico. Cano 15 cm aproximadamente.",
+      "tamanho": "34 a 39",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-femininas/04457-001/9990.jpg"
+        },
+        {
+          "cod": "7730",
+          "nome": "Marrom",
+          "img": "/produtos/meias-femininas/04457-001/7730.jpg"
+        },
+        {
+          "cod": "8055",
+          "nome": "Off White",
+          "img": "/produtos/meias-femininas/04457-001/8055.jpg"
+        },
+        {
+          "cod": "8380",
+          "nome": "Cinza",
+          "img": "/produtos/meias-femininas/04457-001/8380.jpg"
+        }
+      ],
+      "img": "/produtos/meias-femininas/04457-001/9990.jpg"
+    },
+    {
+      "codigo": "04650-003",
+      "nome": "Meia Lupo AF Felpuda",
+      "descricao": "As nossas meias feitas com fio de poliéster felpudo são tão macias que parecem um abraço, proporcionando conforto e aconchego para os pés. Disponíveis em três modelos encantadores oferecemos numerações que atendem tanto o público infantil quanto o adulto, garantindo que todos possam se sentir quentinhos e desfrutar de um toque de suavidade.",
+      "tamanho": "34 a 39",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-femininas/04650-003/1120.jpg"
+        },
+        {
+          "cod": "5410",
+          "nome": "Bubble Gum",
+          "img": "/produtos/meias-femininas/04650-003/5410.jpg"
+        },
+        {
+          "cod": "6210",
+          "nome": "Bege",
+          "img": "/produtos/meias-femininas/04650-003/6210.jpg"
+        }
+      ],
+      "img": "/produtos/meias-femininas/04650-003/1120.jpg"
+    },
+    {
+      "codigo": "04655-001",
+      "nome": "Meia Lupo AF",
+      "descricao": "As nossas meias feitas com fio de poliéster felpudo são tão macias que parecem um abraço, proporcionando conforto e aconchego para os pés. Cano de 18 cm aproximadamente.",
+      "tamanho": "34 a 39",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-femininas/04655-001/9990.jpg"
+        },
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-femininas/04655-001/1120.jpg"
+        },
+        {
+          "cod": "6210",
+          "nome": "Bege",
+          "img": "/produtos/meias-femininas/04655-001/6210.jpg"
+        }
+      ],
+      "img": "/produtos/meias-femininas/04655-001/9990.jpg"
+    },
+    {
+      "codigo": "04820-001",
+      "nome": "Meia Lupo AF",
+      "descricao": "Chegaram as novas meias esportivas da Lupo para crianças e teens! Um mix perfeito entre conforto, estilo e performance, com cores vibrantes e estampas atemporais que acompanham os pequenos em todas as aventuras do dia a dia. Inspiradas na tendência athleisure, que une o esportivo ao casual com muita personalidade, essas meias foram pensadas para quem não abre mão de estar na moda – até nos detalhes.",
+      "tamanho": "34 a 39",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-femininas/04820-001/9990.jpg"
+        },
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-femininas/04820-001/1120.jpg"
+        },
+        {
+          "cod": "5285",
+          "nome": "Malva",
+          "img": "/produtos/meias-femininas/04820-001/5285.jpg"
+        }
+      ],
+      "img": "/produtos/meias-femininas/04820-001/9990.jpg"
+    },
+    {
+      "codigo": "04840-001",
+      "nome": "Meia Lupo AF",
+      "descricao": "Chegaram as novas meias esportivas da Lupo para crianças e teens! Um mix perfeito entre conforto, estilo e performance, com cores vibrantes e estampas atemporais que acompanham os pequenos em todas as aventuras do dia a dia. Inspiradas na tendência athleisure, que une o esportivo ao casual com muita personalidade, essas meias foram pensadas para quem não abre mão de estar na moda – até nos detalhes.",
+      "tamanho": "34 a 39",
+      "linha": "Inclusão de cor",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-femininas/04840-001/9990.jpg"
+        },
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-femininas/04840-001/1120.jpg"
+        },
+        {
+          "cod": "5410",
+          "nome": "Bubble Gum",
+          "img": "/produtos/meias-femininas/04840-001/5410.jpg"
+        },
+        {
+          "cod": "6170",
+          "nome": "Natural",
+          "img": "/produtos/meias-femininas/04840-001/6170.jpg"
+        }
+      ],
+      "img": "/produtos/meias-femininas/04840-001/9990.jpg"
+    },
+    {
+      "codigo": "04855-001",
+      "nome": "Meia Lupo AF",
+      "descricao": "Chegaram as novas meias esportivas da Lupo para crianças e teens! Um mix perfeito entre conforto, estilo e performance, com cores vibrantes e estampas atemporais que acompanham os pequenos em todas as aventuras do dia a dia. Inspiradas na tendência athleisure, que une o esportivo ao casual com muita personalidade, essas meias foram pensadas para quem não abre mão de estar na moda – até nos detalhes.",
+      "tamanho": "34 a 39",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-femininas/04855-001/9990.jpg"
+        },
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-femininas/04855-001/1120.jpg"
+        }
+      ],
+      "img": "/produtos/meias-femininas/04855-001/9990.jpg"
+    },
+    {
+      "codigo": "04421-001",
+      "nome": "Meia Lupo AF Conforto",
+      "descricao": "Seus pés livres de qualquer incômodo. Por não conter punho e ter alta concentração de fibras naturais, a Meia Conforto é uma grande aliada para quem precisa de mais suporte. A combinação dos materiais garante uma peça superconfortável e resistente, ideal para uso prolongado. Possui tamanho médio, cobrindo além da linha do tornozelo, para mais proteção e fixação. Sinta o conforto das meias Lupo. Cano de 11 cm aproximadamente.",
+      "tamanho": "34 a 39",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-femininas/04421-001/9990.jpg"
+        },
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/meias-femininas/04421-001/1110.jpg"
+        },
+        {
+          "cod": "5285",
+          "nome": "Malva",
+          "img": "/produtos/meias-femininas/04421-001/5285.jpg"
+        },
+        {
+          "cod": "8600",
+          "nome": "Medium Grey",
+          "img": "/produtos/meias-femininas/04421-001/8600.jpg"
+        },
+        {
+          "cod": "6170",
+          "nome": "Natural",
+          "img": "/produtos/meias-femininas/04421-001/6170.jpg"
+        }
+      ],
+      "img": "/produtos/meias-femininas/04421-001/9990.jpg"
+    },
+    {
+      "codigo": "04421-089",
+      "nome": "Meia Lupo Sem Punho K3",
+      "descricao": "Kit com 3 pares de Meia sem punho para maior conforto, confeccionada em algodão livre de aditivos químicos. Excepcionalmente suave e macia graças ao algodão de gramatura fina. Ajuste perfeito com a mistura do elastano.",
+      "tamanho": "34 a 39",
+      "linha": "Inclusão de cor",
+      "cores": [
+        {
+          "cod": "0931",
+          "nome": "Sortida",
+          "img": "/produtos/meias-femininas/04421-089/0931.jpg"
+        },
+        {
+          "cod": "0932",
+          "nome": "Sortida",
+          "img": "/produtos/meias-femininas/04421-089/0932.jpg"
+        }
+      ],
+      "img": "/produtos/meias-femininas/04421-089/0931.jpg"
+    },
+    {
+      "codigo": "04535-323",
+      "nome": "Meia Lupo AF",
+      "descricao": "Meia em algodão livres de aditivos químicos e com elastano para maior ajuste e conforto, calcanhar verdadeiro. Cano de 5 cm aproximadamente.",
+      "tamanho": "34 a 39",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-femininas/04535-323/1120.jpg"
+        },
+        {
+          "cod": "1130",
+          "nome": "Branca",
+          "img": "/produtos/meias-femininas/04535-323/1130.jpg"
+        },
+        {
+          "cod": "1140",
+          "nome": "Branca",
+          "img": "/produtos/meias-femininas/04535-323/1140.jpg"
+        }
+      ],
+      "img": "/produtos/meias-femininas/04535-323/1120.jpg"
+    },
+    {
+      "codigo": "04535-324",
+      "nome": "Meia Lupo AF",
+      "descricao": "Meia em algodão livres de aditivos químicos e com elastano para maior ajuste e conforto, calcanhar verdadeiro. Cano de 7cm aproximadamente.",
+      "tamanho": "34 a 39",
+      "linha": "Inclusão de cor",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-femininas/04535-324/9990.jpg"
+        },
+        {
+          "cod": "0210",
+          "nome": "Azul",
+          "img": "/produtos/meias-femininas/04535-324/0210.jpg"
+        },
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-femininas/04535-324/1120.jpg"
+        },
+        {
+          "cod": "2490",
+          "nome": "Lavanda",
+          "img": "/produtos/meias-femininas/04535-324/2490.jpg"
+        },
+        {
+          "cod": "5410",
+          "nome": "Bubble Gum",
+          "img": "/produtos/meias-femininas/04535-324/5410.jpg"
+        },
+        {
+          "cod": "8020",
+          "nome": "Cinza",
+          "img": "/produtos/meias-femininas/04535-324/8020.jpg"
+        },
+        {
+          "cod": "8040",
+          "nome": "Lunar Grey",
+          "img": "/produtos/meias-femininas/04535-324/8040.jpg"
+        },
+        {
+          "cod": "6170",
+          "nome": "Natural",
+          "img": "/produtos/meias-femininas/04535-324/6170.jpg"
+        },
+        {
+          "cod": "4011",
+          "nome": "Verde",
+          "img": "/produtos/meias-femininas/04535-324/4011.jpg"
+        }
+      ],
+      "img": "/produtos/meias-femininas/04535-324/9990.jpg"
+    },
+    {
+      "codigo": "04535-889",
+      "nome": "Meia Lupo AF Basic Kit3",
+      "descricao": "Kit com 3 pares de Meias confeccionadas em algodão livres de aditivos químicos e com elastano para maior ajuste e conforto, calcanhar verdadeiro.",
+      "tamanho": "34 a 39",
+      "linha": "Inclusão de cor",
+      "cores": [
+        {
+          "cod": "0936",
+          "nome": "Sortida",
+          "img": "/produtos/meias-femininas/04535-889/0936.jpg"
+        },
+        {
+          "cod": "0940",
+          "nome": "Sortida",
+          "img": "/produtos/meias-femininas/04535-889/0940.jpg"
+        },
+        {
+          "cod": "0941",
+          "nome": "Sortida",
+          "img": "/produtos/meias-femininas/04535-889/0941.jpg"
+        },
+        {
+          "cod": "0942",
+          "nome": "Sortida",
+          "img": "/produtos/meias-femininas/04535-889/0942.jpg"
+        },
+        {
+          "cod": "0943",
+          "nome": "Sortida",
+          "img": "/produtos/meias-femininas/04535-889/0943.jpg"
+        },
+        {
+          "cod": "0944",
+          "nome": "Sortida",
+          "img": "/produtos/meias-femininas/04535-889/0944.jpg"
+        },
+        {
+          "cod": "0945",
+          "nome": "Sortida",
+          "img": "/produtos/meias-femininas/04535-889/0945.jpg"
+        },
+        {
+          "cod": "0946",
+          "nome": "Sortida",
+          "img": "/produtos/meias-femininas/04535-889/0946.jpg"
+        },
+        {
+          "cod": "0947",
+          "nome": "Sortida",
+          "img": "/produtos/meias-femininas/04535-889/0947.jpg"
+        },
+        {
+          "cod": "0948",
+          "nome": "Sortida",
+          "img": "/produtos/meias-femininas/04535-889/0948.jpg"
+        }
+      ],
+      "img": "/produtos/meias-femininas/04535-889/0936.jpg"
+    },
+    {
+      "codigo": "04570-075",
+      "nome": "Meia Lupo Look Lupo",
+      "descricao": "Meia em algodão livres de aditivos químicos e com elastano para maior ajuste e conforto, calcanhar verdadeiro. Cano de 9 cm aproximadamente.",
+      "tamanho": "34 a 39",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-femininas/04570-075/9990.jpg"
+        },
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-femininas/04570-075/1120.jpg"
+        }
+      ],
+      "img": "/produtos/meias-femininas/04570-075/9990.jpg"
+    },
+    {
+      "codigo": "04570-368",
+      "nome": "Meia Lupo AF",
+      "descricao": "Meia em algodão livres de aditivos químicos e com elastano para maior ajuste e conforto, calcanhar verdadeiro. Cano de 12 cm aproximadamente.",
+      "tamanho": "34 a 39",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-femininas/04570-368/9990.jpg"
+        },
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-femininas/04570-368/1120.jpg"
+        },
+        {
+          "cod": "8040",
+          "nome": "Lunar Grey",
+          "img": "/produtos/meias-femininas/04570-368/8040.jpg"
+        }
+      ],
+      "img": "/produtos/meias-femininas/04570-368/9990.jpg"
+    },
+    {
+      "codigo": "04570-369",
+      "nome": "Meia Lupo AF",
+      "descricao": "Meia em algodão livres de aditivos químicos e com elastano para maior ajuste e conforto, calcanhar verdadeiro. Cano de 12 cm aproximadamente.",
+      "tamanho": "34 a 39",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "2080",
+          "nome": "Azul",
+          "img": "/produtos/meias-femininas/04570-369/2080.jpg"
+        },
+        {
+          "cod": "2490",
+          "nome": "Lavanda",
+          "img": "/produtos/meias-femininas/04570-369/2490.jpg"
+        },
+        {
+          "cod": "8055",
+          "nome": "Off White",
+          "img": "/produtos/meias-femininas/04570-369/8055.jpg"
+        }
+      ],
+      "img": "/produtos/meias-femininas/04570-369/2080.jpg"
+    },
+    {
+      "codigo": "04570-370",
+      "nome": "Meia Lupo AF",
+      "descricao": "Meia em algodão livres de aditivos químicos e com elastano para maior ajuste e conforto, calcanhar verdadeiro. Cano de 12 cm aproximadamente.",
+      "tamanho": "34 a 39",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-femininas/04570-370/9990.jpg"
+        },
+        {
+          "cod": "8055",
+          "nome": "Off White",
+          "img": "/produtos/meias-femininas/04570-370/8055.jpg"
+        },
+        {
+          "cod": "6170",
+          "nome": "Natural",
+          "img": "/produtos/meias-femininas/04570-370/6170.jpg"
+        }
+      ],
+      "img": "/produtos/meias-femininas/04570-370/9990.jpg"
+    },
+    {
+      "codigo": "04570-371",
+      "nome": "Meia Lupo AF",
+      "descricao": "Meia em algodão livres de aditivos químicos e com elastano para maior ajuste e conforto, calcanhar verdadeiro. Cano de 12 cm aproximadamente.",
+      "tamanho": "34 a 39",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-femininas/04570-371/9990.jpg"
+        },
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-femininas/04570-371/1120.jpg"
+        },
+        {
+          "cod": "5970",
+          "nome": "Açai",
+          "img": "/produtos/meias-femininas/04570-371/5970.jpg"
+        }
+      ],
+      "img": "/produtos/meias-femininas/04570-371/9990.jpg"
+    },
+    {
+      "codigo": "04570-372",
+      "nome": "Meia Lupo AF",
+      "descricao": "Meia em algodão livres de aditivos químicos e com elastano para maior ajuste e conforto, calcanhar verdadeiro. Cano de 12 cm aproximadamente.",
+      "tamanho": "34 a 39",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-femininas/04570-372/9990.jpg"
+        },
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-femininas/04570-372/1120.jpg"
+        },
+        {
+          "cod": "5285",
+          "nome": "Malva",
+          "img": "/produtos/meias-femininas/04570-372/5285.jpg"
+        }
+      ],
+      "img": "/produtos/meias-femininas/04570-372/9990.jpg"
+    },
+    {
+      "codigo": "04570-373",
+      "nome": "Meia Lupo AF",
+      "descricao": "Meia em algodão livres de aditivos químicos e com elastano para maior ajuste e conforto, calcanhar verdadeiro. Cano de 12 cm aproximadamente.",
+      "tamanho": "34 a 39",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "6550",
+          "nome": "Bege",
+          "img": "/produtos/meias-femininas/04570-373/6550.jpg"
+        },
+        {
+          "cod": "7570",
+          "nome": "Café",
+          "img": "/produtos/meias-femininas/04570-373/7570.jpg"
+        },
+        {
+          "cod": "8055",
+          "nome": "Off White",
+          "img": "/produtos/meias-femininas/04570-373/8055.jpg"
+        }
+      ],
+      "img": "/produtos/meias-femininas/04570-373/6550.jpg"
+    },
+    {
+      "codigo": "04570-374",
+      "nome": "Meia Lupo AF",
+      "descricao": "Meia em algodão livres de aditivos químicos e com elastano para maior ajuste e conforto, calcanhar verdadeiro. Cano de 10 cm aproximadamente.",
+      "tamanho": "34 a 39",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "4011",
+          "nome": "Verde",
+          "img": "/produtos/meias-femininas/04570-374/4011.jpg"
+        },
+        {
+          "cod": "5110",
+          "nome": "Rosa",
+          "img": "/produtos/meias-femininas/04570-374/5110.jpg"
+        },
+        {
+          "cod": "8055",
+          "nome": "Off White",
+          "img": "/produtos/meias-femininas/04570-374/8055.jpg"
+        }
+      ],
+      "img": "/produtos/meias-femininas/04570-374/4011.jpg"
+    },
+    {
+      "codigo": "04570-889",
+      "nome": "Meia Lupo AF Kit3",
+      "descricao": "Kit com 3 pares de Meias confeccionadas em algodão livres de aditivos químicos e com elastano para maior ajuste e conforto, calcanhar verdadeiro.",
+      "tamanho": "34 a 39",
+      "linha": "Inclusão de cor",
+      "cores": [
+        {
+          "cod": "0927",
+          "nome": "Sortida",
+          "img": "/produtos/meias-femininas/04570-889/0927.jpg"
+        },
+        {
+          "cod": "0928",
+          "nome": "Sortida",
+          "img": "/produtos/meias-femininas/04570-889/0928.jpg"
+        },
+        {
+          "cod": "0929",
+          "nome": "Sortida",
+          "img": "/produtos/meias-femininas/04570-889/0929.jpg"
+        },
+        {
+          "cod": "0930",
+          "nome": "Sortida",
+          "img": "/produtos/meias-femininas/04570-889/0930.jpg"
+        },
+        {
+          "cod": "0931",
+          "nome": "Sortida",
+          "img": "/produtos/meias-femininas/04570-889/0931.jpg"
+        },
+        {
+          "cod": "0932",
+          "nome": "Sortida",
+          "img": "/produtos/meias-femininas/04570-889/0932.jpg"
+        }
+      ],
+      "img": "/produtos/meias-femininas/04570-889/0927.jpg"
+    },
+    {
+      "codigo": "04580-032",
+      "nome": "Meia Lupo AF",
+      "descricao": "Meia em algodão livres de aditivos químicos e com elastano para maior ajuste e conforto, calcanhar verdadeiro. Cano de 19 cm aproximadamente.",
+      "tamanho": "34 a 39",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/meias-femininas/04580-032/9990.jpg"
+        },
+        {
+          "cod": "1120",
+          "nome": "Branca",
+          "img": "/produtos/meias-femininas/04580-032/1120.jpg"
+        },
+        {
+          "cod": "6170",
+          "nome": "Natural",
+          "img": "/produtos/meias-femininas/04580-032/6170.jpg"
+        }
+      ],
+      "img": "/produtos/meias-femininas/04580-032/9990.jpg"
+    },
+    {
+      "codigo": "04945-068",
+      "nome": "Meia Lupo AF Sap. Anti.",
+      "descricao": "Meia sapatilha em algodão livres de aditivos químicos e com elastano para maior ajuste e conforto, tem elastico no peito do pé e antiderrapante para maior segurança nas práticas de solo ou em casa.",
+      "tamanho": "34 a 39",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "2801",
+          "nome": "Marinho",
+          "img": "/produtos/meias-femininas/04945-068/2801.jpg"
+        },
+        {
+          "cod": "5940",
+          "nome": "Vinho",
+          "img": "/produtos/meias-femininas/04945-068/5940.jpg"
+        },
+        {
+          "cod": "8010",
+          "nome": "Cinza",
+          "img": "/produtos/meias-femininas/04945-068/8010.jpg"
+        },
+        {
+          "cod": "9940",
+          "nome": "Preto",
+          "img": "/produtos/meias-femininas/04945-068/9940.jpg"
+        }
+      ],
+      "img": "/produtos/meias-femininas/04945-068/2801.jpg"
+    },
+    {
+      "codigo": "04945-073",
+      "nome": "Meia Lupo AF Sap. Anti.",
+      "descricao": "Meia sapatilha em algodão livres de aditivos químicos e com elastano para maior ajuste e conforto, tem elástico no peito do pé e antiderrapante para maior segurança nas práticas de solo ou em casa.",
+      "tamanho": "34 a 39",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "5500",
+          "nome": "Lilás",
+          "img": "/produtos/meias-femininas/04945-073/5500.jpg"
+        },
+        {
+          "cod": "5940",
+          "nome": "Vinho",
+          "img": "/produtos/meias-femininas/04945-073/5940.jpg"
+        }
+      ],
+      "img": "/produtos/meias-femininas/04945-073/5500.jpg"
+    }
+  ]
+}

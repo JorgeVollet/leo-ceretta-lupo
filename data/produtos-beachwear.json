@@ -1,0 +1,814 @@
+{
+  "produtos": [
+    {
+      "codigo": "28971-001",
+      "nome": "Sunga Beachwear Lisa",
+      "descricao": "",
+      "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "2800",
+          "nome": "Marinho",
+          "img": "/produtos/beachwear/28971-001/2800.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preto",
+          "img": "/produtos/beachwear/28971-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/beachwear/28971-001/9990.jpg"
+    },
+    {
+      "codigo": "28972-004",
+      "nome": "Sunga Beachwear Com Bolso",
+      "descricao": "",
+      "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "9980",
+          "nome": "Preta",
+          "img": "/produtos/beachwear/28972-004/9980.jpg"
+        },
+        {
+          "cod": "7530",
+          "nome": "Canela",
+          "img": "/produtos/beachwear/28972-004/7530.jpg"
+        }
+      ],
+      "img": "/produtos/beachwear/28972-004/7530.jpg"
+    },
+    {
+      "codigo": "28972-009",
+      "nome": "Sunga Beachwear com recorte",
+      "descricao": "",
+      "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "2370",
+          "nome": "Azul",
+          "img": "/produtos/beachwear/28972-009/2370.jpg"
+        },
+        {
+          "cod": "8460",
+          "nome": "Petróleo",
+          "img": "/produtos/beachwear/28972-009/8460.jpg"
+        }
+      ],
+      "img": "/produtos/beachwear/28972-009/2370.jpg"
+    },
+    {
+      "codigo": "28972-007",
+      "nome": "Sunga Beachwear Com Recorte",
+      "descricao": "",
+      "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "2660",
+          "nome": "Azul",
+          "img": "/produtos/beachwear/28972-007/2660.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/beachwear/28972-007/9990.jpg"
+        }
+      ],
+      "img": "/produtos/beachwear/28972-007/2660.jpg"
+    },
+    {
+      "codigo": "28973-014",
+      "nome": "Sunga Beachwear Estampada",
+      "descricao": "",
+      "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "0770",
+          "nome": "Azul",
+          "img": "/produtos/beachwear/28973-014/0770.jpg"
+        },
+        {
+          "cod": "2900",
+          "nome": "Azul Capri",
+          "img": "/produtos/beachwear/28973-014/2900.jpg"
+        },
+        {
+          "cod": "8460",
+          "nome": "Petróleo",
+          "img": "/produtos/beachwear/28973-014/8460.jpg"
+        },
+        {
+          "cod": "8520",
+          "nome": "Cinza",
+          "img": "/produtos/beachwear/28973-014/8520.jpg"
+        },
+        {
+          "cod": "9930",
+          "nome": "Preto",
+          "img": "/produtos/beachwear/28973-014/9930.jpg"
+        }
+      ],
+      "img": "/produtos/beachwear/28973-014/0770.jpg"
+    },
+    {
+      "codigo": "28974-001",
+      "nome": "Boxer Beachwear Lisa",
+      "descricao": "",
+      "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "2800",
+          "nome": "Marinho",
+          "img": "/produtos/beachwear/28974-001/2800.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preto",
+          "img": "/produtos/beachwear/28974-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/beachwear/28974-001/9990.jpg"
+    },
+    {
+      "codigo": "28975-004",
+      "nome": "Boxer Beachwear Com Bolso",
+      "descricao": "",
+      "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "9980",
+          "nome": "Preta",
+          "img": "/produtos/beachwear/28975-004/9980.jpg"
+        },
+        {
+          "cod": "7530",
+          "nome": "Canela",
+          "img": "/produtos/beachwear/28975-004/7530.jpg"
+        }
+      ],
+      "img": "/produtos/beachwear/28975-004/7530.jpg"
+    },
+    {
+      "codigo": "28975-009",
+      "nome": "Boxer Beachwear Com Recorte",
+      "descricao": "",
+      "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "2370",
+          "nome": "Azul",
+          "img": "/produtos/beachwear/28975-009/2370.jpg"
+        },
+        {
+          "cod": "8460",
+          "nome": "Petróleo",
+          "img": "/produtos/beachwear/28975-009/8460.jpg"
+        }
+      ],
+      "img": "/produtos/beachwear/28975-009/2370.jpg"
+    },
+    {
+      "codigo": "28975-007",
+      "nome": "Boxer Beachwear Com Recorte",
+      "descricao": "",
+      "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "2660",
+          "nome": "Azul",
+          "img": "/produtos/beachwear/28975-007/2660.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/beachwear/28975-007/9990.jpg"
+        }
+      ],
+      "img": "/produtos/beachwear/28975-007/2660.jpg"
+    },
+    {
+      "codigo": "28976-014",
+      "nome": "Boxer Beachwear Estampada",
+      "descricao": "",
+      "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "0770",
+          "nome": "Azul",
+          "img": "/produtos/beachwear/28976-014/0770.jpg"
+        },
+        {
+          "cod": "2900",
+          "nome": "Azul Capri",
+          "img": "/produtos/beachwear/28976-014/2900.jpg"
+        },
+        {
+          "cod": "8460",
+          "nome": "Petróleo",
+          "img": "/produtos/beachwear/28976-014/8460.jpg"
+        },
+        {
+          "cod": "8520",
+          "nome": "Cinza",
+          "img": "/produtos/beachwear/28976-014/8520.jpg"
+        },
+        {
+          "cod": "9930",
+          "nome": "Preto",
+          "img": "/produtos/beachwear/28976-014/9930.jpg"
+        }
+      ],
+      "img": "/produtos/beachwear/28976-014/2900.jpg"
+    },
+    {
+      "codigo": "29022-001",
+      "nome": "Short Lupo Beachwear",
+      "descricao": "",
+      "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "5885",
+          "nome": "Mescla Vermelho",
+          "img": "/produtos/beachwear/29022-001/5885.jpg"
+        },
+        {
+          "cod": "7640",
+          "nome": "Mescla Marrom",
+          "img": "/produtos/beachwear/29022-001/7640.jpg"
+        }
+      ],
+      "img": "/produtos/beachwear/29022-001/7640.jpg"
+    },
+    {
+      "codigo": "29000-001",
+      "nome": "Short Liso Lupo Beachwear",
+      "descricao": "",
+      "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/beachwear/29000-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/beachwear/29000-001/9990.jpg"
+    },
+    {
+      "codigo": "29001-007",
+      "nome": "Short Estampado Lupo Beachwear",
+      "descricao": "",
+      "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "2010",
+          "nome": "Indigo",
+          "img": "/produtos/beachwear/29001-007/2010.jpg"
+        },
+        {
+          "cod": "2220",
+          "nome": "Azul Claro",
+          "img": "/produtos/beachwear/29001-007/2220.jpg"
+        },
+        {
+          "cod": "7600",
+          "nome": "Twist Marrom",
+          "img": "/produtos/beachwear/29001-007/7600.jpg"
+        },
+        {
+          "cod": "8520",
+          "nome": "Cinza",
+          "img": "/produtos/beachwear/29001-007/8520.jpg"
+        },
+        {
+          "cod": "9960",
+          "nome": "Preto",
+          "img": "/produtos/beachwear/29001-007/9960.jpg"
+        }
+      ],
+      "img": "/produtos/beachwear/29001-007/2010.jpg"
+    },
+    {
+      "codigo": "29007-001",
+      "nome": "Boadshort Curto Estampado Lupo Beachwear",
+      "descricao": "",
+      "tamanho": "40 • 42 • 44 • 46",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "2760",
+          "nome": "Azul",
+          "img": "/produtos/beachwear/29007-001/2760.jpg"
+        }
+      ],
+      "img": "/produtos/beachwear/29007-001/2760.jpg"
+    },
+    {
+      "codigo": "29020-001",
+      "nome": "Boardshort Lupo Beachwear com Vivo",
+      "descricao": "",
+      "tamanho": "40 • 42 • 44 • 46",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "4500",
+          "nome": "Verde",
+          "img": "/produtos/beachwear/29020-001/4500.jpg"
+        }
+      ],
+      "img": "/produtos/beachwear/29020-001/4500.jpg"
+    },
+    {
+      "codigo": "28963-001",
+      "nome": "Sunga Beachwear Lisa Lupo Kids",
+      "descricao": "",
+      "tamanho": "04 anos • 06 anos • 08 anos • 10 anos • 12 anos",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "2800",
+          "nome": "Marinho",
+          "img": "/produtos/beachwear/28963-001/2800.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/beachwear/28963-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/beachwear/28963-001/9990.jpg"
+    },
+    {
+      "codigo": "28964-004",
+      "nome": "Sunga Beachwear Com Recorte Lupo Kids",
+      "descricao": "",
+      "tamanho": "06 anos • 08 anos • 10 anos • 12 anos",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "2370",
+          "nome": "Azul",
+          "img": "/produtos/beachwear/28964-004/2370.jpg"
+        },
+        {
+          "cod": "8460",
+          "nome": "Petróleo",
+          "img": "/produtos/beachwear/28964-004/8460.jpg"
+        }
+      ],
+      "img": "/produtos/beachwear/28964-004/8460.jpg"
+    },
+    {
+      "codigo": "28980-002",
+      "nome": "Sunga Beachwear Com Recorte Lupo Kids",
+      "descricao": "",
+      "tamanho": "06 anos • 08 anos • 10 anos • 12 anos",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "3830",
+          "nome": "Orange",
+          "img": "/produtos/beachwear/28980-002/3830.jpg"
+        },
+        {
+          "cod": "4170",
+          "nome": "Oceano",
+          "img": "/produtos/beachwear/28980-002/4170.jpg"
+        }
+      ],
+      "img": "/produtos/beachwear/28980-002/4170.jpg"
+    },
+    {
+      "codigo": "28965-007",
+      "nome": "Sunga Beachwear Estampada Lupo Kids",
+      "descricao": "",
+      "tamanho": "04 anos • 06 anos • 08 anos • 10 anos • 12 anos",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "2020",
+          "nome": "Azul Pastel",
+          "img": "/produtos/beachwear/28965-007/2020.jpg"
+        },
+        {
+          "cod": "2373",
+          "nome": "Azul",
+          "img": "/produtos/beachwear/28965-007/2373.jpg"
+        },
+        {
+          "cod": "2787",
+          "nome": "Royal",
+          "img": "/produtos/beachwear/28965-007/2787.jpg"
+        },
+        {
+          "cod": "4500",
+          "nome": "Verde",
+          "img": "/produtos/beachwear/28965-007/4500.jpg"
+        }
+      ],
+      "img": "/produtos/beachwear/28965-007/2020.jpg"
+    },
+    {
+      "codigo": "28965-014",
+      "nome": "Sunga Beachwear Estampada Lupo Kids",
+      "descricao": "",
+      "tamanho": "06 anos • 08 anos • 10 anos • 12 anos",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "9930",
+          "nome": "Preto",
+          "img": "/produtos/beachwear/28965-014/9930.jpg"
+        }
+      ],
+      "img": "/produtos/beachwear/28965-014/9930.jpg"
+    },
+    {
+      "codigo": "28966-001",
+      "nome": "Boxer Beachwear Lisa Lupo Kids",
+      "descricao": "",
+      "tamanho": "06 anos • 08 anos • 10 anos • 12 anos",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "2800",
+          "nome": "Marinho",
+          "img": "/produtos/beachwear/28966-001/2800.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/beachwear/28966-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/beachwear/28966-001/2800.jpg"
+    },
+    {
+      "codigo": "28967-004",
+      "nome": "Boxer Beachwear Com Recorte Lupo Kids",
+      "descricao": "",
+      "tamanho": "06 anos • 08 anos • 10 anos • 12 anos",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "2370",
+          "nome": "Azul",
+          "img": "/produtos/beachwear/28967-004/2370.jpg"
+        },
+        {
+          "cod": "8460",
+          "nome": "Petróleo",
+          "img": "/produtos/beachwear/28967-004/8460.jpg"
+        }
+      ],
+      "img": "/produtos/beachwear/28967-004/8460.jpg"
+    },
+    {
+      "codigo": "28981-002",
+      "nome": "Boxer Beachwear Com Recorte Lupo Kids",
+      "descricao": "",
+      "tamanho": "06 anos • 08 anos • 10 anos • 12 anos",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "3830",
+          "nome": "Orange",
+          "img": "/produtos/beachwear/28981-002/3830.jpg"
+        },
+        {
+          "cod": "4170",
+          "nome": "Oceano",
+          "img": "/produtos/beachwear/28981-002/4170.jpg"
+        }
+      ],
+      "img": "/produtos/beachwear/28981-002/4170.jpg"
+    },
+    {
+      "codigo": "28968-007",
+      "nome": "Boxer Beachwear Estampada Lupo Kids",
+      "descricao": "",
+      "tamanho": "06 anos • 08 anos • 10 anos • 12 anos",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "2020",
+          "nome": "Azul Pastel",
+          "img": "/produtos/beachwear/28968-007/2020.jpg"
+        },
+        {
+          "cod": "2787",
+          "nome": "Royal",
+          "img": "/produtos/beachwear/28968-007/2787.jpg"
+        },
+        {
+          "cod": "4500",
+          "nome": "Verde",
+          "img": "/produtos/beachwear/28968-007/4500.jpg"
+        },
+        {
+          "cod": "9980",
+          "nome": "Preta",
+          "img": "/produtos/beachwear/28968-007/9980.jpg"
+        }
+      ],
+      "img": "/produtos/beachwear/28968-007/2787.jpg"
+    },
+    {
+      "codigo": "28968-014",
+      "nome": "Boxer Beachwear Estampada Lupo Kids",
+      "descricao": "",
+      "tamanho": "06 anos • 08 anos • 10 anos • 12 anos",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "0770",
+          "nome": "Azul",
+          "img": "/produtos/beachwear/28968-014/0770.jpg"
+        },
+        {
+          "cod": "9930",
+          "nome": "Preto",
+          "img": "/produtos/beachwear/28968-014/9930.jpg"
+        }
+      ],
+      "img": "/produtos/beachwear/28968-014/0770.jpg"
+    },
+    {
+      "codigo": "29008-001",
+      "nome": "Short Magic Print Beachwear Lupo Kids",
+      "descricao": "",
+      "tamanho": "04 anos • 06 anos • 08 anos • 10 anos • 12 anos",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "2400",
+          "nome": "Royal Blue",
+          "img": "/produtos/beachwear/29008-001/2400.jpg"
+        },
+        {
+          "cod": "4761",
+          "nome": "Verde",
+          "img": "/produtos/beachwear/29008-001/4761.jpg"
+        },
+        {
+          "cod": "8230",
+          "nome": "Cinza",
+          "img": "/produtos/beachwear/29008-001/8230.jpg"
+        }
+      ],
+      "img": "/produtos/beachwear/29008-001/2400.jpg"
+    },
+    {
+      "codigo": "29006-007",
+      "nome": "Short Estampado Beachwear Lupo Kids",
+      "descricao": "",
+      "tamanho": "04 anos • 06 anos • 08 anos • 10 anos • 12 anos",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "2783",
+          "nome": "Anil",
+          "img": "/produtos/beachwear/29006-007/2783.jpg"
+        },
+        {
+          "cod": "2801",
+          "nome": "Marinho",
+          "img": "/produtos/beachwear/29006-007/2801.jpg"
+        }
+      ],
+      "img": "/produtos/beachwear/29006-007/2801.jpg"
+    },
+    {
+      "codigo": "29006-008",
+      "nome": "Boadshort Estampado Beachwear Lupo Kids",
+      "descricao": "",
+      "tamanho": "04 anos • 06 anos • 08 anos • 10 anos • 12 anos",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "2800",
+          "nome": "Marinho",
+          "img": "/produtos/beachwear/29006-008/2800.jpg"
+        },
+        {
+          "cod": "3660",
+          "nome": "Laranja",
+          "img": "/produtos/beachwear/29006-008/3660.jpg"
+        }
+      ],
+      "img": "/produtos/beachwear/29006-008/2800.jpg"
+    },
+    {
+      "codigo": "77266-001",
+      "nome": "T-Shirt Kids Manga Curta UV Protection",
+      "descricao": "",
+      "tamanho": "02 anos • 04 anos • 06 anos • 08 anos • 10 anos • 12 anos • 14 anos",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/beachwear/77266-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/beachwear/77266-001/9990.jpg"
+    },
+    {
+      "codigo": "77267-003",
+      "nome": "T-Shirt Color UV Prtotection",
+      "descricao": "",
+      "tamanho": "02 anos • 04 anos • 06 anos • 08 anos • 10 anos • 12 anos • 14 anos",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "2710",
+          "nome": "Aquático",
+          "img": "/produtos/beachwear/77267-003/2710.jpg"
+        },
+        {
+          "cod": "2903",
+          "nome": "Marinho Max",
+          "img": "/produtos/beachwear/77267-003/2903.jpg"
+        }
+      ],
+      "img": "/produtos/beachwear/77267-003/2710.jpg"
+    },
+    {
+      "codigo": "77267-004",
+      "nome": "T-Shirt Kids Color UV Protection",
+      "descricao": "",
+      "tamanho": "02 anos • 04 anos • 06 anos • 08 anos • 10 anos • 12 anos • 14 anos",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "0770",
+          "nome": "Azul",
+          "img": "/produtos/beachwear/77267-004/0770.jpg"
+        },
+        {
+          "cod": "2903",
+          "nome": "Marinho Max",
+          "img": "/produtos/beachwear/77267-004/2903.jpg"
+        }
+      ],
+      "img": "/produtos/beachwear/77267-004/0770.jpg"
+    },
+    {
+      "codigo": "77014-002",
+      "nome": "T-Shirt Kids UV Protection Unissex",
+      "descricao": "",
+      "tamanho": "02 anos • 04 anos • 06 anos • 08 anos • 10 anos • 12 anos • 14 anos",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "2400",
+          "nome": "Royal Blue",
+          "img": "/produtos/beachwear/77014-002/2400.jpg"
+        },
+        {
+          "cod": "5375",
+          "nome": "Rosa",
+          "img": "/produtos/beachwear/77014-002/5375.jpg"
+        },
+        {
+          "cod": "5650",
+          "nome": "Vermelho",
+          "img": "/produtos/beachwear/77014-002/5650.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/beachwear/77014-002/9990.jpg"
+        }
+      ],
+      "img": "/produtos/beachwear/77014-002/2400.jpg"
+    },
+    {
+      "codigo": "77500-002",
+      "nome": "T-Shirt Kids UV Protection",
+      "descricao": "",
+      "tamanho": "02 anos • 04 anos • 06 anos • 08 anos • 10 anos • 12 anos • 14 anos",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "5141",
+          "nome": "Rosa",
+          "img": "/produtos/beachwear/77500-002/5141.jpg"
+        }
+      ],
+      "img": "/produtos/beachwear/77500-002/5141.jpg"
+    },
+    {
+      "codigo": "77500-003",
+      "nome": "T-Shirt Kids UV Protection Listras",
+      "descricao": "",
+      "tamanho": "04 anos • 06 anos • 08 anos • 10 anos • 12 anos",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "5541",
+          "nome": "Chiclete/Menta",
+          "img": "/produtos/beachwear/77500-003/5541.jpg"
+        }
+      ],
+      "img": "/produtos/beachwear/77500-003/5541.jpg"
+    },
+    {
+      "codigo": "77410-002",
+      "nome": "Maiô Kids Manga Longa UV Protection",
+      "descricao": "",
+      "tamanho": "04 anos • 06 anos • 08 anos • 10 anos • 12 anos",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "5480",
+          "nome": "Petala",
+          "img": "/produtos/beachwear/77410-002/5480.jpg"
+        }
+      ],
+      "img": "/produtos/beachwear/77410-002/5480.jpg"
+    },
+    {
+      "codigo": "77411-002",
+      "nome": "Top Kids",
+      "descricao": "",
+      "tamanho": "04 anos • 06 anos • 08 anos • 10 anos • 12 anos",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "5541",
+          "nome": "Chiclete/Menta",
+          "img": "/produtos/beachwear/77411-002/5541.jpg"
+        }
+      ],
+      "img": "/produtos/beachwear/77411-002/5541.jpg"
+    },
+    {
+      "codigo": "77412-002",
+      "nome": "Biquini Kids- Midi",
+      "descricao": "",
+      "tamanho": "04 anos • 06 anos • 08 anos • 10 anos • 12 anos",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "5541",
+          "nome": "Chiclete/Menta",
+          "img": "/produtos/beachwear/77412-002/5541.jpg"
+        }
+      ],
+      "img": "/produtos/beachwear/77412-002/5541.jpg"
+    },
+    {
+      "codigo": "77413-002",
+      "nome": "Biquini Kids - Maxi",
+      "descricao": "",
+      "tamanho": "04 anos • 06 anos • 08 anos • 10 anos • 12 anos",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "5541",
+          "nome": "Chiclete/Menta",
+          "img": "/produtos/beachwear/77413-002/5541.jpg"
+        }
+      ],
+      "img": "/produtos/beachwear/77413-002/5541.jpg"
+    },
+    {
+      "codigo": "29010-002",
+      "nome": "Short Lupo KF Beachwear",
+      "descricao": "",
+      "tamanho": "04 anos • 06 anos • 08 anos • 10 anos • 12 anos",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "3371",
+          "nome": "Laranja Listrado",
+          "img": "/produtos/beachwear/29010-002/3371.jpg"
+        },
+        {
+          "cod": "5541",
+          "nome": "Chiclete/Menta",
+          "img": "/produtos/beachwear/29010-002/5541.jpg"
+        },
+        {
+          "cod": "4402",
+          "nome": "Lima Citrico",
+          "img": "/produtos/beachwear/29010-002/4402.jpg"
+        }
+      ],
+      "img": "/produtos/beachwear/29010-002/4402.jpg"
+    }
+  ]
+}
