@@ -48,6 +48,15 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ ok: true, arquivo, registros: 0, aviso: "nenhuma linha reconhecida" });
   }
 
+  // 3b) dedup por ordem_venda — alguns relatórios (ex.: ALOCADO) trazem mais de
+  // uma linha para a mesma Ordem de Venda, e o upsert não aceita mexer na
+  // mesma linha duas vezes dentro do mesmo lote. Fica a última ocorrência.
+  {
+    const porOrdem = new Map<string, (typeof pedidos)[number]>();
+    for (const p of pedidos) porOrdem.set(p.ordem_venda, p);
+    pedidos = Array.from(porOrdem.values());
+  }
+
   // 4) Supabase autenticado (sem service_role)
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
   const anon = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
