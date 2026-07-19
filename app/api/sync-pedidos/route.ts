@@ -52,7 +52,19 @@ export async function POST(req: NextRequest) {
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
   const anon = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
   if (!url || !anon || !process.env.SYNC_EMAIL || !process.env.SYNC_PASSWORD) {
-    return NextResponse.json({ ok: false, erro: "variáveis do Supabase/login não configuradas" }, { status: 500 });
+    return NextResponse.json(
+      {
+        ok: false,
+        erro: "variáveis do Supabase/login não configuradas",
+        debug: {
+          temUrl: !!url,
+          temAnon: !!anon,
+          temEmail: !!process.env.SYNC_EMAIL,
+          temPassword: !!process.env.SYNC_PASSWORD,
+        },
+      },
+      { status: 500 }
+    );
   }
   const supabase = createClient(url, anon, { auth: { persistSession: false, autoRefreshToken: false } });
   const { error: eAuth } = await supabase.auth.signInWithPassword({
