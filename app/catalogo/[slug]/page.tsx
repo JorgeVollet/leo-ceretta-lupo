@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import PoliticaComercial from "@/components/PoliticaComercial";
-import ProdutosGrid from "@/components/ProdutosGrid";
+import CatalogoCompra from "@/components/CatalogoCompra";
 import { getCatalogo, getProdutos, linkPedido } from "@/lib/data";
 
 export const dynamic = "force-dynamic";
@@ -45,7 +45,7 @@ export default async function CatalogoPage({ params }: { params: { slug: string 
 
           <div className="mt-8 space-y-10">
             {produtos.length > 0 && (
-              <ProdutosGrid
+              <CatalogoCompra
                 produtos={produtos}
                 catalogoSlug={cat.slug}
                 catalogoTitulo={cat.titulo}

@@ -33,9 +33,9 @@ const atalhos = [
     icon: "M8 3h8l4 4v14H4V3h4zM15 3v5h5M8 12h8M8 16h6",
   },
   {
-    href: "/#area-cliente",
+    href: "/entrar",
     label: "Área do cliente",
-    desc: "Em breve",
+    desc: "Entrar ou criar acesso",
     icon: "M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM4 21c0-4 4-6 8-6s8 2 8 6",
   },
 ];

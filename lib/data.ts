@@ -14,6 +14,7 @@ import produtosMeiasKids from "@/data/produtos-meias-kids.json";
 import produtosMeiasBaby from "@/data/produtos-meias-baby.json";
 import produtosUk from "@/data/produtos-uk.json";
 import produtosLsport from "@/data/produtos-lsport.json";
+import produtosLingerie from "@/data/produtos-lingerie.json";
 
 export type Cor = { cod: string; nome: string; img?: string };
 export type Produto = {
@@ -66,6 +67,7 @@ const PRODUTOS_LOCAIS: Record<string, { produtos: Produto[] }> = {
   "meias-baby": produtosMeiasBaby as any,
   uk: produtosUk as any,
   lsport: produtosLsport as any,
+  lingerie: produtosLingerie as any,
 };
 
 export async function getCatalogos(): Promise<Catalogo[]> {

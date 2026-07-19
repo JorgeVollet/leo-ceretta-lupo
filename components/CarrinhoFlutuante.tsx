@@ -1,7 +1,9 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useCart } from "@/lib/cart-context";
+import { useCliente } from "@/lib/cliente-auth";
+import { supabaseBrowser } from "@/lib/supabase";
 import { CONTATO } from "@/lib/data";
 
 type Etapa = "carrinho" | "dados" | "enviando" | "sucesso" | "erro";
@@ -26,6 +28,7 @@ export default function CarrinhoFlutuante() {
     podeFinalizarGrade,
   } = useCart();
 
+  const { cliente } = useCliente();
   const [aberto, setAberto] = useState(false);
   const [etapa, setEtapa] = useState<Etapa>("carrinho");
   const [erroMsg, setErroMsg] = useState("");
@@ -37,6 +40,17 @@ export default function CarrinhoFlutuante() {
     cidade: "",
     observacoes: "",
   });
+
+  // pré-preenche com os dados do cliente logado (razão social / e-mail)
+  useEffect(() => {
+    if (!cliente) return;
+    setDados((d) => ({
+      ...d,
+      nome: d.nome || cliente.razao_social || "",
+      loja: d.loja || cliente.razao_social || "",
+      email: d.email || cliente.email || "",
+    }));
+  }, [cliente]);
 
   if (!carregado || itens.length === 0) return null;
 
@@ -70,11 +84,23 @@ export default function CarrinhoFlutuante() {
           quantidade,
         })
       );
+      // token do cliente logado — a API só aceita pedido autenticado
+      const { data: { session } } = supabaseBrowser
+        ? await supabaseBrowser.auth.getSession()
+        : { data: { session: null } };
       const resposta = await fetch("/api/pedidos", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: {
+          "Content-Type": "application/json",
+          ...(session ? { Authorization: `Bearer ${session.access_token}` } : {}),
+        },
         body: JSON.stringify({ cliente: dados, itens: itensParaEnviar }),
       });
+      if (resposta.status === 401) {
+        setErroMsg("Sua sessão expirou. Entre de novo pra finalizar o pedido.");
+        setEtapa("dados");
+        return;
+      }
       if (!resposta.ok) throw new Error("Falha ao enviar pedido");
       setEtapa("sucesso");
       limparCarrinho();

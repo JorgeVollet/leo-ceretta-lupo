@@ -1,8 +1,28 @@
 import { NextResponse } from "next/server";
+import { createClient } from "@supabase/supabase-js";
 import { supabase } from "@/lib/supabase";
 import { Resend } from "resend";
 
 export const dynamic = "force-dynamic";
+
+/** Confere o token do cliente logado e devolve o perfil (ou null se inválido). */
+async function clienteDoToken(token: string | null) {
+  const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
+  const anon = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+  if (!token || !url || !anon) return null;
+  const authed = createClient(url, anon, {
+    global: { headers: { Authorization: `Bearer ${token}` } },
+    auth: { persistSession: false, autoRefreshToken: false },
+  });
+  const { data: userData } = await authed.auth.getUser();
+  if (!userData?.user) return null;
+  const { data: perfil } = await authed
+    .from("clientes")
+    .select("razao_social,doc")
+    .eq("auth_user_id", userData.user.id)
+    .maybeSingle();
+  return perfil ? (perfil as { razao_social: string | null; doc: string | null }) : null;
+}
 
 type ItemPedido = {
   catalogoSlug: string;
@@ -48,6 +68,13 @@ function montarResumoTexto(payload: PayloadPedido, totalPecas: number) {
 }
 
 export async function POST(req: Request) {
+  // 0) só cliente logado (autorizado) pode fazer pedido pelo site
+  const token = req.headers.get("authorization")?.replace(/^Bearer\s+/i, "") || null;
+  const perfil = await clienteDoToken(token);
+  if (!perfil) {
+    return NextResponse.json({ erro: "Faça login como cliente pra enviar o pedido." }, { status: 401 });
+  }
+
   let payload: PayloadPedido;
   try {
     payload = await req.json();
@@ -70,7 +97,7 @@ export async function POST(req: Request) {
     const { error } = await supabase.from("pedidos").insert({
       status: "novo",
       cliente_nome: payload.cliente.nome,
-      cliente_loja: payload.cliente.loja || null,
+      cliente_loja: payload.cliente.loja || perfil.razao_social || null,
       cliente_whatsapp: payload.cliente.whatsapp,
       cliente_email: payload.cliente.email || null,
       cliente_cidade: payload.cliente.cidade || null,

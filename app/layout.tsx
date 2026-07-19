@@ -4,6 +4,7 @@ import "./globals.css";
 import WhatsappFloat from "@/components/WhatsappFloat";
 import CarrinhoFlutuante from "@/components/CarrinhoFlutuante";
 import { CartProvider } from "@/lib/cart-context";
+import { ClienteProvider } from "@/lib/cliente-auth";
 
 const display = Archivo({
   subsets: ["latin"],
@@ -31,11 +32,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="pt-BR" className={`${display.variable} ${sans.variable} ${mono.variable}`}>
       <body className="bg-stone font-sans text-ink antialiased">
-        <CartProvider>
-          {children}
-          <WhatsappFloat />
-          <CarrinhoFlutuante />
-        </CartProvider>
+        <ClienteProvider>
+          <CartProvider>
+            {children}
+            <WhatsappFloat />
+            <CarrinhoFlutuante />
+          </CartProvider>
+        </ClienteProvider>
       </body>
     </html>
   );

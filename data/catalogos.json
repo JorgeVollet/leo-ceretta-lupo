@@ -16,7 +16,7 @@
         "descricao": "Coleção Lingerie. Primavera/Verão 27.",
         "drive": "https://wxcggdfcmcqhegpgnizz.supabase.co/storage/v1/object/public/catalogos/lingerie.pdf",
         "capa": "/capas/lingerie.jpg",
-        "navegavel": false,
+        "navegavel": true,
         "total_produtos": null
     },
     {

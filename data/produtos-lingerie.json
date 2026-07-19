@@ -1,0 +1,2234 @@
+{
+  "produtos": [
+    {
+      "codigo": "41100-001",
+      "nome": "Sutiã Básico Sem Costura",
+      "descricao": "Sutiã confeccionado em tecnologia sem costura trazendo maior conforto e durabilidade. Sutiã básico, com costas regata, sem aro e sem bojo perfeito para garantir o conforto no dia a dia.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50)",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "7530",
+          "nome": "Canela",
+          "img": "/produtos/lingerie/41100-001/7530.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/41100-001/9990.jpg"
+        },
+        {
+          "cod": "0730",
+          "nome": "Pomodoro",
+          "img": "/produtos/lingerie/41100-001/0730.jpg"
+        },
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lingerie/41100-001/1110.jpg"
+        },
+        {
+          "cod": "2815",
+          "nome": "Royal",
+          "img": "/produtos/lingerie/41100-001/2815.jpg"
+        },
+        {
+          "cod": "5140",
+          "nome": "Rosa Suave",
+          "img": "/produtos/lingerie/41100-001/5140.jpg"
+        },
+        {
+          "cod": "6006",
+          "nome": "Nude",
+          "img": "/produtos/lingerie/41100-001/6006.jpg"
+        },
+        {
+          "cod": "6140",
+          "nome": "Natural Peach",
+          "img": "/produtos/lingerie/41100-001/6140.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/41100-001/7530.jpg"
+    },
+    {
+      "codigo": "41901-001",
+      "nome": "Top Bojo Removível Touch + Sem Costura",
+      "descricao": "Sutiã confeccionado em tecnologia Seamless trazendo maior conforto e durabilidade. Além de malha dupla, possui pontos canelados contornando os seios para maior sustentação. Com bojo removível.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/41901-001/9990.jpg"
+        },
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lingerie/41901-001/1110.jpg"
+        },
+        {
+          "cod": "6006",
+          "nome": "Nude",
+          "img": "/produtos/lingerie/41901-001/6006.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/41901-001/9990.jpg"
+    },
+    {
+      "codigo": "41116-001",
+      "nome": "Sutiã Essencial Bojo Removível",
+      "descricao": "Sutiã confeccionado em tecnologia Seamless que traz maior conforto e ajuste perfeito. Além de malha dupla, possui pontos canelados contornando os seios para maior sustentação. Com bojo removível. Sem aro. Costas regata e alças reguláveis com opções de cruzar nas costas.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/41116-001/9990.jpg"
+        },
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lingerie/41116-001/1110.jpg"
+        },
+        {
+          "cod": "6006",
+          "nome": "Nude",
+          "img": "/produtos/lingerie/41116-001/6006.jpg"
+        },
+        {
+          "cod": "6140",
+          "nome": "Natural Peach",
+          "img": "/produtos/lingerie/41116-001/6140.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/41116-001/9990.jpg"
+    },
+    {
+      "codigo": "40500-001",
+      "nome": "Calcinha Tanga Sem Costura",
+      "descricao": "Calcinha confeccionada em tecnologia Seamless trazendo maior conforto e durabilidade. Modelagem tanga. Cós (seamless) confortável e macio, que traz segurança sem apertar. Fundo em forro de algodão.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/40500-001/9990.jpg"
+        },
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lingerie/40500-001/1110.jpg"
+        },
+        {
+          "cod": "6006",
+          "nome": "Nude",
+          "img": "/produtos/lingerie/40500-001/6006.jpg"
+        },
+        {
+          "cod": "6140",
+          "nome": "Natural Peach",
+          "img": "/produtos/lingerie/40500-001/6140.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/40500-001/9990.jpg"
+    },
+    {
+      "codigo": "40300-001",
+      "nome": "Calcinha Básica Sem Costura Feminina Lupo",
+      "descricao": "Calcinha confeccionada com tecnologia sem costura, que garante máximo conforto, melhor ajuste ao corpo e maior durabilidade. A modelagem com cós em tecido duplo proporciona sustentação suave e encaixe perfeito, sem marcar a pele. Possui fundo com forro em algodão, oferecendo respirabilidade e bem-estar para o uso diário.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50)",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "7530",
+          "nome": "Canela",
+          "img": "/produtos/lingerie/40300-001/7530.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/40300-001/9990.jpg"
+        },
+        {
+          "cod": "0730",
+          "nome": "Pomodoro",
+          "img": "/produtos/lingerie/40300-001/0730.jpg"
+        },
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lingerie/40300-001/1110.jpg"
+        },
+        {
+          "cod": "2815",
+          "nome": "Royal",
+          "img": "/produtos/lingerie/40300-001/2815.jpg"
+        },
+        {
+          "cod": "5140",
+          "nome": "Rosa Suave",
+          "img": "/produtos/lingerie/40300-001/5140.jpg"
+        },
+        {
+          "cod": "6006",
+          "nome": "Nude",
+          "img": "/produtos/lingerie/40300-001/6006.jpg"
+        },
+        {
+          "cod": "6140",
+          "nome": "Natural Peach",
+          "img": "/produtos/lingerie/40300-001/6140.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/40300-001/7530.jpg"
+    },
+    {
+      "codigo": "40900-001",
+      "nome": "Caleçon Sem Costura",
+      "descricao": "Calcinha confeccionada em tecnologia seamless que traz maior conforto e ajuste perfeito. Modelagem caleçon, com laterais largas proporcionando ajuste perfeito. Cós (seamless) confortável e macio, que traz segurança sem apertar. Fundo em forro de algodão.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/40900-001/9990.jpg"
+        },
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lingerie/40900-001/1110.jpg"
+        },
+        {
+          "cod": "6006",
+          "nome": "Nude",
+          "img": "/produtos/lingerie/40900-001/6006.jpg"
+        },
+        {
+          "cod": "6140",
+          "nome": "Natural Peach",
+          "img": "/produtos/lingerie/40900-001/6140.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/40900-001/9990.jpg"
+    },
+    {
+      "codigo": "40310-001",
+      "nome": "Calcinha Clássica Sem Costura",
+      "descricao": "Calcinha confeccionado em tecnologia seamless que traz maior conforto e ajuste perfeito. Modelagem clássica, com laterais largas. Cós (seamless) confortável e macio, que traz segurança sem apertar. Fundo em forro de algodão.",
+      "tamanho": "P (36 A 38) • M (40 A 42) • G (44 A 46)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/40310-001/9990.jpg"
+        },
+        {
+          "cod": "6140",
+          "nome": "Natural Peach",
+          "img": "/produtos/lingerie/40310-001/6140.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/40310-001/9990.jpg"
+    },
+    {
+      "codigo": "40600-001",
+      "nome": "Calcinha Fio Sem Costura Feminina Lupo",
+      "descricao": "Calcinha confeccionada em tecnologia sem costura trazendo maior conforto e durabilidade. Modelagem fio, laterais mais finas, proporcionando ajuste perfeito. Fundo em forro de algodão.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50)",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/40600-001/9990.jpg"
+        },
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lingerie/40600-001/1110.jpg"
+        },
+        {
+          "cod": "6006",
+          "nome": "Nude",
+          "img": "/produtos/lingerie/40600-001/6006.jpg"
+        },
+        {
+          "cod": "6140",
+          "nome": "Natural Peach",
+          "img": "/produtos/lingerie/40600-001/6140.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/40600-001/9990.jpg"
+    },
+    {
+      "codigo": "40400-001",
+      "nome": "Calcinha Biquini Sem Costura",
+      "descricao": "Calcinha confeccionada em tecnologia sem costura trazendo maior conforto e durabilidade. Modelagem biquini, laterais médias, proporcionando ajuste perfeito. Fundo em forro de algodão.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50)",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "7530",
+          "nome": "Canela",
+          "img": "/produtos/lingerie/40400-001/7530.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/40400-001/9990.jpg"
+        },
+        {
+          "cod": "0730",
+          "nome": "Pomodoro",
+          "img": "/produtos/lingerie/40400-001/0730.jpg"
+        },
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lingerie/40400-001/1110.jpg"
+        },
+        {
+          "cod": "2815",
+          "nome": "Royal",
+          "img": "/produtos/lingerie/40400-001/2815.jpg"
+        },
+        {
+          "cod": "6006",
+          "nome": "Nude",
+          "img": "/produtos/lingerie/40400-001/6006.jpg"
+        },
+        {
+          "cod": "6140",
+          "nome": "Natural Peach",
+          "img": "/produtos/lingerie/40400-001/6140.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/40400-001/7530.jpg"
+    },
+    {
+      "codigo": "44000-001",
+      "nome": "Bustier Fit Sem Costura",
+      "descricao": "Bustier confeccionado em tecnologia seamless que traz maior conforto e ajuste perfeito. Bustier perfeito para garantir o conforto no dia a dia.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/44000-001/9990.jpg"
+        },
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lingerie/44000-001/1110.jpg"
+        },
+        {
+          "cod": "6140",
+          "nome": "Natural Peach",
+          "img": "/produtos/lingerie/44000-001/6140.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/44000-001/9990.jpg"
+    },
+    {
+      "codigo": "41300-001",
+      "nome": "Top Sem Costura",
+      "descricao": "Top confeccionado em tecnologia seamless que traz maior conforto e ajuste perfeito. Top com costas regatas, sem aro e sem bojo, alças largas para melhor sustentação, perfeito para garantir o conforto no dia a dia.",
+      "tamanho": "P (36 a 38) • M (40 A 42) • G (44 A 46) • GG (48 A 50)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/41300-001/9990.jpg"
+        },
+        {
+          "cod": "6006",
+          "nome": "Nude",
+          "img": "/produtos/lingerie/41300-001/6006.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/41300-001/9990.jpg"
+    },
+    {
+      "codigo": "41018-001",
+      "nome": "Top Power Básico Sem Costura",
+      "descricao": "Top confeccionado em tecnologia seamless que traz maior conforto e ajuste perfeito. Top básico, com malha dupla e com power, tecido canelado, alças fixas em elástico suave. Com costas retas, sem aro e sem bojo perfeito para garantir o conforto no dia a dia.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/41018-001/9990.jpg"
+        },
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lingerie/41018-001/1110.jpg"
+        },
+        {
+          "cod": "6006",
+          "nome": "Nude",
+          "img": "/produtos/lingerie/41018-001/6006.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/41018-001/9990.jpg"
+    },
+    {
+      "codigo": "41902-001",
+      "nome": "Top Bojo Removível Touch + Sem Costura",
+      "descricao": "Top confeccionado em tecnologia Seamless que traz maior conforto e ajuste perfeito. Além de malha dupla, possui pontos canelados contornando os seios para maior sustentação. Com bojo removível.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/41902-001/9990.jpg"
+        },
+        {
+          "cod": "6140",
+          "nome": "Natural Peach",
+          "img": "/produtos/lingerie/41902-001/6140.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/41902-001/9990.jpg"
+    },
+    {
+      "codigo": "40905-001",
+      "nome": "Boxer Touch + Sem Costura",
+      "descricao": "Calcinha Boxer confeccionada em tecnologia sem costura trazendo maior conforto e durabilidade. Modelagem boxer. Cós (seamless) confortável e macio, que traz segurança sem apertar. Fundo em forro de algodão.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/40905-001/9990.jpg"
+        },
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lingerie/40905-001/1110.jpg"
+        },
+        {
+          "cod": "6006",
+          "nome": "Nude",
+          "img": "/produtos/lingerie/40905-001/6006.jpg"
+        },
+        {
+          "cod": "6140",
+          "nome": "Natural Peach",
+          "img": "/produtos/lingerie/40905-001/6140.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/40905-001/9990.jpg"
+    },
+    {
+      "codigo": "41805-001",
+      "nome": "Short Sem Costura",
+      "descricao": "Short confeccionado em tecnologia seamless que traz maior conforto e ajuste perfeito. Ideal para ser usado com saias ou vestidos, impedindo o atrito entre pernas. Forro de algodão. Cós (seamless) confortável e macio, que traz segurança sem apertar.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/41805-001/9990.jpg"
+        },
+        {
+          "cod": "6006",
+          "nome": "Nude",
+          "img": "/produtos/lingerie/41805-001/6006.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/41805-001/9990.jpg"
+    },
+    {
+      "codigo": "45163-001",
+      "nome": "TOP T-SHIRT DUPLO BOJO REMOVÍVEL MICROFIBRA",
+      "descricao": "Sutiã com decote duplo, desenvolvido para oferecer maior cobertura, conforto e segurança no uso diário. Possui bojo removível, que permite versatilidade e adaptação às preferências de uso. O elástico embutido na circunferência da cintura garante leve sustentação com ajuste suave ao corpo, sem apertar. As alças reguláveis proporcionam melhor encaixe e personalização do vestir.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50)",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/45163-001/9990.jpg"
+        },
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lingerie/45163-001/1110.jpg"
+        },
+        {
+          "cod": "6610",
+          "nome": "Chocolate",
+          "img": "/produtos/lingerie/45163-001/6610.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/45163-001/9990.jpg"
+    },
+    {
+      "codigo": "43018-001",
+      "nome": "Sutiã Bojo Removível",
+      "descricao": "Sutiã triângulo confeccionado em algodão nobre de alta qualidade, garantindo conforto extremo e toque macio. O fio compactado reduz a formação de pilling, proporcionando maior durabilidade, além de realçar o brilho e a vivacidade das cores. Com ajuste perfeito ao corpo, conta com bojo removível para maior versatilidade e adaptação ao seu dia a dia.",
+      "tamanho": "42 • 44 • 46",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/43018-001/9990.jpg"
+        },
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lingerie/43018-001/1110.jpg"
+        },
+        {
+          "cod": "6006",
+          "nome": "Nude",
+          "img": "/produtos/lingerie/43018-001/6006.jpg"
+        },
+        {
+          "cod": "6140",
+          "nome": "Natural Peach",
+          "img": "/produtos/lingerie/43018-001/6140.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/43018-001/9990.jpg"
+    },
+    {
+      "codigo": "43020-001",
+      "nome": "Sutiã Triângulo Sem Aro E Sem Bojo",
+      "descricao": "Sutiã duplo confeccionado em algodão nobre de alta qualidade, garantindo conforto extremo e toque macio. O fio compactado reduz a formação de pilling, proporcionando maior durabilidade, além de realçar o brilho e a vivacidade das cores. Com ajuste perfeito ao corpo, esse modelo sem aro e sem bojo oferece sustentação natural e máximo bem-estar ao longo do dia.",
+      "tamanho": "42 • 44 • 46",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/43020-001/9990.jpg"
+        },
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lingerie/43020-001/1110.jpg"
+        },
+        {
+          "cod": "8000",
+          "nome": "Cinza Mescla",
+          "img": "/produtos/lingerie/43020-001/8000.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/43020-001/9990.jpg"
+    },
+    {
+      "codigo": "42005-001",
+      "nome": "Sutiã Básico",
+      "descricao": "Sutiã básico confeccionado em algodão nobre de alta qualidade, em fio compactado que reduz a formação de pilling, mantendo o brilho e a vivacidade das cores. Toque macio e ajuste perfeito, garantindo o conforto extremo para o seu dia a dia.",
+      "tamanho": "44 • 46 • 48",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/42005-001/9990.jpg"
+        },
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lingerie/42005-001/1110.jpg"
+        },
+        {
+          "cod": "6006",
+          "nome": "Nude",
+          "img": "/produtos/lingerie/42005-001/6006.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/42005-001/9990.jpg"
+    },
+    {
+      "codigo": "43005-002",
+      "nome": "Calcinha String",
+      "descricao": "Calcinha string confeccionada em algodão nobre, de alta qualidade, fio compactado que reduz a formação de pilling. Maior brilho e vivacidade nas cores. Regulagem nas laterais e recorte de renda com toque macio e ajuste perfeito garantindo conforto extremo para o dia a dia.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/43005-002/9990.jpg"
+        },
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lingerie/43005-002/1110.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/43005-002/9990.jpg"
+    },
+    {
+      "codigo": "43006-001",
+      "nome": "Calcinha Com Renda",
+      "descricao": "Calcinha com renda confeccionada em algodão nobre, de alta qualidade, fio compactado que reduz a formação de pilling. Maior brilho e vivacidade nas cores. Toque macio e ajuste perfeito garantindo conforto extremo para o dia a dia.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/43006-001/9990.jpg"
+        },
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lingerie/43006-001/1110.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/43006-001/9990.jpg"
+    },
+    {
+      "codigo": "45164-001",
+      "nome": "CALCINHA BOMBOM MICROFIBRA",
+      "descricao": "Calcinha com laterais drapeadas, desenvolvida para oferecer ajuste confortável e valorizar a silhueta com suavidade. O drapeado adiciona charme ao design da peça, garantindo melhor adaptação ao corpo e liberdade de movimentos. Fundo em forro de algodão para maior respirabilidade.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50)",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/45164-001/9990.jpg"
+        },
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lingerie/45164-001/1110.jpg"
+        },
+        {
+          "cod": "6610",
+          "nome": "Chocolate",
+          "img": "/produtos/lingerie/45164-001/6610.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/45164-001/9990.jpg"
+    },
+    {
+      "codigo": "40353-001",
+      "nome": "Biquini",
+      "descricao": "Calcinha biquíni confeccionada em algodão nobre, de alta qualidade, fio compactado que reduz a formação de pilling. Maior brilho e vivacidade nas cores. Toque macio e ajuste perfeito garantindo conforto extremo para o dia a dia.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50) • XG (52 a 54) • XXG (56 a 58)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/40353-001/9990.jpg"
+        },
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lingerie/40353-001/1110.jpg"
+        },
+        {
+          "cod": "6006",
+          "nome": "Nude",
+          "img": "/produtos/lingerie/40353-001/6006.jpg"
+        },
+        {
+          "cod": "6140",
+          "nome": "Natural Peach",
+          "img": "/produtos/lingerie/40353-001/6140.jpg"
+        },
+        {
+          "cod": "8000",
+          "nome": "Cinza Mescla",
+          "img": "/produtos/lingerie/40353-001/8000.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/40353-001/9990.jpg"
+    },
+    {
+      "codigo": "40354-001",
+      "nome": "Calcinha Tanga Cotton Feminina Lupo",
+      "descricao": "Confeccionada em algodão de alta qualidade, com fio compactado que reduz significativamente a formação de pilling (bolinhas), mantendo a peça bonita por muito mais tempo. O tecido oferece cores mais vivas e duráveis, além de um toque extremamente macio em contato com a pele. Seu ajuste perfeito ao corpo proporciona liberdade de movimento e conforto absoluto para o uso diário, sem apertar ou marcar.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/40354-001/9990.jpg"
+        },
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lingerie/40354-001/1110.jpg"
+        },
+        {
+          "cod": "6006",
+          "nome": "Nude",
+          "img": "/produtos/lingerie/40354-001/6006.jpg"
+        },
+        {
+          "cod": "6140",
+          "nome": "Natural Peach",
+          "img": "/produtos/lingerie/40354-001/6140.jpg"
+        },
+        {
+          "cod": "8000",
+          "nome": "Cinza Mescla",
+          "img": "/produtos/lingerie/40354-001/8000.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/40354-001/9990.jpg"
+    },
+    {
+      "codigo": "40355-001",
+      "nome": "Calcinha Fio",
+      "descricao": "Calcinha fio dental confeccionada em algodão nobre, de alta qualidade, fio compactado que reduz a formação de pilling. Maior brilho e vivacidade nas cores. Modelagem fio dental com tecido duplo no bumbum. Toque macio e ajuste perfeito garantindo conforto extremo para o dia a dia.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/40355-001/9990.jpg"
+        },
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lingerie/40355-001/1110.jpg"
+        },
+        {
+          "cod": "6006",
+          "nome": "Nude",
+          "img": "/produtos/lingerie/40355-001/6006.jpg"
+        },
+        {
+          "cod": "8000",
+          "nome": "Cinza Mescla",
+          "img": "/produtos/lingerie/40355-001/8000.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/40355-001/9990.jpg"
+    },
+    {
+      "codigo": "40352-001",
+      "nome": "Calcinha Básica",
+      "descricao": "Calcinha básica confeccionada em algodão nobre, de alta qualidade, fio compactado que reduz a formação de pilling. Maior brilho e vivacidade nas cores. Toque macio e ajuste perfeito garantindo conforto extremo para o dia a dia.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50) • XG (52 a 54) • XXG (56 a 58)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/40352-001/9990.jpg"
+        },
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lingerie/40352-001/1110.jpg"
+        },
+        {
+          "cod": "6140",
+          "nome": "Natural Peach",
+          "img": "/produtos/lingerie/40352-001/6140.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/40352-001/9990.jpg"
+    },
+    {
+      "codigo": "45193-001",
+      "nome": "CALCINHA PUNHO DUPLO ALGODÃO",
+      "descricao": "Calcinha confeccionada em algodão, desenvolvida para oferecer conforto natural e toque macio durante todo o dia. Sua modelagem conta com punho duplo, que proporciona leve sustentação e ajuste seguro ao corpo, sem apertar. Ideal para o uso diário, garantindo bem\u0011estar e liberdade de movimentos.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50)",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/45193-001/9990.jpg"
+        },
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lingerie/45193-001/1110.jpg"
+        },
+        {
+          "cod": "6006",
+          "nome": "Nude",
+          "img": "/produtos/lingerie/45193-001/6006.jpg"
+        },
+        {
+          "cod": "6140",
+          "nome": "Natural Peach",
+          "img": "/produtos/lingerie/45193-001/6140.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/45193-001/9990.jpg"
+    },
+    {
+      "codigo": "40351-001",
+      "nome": "Calcinha Clássica",
+      "descricao": "Calcinha clássica confeccionada em algodão nobre, de alta qualidade, fio compactado que reduz a formação de pilling. Maior brilho e vivacidade nas cores. Modelagem em cintura alta e laterais largas com ampla cobertura, ideal para todos os tipos de quadril. Toque macio e ajuste perfeito garantindo conforto extremo para o dia a dia.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50) • XG (52 a 54) • XXG (56 a 58)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/40351-001/9990.jpg"
+        },
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lingerie/40351-001/1110.jpg"
+        },
+        {
+          "cod": "6140",
+          "nome": "Natural Peach",
+          "img": "/produtos/lingerie/40351-001/6140.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/40351-001/9990.jpg"
+    },
+    {
+      "codigo": "43022-001",
+      "nome": "Sutiã Technofusão Bojo Removível",
+      "descricao": "Sutiã Tecno Fit em decote V e alças regata. Com bojo removível, selado em tecnofusão e fechos nas costas. Conforto e aconchego. Em poliamida e elastano.",
+      "tamanho": "P • M • G",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "6140",
+          "nome": "Natural Peach",
+          "img": "/produtos/lingerie/43022-001/6140.jpg"
+        },
+        {
+          "cod": "8670",
+          "nome": "Grafite",
+          "img": "/produtos/lingerie/43022-001/8670.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/43022-001/6140.jpg"
+    },
+    {
+      "codigo": "43023-001",
+      "nome": "Calcinha Biquini Technofusão Corte A Laser Poliamida",
+      "descricao": "Calcinha Tecno Fit modelo biquíni com acabamentos em corte à laser na cintura e pernas, além de tecnofusão que une laterais e fundelo da peça. Conforto e aconchego, sensação de toque zero no vestir. Em poliamida e elastano.",
+      "tamanho": "P • M • G • GG",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "6140",
+          "nome": "Natural Peach",
+          "img": "/produtos/lingerie/43023-001/6140.jpg"
+        },
+        {
+          "cod": "8670",
+          "nome": "Grafite",
+          "img": "/produtos/lingerie/43023-001/8670.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/43023-001/6140.jpg"
+    },
+    {
+      "codigo": "43024-001",
+      "nome": "Calcinha Fio Tecnofusão Corte A Laser Poliamida",
+      "descricao": "Calcinha Tecno Fit modelo fio com acabamentos em corte à laser na cintura e pernas, além de tecnofusão que une laterais e fundelo da peça. Conforto e aconchego, sensação de toque zero no vestir. Em poliamida e elastano.",
+      "tamanho": "P • M • G • GG",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "6140",
+          "nome": "Natural Peach",
+          "img": "/produtos/lingerie/43024-001/6140.jpg"
+        },
+        {
+          "cod": "8670",
+          "nome": "Grafite",
+          "img": "/produtos/lingerie/43024-001/8670.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/43024-001/6140.jpg"
+    },
+    {
+      "codigo": "43012-001",
+      "nome": "Calcinha Tenofusão Importada",
+      "descricao": "Calcinha Tecnofusão em modelagem biquíni, confeccionada em microfibra sem costura com acabamento em tecnofusão, unificando os tecidos para obter uma textura compactada que resulta em uma peça que se ajusta confortavelmente ao seu corpo. Fundo com forro de algodão.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/43012-001/9990.jpg"
+        },
+        {
+          "cod": "6140",
+          "nome": "Natural Peach",
+          "img": "/produtos/lingerie/43012-001/6140.jpg"
+        },
+        {
+          "cod": "8000",
+          "nome": "Cinza Mescla",
+          "img": "/produtos/lingerie/43012-001/8000.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/43012-001/9990.jpg"
+    },
+    {
+      "codigo": "43011-001",
+      "nome": "Short Corte A Laser",
+      "descricao": "Short Corte a Laser confeccionado em microfibra fina e consistentes. Com cós elástico reforçado que confere melhor ajuste ao corpo. Pernas com acabamento em corte à laser permitindo que a peça possa ser usada com qualquer tipo de roupa sem marcar. Diminui o atrito entre pernas. Fundo com forro de algodão.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "6140",
+          "nome": "Natural Peach",
+          "img": "/produtos/lingerie/43011-001/6140.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/43011-001/6140.jpg"
+    },
+    {
+      "codigo": "41035-001",
+      "nome": "Sutiã Confort",
+      "descricao": "Sutiã Confort que proporciona um colo mais jovem, ótimo para bustos qualquer tipo de busto, com bojo básico, fino, com espuma que não deforma e modela sem aumentar. Aro para levantar o busto, com base abaixo do aro proporcionando melhor sustentação. Distância natural entre os seios oferecendo conforto no uso diário. Regulador em cinco posições, com maior possibilidade de ajustes nas costas.",
+      "tamanho": "42 • 44 • 46 • 48",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/41035-001/9990.jpg"
+        },
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lingerie/41035-001/1110.jpg"
+        },
+        {
+          "cod": "6006",
+          "nome": "Nude",
+          "img": "/produtos/lingerie/41035-001/6006.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/41035-001/9990.jpg"
+    },
+    {
+      "codigo": "40286-003",
+      "nome": "Bustier Alça Removível",
+      "descricao": "Bustier com alça removível que proporciona um colo mais jovem. Ótimo para qualquer tipo de busto. Bojo básico e fino que modela sem aumentar, com aro para levantar o busto e distância entre bojos que respeita a distância natural entre os seios oferencendo conforto no uso diário. Alças removíveis e fechos em três opções de regulagens. Base abaixo do aro que proporciona melhor sustentação.",
+      "tamanho": "40 • 42 • 44 • 46",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/40286-003/9990.jpg"
+        },
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lingerie/40286-003/1110.jpg"
+        },
+        {
+          "cod": "6140",
+          "nome": "Natural Peach",
+          "img": "/produtos/lingerie/40286-003/6140.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/40286-003/9990.jpg"
+    },
+    {
+      "codigo": "40288-001",
+      "nome": "Sutiã Aderente",
+      "descricao": "Sutiã Aderente com bojo leve e macio, que sustenta, cobre o busto, aproxima e desenha o colo. Bojo interno aderente, de silicone de uso clínico. Invisível sob a roupa, costas livres, que possibilita o uso de roupas decotadas, com transparências e alças finas.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/40288-001/9990.jpg"
+        },
+        {
+          "cod": "6140",
+          "nome": "Natural Peach",
+          "img": "/produtos/lingerie/40288-001/6140.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/40288-001/9990.jpg"
+    },
+    {
+      "codigo": "41027-001",
+      "nome": "Sutiã Power Com Abertura Frontal",
+      "descricao": "O Sutiã Sem Bojo Fecho Frontal Adulto Power Loba é um produto de alta qualidade e conforto, desenvolvido para proporcionar suporte e comodidade. Feito com uma mistura de poliamida e elastano, esse sutiã oferece um ajuste perfeito ao corpo, além de ser suave e macio ao toque. O fecho frontal facilita o uso e proporciona praticidade no vestir.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/41027-001/9990.jpg"
+        },
+        {
+          "cod": "6006",
+          "nome": "Nude",
+          "img": "/produtos/lingerie/41027-001/6006.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/41027-001/9990.jpg"
+    },
+    {
+      "codigo": "41028-001",
+      "nome": "Sutiã Power",
+      "descricao": "Sutiã confeccionado em tecnologia seamless que traz maior conforto e ajuste perfeito. Sutiã Power, em malha dupla que dá sustentação, alças reguláveis e removíveis. Com costas regata, fecho nas costas, sem aro e sem bojo perfeito para garantir o conforto no dia a dia.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/41028-001/9990.jpg"
+        },
+        {
+          "cod": "6006",
+          "nome": "Nude",
+          "img": "/produtos/lingerie/41028-001/6006.jpg"
+        },
+        {
+          "cod": "6140",
+          "nome": "Natural Peach",
+          "img": "/produtos/lingerie/41028-001/6140.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/41028-001/9990.jpg"
+    },
+    {
+      "codigo": "40018-001",
+      "nome": "Calcinha Punho Soft Sem Costura",
+      "descricao": "Calcinha confeccionado em tecnologia seamless que traz maior conforto e ajuste perfeito. Modelagem com punho soft, mais alto e com malha leve e suave. Cós (seamless) confortável e macio, que traz segurança sem apertar. Fundo em forro de algodão.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/40018-001/9990.jpg"
+        },
+        {
+          "cod": "6006",
+          "nome": "Nude",
+          "img": "/produtos/lingerie/40018-001/6006.jpg"
+        },
+        {
+          "cod": "6140",
+          "nome": "Natural Peach",
+          "img": "/produtos/lingerie/40018-001/6140.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/40018-001/9990.jpg"
+    },
+    {
+      "codigo": "41376-001",
+      "nome": "Sutiã Touch Bambu Sem Costura",
+      "descricao": "Sutiã confeccionado com tecnologia Seamless em fio de bambu, oferecendo um conforto excepcional e ajuste perfeito. O fio de bambu é conhecido por suas propriedades naturais que garantem suavidade extrema, respirabilidade e um toque refrescante. A estrutura do sutiã proporciona suporte e conforto, enquanto a tecnologia Seamless elimina costuras e proporciona um ajuste impecável.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50)",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/41376-001/9990.jpg"
+        },
+        {
+          "cod": "6006",
+          "nome": "Nude",
+          "img": "/produtos/lingerie/41376-001/6006.jpg"
+        },
+        {
+          "cod": "5144",
+          "nome": "Telha",
+          "img": "/produtos/lingerie/41376-001/5144.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/41376-001/9990.jpg"
+    },
+    {
+      "codigo": "40376-001",
+      "nome": "Calcinha Touch Bambu Sem Costura",
+      "descricao": "Calcinha com modelagem biquíni, confeccionada com tecnologia Seamless em fio de bambu, oferecendo um conforto excepcional e ajuste perfeito. O fio de bambu é conhecido por suas propriedades naturais, garantindo suavidade extrema, respirabilidade e um toque refrescante. O forro de algodão adiciona um toque extra de conforto e respirabilidade, enquanto a tecnologia Seamless elimina costuras e proporciona um ajuste impecável.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50)",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/40376-001/9990.jpg"
+        },
+        {
+          "cod": "6006",
+          "nome": "Nude",
+          "img": "/produtos/lingerie/40376-001/6006.jpg"
+        },
+        {
+          "cod": "5144",
+          "nome": "Telha",
+          "img": "/produtos/lingerie/40376-001/5144.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/40376-001/9990.jpg"
+    },
+    {
+      "codigo": "41034-001",
+      "nome": "Sutiã de Amamentação Sem Costura",
+      "descricao": "Sutiã de amamentação confeccionado em tecnologia seamless que traz maior conforto e ajuste perfeito. Sem bojo e sem aro, proporcionando conforto total. Alças reguláveis mais largas que dão maior conforto e distribuem melhor o peso do busto. Abertura frontal em fecho click, para praticidade na hora de amamentar. Com regulador em cinco posições para maior possibilidade de ajustes nas costas.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/41034-001/9990.jpg"
+        },
+        {
+          "cod": "6006",
+          "nome": "Nude",
+          "img": "/produtos/lingerie/41034-001/6006.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/41034-001/9990.jpg"
+    },
+    {
+      "codigo": "40330-001",
+      "nome": "Calcinha Boxer Gestante Sem Costura",
+      "descricao": "Calcinha gestante confeccionado em tecnologia seamless que traz maior conforto e ajuste perfeito. Modelagem boxer, diminuindo o atrito entre pernas. Envolve e suporta suavemente a barriga, com malha canelada nas costas que ajuda a aliviar a lombar. Fundo em forro de algodão. Cós (seamless) confortável e macio, que traz segurança sem apertar.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/40330-001/9990.jpg"
+        },
+        {
+          "cod": "6006",
+          "nome": "Nude",
+          "img": "/produtos/lingerie/40330-001/6006.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/40330-001/9990.jpg"
+    },
+    {
+      "codigo": "40320-001",
+      "nome": "Calcinha Básica Gestante Sem Costura",
+      "descricao": "Calcinha gestante confeccionada em tecnologia seamless que traz maior conforto e ajuste perfeito. Modelagem básica que envolve e suporta suavemente a barriga, em malha canelada nas costas ajudando a aliviar a lombar. Fundo em forro de algodão. Cós (seamless) confortável e macio, que traz segurança sem apertar.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/40320-001/9990.jpg"
+        },
+        {
+          "cod": "6006",
+          "nome": "Nude",
+          "img": "/produtos/lingerie/40320-001/6006.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/40320-001/9990.jpg"
+    },
+    {
+      "codigo": "41391-001",
+      "nome": "SUTIÃ RIB BOJO REMOVÍVEL SEM COSTURA",
+      "descricao": "Sutiã desenvolvido em tecnologia seamless, que proporciona ajuste anatômico, conforto e liberdade de movimentos ao longo do dia. Sua estrutura canelada valoriza o design contemporâneo da peça, oferecendo sustentação na medida certa com um visual moderno e funcional. O bojo removível permite versatilidade no uso, adaptando-se às diferentes preferências e ocasiões.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46)",
+      "linha": "Lançamento • 1ª Entrada",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/41391-001/9990.jpg"
+        },
+        {
+          "cod": "1830",
+          "nome": "Off White",
+          "img": "/produtos/lingerie/41391-001/1830.jpg"
+        },
+        {
+          "cod": "8384",
+          "nome": "Cinza",
+          "img": "/produtos/lingerie/41391-001/8384.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/41391-001/9990.jpg"
+    },
+    {
+      "codigo": "40391-001",
+      "nome": "CALCINHA RIB SEM COSTURA",
+      "descricao": "Calcinha desenvolvida em tecnologia seamless, oferecendo conforto absoluto e caimento perfeito ao corpo. Sua estrutura canelada proporciona ajuste suave e visual moderno, valorizando a silhueta com leveza. Fundo em forro de algodão para maior respirabilidade.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46)",
+      "linha": "Lançamento • 1ª Entrada",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/40391-001/9990.jpg"
+        },
+        {
+          "cod": "1830",
+          "nome": "Off White",
+          "img": "/produtos/lingerie/40391-001/1830.jpg"
+        },
+        {
+          "cod": "8384",
+          "nome": "Cinza",
+          "img": "/produtos/lingerie/40391-001/8384.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/40391-001/9990.jpg"
+    },
+    {
+      "codigo": "41063-001",
+      "nome": "Sutiã Fifties Bojo Removível Sem Costura",
+      "descricao": "Sutiã confeccionado em tecnologia Seamless que traz maior conforto e ajuste perfeito. Estrutura em fio trilobal trazendo efeito acetinado . Possui aplique de renda e jacquard em toda a peça. Com bojo removível e costas regata.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/41063-001/9990.jpg"
+        },
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lingerie/41063-001/1110.jpg"
+        },
+        {
+          "cod": "6006",
+          "nome": "Nude",
+          "img": "/produtos/lingerie/41063-001/6006.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/41063-001/9990.jpg"
+    },
+    {
+      "codigo": "40063-002",
+      "nome": "Calcinha Biquini Fifties Sem Costura",
+      "descricao": "Calcinha confeccionada em tecnologia Seamless que traz maior conforto e ajuste perfeito. Possui aplique de renda e jacquard em toda a peça. Modelagem biquíni e forro de algodão. Cós (seamless) confortável e macio, que traz segurança sem apertar.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/40063-002/9990.jpg"
+        },
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lingerie/40063-002/1110.jpg"
+        },
+        {
+          "cod": "6006",
+          "nome": "Nude",
+          "img": "/produtos/lingerie/40063-002/6006.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/40063-002/9990.jpg"
+    },
+    {
+      "codigo": "41260-003",
+      "nome": "Sutiã Angel Sem Costura",
+      "descricao": "Sutiã confeccionado em tecnologia Seamless que traz maior conforto e ajuste perfeito. Acabamento em renda no decote e arrastões localizados nas costas, trazendo toque romântico através da transparência. Sem aro e sem bojo.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/41260-003/9990.jpg"
+        },
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lingerie/41260-003/1110.jpg"
+        },
+        {
+          "cod": "6140",
+          "nome": "Natural Peach",
+          "img": "/produtos/lingerie/41260-003/6140.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/41260-003/9990.jpg"
+    },
+    {
+      "codigo": "40460-003",
+      "nome": "Calcinha Angel Sem Costura",
+      "descricao": "Calcinha confeccionada em tecnologia Seamless que traz maior conforto e ajuste perfeito. Possui arrastões localizados na peça, trazendo toque romântico através da transparência . Modelagem biquíni com cós em tecido duplo, proporcionando ajuste perfeito. Fundo em forro de algodão. Cós (seamless) confortável e macio, que traz segurança sem apertar.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/40460-003/9990.jpg"
+        },
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lingerie/40460-003/1110.jpg"
+        },
+        {
+          "cod": "6140",
+          "nome": "Natural Peach",
+          "img": "/produtos/lingerie/40460-003/6140.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/40460-003/9990.jpg"
+    },
+    {
+      "codigo": "41390-001",
+      "nome": "Sutia Teen Sem Costura",
+      "descricao": "Perfeito para o primeiro sutiã, o sutiã seamless teen, oferece conforto e suavidade ideais para o uso diário. Com pontos delicados em toda a peça, garante charme, leveza e ajuste confortável.",
+      "tamanho": "12 anos • 14 anos • 16 anos",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "5020",
+          "nome": "Rosa",
+          "img": "/produtos/lingerie/41390-001/5020.jpg"
+        },
+        {
+          "cod": "6290",
+          "nome": "Pérola",
+          "img": "/produtos/lingerie/41390-001/6290.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/41390-001/5020.jpg"
+    },
+    {
+      "codigo": "40390-001",
+      "nome": "Calcinha Teen Sem Costura",
+      "descricao": "Calcinha seamless teen desenvolvida para oferecer conforto e liberdade ao longo do dia. Com pontos delicados em toda a peça, proporciona ajuste perfeito, garantindo leveza, suavidade e praticidade para o uso diário. Fundo em forro de algodão.",
+      "tamanho": "12 anos • 14 anos • 16 anos",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "5020",
+          "nome": "Rosa",
+          "img": "/produtos/lingerie/40390-001/5020.jpg"
+        },
+        {
+          "cod": "6290",
+          "nome": "Pérola",
+          "img": "/produtos/lingerie/40390-001/6290.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/40390-001/5020.jpg"
+    },
+    {
+      "codigo": "41372-001",
+      "nome": "Sutiã Tricô Sem Costura Teen",
+      "descricao": "Sutiã Tricô Sem Costura Teen com tecnologia seamless, desenvolvido com jacquard em tricô para um visual moderno e exclusivo. Com design anatômico e sem costuras, ele proporciona máximo conforto e liberdade de movimento, ideal para o uso no dia a dia. O jacquard presente em toda a peça oferece textura e estilo diferenciados, tornando-o não só confortável, mas também cheio de personalidade.",
+      "tamanho": "12 anos • 14 anos • 16 anos",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "2390",
+          "nome": "Azul Jeans",
+          "img": "/produtos/lingerie/41372-001/2390.jpg"
+        },
+        {
+          "cod": "1830",
+          "nome": "Off White",
+          "img": "/produtos/lingerie/41372-001/1830.jpg"
+        },
+        {
+          "cod": "6140",
+          "nome": "Natural Peach",
+          "img": "/produtos/lingerie/41372-001/6140.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/41372-001/2390.jpg"
+    },
+    {
+      "codigo": "40372-001",
+      "nome": "Boxer Tricô Sem Costura Teen",
+      "descricao": "Boxer Tricô Sem Costura Teen com tecnologia seamless, confeccionada inteiramente em tricô jacquard, proporcionando estilo e conforto em todos os detalhes. A peça, sem costuras, oferece um ajuste perfeito ao corpo, garantindo liberdade de movimento e máximo bem-estar durante todo o dia. O jacquard está presente em toda a calcinha, trazendo uma textura diferenciada e um visual moderno.",
+      "tamanho": "12 anos • 14 anos • 16 anos",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "2390",
+          "nome": "Azul Jeans",
+          "img": "/produtos/lingerie/40372-001/2390.jpg"
+        },
+        {
+          "cod": "1830",
+          "nome": "Off White",
+          "img": "/produtos/lingerie/40372-001/1830.jpg"
+        },
+        {
+          "cod": "6140",
+          "nome": "Natural Peach",
+          "img": "/produtos/lingerie/40372-001/6140.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/40372-001/2390.jpg"
+    },
+    {
+      "codigo": "42016-001",
+      "nome": "Sutiã Bojo Removível Teen",
+      "descricao": "Sutiã confeccionado em algodão nobre, de alta qualidade,fio compactado que reduz a formação de pilling. Maior brilho e vivacidade nas cores. Toque macio e ajuste perfeito garantindo conforto extremo para o uso do primeiro sutiã. Possui bojo removível e fecho nas costas para melhor posicionamento do tórax.",
+      "tamanho": "10 anos • 12 anos • 14 anos",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/42016-001/9990.jpg"
+        },
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lingerie/42016-001/1110.jpg"
+        },
+        {
+          "cod": "5630",
+          "nome": "Rosa Camafeu",
+          "img": "/produtos/lingerie/42016-001/5630.jpg"
+        },
+        {
+          "cod": "6140",
+          "nome": "Natural Peach",
+          "img": "/produtos/lingerie/42016-001/6140.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/42016-001/9990.jpg"
+    },
+    {
+      "codigo": "43016-001",
+      "nome": "Calcinha Biquini Teen",
+      "descricao": "Calcinha confeccionada em algodão nobre, de alta qualidade, fio compactado que reduz a formação de pilling. Maior brilho e vivacidade nas cores. Toque macio e ajuste perfeito garantindo conforto extremo.",
+      "tamanho": "10 anos • 12 anos • 14 anos",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/43016-001/9990.jpg"
+        },
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lingerie/43016-001/1110.jpg"
+        },
+        {
+          "cod": "5630",
+          "nome": "Rosa Camafeu",
+          "img": "/produtos/lingerie/43016-001/5630.jpg"
+        },
+        {
+          "cod": "6140",
+          "nome": "Natural Peach",
+          "img": "/produtos/lingerie/43016-001/6140.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/43016-001/9990.jpg"
+    },
+    {
+      "codigo": "41378-001",
+      "nome": "Sutiã Curve Sem Costura",
+      "descricao": "Sutiã confeccionado com tecnologia Seamless, proporcionando máximo conforto e durabilidade. Estruturado em fio trilobal, que confere um sofisticado efeito acetinado e apresenta pontos canelados e malha dupla para maior sustentação. Sem aro e sem bojo, oferece uma sensação de leveza e liberdade. Inclui fecho e regulador nas costas para um ajuste personalizado e confortável.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50) • XG (52 a 54)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "7530",
+          "nome": "Canela",
+          "img": "/produtos/lingerie/41378-001/7530.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/41378-001/9990.jpg"
+        },
+        {
+          "cod": "6006",
+          "nome": "Nude",
+          "img": "/produtos/lingerie/41378-001/6006.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/41378-001/7530.jpg"
+    },
+    {
+      "codigo": "40378-001",
+      "nome": "Calcinha Curve Sem Costura",
+      "descricao": "Calcinha confeccionada com tecnologia Seamless, proporcionando máximo conforto e durabilidade. Estruturada em fio trilobal, que confere um sofisticado efeito acetinado e apresenta pontos canelados para maior sustentação e ajuste. Sem costuras visíveis e com um design que garante leveza e liberdade, é ideal para o uso diário. Fundo em forro de algodão.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50) • XG (52 a 54)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "7530",
+          "nome": "Canela",
+          "img": "/produtos/lingerie/40378-001/7530.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/40378-001/9990.jpg"
+        },
+        {
+          "cod": "6006",
+          "nome": "Nude",
+          "img": "/produtos/lingerie/40378-001/6006.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/40378-001/7530.jpg"
+    },
+    {
+      "codigo": "41318-001",
+      "nome": "Sutiã Curve Sem Costura",
+      "descricao": "Sutiã confeccionado em tecnologia Seamless trazendo maior conforto e durabilidade. Estrutura com fio trilobal com aspecto acetinado em jacquard croco. Sem aro e com bojo removível, confeccionado em malha dupla para melhor sustentação. Decote com canelado que traz maior cobertura e segurança, com alças elásticas mais largas que dão maior conforto e distribuem melhor o peso do busto. Costas regata com fecho e regulador para melhor ajuste do tórax.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50) • XG (52 a 54)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/41318-001/9990.jpg"
+        },
+        {
+          "cod": "6140",
+          "nome": "Natural Peach",
+          "img": "/produtos/lingerie/41318-001/6140.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/41318-001/9990.jpg"
+    },
+    {
+      "codigo": "40318-001",
+      "nome": "Calcinha Curve Sem Costura",
+      "descricao": "Calcinha confeccionada em tecnologia Seamless trazendo maior conforto e durabilidade. Estrutura com fio trilobal com aspecto acetinado em jacquard croco. Fundo em forro de algodão. Modelagem em cintura mais alta, e frente canelada, que trazem segurança no vestir.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50) • XG (52 a 54)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/40318-001/9990.jpg"
+        },
+        {
+          "cod": "6140",
+          "nome": "Natural Peach",
+          "img": "/produtos/lingerie/40318-001/6140.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/40318-001/9990.jpg"
+    },
+    {
+      "codigo": "41806-001",
+      "nome": "Short Plus Sem Costura",
+      "descricao": "Short confeccionado em tecnologia seamless que traz maior conforto e ajuste perfeito. Ideal para ser usado com saias ou vestidos, impedindo o atrito entre pernas. Forro de algodão. Cós (seamless) confortável e macio, que traz segurança sem apertar.",
+      "tamanho": "XG (52 a 54) • XXG (56 a 58)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/41806-001/9990.jpg"
+        },
+        {
+          "cod": "6006",
+          "nome": "Nude",
+          "img": "/produtos/lingerie/41806-001/6006.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/41806-001/9990.jpg"
+    },
+    {
+      "codigo": "41216-001",
+      "nome": "Sutiã Power Plus",
+      "descricao": "Sutiã confeccionado em tecnologia seamless que traz maior conforto e ajuste perfeito. Sem bojo e sem aro, confeccionado em malha dupla para melhor sustentação. Decote que traz maior cobertura e segurança, com alças elásticas mais largas que dão maior conforto e distribuem melhor o peso do busto. Costas regata com fecho e regulador em cinco posições para melhor ajuste do tórax.",
+      "tamanho": "GG (48 a 50) • XG (52 a 54) • XXG (56 a 58)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/41216-001/9990.jpg"
+        },
+        {
+          "cod": "6006",
+          "nome": "Nude",
+          "img": "/produtos/lingerie/41216-001/6006.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/41216-001/9990.jpg"
+    },
+    {
+      "codigo": "40306-001",
+      "nome": "Calcinha Básica Plus Sem Costura",
+      "descricao": "Calcinha confeccionada em tecnologia seamless que traz maior conforto e ajuste perfeito.Modelagem básica, com acabamento em tecido duplo, proporcionando ajuste perfeito. Fundo em forro de algodão.",
+      "tamanho": "XG (52 a 54) • XXG (56 a 58)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/40306-001/9990.jpg"
+        },
+        {
+          "cod": "6006",
+          "nome": "Nude",
+          "img": "/produtos/lingerie/40306-001/6006.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/40306-001/9990.jpg"
+    },
+    {
+      "codigo": "42010-001",
+      "nome": "Sutiã De Suporte Com Aro",
+      "descricao": "Sutiã de suporte aro em tecido firmador que modela e dá suporte ao busto. Copa em tecido duplo moldada com profundidade e base reforçada com tecnologia dublada que promove mais firmeza e sustentação. Laterais largas e alças que distribuem o peso do busto. Sem bojo e com aro para levantar o busto e trazer o encaixe perfeito. Costas regata e fecho para melhor ajuste no tórax, perfeito para o conforto no dia a dia.",
+      "tamanho": "46 • 48 • 50 • 52 • 54",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/42010-001/9990.jpg"
+        },
+        {
+          "cod": "6009",
+          "nome": "Maquiato",
+          "img": "/produtos/lingerie/42010-001/6009.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/42010-001/9990.jpg"
+    },
+    {
+      "codigo": "42008-001",
+      "nome": "Sutiã De Suporte Sem Aro",
+      "descricao": "Sutiã de suporte sem aro confeccionado em tecido firmador que modela e suporta o peso do busto. Sem aro e com busto anatômico que acomoda os seios na medida ideal. Decote com maior cobertura e segurança, com base de elástico reforçado que promove mais firmeza e sustentação. Laterais largas com reforço efeito modelador, alças elásticas mais largas e regulagem, distribuindo melhor o peso do busto.",
+      "tamanho": "46 • 48 • 50 • 52 • 54",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/42008-001/9990.jpg"
+        },
+        {
+          "cod": "6009",
+          "nome": "Maquiato",
+          "img": "/produtos/lingerie/42008-001/6009.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/42008-001/9990.jpg"
+    },
+    {
+      "codigo": "47182-001",
+      "nome": "Cinta Silm Sem Costura",
+      "descricao": "Cinta Slim confeccionado em tecnologia seamless que traz maior conforto e ajuste perfeito. Com colchete frontal em três regulagens, tecido duplo com pontos localizados de compressão, reduzindo medidas, afinando a cintura, diminuindo estômago e barriga. Com barbatana para melhorar a postura. Microfibra de poliamida com elastano, proporcionando o ajuste perfeito. Easy care proporcionando secagem rápida, cor duradoura e não precisa passar.",
+      "tamanho": "PP (34) • P (36 A 38) • M (40 A 42) • G (44 A 46) • GG (48 A 50)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/47182-001/9990.jpg"
+        },
+        {
+          "cod": "6140",
+          "nome": "Natural Peach",
+          "img": "/produtos/lingerie/47182-001/6140.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/47182-001/9990.jpg"
+    },
+    {
+      "codigo": "47180-001",
+      "nome": "Top Control Slim Sem Costura",
+      "descricao": "Top Control confeccionado em tecnologia seamless que traz maior conforto e ajuste perfeito. Ótimo para bustos médios e maiores. Proporciona um colo mais jovem, sem bojo e sem aro proporcionando conforto total. Alças mais largas que dão mais conforto e distribuem melhor o peso do busto. Base em tecido de compressão seamless larga para melhor sustentação. Costas maiores, sem gancho e em tecido de compressão que disfarça as gordurinhas das costas.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50) • XG (52 a 54)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/47180-001/9990.jpg"
+        },
+        {
+          "cod": "6140",
+          "nome": "Natural Peach",
+          "img": "/produtos/lingerie/47180-001/6140.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/47180-001/9990.jpg"
+    },
+    {
+      "codigo": "41000-001",
+      "nome": "Calcinha Redutora Slim Sem Costura",
+      "descricao": "Calcinha Redutora confeccionada em tecnologia seamless que traz maior conforto e ajuste perfeito. Segurança de sentir o corpo firme sob a roupa, com punho elástico largo, extra aderente que afina cintura e diminui a barriga. Invisível sob vestidos e saias, calças, shorts e bermudas. Easy care: Secagem rápida, cor duradoura e não precisa passar. Fundo em forro de algodão.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/41000-001/9990.jpg"
+        },
+        {
+          "cod": "6140",
+          "nome": "Natural Peach",
+          "img": "/produtos/lingerie/41000-001/6140.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/41000-001/9990.jpg"
+    },
+    {
+      "codigo": "41050-001",
+      "nome": "Calcinha Redutora Slim Alta Sem Costura",
+      "descricao": "Calcinha Redutora Alta confeccionada em tecnologia seamless que traz maior conforto e ajuste perfeito. Segurança em sentir o corpo firme sob a roupa, com punho elástico largo que afina a cintura e diminui barriga, com borda interna de silicone para manter a peça no lugar. Modela o bumbum e quadril. Invisível para usar sob vestidos e saias, calças, shorts e bermudas. Easy Care: secagem rápida, cor duradoura e não precisa passar.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/41050-001/9990.jpg"
+        },
+        {
+          "cod": "6140",
+          "nome": "Natural Peach",
+          "img": "/produtos/lingerie/41050-001/6140.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/41050-001/9990.jpg"
+    },
+    {
+      "codigo": "41010-001",
+      "nome": "Calcinha Redutora Fio Dental Slim Sem Costura",
+      "descricao": "Calcinha Redutora Fio Dental confeccionada em tecnologia seamless que traz maior conforto e ajuste perfeito. Segurança em sentir o corpo firme sob a roupa, com punho elástico largo que afina a cintura e diminui barriga, com borda interna de silicone para manter a peça no lugar. Modela o bumbum e quadril. Invisível para usar sob vestidos e saias, calças, shorts e bermudas. Easy Care: secagem rápida, cor duradoura e não precisa passar.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/41010-001/9990.jpg"
+        },
+        {
+          "cod": "6140",
+          "nome": "Natural Peach",
+          "img": "/produtos/lingerie/41010-001/6140.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/41010-001/9990.jpg"
+    },
+    {
+      "codigo": "47120-001",
+      "nome": "Bermuda Slim Sem Costura",
+      "descricao": "Bermuda confeccionada em tecnologia seamless que traz maior conforto e ajuste perfeito. Segurança em sentir o corpo firme sob a roupa, com punho elástico largo que afina a cintura e diminui estomago e barriga, além de disfarças gordura nas costas. Modela quadril e diminui culote. Modela a e levanta o bumbum. Reduz o atrito entre pernas. Aplique de silicone na parte interna para manter a peça no lugar.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/47120-001/9990.jpg"
+        },
+        {
+          "cod": "6140",
+          "nome": "Natural Peach",
+          "img": "/produtos/lingerie/47120-001/6140.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/47120-001/9990.jpg"
+    },
+    {
+      "codigo": "47071-001",
+      "nome": "Body Slim Sem Costura",
+      "descricao": "Peça inteiriça e completa de média compressão/ se usada pelo menos 6 horas todos os dias, diminui a celulite/ ótimo para todos os tipos de bustos/ malha com compressão, que modela e levanta o busto/ sem bojo e sem aro: conforto extremo / alças elásticas reguláveis mais largas que dão maior conforto e distribuem melhor o peso do busto/ afina a cintura/ diminui o estômago e a barriga/ disfarça gordura nas costas/ modela o bumbum/ com abertura entre",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/47071-001/9990.jpg"
+        },
+        {
+          "cod": "6140",
+          "nome": "Natural Peach",
+          "img": "/produtos/lingerie/47071-001/6140.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/47071-001/9990.jpg"
+    },
+    {
+      "codigo": "47124-001",
+      "nome": "Short Skin Compression Sem Costura",
+      "descricao": "Short Skin Compression confeccionado em tecnologia seamless que traz maior conforto e ajuste perfeito. Peça superfina e leve com malha compacta e uniforme. Praticidade na hora de vestir. Comprime e modela. Segurança de sentir o corpo firme sob a roupa com conforto. Afina cintura diminui barriga, modela o quadril, levanta o bumbum e reduz culote.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/47124-001/9990.jpg"
+        },
+        {
+          "cod": "6140",
+          "nome": "Natural Peach",
+          "img": "/produtos/lingerie/47124-001/6140.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/47124-001/9990.jpg"
+    },
+    {
+      "codigo": "47122-001",
+      "nome": "Short Skin Compression Cintura Alta Sem Costura",
+      "descricao": "Short Skin Compression Cintura Alta confeccionado em tecnologia seamless que traz maior conforto e ajuste perfeito. Peça superfina e leve com malha compacta e uniforme. Praticidade na hora de vestir. Comprime e modela. Segurança de sentir o corpo firme sob a roupa com conforto. Afina cintura diminui barriga, modela o quadril, levanta o bumbum e reduz culote. Aplique de silicone na parte interna que mantém a peça no lugar.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/47122-001/9990.jpg"
+        },
+        {
+          "cod": "6140",
+          "nome": "Natural Peach",
+          "img": "/produtos/lingerie/47122-001/6140.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/47122-001/9990.jpg"
+    },
+    {
+      "codigo": "45301-001",
+      "nome": "BLUSA TOP INTERNO DECOTE QUADRADO SEM COSTURA",
+      "descricao": "Blusa confeccionada em tecnologia seamless, que proporciona máximo conforto e ajuste perfeito ao corpo. Sua modelagem conta com decote duplo em malha estruturada, garantindo maior cobertura e sustentação com segurança para o uso diário. Uma peça essencial e versátil, ideal para compor looks com praticidade e conforto.",
+      "tamanho": "M (38 a 42) • G (44 a 46)",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "2805",
+          "nome": "Marinho",
+          "img": "/produtos/lingerie/45301-001/2805.jpg"
+        },
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lingerie/45301-001/1110.jpg"
+        },
+        {
+          "cod": "5140",
+          "nome": "Rosa Suave",
+          "img": "/produtos/lingerie/45301-001/5140.jpg"
+        },
+        {
+          "cod": "8384",
+          "nome": "Cinza",
+          "img": "/produtos/lingerie/45301-001/8384.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/45301-001/2805.jpg"
+    },
+    {
+      "codigo": "45302-001",
+      "nome": "BLUSA RIB BAMBU SEM COSTURA",
+      "descricao": "Blusa confeccionada em fio de bambu com tecnologia seamless, que garante conforto extremo, toque macio e ajuste perfeito ao corpo. Sua estrutura canelada valoriza o visual da peça, proporcionando conforto e estilo.",
+      "tamanho": "M (38 a 42) • G (44 a 46)",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/45302-001/9990.jpg"
+        },
+        {
+          "cod": "1830",
+          "nome": "Off White",
+          "img": "/produtos/lingerie/45302-001/1830.jpg"
+        },
+        {
+          "cod": "2815",
+          "nome": "Royal",
+          "img": "/produtos/lingerie/45302-001/2815.jpg"
+        },
+        {
+          "cod": "5260",
+          "nome": "Begônia",
+          "img": "/produtos/lingerie/45302-001/5260.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/45302-001/9990.jpg"
+    },
+    {
+      "codigo": "45303-001",
+      "nome": "BLUSA CAVA AMERICANA SEM COSTURA",
+      "descricao": "Blusa confeccionada em tecnologia seamless, que proporciona maior conforto e ajuste perfeito ao corpo. Seus detalhes em estrutura canelada valorizam a modelagem e garantem elasticidade e caimento suave. O fio brilhante acrescenta um leve efeito luminoso, trazendo sofisticação e um visual moderno à peça. Sua modelagem conta com decote duplo em malha estruturada, garantindo maior cobertura e sustentação com segurança para o uso diário.",
+      "tamanho": "M (38 a 42) • G (44 a 46)",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "2805",
+          "nome": "Marinho",
+          "img": "/produtos/lingerie/45303-001/2805.jpg"
+        },
+        {
+          "cod": "8384",
+          "nome": "Cinza",
+          "img": "/produtos/lingerie/45303-001/8384.jpg"
+        },
+        {
+          "cod": "5260",
+          "nome": "Begônia",
+          "img": "/produtos/lingerie/45303-001/5260.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/45303-001/2805.jpg"
+    },
+    {
+      "codigo": "17756-001",
+      "nome": "BLUSA RASCHEL",
+      "descricao": "Blusa confeccionada em tecnologia raschel, que oferece conforto e caimento leve ao corpo. Sua estrutura apresenta pontos em arrastão em toda a peça, ideal para composições versáteis para o dia a dia.",
+      "tamanho": "ÚNICO (38 a 42)",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/17756-001/9990.jpg"
+        },
+        {
+          "cod": "1830",
+          "nome": "Off White",
+          "img": "/produtos/lingerie/17756-001/1830.jpg"
+        },
+        {
+          "cod": "2815",
+          "nome": "Royal",
+          "img": "/produtos/lingerie/17756-001/2815.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/17756-001/9990.jpg"
+    },
+    {
+      "codigo": "45296-001",
+      "nome": "Blusa Regata Ribana Feminina Lupo",
+      "descricao": "Blusa básica confeccionada em tecnologia seamless que traz maior conforto e ajuste perfeito. Camisete regata básica, com alças finas e fixas.",
+      "tamanho": "M (38 a 42) • G (44 a 46)",
+      "linha": "Inclusão de Cor",
+      "cores": [
+        {
+          "cod": "7530",
+          "nome": "Canela",
+          "img": "/produtos/lingerie/45296-001/7530.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/45296-001/9990.jpg"
+        },
+        {
+          "cod": "1830",
+          "nome": "Off White",
+          "img": "/produtos/lingerie/45296-001/1830.jpg"
+        },
+        {
+          "cod": "2815",
+          "nome": "Royal",
+          "img": "/produtos/lingerie/45296-001/2815.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/45296-001/7530.jpg"
+    },
+    {
+      "codigo": "45264-001",
+      "nome": "Blusa Longa Gola Alta Warm Feminina Lupo",
+      "descricao": "Blusa Gola Alta confeccionada em tecnologia seamless que traz maior conforto e ajuste perfeito; Com estrutura canelada, em fio Warm, que promove isolamento térmico, mantendo a temperatura corporal, retardando a troca de calor com o ambiente externo. Com toque macio, trazendo total conforto. Indicada para dias frios, podendo ser usada também como peça camada ou underwear. Um clássico essencial para o guarda-roupa.",
+      "tamanho": "M (38 a 42) • G (44 a 46)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/45264-001/9990.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/45264-001/9990.jpg"
+    },
+    {
+      "codigo": "45184-001",
+      "nome": "Blusa Longa Decote Redondo Sem Costura Feminina Lupo",
+      "descricao": "Blusa Decote Redondo confeccionada em tecnologia seamless que traz maior conforto e ajuste perfeito. Modelagem em gola redonda e manga longa, proporcionando maior conforto para o dia a dia. Um clássico essencial para o guarda-roupa.",
+      "tamanho": "M (38 a 42) • G (44 a 46)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/45184-001/9990.jpg"
+        },
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lingerie/45184-001/1110.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/45184-001/9990.jpg"
+    },
+    {
+      "codigo": "45100-001",
+      "nome": "Blusa Longa Gola Alta Sem Costura Feminina Lupo",
+      "descricao": "Blusa Gola Alta em tecnologia seamless que traz maior conforto e ajuste perfeito. Modelagem em gola alta e manga longa, proporcionando maior conforto para o dia a dia. Um clássico essencial para o guarda-roupa.",
+      "tamanho": "M (38 a 42) • G (44 a 46)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/45100-001/9990.jpg"
+        },
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lingerie/45100-001/1110.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/45100-001/9990.jpg"
+    },
+    {
+      "codigo": "45003-001",
+      "nome": "Blusa Regata Renda Feminina Lupo",
+      "descricao": "Blusa com renda confeccionada em tecnologia seamless que traz maior conforto e ajuste perfeito. Camisete regata com aplicação de renda no decote e cavas, com alças fixas. Com estrutura levemente canelada, proporcionando toque macio e suave, ideal para usar no seu dia a dia, externa ou mesmo como underwear. Um clássico essencial para o guarda-roupa.",
+      "tamanho": "M (38 a 42) • G (44 a 46)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/45003-001/9990.jpg"
+        },
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lingerie/45003-001/1110.jpg"
+        },
+        {
+          "cod": "6340",
+          "nome": "Duna",
+          "img": "/produtos/lingerie/45003-001/6340.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/45003-001/9990.jpg"
+    },
+    {
+      "codigo": "41600-001",
+      "nome": "Blusa Regata Alcinha Feminina Lupo",
+      "descricao": "Blusa básica confeccionada em tecnologia seamless que traz maior conforto e ajuste perfeito. Camisete regata básica, com alças finas e fixas.",
+      "tamanho": "M (38 a 42) • G (44 a 46)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "7530",
+          "nome": "Canela",
+          "img": "/produtos/lingerie/41600-001/7530.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/41600-001/9990.jpg"
+        },
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lingerie/41600-001/1110.jpg"
+        },
+        {
+          "cod": "6140",
+          "nome": "Natural Peach",
+          "img": "/produtos/lingerie/41600-001/6140.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/41600-001/7530.jpg"
+    },
+    {
+      "codigo": "75044-001",
+      "nome": "T-shirt Micromodal Unissex Sem Costura",
+      "descricao": "Confeccionada em Micromodal que traz leveza, caimento e toque supermacio, e poliamida pra maior estabilidade e resistência da peça.",
+      "tamanho": "PP • P • M • G • GG",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/75044-001/9990.jpg"
+        },
+        {
+          "cod": "2800",
+          "nome": "Marinho",
+          "img": "/produtos/lingerie/75044-001/2800.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/75044-001/9990.jpg"
+    },
+    {
+      "codigo": "45110-001",
+      "nome": "BLUSA 3 EM 1 BOJO REMOVÍVEL MICROFIBRA",
+      "descricao": "Blusa com decote duplo, desenvolvida para oferecer maior cobertura, conforto e segurança no uso diário. Conta com alças reguláveis, que permitem ajuste personalizado ao corpo. Possui top interno com bojo removível, proporcionando versatilidade e dispensando o uso do sutiã. Sua modelagem levemente ajustada garante caimento suave, valorizando a silhueta com conforto e liberdade de movimentos.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50)",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/45110-001/9990.jpg"
+        },
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lingerie/45110-001/1110.jpg"
+        },
+        {
+          "cod": "6610",
+          "nome": "Chocolate",
+          "img": "/produtos/lingerie/45110-001/6610.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/45110-001/9990.jpg"
+    },
+    {
+      "codigo": "45137-001",
+      "nome": "Blusa Cotton",
+      "descricao": "Blusa Cotton confeccionada confeccionada em algodão com elastano, proporcionando toque macio natural e confortável. Com tecido duplo no busto, possibilitando o uso sem sutiã. Decote arredondado com acabamento que não marca sob a roupa e alças reguláveis nas costas. Um clássico essencial para o guarda-roupa.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/45137-001/9990.jpg"
+        },
+        {
+          "cod": "8000",
+          "nome": "Cinza Mescla",
+          "img": "/produtos/lingerie/45137-001/8000.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/45137-001/9990.jpg"
+    },
+    {
+      "codigo": "45138-001",
+      "nome": "Blusa Cotton Manga Longa",
+      "descricao": "Blusa Cotton Manga Longa confeccionada confeccionada em algodão com elastano, proporcionando toque macio natural e confortável. Com decote arredondado, perfeita para o seu dia a dia. Um clássico essencial para o guarda-roupa.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "2390",
+          "nome": "Azul Jeans",
+          "img": "/produtos/lingerie/45138-001/2390.jpg"
+        },
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/45138-001/9990.jpg"
+        },
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lingerie/45138-001/1110.jpg"
+        },
+        {
+          "cod": "8000",
+          "nome": "Cinza Mescla",
+          "img": "/produtos/lingerie/45138-001/8000.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/45138-001/2390.jpg"
+    },
+    {
+      "codigo": "45304-001",
+      "nome": "BODY MESCLA SEM COSTURA",
+      "descricao": "Body confeccionado em tecnologia seamless, que proporciona conforto e ajuste perfeito ao corpo, com efeito mescla valorizando o visual da peça. Possui fecho entre as pernas, oferecendo maior praticidade.",
+      "tamanho": "M (38 a 42) • G (44 a 46)",
+      "linha": "Lançamento",
+      "cores": [
+        {
+          "cod": "2390",
+          "nome": "Azul Jeans",
+          "img": "/produtos/lingerie/45304-001/2390.jpg"
+        },
+        {
+          "cod": "8384",
+          "nome": "Cinza",
+          "img": "/produtos/lingerie/45304-001/8384.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/45304-001/2390.jpg"
+    },
+    {
+      "codigo": "47000-002",
+      "nome": "Body Liso Sem Costura",
+      "descricao": "Body liso confeccionado em tecnologia seamless que traz maior conforto e ajuste perfeito. Modelagem que proporciona ajuste perfeito ao corpo, garantindo extremo conforto no uso do dia a dia.Um clássico essencial para o guarda-roupa.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/47000-002/9990.jpg"
+        },
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lingerie/47000-002/1110.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/47000-002/9990.jpg"
+    },
+    {
+      "codigo": "47001-001",
+      "nome": "Body Manga Curta Sem Costura",
+      "descricao": "Body manga curta confeccionado em tecnologia seamless que traz maior conforto e ajuste perfeito. Com estrutura levemente canelada e modelagem que proporciona ajuste perfeito ao corpo, garantindo extremo conforto no uso do dia a dia. Fecho entre pernas para facilitar o uso.Um clássico essencial para o guarda-roupa.",
+      "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50)",
+      "linha": "",
+      "cores": [
+        {
+          "cod": "9990",
+          "nome": "Preta",
+          "img": "/produtos/lingerie/47001-001/9990.jpg"
+        },
+        {
+          "cod": "1110",
+          "nome": "Branca",
+          "img": "/produtos/lingerie/47001-001/1110.jpg"
+        },
+        {
+          "cod": "2300",
+          "nome": "Blue Nights",
+          "img": "/produtos/lingerie/47001-001/2300.jpg"
+        }
+      ],
+      "img": "/produtos/lingerie/47001-001/9990.jpg"
+    }
+  ]
+}
