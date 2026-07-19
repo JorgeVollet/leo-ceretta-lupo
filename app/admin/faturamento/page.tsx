@@ -2,6 +2,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import AdminShell from "@/components/admin/AdminShell";
 import ClienteModal from "@/components/admin/ClienteModal";
+import FaturamentoDashboard from "@/components/admin/FaturamentoDashboard";
 import { supabaseBrowser } from "@/lib/supabase";
 import { lerRelatorio, lerXmlNfe, STATUS_LABEL, STATUS_COR, type PedidoImportado } from "@/lib/parsers";
 
@@ -84,7 +85,7 @@ function Paginacao({ pagina, total, porPagina, onChange }: { pagina: number; tot
 }
 
 export default function AdminFaturamento() {
-  const [aba, setAba] = useState<"pedidos" | "notas" | "clientes" | "importacoes">("pedidos");
+  const [aba, setAba] = useState<"visao" | "pedidos" | "notas" | "clientes" | "importacoes">("visao");
   const [linhas, setLinhas] = useState<Linha[]>([]);
   const [notas, setNotas] = useState<NotaLinha[]>([]);
   const [importacoes, setImportacoes] = useState<Importacao[]>([]);
@@ -384,10 +385,15 @@ export default function AdminFaturamento() {
 
       {/* TOGGLE */}
       <div className="mb-5 inline-flex flex-wrap rounded-lg border border-line bg-white p-1">
-        {[{ k: "pedidos" as const, t: `Pedidos (${linhas.length})` }, { k: "notas" as const, t: `Notas / XML (${notas.length})` }, { k: "clientes" as const, t: `Clientes · Curva ABC (${curvaABC.length})` }, { k: "importacoes" as const, t: `Importações (${importacoes.length})` }].map((o) => (
+        {[{ k: "visao" as const, t: "Visão geral" }, { k: "pedidos" as const, t: `Pedidos (${linhas.length})` }, { k: "notas" as const, t: `Notas / XML (${notas.length})` }, { k: "clientes" as const, t: `Clientes · Curva ABC (${curvaABC.length})` }, { k: "importacoes" as const, t: `Importações (${importacoes.length})` }].map((o) => (
           <button key={o.k} onClick={() => setAba(o.k)} className={`mono-label rounded px-4 py-2.5 transition ${aba === o.k ? "bg-ink text-paper" : "text-ink/55 hover:text-ink"}`}>{o.t}</button>
         ))}
       </div>
+
+      {/* ============ ABA VISÃO GERAL ============ */}
+      {aba === "visao" && (
+        carregando ? <p className="text-[14px] text-mute">Carregando...</p> : <FaturamentoDashboard linhas={linhas} />
+      )}
 
       {/* ============ ABA PEDIDOS ============ */}
       {aba === "pedidos" && (
