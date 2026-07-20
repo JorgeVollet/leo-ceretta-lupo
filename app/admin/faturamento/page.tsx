@@ -418,11 +418,8 @@ export default function AdminFaturamento() {
               <div className="mt-0.5 text-[11px] text-emerald-700/70">Faturado ({kpis.qFat} notas)</div>
             </div>
             <div className="rounded-lg border border-rose-300 bg-rose-50 p-4" title="Quebra = vendido − faturado. Vendas que não viraram nota (inclui cancelamentos).">
-              <div className="flex items-baseline gap-1.5">
-                <span className="font-display text-[19px] font-extrabold tracking-tight text-rose-700">{brl(kpis.quebra)}</span>
-                <span className="text-[12px] font-bold text-rose-600">{kpis.pctQuebra.toFixed(1)}%</span>
-              </div>
-              <div className="mt-0.5 text-[11px] text-rose-700/70">Quebra (incluído − faturado)</div>
+              <div className="font-display text-[19px] font-extrabold tracking-tight text-rose-700">{brl(kpis.quebra)}</div>
+              <div className="mt-0.5 text-[11px] text-rose-700/70">Quebra · {kpis.pctQuebra.toFixed(1)}% do incluído</div>
             </div>
             <div className="rounded-lg border border-amber-200 bg-amber-50 p-4">
               <div className="font-display text-[19px] font-extrabold tracking-tight text-amber-700">{brl(kpis.separacao)}</div>
