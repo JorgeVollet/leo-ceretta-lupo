@@ -3,6 +3,7 @@
 import { createContext, useCallback, useContext, useEffect, useState } from "react";
 import type { ReactNode } from "react";
 import { supabaseBrowser } from "@/lib/supabase";
+import { ehAdmin } from "@/lib/admin-emails";
 
 export type PerfilCliente = { razao_social: string | null; doc: string | null; email: string | null };
 
@@ -32,7 +33,14 @@ export function ClienteProvider({ children }: { children: ReactNode }) {
       .select("razao_social,doc,email")
       .eq("auth_user_id", session.user.id)
       .maybeSingle();
-    setCliente(data ? (data as PerfilCliente) : null);
+    if (data) {
+      setCliente(data as PerfilCliente);
+    } else if (ehAdmin(session.user.email)) {
+      // Leonardo (login do admin) também acessa o catálogo
+      setCliente({ razao_social: "Administrador", doc: null, email: session.user.email ?? null });
+    } else {
+      setCliente(null);
+    }
     setCarregando(false);
   }, []);
 

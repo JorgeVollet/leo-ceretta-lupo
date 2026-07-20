@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { createClient } from "@supabase/supabase-js";
 import { supabase } from "@/lib/supabase";
+import { ehAdmin } from "@/lib/admin-emails";
 import { Resend } from "resend";
 
 export const dynamic = "force-dynamic";
@@ -21,7 +22,10 @@ async function clienteDoToken(token: string | null) {
     .select("razao_social,doc")
     .eq("auth_user_id", userData.user.id)
     .maybeSingle();
-  return perfil ? (perfil as { razao_social: string | null; doc: string | null }) : null;
+  if (perfil) return perfil as { razao_social: string | null; doc: string | null };
+  // Leonardo (login do admin) também pode fazer pedido
+  if (ehAdmin(userData.user.email)) return { razao_social: "Administrador", doc: null };
+  return null;
 }
 
 type ItemPedido = {

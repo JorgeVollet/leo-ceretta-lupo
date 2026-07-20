@@ -108,6 +108,7 @@ export type PedidoImportado = {
   grupo_clientes: string | null;
   descricao: string | null;
   atualizado_em: string;
+  snapshot_em: string | null;
 };
 
 /** Acha a coluna mesmo com variação de acento/espaço */
@@ -131,6 +132,14 @@ export function cdDoNome(nome?: string | null): string | null {
   return m ? m[1] : null;
 }
 
+/** O horário do relatório vem no nome: PEDIDOS_20260718_141913_1000.xls -> 2026-07-18T14:19:13.
+ *  Serve pra não deixar um relatório MAIS ANTIGO sobrescrever os dados de um mais novo. */
+export function snapshotDoNome(nome?: string | null): string | null {
+  if (!nome) return null;
+  const m = nome.match(/_(\d{4})(\d{2})(\d{2})_(\d{2})(\d{2})(\d{2})_/);
+  return m ? `${m[1]}-${m[2]}-${m[3]}T${m[4]}:${m[5]}:${m[6]}` : null;
+}
+
 /** Núcleo: transforma um workbook XLSX já lido em pedidos. Usado no navegador e no servidor.
  *  nomeArquivo é opcional e serve pra extrair o CD (depósito) do nome. */
 export function pedidosDeWorkbook(buf: ArrayBuffer | Uint8Array | Buffer, nomeArquivo?: string | null): PedidoImportado[] {
@@ -138,6 +147,7 @@ export function pedidosDeWorkbook(buf: ArrayBuffer | Uint8Array | Buffer, nomeAr
   const ws = wb.Sheets[wb.SheetNames[0]];
   const linhas = XLSX.utils.sheet_to_json<Record<string, unknown>>(ws, { defval: null });
   const cdArquivo = cdDoNome(nomeArquivo);
+  const snapArquivo = snapshotDoNome(nomeArquivo);
 
   const out: PedidoImportado[] = [];
   for (const l of linhas) {
@@ -178,6 +188,7 @@ export function pedidosDeWorkbook(buf: ArrayBuffer | Uint8Array | Buffer, nomeAr
       grupo_clientes: texto(pega(l, "Grupo de Clientes")),
       descricao: texto(pega(l, "Descrição", "Descricao")),
       atualizado_em: new Date().toISOString(),
+      snapshot_em: snapArquivo,
     });
   }
   return out;
