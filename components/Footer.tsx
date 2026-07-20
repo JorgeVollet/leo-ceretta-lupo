@@ -30,22 +30,33 @@ export default function Footer() {
         </div>
         <div className="mt-10 flex flex-col items-center gap-1 border-t border-stone-line/40 pt-6 text-center">
           <div className="text-[12px] text-ink/70">Catálogos atualizados toda semana · Pedidos pelo WhatsApp</div>
-          <div className="mono-label text-ink/45">© {new Date().getFullYear()} Leonardo Ceretta · Site por JV Web Studio</div>
+          <div className="mono-label flex flex-wrap items-center justify-center gap-1.5 text-ink/45">
+            <span>
+              © {new Date().getFullYear()} Leonardo Ceretta · Site por{" "}
+              <a
+                href="https://www.jvwebstudio.agency"
+                target="_blank"
+                rel="noopener"
+                className="underline underline-offset-2 transition hover:text-accent-deep"
+              >
+                JV Web Studio
+              </a>
+            </span>
+            {/* acesso discreto ao painel administrativo */}
+            <a
+              href="/admin/faturamento"
+              aria-label="Painel administrativo"
+              title="Painel"
+              className="ml-1 inline-flex text-ink/30 transition hover:rotate-45 hover:text-accent-deep"
+            >
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round">
+                <circle cx="12" cy="12" r="3" />
+                <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z" />
+              </svg>
+            </a>
+          </div>
         </div>
       </div>
-
-      {/* acesso discreto ao painel administrativo */}
-      <a
-        href="/admin/faturamento"
-        aria-label="Painel administrativo"
-        title="Painel"
-        className="absolute bottom-3 right-3 text-ink/20 transition hover:rotate-45 hover:text-accent-deep"
-      >
-        <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
-          <circle cx="12" cy="12" r="3" />
-          <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z" />
-        </svg>
-      </a>
     </footer>
   );
 }
