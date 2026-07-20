@@ -38,6 +38,12 @@ const atalhos = [
     desc: "Entrar ou criar acesso",
     icon: "M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM4 21c0-4 4-6 8-6s8 2 8 6",
   },
+  {
+    href: "/meus-pedidos",
+    label: "Meus pedidos",
+    desc: "Acompanhe suas entregas",
+    icon: "M3 7h13v10H3zM16 10h3l2 3v4h-5zM7 20a2 2 0 1 0 0-4 2 2 0 0 0 0 4zM18 20a2 2 0 1 0 0-4 2 2 0 0 0 0 4z",
+  },
 ];
 
 export default function AcessoRapido({

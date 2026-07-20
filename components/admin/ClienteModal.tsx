@@ -24,6 +24,8 @@ type OV = {
   data_criacao: string | null;
   data_emissao: string | null;
   data_expedicao: string | null;
+  reanotacao: boolean | null;
+  pedido_pai: string | null;
 };
 type ItemNota = { item: number | null; codigo: string | null; ean: string | null; descricao: string | null; quantidade: number | null; valor_unit: number | null; valor_total: number | null };
 type DupNota = { parcela: string | null; vencimento: string | null; valor: number | null };
@@ -107,10 +109,12 @@ export default function ClienteModal({
 
   useEffect(() => { if (ordemFoco) abrirDetalhe(ordemFoco); /* eslint-disable-next-line */ }, []);
 
-  // números do cliente
-  const ativos = pedidos.filter((p) => p.status !== "cancelado");
-  const totalComprado = ativos.reduce((s, p) => s + (p.valor_fatura || p.valor_ov || 0), 0);
-  const ticketMedio = ativos.length > 0 ? totalComprado / ativos.length : 0;
+  // números do cliente (deduz reanotação pra não contar duas vezes)
+  const raizes = pedidos.filter((p) => !p.reanotacao);
+  const incluido = raizes.reduce((s, p) => s + (p.valor_ov || 0), 0);            // vendido (inclui cancelados)
+  const faturado = pedidos.filter((p) => p.status === "faturado" || p.status === "despachado").reduce((s, p) => s + (p.valor_fatura || 0), 0);
+  const quebra = incluido - faturado;
+  const pctQuebra = incluido > 0 ? (quebra / incluido) * 100 : 0;
   const porStatus = pedidos.reduce<Record<string, number>>((acc, p) => { acc[p.status] = (acc[p.status] || 0) + 1; return acc; }, {});
   const ref = pedidos[0];
 
@@ -146,20 +150,20 @@ export default function ClienteModal({
               {/* KPIs do cliente */}
               <div className="mb-5 grid grid-cols-2 gap-3 sm:grid-cols-4">
                 <div className="rounded-lg border border-line bg-bone p-3.5">
-                  <div className="font-display text-[18px] font-extrabold tracking-tight text-accent-deep">{brl(totalComprado)}</div>
-                  <div className="mt-0.5 text-[11px] text-mute">Total comprado</div>
+                  <div className="font-display text-[18px] font-extrabold tracking-tight text-accent-deep">{brl(incluido)}</div>
+                  <div className="mt-0.5 text-[11px] text-mute">Incluído (vendido)</div>
+                </div>
+                <div className="rounded-lg border border-emerald-200 bg-emerald-50 p-3.5">
+                  <div className="font-display text-[18px] font-extrabold tracking-tight text-emerald-700">{brl(faturado)}</div>
+                  <div className="mt-0.5 text-[11px] text-emerald-700/70">Faturado</div>
+                </div>
+                <div className="rounded-lg border border-rose-300 bg-rose-50 p-3.5">
+                  <div className="flex items-baseline gap-1"><span className="font-display text-[18px] font-extrabold tracking-tight text-rose-700">{brl(quebra)}</span><span className="text-[11px] font-bold text-rose-600">{pctQuebra.toFixed(0)}%</span></div>
+                  <div className="mt-0.5 text-[11px] text-rose-700/70">Quebra</div>
                 </div>
                 <div className="rounded-lg border border-line bg-bone p-3.5">
-                  <div className="font-display text-[18px] font-extrabold tracking-tight text-ink">{brl(ticketMedio)}</div>
-                  <div className="mt-0.5 text-[11px] text-mute">Ticket médio</div>
-                </div>
-                <div className="rounded-lg border border-line bg-bone p-3.5">
-                  <div className="font-display text-[20px] font-extrabold tracking-tight text-ink">{pedidos.length}</div>
-                  <div className="mt-0.5 text-[11px] text-mute">Pedidos no total</div>
-                </div>
-                <div className="rounded-lg border border-line bg-bone p-3.5">
-                  <div className="font-display text-[20px] font-extrabold tracking-tight text-ink">{(porStatus["recebido"] || 0) + (porStatus["separacao"] || 0)}</div>
-                  <div className="mt-0.5 text-[11px] text-mute">Em andamento</div>
+                  <div className="font-display text-[20px] font-extrabold tracking-tight text-ink">{pedidos.length}<span className="ml-1.5 text-[12px] font-semibold text-mute">· {(porStatus["recebido"] || 0) + (porStatus["separacao"] || 0)} em aberto</span></div>
+                  <div className="mt-0.5 text-[11px] text-mute">Pedidos</div>
                 </div>
               </div>
 
@@ -170,11 +174,15 @@ export default function ClienteModal({
                   <div key={p.ordem_venda} className={`overflow-hidden rounded-lg border bg-white transition ${ovAberta === p.ordem_venda ? "border-accent shadow-card" : "border-line"}`}>
                     <button onClick={() => abrirDetalhe(p.ordem_venda)} className="flex w-full flex-wrap items-center gap-3 px-4 py-3 text-left transition hover:bg-bone">
                       <span className="font-display text-[13.5px] font-extrabold text-ink">#{p.ordem_venda}</span>
+                      {p.reanotacao && <span className="rounded bg-violet-100 px-1.5 py-0.5 text-[9px] font-bold uppercase tracking-wide text-violet-700" title={p.pedido_pai ? `Saldo do pedido ${p.pedido_pai}` : "Saldo re-notado"}>saldo</span>}
                       <span className={`inline-block rounded-full px-2.5 py-1 text-[10.5px] font-bold uppercase tracking-wide ${STATUS_COR[p.status] || "bg-slate-100 text-slate-700"}`}>
                         {STATUS_LABEL[p.status] || p.status}
                       </span>
                       {p.nota_fiscal && <span className="text-[12px] text-mute">NF {p.nota_fiscal}</span>}
-                      <span className="ml-auto text-[13.5px] font-semibold text-ink">{brl(p.valor_fatura || p.valor_ov)}</span>
+                      <span className="ml-auto text-right">
+                        <span className="block text-[13.5px] font-semibold text-ink">{brl(p.valor_ov)}</span>
+                        {(p.status === "faturado" || p.status === "despachado") && <span className="block text-[11px] font-semibold text-emerald-700">fat {brl(p.valor_fatura)}</span>}
+                      </span>
                       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" className={`text-ink/35 ${ovAberta === p.ordem_venda ? "rotate-180" : ""}`}><path d="M6 9l6 6 6-6" /></svg>
                     </button>
 

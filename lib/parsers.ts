@@ -109,7 +109,19 @@ export type PedidoImportado = {
   descricao: string | null;
   atualizado_em: string;
   snapshot_em: string | null;
+  ped_cli: string | null;       // valor cru da coluna "Ped.Cli."
+  reanotacao: boolean;          // true se este pedido é um saldo re-notado
+  pedido_pai: string | null;    // OV do pedido de origem (quando vem "SAL<num>")
 };
+
+/** Lê a coluna "Ped.Cli." e diz se o pedido é uma reanotação (saldo re-notado)
+ *  e qual o pedido de origem. Ex.: "N/A/SAL6161274" -> reanotação do pedido 6161274. */
+export function analisaReanotacao(pedCli?: string | null): { reanotacao: boolean; pedido_pai: string | null } {
+  const p = String(pedCli ?? "");
+  const sal = p.match(/SAL\s*0*(\d+)/i);
+  const reanot = !!sal || /reanota/i.test(p);
+  return { reanotacao: reanot, pedido_pai: sal ? normalizarOV(sal[1]) : null };
+}
 
 /** Acha a coluna mesmo com variação de acento/espaço */
 function pega(linha: Record<string, unknown>, ...nomes: string[]) {
@@ -157,6 +169,8 @@ export function pedidosDeWorkbook(buf: ArrayBuffer | Uint8Array | Buffer, nomeAr
     const statusOrigem = texto(pega(l, "Status"));
     const statusLegado = texto(pega(l, "Status no Legado", "StatusLegado"));
     const dataExp = data(pega(l, "Data Expedição", "Data Expedicao"));
+    const pedCli = texto(pega(l, "Ped.Cli.", "Ped Cli", "PedCli", "Pedido Cliente"));
+    const reanot = analisaReanotacao(pedCli);
 
     out.push({
       ordem_venda: ov,
@@ -189,6 +203,9 @@ export function pedidosDeWorkbook(buf: ArrayBuffer | Uint8Array | Buffer, nomeAr
       descricao: texto(pega(l, "Descrição", "Descricao")),
       atualizado_em: new Date().toISOString(),
       snapshot_em: snapArquivo,
+      ped_cli: pedCli,
+      reanotacao: reanot.reanotacao,
+      pedido_pai: reanot.pedido_pai,
     });
   }
   return out;

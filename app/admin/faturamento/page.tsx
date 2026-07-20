@@ -11,6 +11,7 @@ type Linha = {
   valor_ov: number | null; valor_fatura: number | null; status: string; status_origem: string | null;
   nota_fiscal: string | null; data_criacao: string | null; data_emissao: string | null;
   data_expedicao: string | null; transportadora: string | null;
+  reanotacao: boolean | null; pedido_pai: string | null;
 };
 type NotaLinha = {
   id: string; numero: string | null; ordem_venda: string | null; emissao: string | null;
@@ -127,7 +128,7 @@ export default function AdminFaturamento() {
     setPrecisaSql(false); setCarregando(true);
     try {
       const [ov, n, imp] = await Promise.all([
-        buscarTudo<Linha>("ordens_venda", "ordem_venda,cliente_nome,uf,deposito,valor_ov,valor_fatura,status,status_origem,nota_fiscal,data_criacao,data_emissao,data_expedicao,transportadora", "ordem_venda"),
+        buscarTudo<Linha>("ordens_venda", "ordem_venda,cliente_nome,uf,deposito,valor_ov,valor_fatura,status,status_origem,nota_fiscal,data_criacao,data_emissao,data_expedicao,transportadora,reanotacao,pedido_pai", "ordem_venda"),
         buscarTudo<NotaLinha>("notas", "id,numero,ordem_venda,emissao,valor_total,dest_nome,dest_cnpj,dest_uf,transportadora", "id"),
         supabaseBrowser.from("importacoes").select("id,tipo,arquivo,deposito,registros,novos,atualizados,criado_em").order("criado_em", { ascending: false }).limit(1000),
       ]);
@@ -223,7 +224,7 @@ export default function AdminFaturamento() {
           addLog(`✓ NOTA ${nota.numero || "?"} — cliente ${nota.dest_nome || "?"} · pedido ${nota.ordem_venda || "?"} · ${itens.length} itens · ${duplicatas.length} boleto(s) · ${brl(nota.valor_total)}`);
         } else addLog(`⚠ ${nome}: formato não suportado.`);
       } catch (e: any) {
-        if (faltaTabela(e?.message)) { addLog(`✕ ${nome}: as tabelas ainda não foram criadas no Supabase.`); setPrecisaSql(true); }
+        if (faltaTabela(e?.message)) { addLog(`✕ ${nome}: falta rodar um SQL no Supabase (tabela ou coluna nova) — ${e?.message || "schema desatualizado"}. Rode os SUPABASE-*.sql pendentes (ex.: SUPABASE-status-snapshot.sql) e importe de novo.`); setPrecisaSql(true); }
         else addLog(`✕ ${nome}: ${e?.message || "falhou"}`);
       }
     }
@@ -237,12 +238,12 @@ export default function AdminFaturamento() {
   function limparFiltros() { setBusca(""); setFStatus([]); setFUF(""); setFCD(""); setFValMin(""); setFValMax(""); setFDe(""); setFAte(""); setFPorte(""); setOrdenar("recentes"); }
   const temFiltro = fStatus.length > 0 || fUF || fCD || fValMin || fValMax || fDe || fAte || fPorte || busca;
 
-  const filtradas = useMemo(() => {
+  // base: aplica todos os filtros MENOS o status (pros KPIs e cartões refletirem o período)
+  const baseFiltrada = useMemo(() => {
     const q = busca.trim().toLowerCase();
     const min = fValMin ? parseFloat(fValMin.replace(",", ".")) : null;
     const max = fValMax ? parseFloat(fValMax.replace(",", ".")) : null;
-    let arr = linhas.filter((l) => {
-      if (fStatus.length && !fStatus.includes(l.status)) return false;
+    return linhas.filter((l) => {
       if (fUF && l.uf !== fUF) return false;
       if (fCD && l.deposito !== fCD) return false;
       const val = l.valor_fatura || l.valor_ov || 0;
@@ -255,6 +256,10 @@ export default function AdminFaturamento() {
       if (q && ![l.ordem_venda, l.cliente_nome, l.nota_fiscal, l.uf, l.transportadora].filter(Boolean).join(" ").toLowerCase().includes(q)) return false;
       return true;
     });
+  }, [linhas, busca, fUF, fCD, fValMin, fValMax, fDe, fAte, fCampoData, fPorte]);
+
+  const filtradas = useMemo(() => {
+    let arr = baseFiltrada.filter((l) => !fStatus.length || fStatus.includes(l.status));
     const v = (l: Linha) => l.valor_fatura || l.valor_ov || 0;
     arr = [...arr].sort((a, b) => {
       switch (ordenar) {
@@ -266,33 +271,37 @@ export default function AdminFaturamento() {
       }
     });
     return arr;
-  }, [linhas, busca, fStatus, fUF, fCD, fValMin, fValMax, fDe, fAte, fCampoData, fPorte, ordenar]);
+  }, [baseFiltrada, fStatus, ordenar]);
   useEffect(() => { setPagina(1); }, [busca, fStatus, fUF, fCD, fValMin, fValMax, fDe, fAte, fPorte, ordenar]);
 
-  // KPIs de valor por status
+  // KPIs de valor + QUEBRA (deduz reanotação pra não contar duas vezes)
   const kpis = useMemo(() => {
-    let ov = 0, faturado = 0, separacao = 0, cancelado = 0, qFat = 0, qPed = 0;
-    for (const l of linhas) {
+    let incluido = 0, incluidoAtivo = 0, faturado = 0, separacao = 0, cancelado = 0, qFat = 0, qPed = 0;
+    for (const l of baseFiltrada) {
       const vov = l.valor_ov || 0, vf = l.valor_fatura || 0;
-      if (l.status === "cancelado") { cancelado += vov; continue; }
-      ov += vov; qPed++;
-      if (l.status === "faturado" || l.status === "despachado") { faturado += vf; qFat++; }
-      else separacao += vov;
+      const billed = l.status === "faturado" || l.status === "despachado";
+      if (billed) { faturado += vf; qFat++; }
+      if (l.reanotacao) continue;          // saldos re-notados não entram no "incluído"
+      incluido += vov;                     // vendas reais (pedidos raiz)
+      if (l.status === "cancelado") { cancelado += vov; }
+      else { incluidoAtivo += vov; qPed++; if (!billed) separacao += vov; }
     }
-    const ticket = qPed > 0 ? ov / qPed : 0;
-    return { ov, faturado, separacao, cancelado, qFat, qPed, ticket };
-  }, [linhas]);
+    const quebra = incluido - faturado;
+    const pctQuebra = incluido > 0 ? (quebra / incluido) * 100 : 0;
+    const ticket = qPed > 0 ? incluidoAtivo / qPed : 0;
+    return { incluido, incluidoAtivo, faturado, separacao, cancelado, quebra, pctQuebra, qFat, qPed, ticket };
+  }, [baseFiltrada]);
 
   const resumo = useMemo(() => {
     const r: Record<string, { qtde: number; valor: number }> = {};
     ORDEM_STATUS.forEach((s) => (r[s] = { qtde: 0, valor: 0 }));
-    for (const l of linhas) {
+    for (const l of baseFiltrada) {
       if (!r[l.status]) r[l.status] = { qtde: 0, valor: 0 };
       r[l.status].qtde++;
       r[l.status].valor += (l.status === "faturado" || l.status === "despachado") ? (l.valor_fatura || 0) : (l.valor_ov || 0);
     }
     return r;
-  }, [linhas]);
+  }, [baseFiltrada]);
 
   const pagPedidos = filtradas.slice((pagina - 1) * POR_PAGINA, pagina * POR_PAGINA);
 
@@ -352,8 +361,8 @@ export default function AdminFaturamento() {
 
       {precisaSql && (
         <div className="mb-6 rounded-lg border border-amber-300 bg-amber-50 p-5">
-          <p className="font-display text-[15px] font-extrabold text-amber-900">As tabelas ainda não foram criadas no Supabase</p>
-          <p className="mt-1.5 text-[13.5px] leading-relaxed text-amber-800">Rode o <b>SUPABASE-automacao.sql</b> (SQL Editor → colar → Run), depois clique em Atualizar.</p>
+          <p className="font-display text-[15px] font-extrabold text-amber-900">Falta rodar um SQL no Supabase</p>
+          <p className="mt-1.5 text-[13.5px] leading-relaxed text-amber-800">Uma tabela ou coluna nova ainda não existe. Rode os arquivos <b>SUPABASE-*.sql</b> pendentes no SQL Editor (ex.: <b>SUPABASE-automacao.sql</b> na primeira vez, ou <b>SUPABASE-status-snapshot.sql</b> depois da correção de status), depois clique em Atualizar e importe de novo.</p>
         </div>
       )}
 
@@ -398,31 +407,34 @@ export default function AdminFaturamento() {
       {/* ============ ABA PEDIDOS ============ */}
       {aba === "pedidos" && (
         <>
-          {/* KPIs de valor */}
+          {/* KPIs de valor + quebra */}
           <div className="mb-4 grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-6">
-            <div className="rounded-lg border border-line bg-ink p-4 text-paper">
-              <div className="font-display text-[19px] font-extrabold tracking-tight">{brl(kpis.ov)}</div>
-              <div className="mt-0.5 text-[11px] text-paper/60">Valor em pedidos (OV)</div>
-            </div>
-            <div className="rounded-lg border border-accent/30 bg-accent/5 p-4">
-              <div className="font-display text-[19px] font-extrabold tracking-tight text-accent-deep">{brl(kpis.ticket)}</div>
-              <div className="mt-0.5 text-[11px] text-accent-deep/70">Ticket médio por OV</div>
-            </div>
-            <div className="rounded-lg border border-line bg-white p-4">
-              <div className="font-display text-[19px] font-extrabold tracking-tight text-ink">{kpis.qPed.toLocaleString("pt-BR")}</div>
-              <div className="mt-0.5 text-[11px] text-mute">Qtde de pedidos (OV)</div>
+            <div className="rounded-lg border border-line bg-ink p-4 text-paper" title="Valor dos pedidos vendidos (raiz), sem contar reanotações">
+              <div className="font-display text-[19px] font-extrabold tracking-tight">{brl(kpis.incluido)}</div>
+              <div className="mt-0.5 text-[11px] text-paper/60">Incluído (vendido)</div>
             </div>
             <div className="rounded-lg border border-emerald-200 bg-emerald-50 p-4">
               <div className="font-display text-[19px] font-extrabold tracking-tight text-emerald-700">{brl(kpis.faturado)}</div>
               <div className="mt-0.5 text-[11px] text-emerald-700/70">Faturado ({kpis.qFat} notas)</div>
             </div>
+            <div className="rounded-lg border border-rose-300 bg-rose-50 p-4" title="Quebra = vendido − faturado. Vendas que não viraram nota (inclui cancelamentos).">
+              <div className="flex items-baseline gap-1.5">
+                <span className="font-display text-[19px] font-extrabold tracking-tight text-rose-700">{brl(kpis.quebra)}</span>
+                <span className="text-[12px] font-bold text-rose-600">{kpis.pctQuebra.toFixed(1)}%</span>
+              </div>
+              <div className="mt-0.5 text-[11px] text-rose-700/70">Quebra (incluído − faturado)</div>
+            </div>
             <div className="rounded-lg border border-amber-200 bg-amber-50 p-4">
               <div className="font-display text-[19px] font-extrabold tracking-tight text-amber-700">{brl(kpis.separacao)}</div>
               <div className="mt-0.5 text-[11px] text-amber-700/70">Em andamento (a faturar)</div>
             </div>
-            <div className="rounded-lg border border-red-200 bg-red-50 p-4">
-              <div className="font-display text-[19px] font-extrabold tracking-tight text-red-600">{brl(kpis.cancelado)}</div>
-              <div className="mt-0.5 text-[11px] text-red-600/70">Cancelado</div>
+            <div className="rounded-lg border border-accent/30 bg-accent/5 p-4">
+              <div className="font-display text-[19px] font-extrabold tracking-tight text-accent-deep">{brl(kpis.ticket)}</div>
+              <div className="mt-0.5 text-[11px] text-accent-deep/70">Ticket médio</div>
+            </div>
+            <div className="rounded-lg border border-line bg-white p-4">
+              <div className="font-display text-[19px] font-extrabold tracking-tight text-ink">{kpis.qPed.toLocaleString("pt-BR")}</div>
+              <div className="mt-0.5 text-[11px] text-mute">Qtde de pedidos</div>
             </div>
           </div>
 
@@ -494,21 +506,30 @@ export default function AdminFaturamento() {
             </div>
           ) : (
             <div className="overflow-hidden rounded-lg border border-line bg-white shadow-card">
-              <div className="hidden bg-ink px-4 py-3 text-paper lg:grid lg:grid-cols-[95px_1fr_130px_100px_110px_115px]">
-                <span className="mono-label">Ordem</span><span className="mono-label">Cliente</span><span className="mono-label">Status</span><span className="mono-label">Nota</span><span className="mono-label text-right">Valor</span><span className="mono-label text-right">Expedição</span>
+              <div className="hidden bg-ink px-4 py-3 text-paper lg:grid lg:grid-cols-[95px_1fr_130px_100px_120px_115px]">
+                <span className="mono-label">Ordem</span><span className="mono-label">Cliente</span><span className="mono-label">Status</span><span className="mono-label">Nota</span><span className="mono-label text-right">Incluído / Fat.</span><span className="mono-label text-right">Expedição</span>
               </div>
               <div className="divide-y divide-line">
-                {pagPedidos.map((l) => (
+                {pagPedidos.map((l) => {
+                  const billed = l.status === "faturado" || l.status === "despachado";
+                  return (
                   <button key={l.ordem_venda} onClick={() => setClienteModal({ cliente: l.cliente_nome || "", ordem: l.ordem_venda })}
-                    className="grid w-full gap-1 px-4 py-3.5 text-left transition hover:bg-bone lg:grid-cols-[95px_1fr_130px_100px_110px_115px] lg:items-center lg:gap-3">
-                    <span className="font-display text-[13.5px] font-extrabold text-accent-deep">{l.ordem_venda}</span>
+                    className="grid w-full gap-1 px-4 py-3.5 text-left transition hover:bg-bone lg:grid-cols-[95px_1fr_130px_100px_120px_115px] lg:items-center lg:gap-3">
+                    <span className="font-display text-[13.5px] font-extrabold text-accent-deep">
+                      {l.ordem_venda}
+                      {l.reanotacao && <span className="ml-1.5 rounded bg-violet-100 px-1.5 py-0.5 align-middle text-[9px] font-bold uppercase tracking-wide text-violet-700" title={l.pedido_pai ? `Saldo do pedido ${l.pedido_pai}` : "Saldo re-notado"}>saldo</span>}
+                    </span>
                     <span className="text-[13.5px] font-medium text-ink">{l.cliente_nome || "—"}<span className="ml-1.5 text-[11.5px] text-mute">{l.uf}</span></span>
                     <span><span className={`inline-block rounded-full px-2.5 py-1 text-[10.5px] font-bold uppercase tracking-wide ${STATUS_COR[l.status] || "bg-slate-100 text-slate-700"}`}>{STATUS_LABEL[l.status] || l.status}</span></span>
                     <span className="text-[12.5px] text-mute">{l.nota_fiscal || "—"}</span>
-                    <span className="text-[13px] font-semibold text-ink lg:text-right">{brl(l.valor_fatura || l.valor_ov)}</span>
+                    <span className="lg:text-right">
+                      <span className="block text-[13px] font-semibold text-ink">{brl(l.valor_ov)}</span>
+                      {billed && <span className="block text-[11.5px] font-semibold text-emerald-700">fat {brl(l.valor_fatura)}</span>}
+                    </span>
                     <span className="text-[12.5px] text-mute lg:text-right">{dataBR(l.data_expedicao)}</span>
                   </button>
-                ))}
+                  );
+                })}
               </div>
               <Paginacao pagina={pagina} total={filtradas.length} porPagina={POR_PAGINA} onChange={setPagina} />
             </div>
