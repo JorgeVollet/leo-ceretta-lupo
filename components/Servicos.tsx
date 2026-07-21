@@ -71,33 +71,41 @@ export default function Servicos() {
           <PoliticaComercial variant="card" />
         </div>
 
-        {/* ÁREA DO CLIENTE — EM BREVE (inclui devoluções) */}
+        {/* ÁREA DO CLIENTE — Pedidos e entregas já no ar */}
         <div id="area-cliente" className="mt-4 overflow-hidden rounded-lg border border-line bg-white shadow-card">
           <div className="border-b border-line bg-bone px-7 py-6 md:px-10">
-            <span className="mono-label inline-flex items-center gap-2 rounded-full border border-accent/30 bg-accent/8 px-3 py-1 text-accent">
-              ● Em breve
+            <span className="mono-label inline-flex items-center gap-2 rounded-full border border-emerald-300 bg-emerald-50 px-3 py-1 text-emerald-700">
+              ● No ar
             </span>
             <h3 className="headline mt-4 text-ink" style={{ fontSize: "clamp(1.8rem,4.5vw,3.2rem)" }}>
-              SUA ÁREA DO CLIENTE ESTÁ CHEGANDO
+              SUA ÁREA DO CLIENTE
             </h3>
             <p className="mt-3 max-w-[60ch] text-[14.5px] leading-relaxed text-ink/65">
-              Uma conta só pra facilitar o seu dia a dia: acompanhar pedidos, ver o status
-              de cada entrega, acessar boletos, receber sugestões de reposição — e resolver
-              devoluções sem complicação.
+              Uma conta só pra facilitar o seu dia a dia: acompanhe seus pedidos e o status
+              de cada entrega em tempo real. Em breve, também boletos, sugestões de reposição
+              e devoluções sem complicação.
             </p>
           </div>
 
           <div className="grid gap-px bg-line md:grid-cols-2">
-            <div className="bg-white p-7">
+            {/* Pedidos e entregas — leva pro painel do cliente */}
+            <a href="/meus-pedidos" className="group flex flex-col bg-white p-7 transition hover:bg-bone">
               <div className="mb-3 flex h-10 w-10 items-center justify-center rounded bg-accent/10 text-accent"><Ic d="M3 7h11v8H3zM14 10h4l3 3v2h-7zM7 18a2 2 0 1 0 0-4 2 2 0 0 0 0 4zM18 18a2 2 0 1 0 0-4 2 2 0 0 0 0 4z" /></div>
               <h4 className="font-display text-[17px] font-extrabold tracking-tight text-ink">Pedidos e entregas</h4>
               <p className="mt-1.5 text-[13px] leading-relaxed text-mute">
-                Acompanhe cada pedido — feito, faturado, despachado, a caminho e entregue —
-                além de boletos e histórico de compras.
+                Acompanhe cada pedido — recebido, faturado, despachado — e o status da
+                entrega, em tempo real. Entre com seu CNPJ ou razão social.
               </p>
-            </div>
+              <span className="mono-label mt-4 inline-flex w-fit items-center gap-2 rounded bg-ink px-5 py-3 text-paper transition group-hover:bg-accent">
+                Acessar meus pedidos <span className="transition group-hover:translate-x-1">→</span>
+              </span>
+            </a>
+            {/* Devoluções — em breve */}
             <div className="bg-white p-7">
-              <div className="mb-3 flex h-10 w-10 items-center justify-center rounded bg-accent/10 text-accent"><Ic d="M3 7v6h6M3 13a9 9 0 1 0 3-7" /></div>
+              <div className="mb-3 flex items-center justify-between">
+                <div className="flex h-10 w-10 items-center justify-center rounded bg-accent/10 text-accent"><Ic d="M3 7v6h6M3 13a9 9 0 1 0 3-7" /></div>
+                <span className="mono-label rounded-full border border-line px-2.5 py-0.5 text-ink/40">Em breve</span>
+              </div>
               <h4 className="font-display text-[17px] font-extrabold tracking-tight text-ink">Devoluções e trocas</h4>
               <p className="mt-1.5 text-[13px] leading-relaxed text-mute">
                 Defeito, falta ou sobra na nota? Você seleciona os itens, informa a
@@ -107,8 +115,7 @@ export default function Servicos() {
             </div>
           </div>
           <p className="border-t border-line px-7 py-4 text-[12.5px] text-mute md:px-10">
-            Enquanto a área não chega, é só me chamar no WhatsApp que eu cuido das suas
-            devoluções e pedidos.
+            Precisa de ajuda com devoluções? É só me chamar no WhatsApp que eu resolvo com a Lupo.
           </p>
         </div>
       </div>
