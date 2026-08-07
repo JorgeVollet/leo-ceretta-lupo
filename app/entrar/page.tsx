@@ -7,6 +7,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { supabaseBrowser } from "@/lib/supabase";
 import { useCliente } from "@/lib/cliente-auth";
+import { CONTATO } from "@/lib/data";
 
 type Aba = "entrar" | "criar";
 const inputCls =
@@ -34,6 +35,16 @@ function EntrarInner() {
   const [novoEmail, setNovoEmail] = useState("");
   const [novaSenha, setNovaSenha] = useState("");
   const [criando, setCriando] = useState(false);
+  // cadastro de cliente novo (não está na base) via código de liberação
+  const [falhou, setFalhou] = useState(false);
+  const [modoSerial, setModoSerial] = useState(false);
+  const [serial, setSerial] = useState("");
+  const [razaoManual, setRazaoManual] = useState("");
+  const [cnpjManual, setCnpjManual] = useState("");
+
+  const waCodigo = `https://wa.me/${CONTATO.whatsapp}?text=${encodeURIComponent(
+    "Olá Leonardo! Quero criar meu acesso ao catálogo, mas meu cadastro não apareceu no site. Pode me passar o código de liberação de novo cliente?"
+  )}`;
 
   async function fazerLogin(e: React.FormEvent) {
     e.preventDefault();
@@ -47,13 +58,18 @@ function EntrarInner() {
   async function verificar(e: React.FormEvent) {
     e.preventDefault();
     if (!supabaseBrowser) return;
-    setPassoErro(""); setAchado(null); setVerificando(true);
+    setPassoErro(""); setAchado(null); setFalhou(false); setModoSerial(false); setVerificando(true);
     const { data, error } = await supabaseBrowser.rpc("buscar_cliente_autorizado", { termo });
     setVerificando(false);
     if (error) { setPassoErro("Não consegui verificar agora. Tente de novo."); return; }
     const linha = Array.isArray(data) ? data[0] : data;
     if (!linha) {
-      setPassoErro("Não encontramos esse CNPJ ou razão social na base do Leonardo. Fale com ele pra liberar seu acesso.");
+      const ehCnpj = termo.replace(/\D/g, "").length >= 8;
+      setPassoErro(ehCnpj
+        ? "Não achamos pelo CNPJ. Tente digitar o NOME da empresa (razão social) — nem todo cadastro tem o CNPJ na nossa base."
+        : "Não encontramos esse cadastro na base do Leonardo.");
+      if (!ehCnpj) setRazaoManual(termo);   // pré-preenche pro cadastro com código
+      setFalhou(true);
       return;
     }
     if (linha.ja_cadastrado) {
@@ -62,6 +78,34 @@ function EntrarInner() {
       return;
     }
     setAchado({ razao_social: linha.razao_social, doc: linha.doc ?? null });
+  }
+
+  async function criarComSerial(e: React.FormEvent) {
+    e.preventDefault();
+    if (!supabaseBrowser) return;
+    if (!razaoManual.trim()) { setPassoErro("Informe a razão social (nome da empresa)."); return; }
+    if (!serial.trim()) { setPassoErro("Informe o código de liberação que o Leonardo te passou."); return; }
+    if (novaSenha.length < 6) { setPassoErro("A senha precisa ter pelo menos 6 caracteres."); return; }
+    setPassoErro(""); setCriando(true);
+    const { data: signData, error: e1 } = await supabaseBrowser.auth.signUp({ email: novoEmail.trim(), password: novaSenha });
+    if (e1) { setCriando(false); setPassoErro(traduz(e1.message)); return; }
+    if (!signData.session) {
+      setCriando(false);
+      setPassoErro("Conta criada, mas o e-mail precisa ser confirmado. Peça pro Leonardo desativar a confirmação de e-mail, ou confirme pelo link enviado.");
+      return;
+    }
+    const { data: r, error: e2 } = await supabaseBrowser.rpc("criar_cliente_com_serial", {
+      p_razao: razaoManual.trim(), p_cnpj: cnpjManual.trim(), p_serial: serial, p_email: novoEmail.trim(),
+    });
+    setCriando(false);
+    if (e2 || (r && r.ok === false)) {
+      const m = (e2?.message || "").toLowerCase();
+      if (m.includes("codigo") || m.includes("código")) setPassoErro("Código de liberação inválido. Confira as maiúsculas e minúsculas, ou peça um novo ao Leonardo.");
+      else setPassoErro(traduz(e2?.message) || "Não consegui criar seu acesso.");
+      return;
+    }
+    await recarregar();
+    router.push(destino);
   }
 
   async function criarConta(e: React.FormEvent) {
@@ -140,29 +184,8 @@ function EntrarInner() {
           {/* PRIMEIRO ACESSO */}
           {aba === "criar" && (
             <div className="mt-6 space-y-4">
-              {!achado ? (
-                <form onSubmit={verificar} className="space-y-4">
-                  <div>
-                    <label className="mono-label mb-1 block text-[11px] text-mute">CNPJ ou Razão Social</label>
-                    <input
-                      type="text"
-                      required
-                      value={termo}
-                      onChange={(e) => setTermo(e.target.value)}
-                      placeholder="Ex.: 12.345.678/0001-90  ou  Loja da Ana Ltda"
-                      className={inputCls}
-                    />
-                    <p className="mt-1.5 text-[12px] text-mute">
-                      Usamos isso só pra confirmar que você já é cliente do Leonardo. Pode digitar o CNPJ
-                      ou o nome da empresa.
-                    </p>
-                  </div>
-                  {passoErro && <p className="text-[12.5px] text-red-600">{passoErro}</p>}
-                  <button type="submit" disabled={verificando} className="mono-label w-full rounded bg-ink px-4 py-3.5 text-paper transition hover:bg-accent disabled:opacity-60">
-                    {verificando ? "Verificando..." : "Verificar meu cadastro"}
-                  </button>
-                </form>
-              ) : (
+              {achado ? (
+                /* achou na base → cria direto */
                 <form onSubmit={criarConta} className="space-y-4">
                   <div className="rounded-lg border border-emerald-200 bg-emerald-50 p-4">
                     <p className="mono-label text-emerald-700">Cadastro encontrado</p>
@@ -185,6 +208,85 @@ function EntrarInner() {
                     Não é essa empresa? Buscar de novo
                   </button>
                 </form>
+              ) : modoSerial ? (
+                /* cliente novo (fora da base) → cadastro com código de liberação */
+                <form onSubmit={criarComSerial} className="space-y-4">
+                  <div className="rounded-lg border border-accent/30 bg-accent/5 p-4">
+                    <p className="mono-label text-accent-deep">Cadastro com código de liberação</p>
+                    <p className="mt-1 text-[12.5px] leading-relaxed text-mute">Use o código que o Leonardo te passou pelo WhatsApp.</p>
+                  </div>
+                  <div>
+                    <label className="mono-label mb-1 block text-[11px] text-mute">Razão social (nome da empresa)</label>
+                    <input type="text" required value={razaoManual} onChange={(e) => setRazaoManual(e.target.value)} className={inputCls} />
+                  </div>
+                  <div>
+                    <label className="mono-label mb-1 block text-[11px] text-mute">CNPJ (opcional)</label>
+                    <input type="text" value={cnpjManual} onChange={(e) => setCnpjManual(e.target.value)} className={inputCls} />
+                  </div>
+                  <div>
+                    <label className="mono-label mb-1 block text-[11px] text-mute">Código de liberação</label>
+                    <input type="text" required value={serial} onChange={(e) => setSerial(e.target.value)} placeholder="o código que o Leonardo te passou" autoCapitalize="none" autoCorrect="off" spellCheck={false} className={inputCls} />
+                    <p className="mt-1.5 text-[12px] text-mute">Atenção às maiúsculas e minúsculas — o código diferencia.</p>
+                  </div>
+                  <div>
+                    <label className="mono-label mb-1 block text-[11px] text-mute">Seu e-mail</label>
+                    <input type="email" required value={novoEmail} onChange={(e) => setNovoEmail(e.target.value)} className={inputCls} />
+                  </div>
+                  <div>
+                    <label className="mono-label mb-1 block text-[11px] text-mute">Crie uma senha (mín. 6)</label>
+                    <input type="password" required value={novaSenha} onChange={(e) => setNovaSenha(e.target.value)} className={inputCls} />
+                  </div>
+                  {passoErro && <p className="text-[12.5px] text-red-600">{passoErro}</p>}
+                  <button type="submit" disabled={criando} className="mono-label w-full rounded bg-accent px-4 py-3.5 text-paper transition hover:bg-accent-bright disabled:opacity-60">
+                    {criando ? "Criando..." : "Criar acesso"}
+                  </button>
+                  <button type="button" onClick={() => { setModoSerial(false); setPassoErro(""); }} className="mono-label w-full text-center text-[12px] text-mute underline underline-offset-2 hover:text-ink">
+                    ← Voltar
+                  </button>
+                </form>
+              ) : (
+                /* busca inicial (+ aviso de código se não achar) */
+                <>
+                  <form onSubmit={verificar} className="space-y-4">
+                    <div>
+                      <label className="mono-label mb-1 block text-[11px] text-mute">CNPJ ou Razão Social</label>
+                      <input
+                        type="text"
+                        required
+                        value={termo}
+                        onChange={(e) => setTermo(e.target.value)}
+                        placeholder="Ex.: 12.345.678/0001-90  ou  Loja da Ana Ltda"
+                        className={inputCls}
+                      />
+                      <p className="mt-1.5 text-[12px] text-mute">
+                        Usamos isso só pra confirmar que você já é cliente do Leonardo. Pode digitar o CNPJ
+                        ou o nome da empresa.
+                      </p>
+                    </div>
+                    {passoErro && <p className="text-[12.5px] text-red-600">{passoErro}</p>}
+                    <button type="submit" disabled={verificando} className="mono-label w-full rounded bg-ink px-4 py-3.5 text-paper transition hover:bg-accent disabled:opacity-60">
+                      {verificando ? "Verificando..." : "Verificar meu cadastro"}
+                    </button>
+                  </form>
+
+                  {falhou && (
+                    <div className="rounded-lg border border-line bg-bone p-4">
+                      <p className="text-[13px] font-semibold text-ink">Não achou seu cadastro?</p>
+                      <p className="mt-1 text-[12.5px] leading-relaxed text-mute">
+                        Se você é cliente do Leonardo mas não apareceu, peça a ele o <b>código de liberação</b> pelo
+                        WhatsApp — com esse código você cria seu acesso na hora.
+                      </p>
+                      <div className="mt-3 flex flex-col gap-2">
+                        <a href={waCodigo} target="_blank" rel="noopener" className="mono-label rounded bg-[#25D366] px-4 py-2.5 text-center text-white transition hover:brightness-95">
+                          Pedir código no WhatsApp
+                        </a>
+                        <button type="button" onClick={() => { setModoSerial(true); setPassoErro(""); }} className="mono-label rounded border border-line bg-white px-4 py-2.5 text-ink/70 transition hover:text-ink">
+                          Já tenho o código →
+                        </button>
+                      </div>
+                    </div>
+                  )}
+                </>
               )}
             </div>
           )}
