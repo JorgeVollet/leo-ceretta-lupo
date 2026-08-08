@@ -5,6 +5,7 @@ import WhatsappFloat from "@/components/WhatsappFloat";
 import CarrinhoFlutuante from "@/components/CarrinhoFlutuante";
 import { CartProvider } from "@/lib/cart-context";
 import { ClienteProvider } from "@/lib/cliente-auth";
+import { Analytics } from "@vercel/analytics/next";
 
 const display = Archivo({
   subsets: ["latin"],
@@ -39,6 +40,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <CarrinhoFlutuante />
           </CartProvider>
         </ClienteProvider>
+        <Analytics />
       </body>
     </html>
   );
