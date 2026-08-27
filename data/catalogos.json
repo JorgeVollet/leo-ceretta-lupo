@@ -1,122 +1,152 @@
 [
-    {
-        "slug": "cuecas",
-        "titulo": "Cuecas",
-        "segmento": "Íntimo Masculino",
-        "descricao": "Boxer, seamless e algodão. Primavera/Verão 27.",
-        "drive": "https://wxcggdfcmcqhegpgnizz.supabase.co/storage/v1/object/public/catalogos/cuecas.pdf",
-        "capa": "/capas/cuecas.jpg",
-        "navegavel": true,
-        "total_produtos": null
-    },
-    {
-        "slug": "lingerie",
-        "titulo": "Lingerie",
-        "segmento": "Íntimo Feminino",
-        "descricao": "Coleção Lingerie. Primavera/Verão 27.",
-        "drive": "https://wxcggdfcmcqhegpgnizz.supabase.co/storage/v1/object/public/catalogos/lingerie.pdf",
-        "capa": "/capas/lingerie.jpg",
-        "navegavel": true,
-        "total_produtos": null
-    },
-    {
-        "slug": "loba",
-        "titulo": "Loba",
-        "segmento": "Íntimo Feminino",
-        "descricao": "Coleção Loba. Primavera/Verão 27.",
-        "drive": "https://wxcggdfcmcqhegpgnizz.supabase.co/storage/v1/object/public/catalogos/loba.pdf",
-        "capa": "/capas/loba.jpg",
-        "navegavel": true,
-        "total_produtos": null
-    },
-    {
-        "slug": "beachwear",
-        "titulo": "Beachwear",
-        "segmento": "Praia",
-        "descricao": "Moda praia. Primavera/Verão 27.",
-        "drive": "https://wxcggdfcmcqhegpgnizz.supabase.co/storage/v1/object/public/catalogos/beachwear.pdf",
-        "capa": "/capas/beachwear.jpg",
-        "navegavel": true,
-        "total_produtos": null
-    },
-    {
-        "slug": "meias-sport",
-        "titulo": "Meias Sport",
-        "segmento": "Meias",
-        "descricao": "Meias esportivas. Jul a Dez 26.",
-        "drive": "https://wxcggdfcmcqhegpgnizz.supabase.co/storage/v1/object/public/catalogos/meias-sport.pdf",
-        "capa": "/capas/meias-sport.jpg",
-        "navegavel": true,
-        "total_produtos": null
-    },
-    {
-        "slug": "meias-femininas",
-        "titulo": "Meias Femininas",
-        "segmento": "Meias",
-        "descricao": "Meias femininas. Jul a Dez 26.",
-        "drive": "https://wxcggdfcmcqhegpgnizz.supabase.co/storage/v1/object/public/catalogos/meias-femininas.pdf",
-        "capa": "/capas/meias-femininas.jpg",
-        "navegavel": true,
-        "total_produtos": null
-    },
-    {
-        "slug": "meias-masculinas",
-        "titulo": "Meias Masculinas",
-        "segmento": "Meias",
-        "descricao": "Meias masculinas. Jul a Dez 26.",
-        "drive": "https://wxcggdfcmcqhegpgnizz.supabase.co/storage/v1/object/public/catalogos/meias-masculinas.pdf",
-        "capa": "/capas/meias-masculinas.jpg",
-        "navegavel": true,
-        "total_produtos": null
-    },
-    {
-        "slug": "meias-licenciadas",
-        "titulo": "Meias Licenciadas",
-        "segmento": "Meias",
-        "descricao": "Meias licenciadas (personagens). Jul a Dez 26.",
-        "drive": "https://wxcggdfcmcqhegpgnizz.supabase.co/storage/v1/object/public/catalogos/meias-licenciadas.pdf",
-        "capa": "/capas/meias-licenciadas.jpg",
-        "navegavel": true,
-        "total_produtos": null
-    },
-    {
-        "slug": "meias-kids",
-        "titulo": "Meias Kids",
-        "segmento": "Infantil",
-        "descricao": "Meias infantis. Jul a Dez 26.",
-        "drive": "https://wxcggdfcmcqhegpgnizz.supabase.co/storage/v1/object/public/catalogos/meias-kids.pdf",
-        "capa": "/capas/meias-kids.jpg",
-        "navegavel": true,
-        "total_produtos": null
-    },
-    {
-        "slug": "meias-baby",
-        "titulo": "Meias Baby",
-        "segmento": "Infantil",
-        "descricao": "Meias para bebês. Primavera/Verão 26.",
-        "drive": "https://wxcggdfcmcqhegpgnizz.supabase.co/storage/v1/object/public/catalogos/meias-baby.pdf",
-        "capa": "/capas/meias-baby.jpg",
-        "navegavel": true,
-        "total_produtos": null
-    },
-    {
-        "slug": "uk",
-        "titulo": "Underwear Kids",
-        "segmento": "Internacional",
-        "descricao": "Coleção UK. Primavera/Verão 27.",
-        "drive": "https://wxcggdfcmcqhegpgnizz.supabase.co/storage/v1/object/public/catalogos/uk.pdf",
-        "capa": "/capas/uk.jpg",
-        "navegavel": true,
-        "total_produtos": null
-    },
-    {
-        "slug": "lsport",
-        "titulo": "Lupo Sport",
-        "segmento": "Lupo Sport",
-        "descricao": "Linha esportiva, varejo. Verão 27.",
-        "drive": "https://wxcggdfcmcqhegpgnizz.supabase.co/storage/v1/object/public/catalogos/lsport.pdf",
-        "capa": "/capas/lsport.jpg",
-        "navegavel": true,
-        "total_produtos": null
-    }
+ {
+  "slug": "cuecas",
+  "titulo": "Cuecas",
+  "segmento": "Íntimo Masculino",
+  "descricao": "Boxer, seamless e algodão. Primavera/Verão 27.",
+  "drive": "https://wxcggdfcmcqhegpgnizz.supabase.co/storage/v1/object/public/catalogos/cuecas.pdf",
+  "capa": "/capas/cuecas.jpg",
+  "navegavel": true,
+  "total_produtos": null
+ },
+ {
+  "slug": "lingerie",
+  "titulo": "Lingerie",
+  "segmento": "Íntimo Feminino",
+  "descricao": "Coleção Lingerie. Primavera/Verão 27.",
+  "drive": "https://wxcggdfcmcqhegpgnizz.supabase.co/storage/v1/object/public/catalogos/lingerie.pdf",
+  "capa": "/capas/lingerie.jpg",
+  "navegavel": true,
+  "total_produtos": null
+ },
+ {
+  "slug": "loba",
+  "titulo": "Loba",
+  "segmento": "Íntimo Feminino",
+  "descricao": "Coleção Loba. Primavera/Verão 27.",
+  "drive": "https://wxcggdfcmcqhegpgnizz.supabase.co/storage/v1/object/public/catalogos/loba.pdf",
+  "capa": "/capas/loba.jpg",
+  "navegavel": true,
+  "total_produtos": null
+ },
+ {
+  "slug": "beachwear",
+  "titulo": "Beachwear",
+  "segmento": "Praia",
+  "descricao": "Moda praia. Primavera/Verão 27.",
+  "drive": "https://wxcggdfcmcqhegpgnizz.supabase.co/storage/v1/object/public/catalogos/beachwear.pdf",
+  "capa": "/capas/beachwear.jpg",
+  "navegavel": true,
+  "total_produtos": null
+ },
+ {
+  "slug": "meias-sport",
+  "titulo": "Meias Sport",
+  "segmento": "Meias",
+  "descricao": "Meias esportivas. Jul a Dez 26.",
+  "drive": "https://wxcggdfcmcqhegpgnizz.supabase.co/storage/v1/object/public/catalogos/meias-sport.pdf",
+  "capa": "/capas/meias-sport.jpg",
+  "navegavel": true,
+  "total_produtos": null
+ },
+ {
+  "slug": "meias-femininas",
+  "titulo": "Meias Femininas",
+  "segmento": "Meias",
+  "descricao": "Meias femininas. Jul a Dez 26.",
+  "drive": "https://wxcggdfcmcqhegpgnizz.supabase.co/storage/v1/object/public/catalogos/meias-femininas.pdf",
+  "capa": "/capas/meias-femininas.jpg",
+  "navegavel": true,
+  "total_produtos": null
+ },
+ {
+  "slug": "meias-masculinas",
+  "titulo": "Meias Masculinas",
+  "segmento": "Meias",
+  "descricao": "Meias masculinas. Jul a Dez 26.",
+  "drive": "https://wxcggdfcmcqhegpgnizz.supabase.co/storage/v1/object/public/catalogos/meias-masculinas.pdf",
+  "capa": "/capas/meias-masculinas.jpg",
+  "navegavel": true,
+  "total_produtos": null
+ },
+ {
+  "slug": "meias-licenciadas",
+  "titulo": "Meias Licenciadas",
+  "segmento": "Meias",
+  "descricao": "Meias licenciadas (personagens). Jul a Dez 26.",
+  "drive": "https://wxcggdfcmcqhegpgnizz.supabase.co/storage/v1/object/public/catalogos/meias-licenciadas.pdf",
+  "capa": "/capas/meias-licenciadas.jpg",
+  "navegavel": true,
+  "total_produtos": null
+ },
+ {
+  "slug": "meias-kids",
+  "titulo": "Meias Kids",
+  "segmento": "Infantil",
+  "descricao": "Meias infantis. Jul a Dez 26.",
+  "drive": "https://wxcggdfcmcqhegpgnizz.supabase.co/storage/v1/object/public/catalogos/meias-kids.pdf",
+  "capa": "/capas/meias-kids.jpg",
+  "navegavel": true,
+  "total_produtos": null
+ },
+ {
+  "slug": "meias-baby",
+  "titulo": "Meias Baby",
+  "segmento": "Infantil",
+  "descricao": "Meias para bebês. Primavera/Verão 26.",
+  "drive": "https://wxcggdfcmcqhegpgnizz.supabase.co/storage/v1/object/public/catalogos/meias-baby.pdf",
+  "capa": "/capas/meias-baby.jpg",
+  "navegavel": true,
+  "total_produtos": null
+ },
+ {
+  "slug": "uk",
+  "titulo": "Underwear Kids",
+  "segmento": "Internacional",
+  "descricao": "Coleção UK. Primavera/Verão 27.",
+  "drive": "https://wxcggdfcmcqhegpgnizz.supabase.co/storage/v1/object/public/catalogos/uk.pdf",
+  "capa": "/capas/uk.jpg",
+  "navegavel": true,
+  "total_produtos": null
+ },
+ {
+  "slug": "lsport",
+  "titulo": "Lupo Sport",
+  "segmento": "Lupo Sport",
+  "descricao": "Linha esportiva, varejo. Verão 27.",
+  "drive": "https://wxcggdfcmcqhegpgnizz.supabase.co/storage/v1/object/public/catalogos/lsport.pdf",
+  "capa": "/capas/lsport.jpg",
+  "navegavel": true,
+  "total_produtos": null
+ },
+ {
+  "slug": "pijamas",
+  "titulo": "Pijamas",
+  "segmento": "Pijamas",
+  "descricao": "Coleção Pijamas. Primavera/Verão 27.",
+  "drive": "https://wxcggdfcmcqhegpgnizz.supabase.co/storage/v1/object/public/catalogos/pijamas.pdf",
+  "capa": "/capas/pijamas.jpg",
+  "navegavel": true,
+  "total_produtos": null
+ },
+ {
+  "slug": "lobinha-baby",
+  "titulo": "Lobinha Baby",
+  "segmento": "Baby",
+  "descricao": "Meia-calça e meias para bebê. Inverno 26.",
+  "drive": "https://wxcggdfcmcqhegpgnizz.supabase.co/storage/v1/object/public/catalogos/lobinha-baby.pdf",
+  "capa": "/capas/lobinha-baby.jpg",
+  "navegavel": true,
+  "total_produtos": null
+ },
+ {
+  "slug": "lobinha-kids",
+  "titulo": "Lobinha Kids",
+  "segmento": "Kids",
+  "descricao": "Meia-calça e meias infantil. Inverno 26.",
+  "drive": "https://wxcggdfcmcqhegpgnizz.supabase.co/storage/v1/object/public/catalogos/lobinha-kids.pdf",
+  "capa": "/capas/lobinha-kids.jpg",
+  "navegavel": true,
+  "total_produtos": null
+ }
 ]

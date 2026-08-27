@@ -1,0 +1,596 @@
+{
+ "produtos": [
+  {
+   "codigo": "24703-001",
+   "nome": "Pijama Lupo AF Curto Abotoado Estampado",
+   "descricao": "Blusa Viscose 96% Elastano 4% Short Viscose 96% Elastano 4%",
+   "tamanho": "P 36 a 38 • M 40 a 42 • G 44 a 46 • GG 48 a 50",
+   "linha": "Lançamento",
+   "segmento": "ADULTO FEMININO",
+   "cores": [
+    {
+     "cod": "5140",
+     "nome": "Rosa Suave",
+     "img": "/produtos/pijamas/24703-001/5140.jpg"
+    }
+   ],
+   "img": "/produtos/pijamas/24703-001/5140.jpg"
+  },
+  {
+   "codigo": "24707-001",
+   "nome": "Pijama Longo AF Flamê",
+   "descricao": "Blusa Algodão 100% Calça Algodão 100%",
+   "tamanho": "P 36 a 38 • M 40 a 42 • G 44 a 46 • GG 48 a 50",
+   "linha": "Lançamento",
+   "segmento": "ADULTO FEMININO",
+   "cores": [
+    {
+     "cod": "5142",
+     "nome": "Coral",
+     "img": "/produtos/pijamas/24707-001/5142.jpg"
+    }
+   ],
+   "img": "/produtos/pijamas/24707-001/5142.jpg"
+  },
+  {
+   "codigo": "24706-001",
+   "nome": "Short Doll AF Listrado",
+   "descricao": "Blusa Algodão 100% Short Algodão 100%",
+   "tamanho": "P 36 a 38 • M 40 a 42 • G 44 a 46 • GG 48 a 50",
+   "linha": "Lançamento",
+   "segmento": "ADULTO FEMININO",
+   "cores": [
+    {
+     "cod": "5142",
+     "nome": "Coral",
+     "img": "/produtos/pijamas/24706-001/5142.jpg"
+    }
+   ],
+   "img": "/produtos/pijamas/24706-001/5142.jpg"
+  },
+  {
+   "codigo": "24702-001",
+   "nome": "Short Doll AF Flores",
+   "descricao": "Blusa Viscose 96% Elastano 4% Short Viscose 96% Elastano 4%",
+   "tamanho": "P 36 a 38 • M 40 a 42 • G 44 a 46 • GG 48 a 50",
+   "linha": "Lançamento",
+   "segmento": "ADULTO FEMININO",
+   "cores": [
+    {
+     "cod": "6095",
+     "nome": "Areia",
+     "img": "/produtos/pijamas/24702-001/6095.jpg"
+    }
+   ],
+   "img": "/produtos/pijamas/24702-001/6095.jpg"
+  },
+  {
+   "codigo": "24705-001",
+   "nome": "Short Doll AF Regata Nadador",
+   "descricao": "Normal Algodão 100%",
+   "tamanho": "P 36 a 38 • M 40 a 42 • G 44 a 46 • GG 48 a 50",
+   "linha": "Lançamento",
+   "segmento": "ADULTO FEMININO",
+   "cores": [
+    {
+     "cod": "2021",
+     "nome": "Azul Pastel",
+     "img": "/produtos/pijamas/24705-001/2021.jpg"
+    }
+   ],
+   "img": "/produtos/pijamas/24705-001/2021.jpg"
+  },
+  {
+   "codigo": "24704-001",
+   "nome": "Camisola AF Regata Nadador",
+   "descricao": "Normal Algodão 100%",
+   "tamanho": "P 36 a 38 • M 40 a 42 • G 44 a 46 • GG 48 a 50",
+   "linha": "Lançamento",
+   "segmento": "ADULTO FEMININO",
+   "cores": [
+    {
+     "cod": "2021",
+     "nome": "Azul Pastel",
+     "img": "/produtos/pijamas/24704-001/2021.jpg"
+    }
+   ],
+   "img": "/produtos/pijamas/24704-001/2021.jpg"
+  },
+  {
+   "codigo": "24700-001",
+   "nome": "Pijama Capri AF Coqueiros",
+   "descricao": "Blusa Viscose 96% Elastano 4% Calça Viscose 96% Poliamida 4%",
+   "tamanho": "P 36 a 38 • M 40 a 42 • G 44 a 46 • GG 48 a 50",
+   "linha": "Lançamento",
+   "segmento": "ADULTO FEMININO",
+   "cores": [
+    {
+     "cod": "6095",
+     "nome": "Areia",
+     "img": "/produtos/pijamas/24700-001/6095.jpg"
+    }
+   ],
+   "img": "/produtos/pijamas/24700-001/6095.jpg"
+  },
+  {
+   "codigo": "24710-001",
+   "nome": "Short Doll AF Regata",
+   "descricao": "Blusa Viscose 96% Elastano 4% Short Viscose 96% Elastano 4%",
+   "tamanho": "P 36 a 38 • M 40 a 42 • G 44 a 46 • GG 48 a 50",
+   "linha": "Lançamento",
+   "segmento": "ADULTO FEMININO",
+   "cores": [
+    {
+     "cod": "6095",
+     "nome": "Areia",
+     "img": "/produtos/pijamas/24710-001/6095.jpg"
+    }
+   ],
+   "img": "/produtos/pijamas/24710-001/6095.jpg"
+  },
+  {
+   "codigo": "24708-001",
+   "nome": "Pijama Lupo AF Curto Slow Mornings",
+   "descricao": "Blusa Viscose 96% Elastano 4% Short Viscose 96% Elastano 4%",
+   "tamanho": "P 36 a 38 • M 40 a 42 • G 44 a 46 • GG 48 a 50",
+   "linha": "Coleção",
+   "segmento": "ADULTO FEMININO",
+   "cores": [
+    {
+     "cod": "2005",
+     "nome": "Azul Nevoa",
+     "img": "/produtos/pijamas/24708-001/2005.jpg"
+    }
+   ],
+   "img": "/produtos/pijamas/24708-001/2005.jpg"
+  },
+  {
+   "codigo": "24701-001",
+   "nome": "Pijama Lupo AF Sh.Doll Tropical",
+   "descricao": "Blusa Viscose 96% Elastano 4% Short Viscose 96% Elastano 4%",
+   "tamanho": "P 36 a 38 • M 40 a 42 • G 44 a 46 • GG 48 a 50",
+   "linha": "Lançamento",
+   "segmento": "ADULTO FEMININO",
+   "cores": [
+    {
+     "cod": "2005",
+     "nome": "Azul Nevoa",
+     "img": "/produtos/pijamas/24701-001/2005.jpg"
+    }
+   ],
+   "img": "/produtos/pijamas/24701-001/2005.jpg"
+  },
+  {
+   "codigo": "24457-002",
+   "nome": "Pijama Curto Alcinha Feminino Lupo",
+   "descricao": "",
+   "tamanho": "P 36 a 38 • M 40 a 42 • G 44 a 46 • GG 48 a 50",
+   "linha": "Coleção",
+   "segmento": "ADULTO FEMININO",
+   "cores": [
+    {
+     "cod": "5426",
+     "nome": "5426",
+     "img": "/produtos/pijamas/24457-002/5426.jpg"
+    }
+   ],
+   "img": "/produtos/pijamas/24457-002/5426.jpg"
+  },
+  {
+   "codigo": "24243-003",
+   "nome": "Pijama Curto Linhas Feminino Lupo",
+   "descricao": "",
+   "tamanho": "P 36 a 38 • M 40 a 42 • G 44 a 46 • GG 48 a 50 • XG 52 a",
+   "linha": "Coleção",
+   "segmento": "ADULTO FEMININO",
+   "cores": [
+    {
+     "cod": "2805",
+     "nome": "2805",
+     "img": "/produtos/pijamas/24243-003/2805.jpg"
+    }
+   ],
+   "img": "/produtos/pijamas/24243-003/2805.jpg"
+  },
+  {
+   "codigo": "24646-001",
+   "nome": "Pijama Longo Leve Feminino Lupo",
+   "descricao": "Blusa Viscose 96% Elastano 4% Calça Viscose 96% Elastano 4%",
+   "tamanho": "P 36 a 38 • M 40 a 42 • G 44 a 46 • GG 48 a 50",
+   "linha": "Coleção",
+   "segmento": "ADULTO FEMININO",
+   "cores": [
+    {
+     "cod": "5426",
+     "nome": "Rose",
+     "img": "/produtos/pijamas/24646-001/5426.jpg"
+    }
+   ],
+   "img": "/produtos/pijamas/24646-001/5426.jpg"
+  },
+  {
+   "codigo": "24036-001",
+   "nome": "Pijama Curto Renda Feminino Lupo",
+   "descricao": "Blusa Poliamida 100% Renda Poliamida 90% Elastano 10% Short Poliamida 100%",
+   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
+   "linha": "Coleção",
+   "segmento": "ADULTO FEMININO",
+   "cores": [
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/pijamas/24036-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/pijamas/24036-001/9990.jpg"
+  },
+  {
+   "codigo": "24081-001",
+   "nome": "Camisola Liganete com Renda Feminino Lupo",
+   "descricao": "",
+   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48",
+   "linha": "Coleção",
+   "segmento": "ADULTO FEMININO",
+   "cores": [
+    {
+     "cod": "1110",
+     "nome": "1110",
+     "img": "/produtos/pijamas/24081-001/1110.jpg"
+    }
+   ],
+   "img": "/produtos/pijamas/24081-001/1110.jpg"
+  },
+  {
+   "codigo": "24297-001",
+   "nome": "Pijama Midi com Renda Feminino Lupo",
+   "descricao": "Blusa Poliamida 100% Calça Poliamida 100% Renda Poliamida 90% Elastano 10%",
+   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
+   "linha": "Coleção",
+   "segmento": "ADULTO FEMININO",
+   "cores": [
+    {
+     "cod": "2800",
+     "nome": "Marinho",
+     "img": "/produtos/pijamas/24297-001/2800.jpg"
+    }
+   ],
+   "img": "/produtos/pijamas/24297-001/2800.jpg"
+  },
+  {
+   "codigo": "28301-001",
+   "nome": "Pijama Curto AM Tricoline",
+   "descricao": "Blusa Algodão 100% Short Algodão 100%",
+   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
+   "linha": "Lançamento",
+   "segmento": "ADULTO MASCULINO",
+   "cores": [
+    {
+     "cod": "1110",
+     "nome": "Branca",
+     "img": "/produtos/pijamas/28301-001/1110.jpg"
+    }
+   ],
+   "img": "/produtos/pijamas/28301-001/1110.jpg"
+  },
+  {
+   "codigo": "28303-001",
+   "nome": "Pijama Curto AM Samba Canção",
+   "descricao": "Blusa Algodão 100% Short Algodão 100%",
+   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
+   "linha": "Lançamento",
+   "segmento": "ADULTO MASCULINO",
+   "cores": [
+    {
+     "cod": "6095",
+     "nome": "Areia",
+     "img": "/produtos/pijamas/28303-001/6095.jpg"
+    }
+   ],
+   "img": "/produtos/pijamas/28303-001/6095.jpg"
+  },
+  {
+   "codigo": "28302-001",
+   "nome": "Pijama Curto AM Pespontos",
+   "descricao": "",
+   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
+   "linha": "Lançamento",
+   "segmento": "ADULTO MASCULINO",
+   "cores": [
+    {
+     "cod": "2221",
+     "nome": "2221",
+     "img": "/produtos/pijamas/28302-001/2221.jpg"
+    }
+   ],
+   "img": "/produtos/pijamas/28302-001/2221.jpg"
+  },
+  {
+   "codigo": "28300-001",
+   "nome": "Pijama Curto AM Gola Henley",
+   "descricao": "",
+   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
+   "linha": "Lançamento",
+   "segmento": "ADULTO MASCULINO",
+   "cores": [
+    {
+     "cod": "2805",
+     "nome": "2805",
+     "img": "/produtos/pijamas/28300-001/2805.jpg"
+    }
+   ],
+   "img": "/produtos/pijamas/28300-001/2805.jpg"
+  },
+  {
+   "codigo": "28096-001",
+   "nome": "Pijama Curto Poliamida Masculino Lupo",
+   "descricao": "Blusa Poliamida 100% Short Poliamida 100%",
+   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
+   "linha": "Coleção",
+   "segmento": "ADULTO MASCULINO",
+   "cores": [
+    {
+     "cod": "2800",
+     "nome": "Marinho",
+     "img": "/produtos/pijamas/28096-001/2800.jpg"
+    }
+   ],
+   "img": "/produtos/pijamas/28096-001/2800.jpg"
+  },
+  {
+   "codigo": "22200-001",
+   "nome": "Pijama Curto KF Cogumelos",
+   "descricao": "Blusa Algodão 100% Short Algodão 100%",
+   "tamanho": "6 • 8 • 10 • 12 • 14",
+   "linha": "Lançamento",
+   "segmento": "KIDS FEMININO",
+   "cores": [
+    {
+     "cod": "5140",
+     "nome": "Rosa Suave",
+     "img": "/produtos/pijamas/22200-001/5140.jpg"
+    }
+   ],
+   "img": "/produtos/pijamas/22200-001/5140.jpg"
+  },
+  {
+   "codigo": "22201-001",
+   "nome": "Pijama Curto KF Listras",
+   "descricao": "Blusa Algodão 100% Short Algodão 100%",
+   "tamanho": "6 • 8 • 10 • 12 • 14",
+   "linha": "Lançamento",
+   "segmento": "KIDS FEMININO",
+   "cores": [
+    {
+     "cod": "5132",
+     "nome": "Rosa Pop",
+     "img": "/produtos/pijamas/22201-001/5132.jpg"
+    }
+   ],
+   "img": "/produtos/pijamas/22201-001/5132.jpg"
+  },
+  {
+   "codigo": "20220-001",
+   "nome": "Pijama Curto KM Dinossauro",
+   "descricao": "Blusa Algodão 100% Short Algodão 100%",
+   "tamanho": "6 • 8 • 10 • 12 • 14",
+   "linha": "Lançamento",
+   "segmento": "KIDS FEMININO",
+   "cores": [
+    {
+     "cod": "4482",
+     "nome": "Verde",
+     "img": "/produtos/pijamas/20220-001/4482.jpg"
+    }
+   ],
+   "img": "/produtos/pijamas/20220-001/4482.jpg"
+  },
+  {
+   "codigo": "20221-001",
+   "nome": "Pijama Curto KM Waves",
+   "descricao": "Blusa Algodão 100% Short Algodão 100%",
+   "tamanho": "6 • 8 • 10 • 12 • 14",
+   "linha": "Lançamento",
+   "segmento": "KIDS FEMININO",
+   "cores": [
+    {
+     "cod": "6095",
+     "nome": "Areia",
+     "img": "/produtos/pijamas/20221-001/6095.jpg"
+    }
+   ],
+   "img": "/produtos/pijamas/20221-001/6095.jpg"
+  },
+  {
+   "codigo": "24728-001",
+   "nome": "Pijama Sh.Doll AF Abotoado Cherry",
+   "descricao": "Blusa Algodão 100% Short Algodão 100%",
+   "tamanho": "P 36 a 38 • M 40 a 42 • G 44 a 46 • GG 48 a 50",
+   "linha": "Lançamento",
+   "segmento": "MÃE E FILHA",
+   "cores": [
+    {
+     "cod": "1110",
+     "nome": "Branca",
+     "img": "/produtos/pijamas/24728-001/1110.jpg"
+    }
+   ],
+   "img": "/produtos/pijamas/24728-001/1110.jpg"
+  },
+  {
+   "codigo": "22728-001",
+   "nome": "Pijama Curto KF Cherry",
+   "descricao": "Blusa Algodão 100% Short Algodão 100%",
+   "tamanho": "6 • 8 • 10 • 12 • 14",
+   "linha": "Lançamento",
+   "segmento": "MÃE E FILHA",
+   "cores": [
+    {
+     "cod": "1830",
+     "nome": "O White",
+     "img": "/produtos/pijamas/22728-001/1830.jpg"
+    }
+   ],
+   "img": "/produtos/pijamas/22728-001/1830.jpg"
+  },
+  {
+   "codigo": "28235-001",
+   "nome": "Pijama Curto AM Recorte",
+   "descricao": "Blusa Algodão 100% Short Algodão 100%",
+   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
+   "linha": "Lançamento",
+   "segmento": "PAI E FILHO",
+   "cores": [
+    {
+     "cod": "2560",
+     "nome": "Azul",
+     "img": "/produtos/pijamas/28235-001/2560.jpg"
+    }
+   ],
+   "img": "/produtos/pijamas/28235-001/2560.jpg"
+  },
+  {
+   "codigo": "20235-001",
+   "nome": "Pijama Curto KM Recorte",
+   "descricao": "Blusa Algodão 100% Short Algodão 100%",
+   "tamanho": "6 • 8 • 10 • 12 • 14",
+   "linha": "Lançamento",
+   "segmento": "PAI E FILHO",
+   "cores": [
+    {
+     "cod": "2560",
+     "nome": "Azul",
+     "img": "/produtos/pijamas/20235-001/2560.jpg"
+    }
+   ],
+   "img": "/produtos/pijamas/20235-001/2560.jpg"
+  },
+  {
+   "codigo": "28000-001",
+   "nome": "Pijama Curto Masculino Lupo",
+   "descricao": "Blusa Algodão 100% Short Algodão 88% Poliéster 12%",
+   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52 • XG 54 a",
+   "linha": "Coleção",
+   "segmento": "PAI E FILHO",
+   "cores": [
+    {
+     "cod": "0771",
+     "nome": "Azul",
+     "img": "/produtos/pijamas/28000-001/0771.jpg"
+    }
+   ],
+   "img": "/produtos/pijamas/28000-001/0771.jpg"
+  },
+  {
+   "codigo": "20000-002",
+   "nome": "Pijama Curto Infantil Masculino Lupo",
+   "descricao": "",
+   "tamanho": "02 anos • 04 anos • 06 anos • 08 anos • 10 anos • 12 anos • 14",
+   "linha": "Coleção",
+   "segmento": "PAI E FILHO",
+   "cores": [
+    {
+     "cod": "0771",
+     "nome": "0771",
+     "img": "/produtos/pijamas/20000-002/0771.jpg"
+    }
+   ],
+   "img": "/produtos/pijamas/20000-002/0771.jpg"
+  },
+  {
+   "codigo": "28021-001",
+   "nome": "Pijama Curto Algodão Listrado Masculino",
+   "descricao": "",
+   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52 • XG 54 a",
+   "linha": "Coleção",
+   "segmento": "PAI E FILHO",
+   "cores": [
+    {
+     "cod": "8235",
+     "nome": "8235",
+     "img": "/produtos/pijamas/28021-001/8235.jpg"
+    }
+   ],
+   "img": "/produtos/pijamas/28021-001/8235.jpg"
+  },
+  {
+   "codigo": "20021-001",
+   "nome": "Pijama Curto Algodão Listrado Infantil",
+   "descricao": "",
+   "tamanho": "02 anos • 04 anos • 06 anos • 08 anos • 10 anos • 12 anos • 14",
+   "linha": "Coleção",
+   "segmento": "PAI E FILHO",
+   "cores": [
+    {
+     "cod": "8235",
+     "nome": "8235",
+     "img": "/produtos/pijamas/20021-001/8235.jpg"
+    }
+   ],
+   "img": "/produtos/pijamas/20021-001/8235.jpg"
+  },
+  {
+   "codigo": "24727-001",
+   "nome": "Pijama Curto AF Amazing Family",
+   "descricao": "Blusa Algodão 100% Short Algodão 100%",
+   "tamanho": "P 36 a 38 • M 40 a 42 • G 44 a 46 • GG 48 a 50",
+   "linha": "Lançamento",
+   "segmento": "FAMÍLIA",
+   "cores": [
+    {
+     "cod": "6095",
+     "nome": "Areia",
+     "img": "/produtos/pijamas/24727-001/6095.jpg"
+    }
+   ],
+   "img": "/produtos/pijamas/24727-001/6095.jpg"
+  },
+  {
+   "codigo": "22757-001",
+   "nome": "Pijama Curto KF Amazing Family",
+   "descricao": "Blusa Algodão 100% Short Algodão 100%",
+   "tamanho": "6 • 8 • 10 • 12 • 14",
+   "linha": "Lançamento",
+   "segmento": "FAMÍLIA",
+   "cores": [
+    {
+     "cod": "6095",
+     "nome": "Areia",
+     "img": "/produtos/pijamas/22757-001/6095.jpg"
+    }
+   ],
+   "img": "/produtos/pijamas/22757-001/6095.jpg"
+  },
+  {
+   "codigo": "20727-001",
+   "nome": "Pijama Curto KM Amazing Family",
+   "descricao": "Blusa Algodão 100% Short Algodão 100%",
+   "tamanho": "6 • 8 • 10 • 12 • 14",
+   "linha": "Lançamento",
+   "segmento": "FAMÍLIA",
+   "cores": [
+    {
+     "cod": "6095",
+     "nome": "Areia",
+     "img": "/produtos/pijamas/20727-001/6095.jpg"
+    }
+   ],
+   "img": "/produtos/pijamas/20727-001/6095.jpg"
+  },
+  {
+   "codigo": "28727-001",
+   "nome": "Pijama Curto AM Amazing Family",
+   "descricao": "Blusa Algodão 100% Short Algodão 100%",
+   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
+   "linha": "Lançamento",
+   "segmento": "FAMÍLIA",
+   "cores": [
+    {
+     "cod": "6095",
+     "nome": "Areia",
+     "img": "/produtos/pijamas/28727-001/6095.jpg"
+    }
+   ],
+   "img": "/produtos/pijamas/28727-001/6095.jpg"
+  }
+ ]
+}

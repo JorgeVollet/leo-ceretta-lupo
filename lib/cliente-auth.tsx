@@ -5,11 +5,12 @@ import type { ReactNode } from "react";
 import { supabaseBrowser } from "@/lib/supabase";
 import { ehAdmin } from "@/lib/admin-emails";
 
-export type PerfilCliente = { razao_social: string | null; doc: string | null; email: string | null };
+export type PerfilCliente = { razao_social: string | null; doc: string | null; email: string | null; status?: string | null };
 
 type Ctx = {
   cliente: PerfilCliente | null;   // perfil do cliente logado (null = não é cliente)
   temSessao: boolean;              // existe algum login ativo (pode ser admin)
+  bloqueado: boolean;              // conta existe mas foi bloqueada pelo Leonardo
   carregando: boolean;
   entrar: (email: string, senha: string) => Promise<{ ok: boolean; erro?: string }>;
   sair: () => Promise<void>;
@@ -21,19 +22,25 @@ const ClienteContext = createContext<Ctx | null>(null);
 export function ClienteProvider({ children }: { children: ReactNode }) {
   const [cliente, setCliente] = useState<PerfilCliente | null>(null);
   const [temSessao, setTemSessao] = useState(false);
+  const [bloqueado, setBloqueado] = useState(false);
   const [carregando, setCarregando] = useState(true);
 
   const carregarPerfil = useCallback(async () => {
     if (!supabaseBrowser) { setCarregando(false); return; }
     const { data: { session } } = await supabaseBrowser.auth.getSession();
     setTemSessao(!!session);
-    if (!session) { setCliente(null); setCarregando(false); return; }
+    if (!session) { setCliente(null); setBloqueado(false); setCarregando(false); return; }
     const { data } = await supabaseBrowser
       .from("clientes")
-      .select("razao_social,doc,email")
+      .select("razao_social,doc,email,status")
       .eq("auth_user_id", session.user.id)
       .maybeSingle();
-    if (data) {
+    if (data && (data as PerfilCliente).status === "bloqueado") {
+      // conta bloqueada pelo Leonardo — sem acesso ao catálogo
+      setCliente(null);
+      setBloqueado(true);
+    } else if (data) {
+      setBloqueado(false);
       setCliente(data as PerfilCliente);
     } else if (ehAdmin(session.user.email)) {
       // Leonardo (login do admin) também acessa o catálogo
@@ -61,11 +68,11 @@ export function ClienteProvider({ children }: { children: ReactNode }) {
 
   const sair = useCallback(async () => {
     if (supabaseBrowser) await supabaseBrowser.auth.signOut();
-    setCliente(null); setTemSessao(false);
+    setCliente(null); setTemSessao(false); setBloqueado(false);
   }, []);
 
   return (
-    <ClienteContext.Provider value={{ cliente, temSessao, carregando, entrar, sair, recarregar: carregarPerfil }}>
+    <ClienteContext.Provider value={{ cliente, temSessao, bloqueado, carregando, entrar, sair, recarregar: carregarPerfil }}>
       {children}
     </ClienteContext.Provider>
   );

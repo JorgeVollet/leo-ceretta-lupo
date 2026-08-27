@@ -43,7 +43,7 @@ function EntrarInner() {
   const [cnpjManual, setCnpjManual] = useState("");
 
   const waCodigo = `https://wa.me/${CONTATO.whatsapp}?text=${encodeURIComponent(
-    "Olá Leonardo! Quero criar meu acesso ao catálogo, mas meu cadastro não apareceu no site. Pode me passar o código de liberação de novo cliente?"
+    "Olá Leonardo! Quero criar meu acesso ao catálogo, mas meu cadastro não apareceu no site. Pode me ajudar?"
   )}`;
 
   async function fazerLogin(e: React.FormEvent) {
@@ -80,11 +80,11 @@ function EntrarInner() {
     setAchado({ razao_social: linha.razao_social, doc: linha.doc ?? null });
   }
 
+  // cadastro livre: cria a conta na hora (o Leonardo revisa depois no painel)
   async function criarComSerial(e: React.FormEvent) {
     e.preventDefault();
     if (!supabaseBrowser) return;
     if (!razaoManual.trim()) { setPassoErro("Informe a razão social (nome da empresa)."); return; }
-    if (!serial.trim()) { setPassoErro("Informe o código de liberação que o Leonardo te passou."); return; }
     if (novaSenha.length < 6) { setPassoErro("A senha precisa ter pelo menos 6 caracteres."); return; }
     setPassoErro(""); setCriando(true);
     const { data: signData, error: e1 } = await supabaseBrowser.auth.signUp({ email: novoEmail.trim(), password: novaSenha });
@@ -94,16 +94,11 @@ function EntrarInner() {
       setPassoErro("Conta criada, mas o e-mail precisa ser confirmado. Peça pro Leonardo desativar a confirmação de e-mail, ou confirme pelo link enviado.");
       return;
     }
-    const { data: r, error: e2 } = await supabaseBrowser.rpc("criar_cliente_com_serial", {
-      p_razao: razaoManual.trim(), p_cnpj: cnpjManual.trim(), p_serial: serial, p_email: novoEmail.trim(),
+    const { data: r, error: e2 } = await supabaseBrowser.rpc("criar_cliente_livre", {
+      p_razao: razaoManual.trim(), p_cnpj: cnpjManual.trim() || null, p_email: novoEmail.trim(),
     });
     setCriando(false);
-    if (e2 || (r && r.ok === false)) {
-      const m = (e2?.message || "").toLowerCase();
-      if (m.includes("codigo") || m.includes("código")) setPassoErro("Código de liberação inválido. Confira as maiúsculas e minúsculas, ou peça um novo ao Leonardo.");
-      else setPassoErro(traduz(e2?.message) || "Não consegui criar seu acesso.");
-      return;
-    }
+    if (e2 || (r && r.ok === false)) { setPassoErro(traduz(e2?.message) || "Não consegui criar seu acesso."); return; }
     await recarregar();
     router.push(destino);
   }
@@ -212,8 +207,11 @@ function EntrarInner() {
                 /* cliente novo (fora da base) → cadastro com código de liberação */
                 <form onSubmit={criarComSerial} className="space-y-4">
                   <div className="rounded-lg border border-accent/30 bg-accent/5 p-4">
-                    <p className="mono-label text-accent-deep">Cadastro com código de liberação</p>
-                    <p className="mt-1 text-[12.5px] leading-relaxed text-mute">Use o código que o Leonardo te passou pelo WhatsApp.</p>
+                    <p className="mono-label text-accent-deep">Criar meu acesso</p>
+                    <p className="mt-1 text-[12.5px] leading-relaxed text-mute">
+                      É só preencher seus dados — o acesso é liberado na hora. O Leonardo confere o
+                      cadastro depois.
+                    </p>
                   </div>
                   <div>
                     <label className="mono-label mb-1 block text-[11px] text-mute">Razão social (nome da empresa)</label>
@@ -222,11 +220,6 @@ function EntrarInner() {
                   <div>
                     <label className="mono-label mb-1 block text-[11px] text-mute">CNPJ (opcional)</label>
                     <input type="text" value={cnpjManual} onChange={(e) => setCnpjManual(e.target.value)} className={inputCls} />
-                  </div>
-                  <div>
-                    <label className="mono-label mb-1 block text-[11px] text-mute">Código de liberação</label>
-                    <input type="text" required value={serial} onChange={(e) => setSerial(e.target.value)} placeholder="o código que o Leonardo te passou" autoCapitalize="none" autoCorrect="off" spellCheck={false} className={inputCls} />
-                    <p className="mt-1.5 text-[12px] text-mute">Atenção às maiúsculas e minúsculas — o código diferencia.</p>
                   </div>
                   <div>
                     <label className="mono-label mb-1 block text-[11px] text-mute">Seu e-mail</label>
@@ -273,16 +266,16 @@ function EntrarInner() {
                     <div className="rounded-lg border border-line bg-bone p-4">
                       <p className="text-[13px] font-semibold text-ink">Não achou seu cadastro?</p>
                       <p className="mt-1 text-[12.5px] leading-relaxed text-mute">
-                        Se você é cliente do Leonardo mas não apareceu, peça a ele o <b>código de liberação</b> pelo
-                        WhatsApp — com esse código você cria seu acesso na hora.
+                        Sem problema — você pode criar seu acesso agora mesmo. É liberado na hora, e o
+                        Leonardo confere seu cadastro depois.
                       </p>
                       <div className="mt-3 flex flex-col gap-2">
-                        <a href={waCodigo} target="_blank" rel="noopener" className="mono-label rounded bg-[#25D366] px-4 py-2.5 text-center text-white transition hover:brightness-95">
-                          Pedir código no WhatsApp
-                        </a>
-                        <button type="button" onClick={() => { setModoSerial(true); setPassoErro(""); }} className="mono-label rounded border border-line bg-white px-4 py-2.5 text-ink/70 transition hover:text-ink">
-                          Já tenho o código →
+                        <button type="button" onClick={() => { setModoSerial(true); setPassoErro(""); }} className="mono-label rounded bg-accent px-4 py-2.5 text-center text-paper transition hover:bg-accent-bright">
+                          Criar meu acesso →
                         </button>
+                        <a href={waCodigo} target="_blank" rel="noopener" className="mono-label rounded border border-line bg-white px-4 py-2.5 text-center text-ink/70 transition hover:text-ink">
+                          Falar com o Leonardo
+                        </a>
                       </div>
                     </div>
                   )}

@@ -1,0 +1,67 @@
+{
+ "produtos": [
+  {
+   "codigo": "02571-001",
+   "nome": "Meia-calça Fina Bebê",
+   "descricao": "Fio 20 Poliamida 98% Elastano 2%",
+   "tamanho": "RN (0 a 04 meses) • BB (05 a 11 meses)",
+   "linha": "Baby",
+   "segmento": "Baby",
+   "cores": [
+    {
+     "cod": "1000",
+     "nome": "Branco Antártida",
+     "img": "/produtos/lobinha-baby/02571-001/1000.jpg"
+    },
+    {
+     "cod": "6120",
+     "nome": "Champanhe Paris",
+     "img": "/produtos/lobinha-baby/02571-001/6120.jpg"
+    }
+   ],
+   "img": "/produtos/lobinha-baby/02571-001/1000.jpg"
+  },
+  {
+   "codigo": "02554-001",
+   "nome": "Meia-calça Cute",
+   "descricao": "Elastano Fio 70 Poliamida 94% Elastano 6%",
+   "tamanho": "RN (0 a 04 meses) • BB (05 a 11 meses) • P",
+   "linha": "Baby",
+   "segmento": "Baby",
+   "cores": [
+    {
+     "cod": "1000",
+     "nome": "Branco Antártida",
+     "img": "/produtos/lobinha-baby/02554-001/1000.jpg"
+    },
+    {
+     "cod": "5220",
+     "nome": "Rosa",
+     "img": "/produtos/lobinha-baby/02554-001/5220.jpg"
+    }
+   ],
+   "img": "/produtos/lobinha-baby/02554-001/1000.jpg"
+  },
+  {
+   "codigo": "02576-001",
+   "nome": "Meia Calça Infantil Fio 80 Microfibra Lisa",
+   "descricao": "Elastano Fio 80 Poliamida 97% Elastano 3%",
+   "tamanho": "RN (0 a 04 meses) • BB (05 Meses a 02 Anos)",
+   "linha": "Baby",
+   "segmento": "Baby",
+   "cores": [
+    {
+     "cod": "1000",
+     "nome": "Branco Antártida",
+     "img": "/produtos/lobinha-baby/02576-001/1000.jpg"
+    },
+    {
+     "cod": "5220",
+     "nome": "Rosa",
+     "img": "/produtos/lobinha-baby/02576-001/5220.jpg"
+    }
+   ],
+   "img": "/produtos/lobinha-baby/02576-001/1000.jpg"
+  }
+ ]
+}

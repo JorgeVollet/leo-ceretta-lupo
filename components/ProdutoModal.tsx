@@ -28,7 +28,8 @@ export default function ProdutoModal({
   const { adicionarItem } = useCart();
   const tamanhos = parseTamanhos(produto.tamanho);
   const [tamanho, setTamanho] = useState(tamanhos[0] ?? "");
-  const [cor, setCor] = useState(produto.cores[0]?.nome ?? "");
+  // a cor é identificada pelo CÓDIGO (nomes repetem, ex.: várias "Sortida")
+  const [corCod, setCorCod] = useState(produto.cores[0]?.cod ?? "");
   const regra = regraDoSegmento(segmento);
   const [quantidade, setQuantidade] = useState(regra.multiplo);
   const [adicionado, setAdicionado] = useState(false);
@@ -43,8 +44,13 @@ export default function ProdutoModal({
 
   // foto muda conforme a cor escolhida — cai pra foto padrão do produto se
   // essa cor ainda não tiver foto própria mapeada.
-  const corSelecionada = produto.cores.find((c) => c.nome === cor);
+  const corSelecionada = produto.cores.find((c) => c.cod === corCod);
   const imgExibida = corSelecionada?.img || produto.img;
+  // rótulo que vai pro carrinho: quando o nome se repete (Sortida), inclui o código
+  const nomeRepete = (c: { cod: string; nome: string }) =>
+    produto.cores.filter((o) => o.nome === c.nome).length > 1;
+  const rotuloCor = (c: { cod: string; nome: string }) => (nomeRepete(c) ? `${c.nome} ${c.cod}` : c.nome);
+  const cor = corSelecionada ? rotuloCor(corSelecionada) : "";
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -185,19 +191,43 @@ export default function ProdutoModal({
             <div>
               <div className="mono-label mb-2 text-[11px] text-mute">Cor</div>
               <div className="flex flex-wrap gap-2">
-                {produto.cores.map((c) => (
-                  <button
-                    key={c.cod}
-                    type="button"
-                    onClick={() => setCor(c.nome)}
-                    className={`rounded border px-3 py-2 text-[12.5px] transition ${
-                      cor === c.nome ? "border-accent bg-accent text-paper" : "border-line bg-white text-ink hover:border-accent"
-                    }`}
-                  >
-                    {c.nome}
-                  </button>
-                ))}
+                {produto.cores.map((c) => {
+                  const ativa = corCod === c.cod;
+                  return (
+                    <button
+                      key={c.cod}
+                      type="button"
+                      onClick={() => setCorCod(c.cod)}
+                      title={rotuloCor(c)}
+                      className={`flex items-center gap-2 rounded border py-1.5 pl-1.5 pr-3 text-[12.5px] transition ${
+                        ativa ? "border-accent bg-accent text-paper" : "border-line bg-white text-ink hover:border-accent"
+                      }`}
+                    >
+                      {c.img && (
+                        // eslint-disable-next-line @next/next/no-img-element
+                        <img
+                          src={c.img}
+                          alt={c.nome}
+                          className={`h-9 w-9 flex-none rounded border object-cover ${ativa ? "border-white/40" : "border-line"}`}
+                          loading="lazy"
+                        />
+                      )}
+                      <span className="text-left leading-tight">
+                        {c.nome}
+                        {nomeRepete(c) && (
+                          <span className={`block text-[10.5px] ${ativa ? "text-paper/70" : "text-mute"}`}>{c.cod}</span>
+                        )}
+                      </span>
+                    </button>
+                  );
+                })}
               </div>
+              {produto.cores.some((c) => nomeRepete(c)) && (
+                <p className="mt-2 text-[11.5px] leading-relaxed text-mute">
+                  Kits sortidos: cada opção vem com uma combinação diferente de cores — veja a
+                  miniatura (ou a foto ao lado) pra conferir o que vem no pacote.
+                </p>
+              )}
             </div>
           )}
 

@@ -17,6 +17,7 @@ export default function AdminShell({ children }: { children: ReactNode }) {
   const [senha, setSenha] = useState("");
   const [erro, setErro] = useState("");
   const [entrando, setEntrando] = useState(false);
+  const [pendentes, setPendentes] = useState(0);   // contas novas aguardando revisão
 
   useEffect(() => {
     if (!supabaseBrowser) { setPronto(true); return; }
@@ -29,6 +30,14 @@ export default function AdminShell({ children }: { children: ReactNode }) {
     });
     return () => sub.subscription.unsubscribe();
   }, []);
+
+  // conta quantas contas de cliente estão pendentes (pro alerta no menu)
+  useEffect(() => {
+    if (!logado || !supabaseBrowser) return;
+    supabaseBrowser.rpc("contas_pendentes").then(({ data }) => {
+      setPendentes(Array.isArray(data) ? data.length : 0);
+    });
+  }, [logado, pathname]);
 
   async function entrar(e: React.FormEvent) {
     e.preventDefault();
@@ -115,7 +124,8 @@ export default function AdminShell({ children }: { children: ReactNode }) {
     { href: "/admin/faturamento", label: "Faturamento", icon: "M4 5h16v14H4zM8 9h8M8 13h8M8 17h4" },
     { href: "/admin/pedidos", label: "Pedidos", icon: "M6 6h15l-1.5 9h-12zM6 6L5 3H2M9 20a1 1 0 1 0 0-2 1 1 0 0 0 0 2zM18 20a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" },
     { href: "/admin", label: "Materiais", icon: "M8 3h8l4 4v14H4V3h4zM15 3v5h5M8 13h8M8 17h5" },
-    { href: "/admin/acessos", label: "Acessos", icon: "M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM4 21c0-4 4-6 8-6s8 2 8 6" },
+    { href: "/admin/contas", label: "Contas", icon: "M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM4 21c0-4 4-6 8-6s8 2 8 6" },
+    { href: "/admin/acessos", label: "Acessos", icon: "M4 5h16v11H4zM4 16l4-4 3 3 4-5 5 6" },
   ];
 
   return (
@@ -144,6 +154,11 @@ export default function AdminShell({ children }: { children: ReactNode }) {
                     <path d={a.icon} />
                   </svg>
                   <span className="hidden sm:inline">{a.label}</span>
+                  {a.href === "/admin/contas" && pendentes > 0 && (
+                    <span className="inline-flex h-[18px] min-w-[18px] items-center justify-center rounded-full bg-amber-500 px-1 text-[10px] font-bold text-white" title={`${pendentes} conta(s) aguardando revisão`}>
+                      {pendentes}
+                    </span>
+                  )}
                 </Link>
               );
             })}

@@ -1,0 +1,172 @@
+{
+ "produtos": [
+  {
+   "codigo": "02515-001",
+   "nome": "Meia-calça Poa",
+   "descricao": "Fio 20 Poliamida 98% Elastano 2%",
+   "tamanho": "BB (05 a 11 meses) • P • M • G",
+   "linha": "Fina",
+   "segmento": "Kids",
+   "cores": [
+    {
+     "cod": "9990",
+     "nome": "Preto",
+     "img": "/produtos/lobinha-kids/02515-001/9990.jpg"
+    },
+    {
+     "cod": "1000",
+     "nome": "Branco Antártida",
+     "img": "/produtos/lobinha-kids/02515-001/1000.jpg"
+    }
+   ],
+   "img": "/produtos/lobinha-kids/02515-001/9990.jpg"
+  },
+  {
+   "codigo": "02515-003",
+   "nome": "Meia-calça Estrelinhas",
+   "descricao": "Fio 20 Poliamida 98% Elastano 2%",
+   "tamanho": "BB (05 a 11 meses) • P • M • G",
+   "linha": "Fina",
+   "segmento": "Kids",
+   "cores": [
+    {
+     "cod": "9990",
+     "nome": "Preto",
+     "img": "/produtos/lobinha-kids/02515-003/9990.jpg"
+    },
+    {
+     "cod": "5220",
+     "nome": "Rosa",
+     "img": "/produtos/lobinha-kids/02515-003/5220.jpg"
+    }
+   ],
+   "img": "/produtos/lobinha-kids/02515-003/9990.jpg"
+  },
+  {
+   "codigo": "02570-001",
+   "nome": "Meia-calça Fina",
+   "descricao": "Fio 20 Poliamida 98% Elastano 2%",
+   "tamanho": "P•M•G",
+   "linha": "Fina",
+   "segmento": "Kids",
+   "cores": [
+    {
+     "cod": "9990",
+     "nome": "Preto",
+     "img": "/produtos/lobinha-kids/02570-001/9990.jpg"
+    },
+    {
+     "cod": "5220",
+     "nome": "Rosa",
+     "img": "/produtos/lobinha-kids/02570-001/5220.jpg"
+    }
+   ],
+   "img": "/produtos/lobinha-kids/02570-001/9990.jpg"
+  },
+  {
+   "codigo": "02576-001",
+   "nome": "Meia Calça Infantil Fio 80 Microfibra Lisa",
+   "descricao": "Elastano Fio 80 Poliamida 97% Elastano 3%",
+   "tamanho": "P•M•G",
+   "linha": "Opaca",
+   "segmento": "Kids",
+   "cores": [
+    {
+     "cod": "9990",
+     "nome": "Preto",
+     "img": "/produtos/lobinha-kids/02576-001/9990.jpg"
+    },
+    {
+     "cod": "5220",
+     "nome": "Rosa",
+     "img": "/produtos/lobinha-kids/02576-001/5220.jpg"
+    }
+   ],
+   "img": "/produtos/lobinha-kids/02576-001/9990.jpg"
+  },
+  {
+   "codigo": "02530-001",
+   "nome": "Meia-calça Opaca",
+   "descricao": "Elastano Fio 40 Poliamida 92% Elastano 8%",
+   "tamanho": "BB (05 a 11 meses) • P • M • G",
+   "linha": "Opaca",
+   "segmento": "Kids",
+   "cores": [
+    {
+     "cod": "9990",
+     "nome": "Preto",
+     "img": "/produtos/lobinha-kids/02530-001/9990.jpg"
+    },
+    {
+     "cod": "2800",
+     "nome": "Marinho",
+     "img": "/produtos/lobinha-kids/02530-001/2800.jpg"
+    }
+   ],
+   "img": "/produtos/lobinha-kids/02530-001/9990.jpg"
+  },
+  {
+   "codigo": "02561-001",
+   "nome": "Meia-calça Tricô",
+   "descricao": "Elastano Fio 70 Poliamida 94% Elastano 6%",
+   "tamanho": "P•M•G",
+   "linha": "Opaca",
+   "segmento": "Kids",
+   "cores": [
+    {
+     "cod": "9990",
+     "nome": "Preto",
+     "img": "/produtos/lobinha-kids/02561-001/9990.jpg"
+    },
+    {
+     "cod": "5250",
+     "nome": "Cor 5250",
+     "img": "/produtos/lobinha-kids/02561-001/5250.jpg"
+    }
+   ],
+   "img": "/produtos/lobinha-kids/02561-001/9990.jpg"
+  },
+  {
+   "codigo": "02588-001",
+   "nome": "Meia-calça Ballet Versátil",
+   "descricao": "Elastano Algodão Poliamida 93% Elastano 7% Fio 60",
+   "tamanho": "P•M•G",
+   "linha": "Opaca",
+   "segmento": "Kids",
+   "cores": [
+    {
+     "cod": "9990",
+     "nome": "Preto",
+     "img": "/produtos/lobinha-kids/02588-001/9990.jpg"
+    },
+    {
+     "cod": "5110",
+     "nome": "Rosa",
+     "img": "/produtos/lobinha-kids/02588-001/5110.jpg"
+    }
+   ],
+   "img": "/produtos/lobinha-kids/02588-001/9990.jpg"
+  },
+  {
+   "codigo": "00860-001",
+   "nome": "Segunda Pele Manga Longa",
+   "descricao": "Poliamida 98% Elastano 2%",
+   "tamanho": "P•M•G",
+   "linha": "Opaca",
+   "segmento": "Kids",
+   "cores": [
+    {
+     "cod": "9990",
+     "nome": "Preto",
+     "img": "/produtos/lobinha-kids/00860-001/9990.jpg"
+    },
+    {
+     "cod": "5220",
+     "nome": "Rosa",
+     "img": "/produtos/lobinha-kids/00860-001/5220.jpg"
+    }
+   ],
+   "img": "/produtos/lobinha-kids/00860-001/9990.jpg"
+  }
+ ]
+}
