@@ -38,7 +38,7 @@ export default function ProdutoModal({
   // grade completa deste produto: varias combinações de tamanho/cor/quantidade
   // acumuladas aqui antes de mandar tudo de uma vez pro carrinho.
   const [linhasGrade, setLinhasGrade] = useState<
-    { tamanho: string; cor: string; quantidade: number; img: string }[]
+    { tamanho: string; cor: string; corCod?: string; quantidade: number; img: string }[]
   >([]);
   const totalGrade = linhasGrade.reduce((soma, l) => soma + l.quantidade, 0);
 
@@ -75,7 +75,7 @@ export default function ProdutoModal({
         atualizadas[idx] = { ...atualizadas[idx], quantidade: atualizadas[idx].quantidade + quantidade };
         return atualizadas;
       }
-      return [...linhas, { tamanho, cor, quantidade, img: imgExibida }];
+      return [...linhas, { tamanho, cor, corCod, quantidade, img: imgExibida }];
     });
     setQuantidade(regra.multiplo);
   }
@@ -95,6 +95,7 @@ export default function ProdutoModal({
         nome: produto.nome,
         tamanho: linha.tamanho,
         cor: linha.cor,
+        corCod: linha.corCod,
         quantidade: linha.quantidade,
         img: linha.img,
       });

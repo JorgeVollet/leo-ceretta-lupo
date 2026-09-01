@@ -73,7 +73,7 @@ export default function CarrinhoFlutuante() {
     setEtapa("enviando");
     try {
       const itensParaEnviar = itens.map(
-        ({ catalogoSlug, catalogoTitulo, segmento, codigo, nome, tamanho, cor, quantidade }) => ({
+        ({ catalogoSlug, catalogoTitulo, segmento, codigo, nome, tamanho, cor, corCod, quantidade, img }) => ({
           catalogoSlug,
           catalogoTitulo,
           segmento,
@@ -81,7 +81,9 @@ export default function CarrinhoFlutuante() {
           nome,
           tamanho,
           cor,
+          corCod,      // código da cor (kits sortidos)
           quantidade,
+          img,         // miniatura pro painel do Leonardo
         })
       );
       // token do cliente logado — a API só aceita pedido autenticado
@@ -174,7 +176,7 @@ export default function CarrinhoFlutuante() {
                       <div className="min-w-0 flex-1">
                         <div className="font-display text-[13px] font-bold leading-snug text-ink">{i.nome}</div>
                         <div className="mt-0.5 text-[11.5px] text-mute">
-                          Tam. {i.tamanho} · Cor {i.cor}
+                          Tam. {i.tamanho} · Cor {i.cor}{i.corCod && !i.cor.includes(i.corCod) ? ` (${i.corCod})` : ""}
                         </div>
                         <div className="mt-2 flex items-center gap-2">
                           <button

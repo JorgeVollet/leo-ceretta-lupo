@@ -13,6 +13,7 @@ export type ItemCarrinho = {
   nome: string;
   tamanho: string;
   cor: string;
+  corCod?: string;   // código da cor escolhida (essencial nos kits sortidos)
   quantidade: number;
   img: string;
 };

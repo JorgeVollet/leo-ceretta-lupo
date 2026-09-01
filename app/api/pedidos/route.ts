@@ -36,7 +36,9 @@ type ItemPedido = {
   nome: string;
   tamanho: string;
   cor: string;
+  corCod?: string;   // código da cor escolhida (kits sortidos)
   quantidade: number;
+  img?: string;      // miniatura pro painel
 };
 
 type PayloadPedido = {
@@ -54,7 +56,7 @@ type PayloadPedido = {
 function montarResumoTexto(payload: PayloadPedido, totalPecas: number) {
   const linhas = payload.itens.map(
     (i) =>
-      `- ${i.nome} (cód. ${i.codigo}) | ${i.catalogoTitulo} | Tam. ${i.tamanho} | Cor ${i.cor} | ${i.quantidade}x`
+      `- ${i.nome} (cód. ${i.codigo}) | ${i.catalogoTitulo} | Tam. ${i.tamanho} | Cor ${i.cor}${i.corCod ? ` (cód. cor ${i.corCod})` : ""} | ${i.quantidade}x`
   );
   return [
     `Novo pedido pelo site — ${payload.cliente.nome}`,

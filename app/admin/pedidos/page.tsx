@@ -9,8 +9,10 @@ type ItemPedido = {
   nome: string;
   tamanho: string;
   cor: string;
+  corCod?: string;   // código da cor (kits sortidos)
   quantidade: number;
   catalogoTitulo?: string;
+  img?: string;      // foto da cor escolhida
 };
 
 type Pedido = {
@@ -139,12 +141,25 @@ export default function AdminPedidos() {
               </div>
               <div className="mt-4 divide-y divide-line">
                 {p.itens.map((it, idx) => (
-                  <div key={idx} className="flex flex-wrap items-center justify-between gap-1 py-2 text-[13px]">
-                    <span className="text-ink">
+                  <div key={idx} className="flex flex-wrap items-center gap-3 py-2.5 text-[13px]">
+                    {it.img && (
+                      // eslint-disable-next-line @next/next/no-img-element
+                      <a href={it.img} target="_blank" rel="noopener" title="Ver a foto da cor escolhida">
+                        <img src={it.img} alt={it.cor} className="h-14 w-14 flex-none rounded border border-line bg-bone object-cover transition hover:border-accent" loading="lazy" />
+                      </a>
+                    )}
+                    <span className="min-w-[180px] flex-1 text-ink">
                       {it.nome} <span className="text-mute">(cód. {it.codigo})</span>
                     </span>
                     <span className="text-mute">
-                      Tam. {it.tamanho} · Cor {it.cor} · {it.quantidade}x
+                      Tam. {it.tamanho} · Cor{" "}
+                      <b className="text-ink">{it.cor}</b>
+                      {it.corCod && (
+                        <span className="ml-1.5 rounded bg-accent/10 px-1.5 py-0.5 font-mono text-[11.5px] font-bold text-accent-deep" title="Código da cor escolhida">
+                          {it.corCod}
+                        </span>
+                      )}
+                      {" · "}{it.quantidade}x
                     </span>
                   </div>
                 ))}
