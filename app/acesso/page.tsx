@@ -10,6 +10,11 @@ import PoliticaComercial from "@/components/PoliticaComercial";
  * A página inteira cabe na altura da tela (100dvh) sem rolar: os blocos do meio
  * esticam ou encolhem conforme o aparelho. Em tela baixa (iPhone SE com a barra do
  * Safari aberta, ~550px) as descrições somem e fica só ícone + nome.
+ *
+ * Três ajustes por tamanho (testados de 320x568 a 430x932, tablet e deitado):
+ *  • tela estreita (<360px): letras encolhem com a largura (clamp) pra nada quebrar linha
+ *  • tela alta (>=780px): ícone e texto crescem pra preencher os blocos
+ *  • celular deitado (altura <=500px): grade vira 3x2 e tira o que sobra, sem rolar
  */
 
 type Atalho = {
@@ -57,24 +62,24 @@ const BAIXA = "[@media(max-height:640px)]:hidden";
 
 // estilo único de bloco (link e botão)
 const BLOCO =
-  "acesso-bloco group relative flex min-h-[64px] flex-col justify-between overflow-hidden rounded-xl border border-white/10 " +
-  "bg-white/[0.06] p-3 text-left text-paper backdrop-blur-sm transition active:scale-[0.97] " +
+  "acesso-bloco group relative flex min-h-[60px] flex-col justify-between overflow-hidden rounded-xl border border-white/10 " +
+  "bg-white/[0.06] p-3 text-left text-paper backdrop-blur-sm transition active:scale-[0.97] [@media(min-height:780px)]:p-4 " +
   "hover:border-accent-sky/50 hover:bg-white/[0.10] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-sky";
 
 function ConteudoBloco({ a }: { a: Atalho }) {
   return (
     <>
       <div className="flex items-start justify-between">
-        <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-accent-sky/15 text-accent-sky transition group-hover:bg-accent-sky group-hover:text-navy-900">
-          <Ic d={a.icon} size={19} />
+        <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-accent-sky/15 text-accent-sky transition group-hover:bg-accent-sky group-hover:text-navy-900 [@media(min-height:780px)]:h-12 [@media(min-height:780px)]:w-12 [@media(min-height:780px)]:rounded-xl">
+          <Ic d={a.icon} size={19} className="[@media(min-height:780px)]:h-6 [@media(min-height:780px)]:w-6" />
         </span>
         <span className="mono-label !text-[9.5px] text-paper/30">
           {a.externo ? <Ic d={ICON.externo} size={13} className="text-paper/45" /> : a.n}
         </span>
       </div>
       <div className="mt-2">
-        <div className="font-display text-[15.5px] font-extrabold leading-tight tracking-tight">{a.titulo}</div>
-        <div className={`mt-0.5 text-[11.5px] leading-snug text-paper/55 ${BAIXA}`}>{a.desc}</div>
+        <div className="font-display text-[clamp(14px,4.3vw,15.5px)] font-extrabold leading-tight tracking-tight [@media(min-height:780px)]:text-[18px]">{a.titulo}</div>
+        <div className={`mt-0.5 text-[11.5px] leading-snug text-paper/55 [@media(min-height:780px)]:text-[13px] ${BAIXA}`}>{a.desc}</div>
       </div>
     </>
   );
@@ -96,14 +101,17 @@ export default function AcessoRapidoPage() {
       <div aria-hidden className="grain pointer-events-none absolute inset-0 -z-10" />
 
       <div
-        className="mx-auto flex w-full max-w-[460px] flex-1 flex-col gap-2.5 px-4 sm:my-auto sm:max-h-[860px] sm:py-8"
+        className="mx-auto flex w-full max-w-[460px] flex-1 flex-col gap-2.5 px-4 sm:my-auto sm:max-h-[860px] sm:py-8 [@media(min-height:780px)]:gap-3 [@media(orientation:landscape)_and_(max-height:500px)]:max-w-[760px] [@media(orientation:landscape)_and_(max-height:500px)]:gap-2 [@media(orientation:landscape)_and_(max-height:500px)]:py-0"
         style={{ paddingTop: "max(14px, env(safe-area-inset-top))", paddingBottom: "max(12px, env(safe-area-inset-bottom))" }}
       >
         {/* TOPO */}
         <header className="acesso-in flex items-center justify-between gap-3" style={{ animationDelay: "0ms" }}>
           <Link href="/" className="leading-none" aria-label="Ir pro site">
-            <div className="font-display text-[17px] font-extrabold uppercase tracking-tight">Leonardo Ceretta</div>
-            <div className="mono-label mt-1 !text-[9.5px] text-accent-sky">Representante oficial Lupo · RS</div>
+            <div className="font-display text-[clamp(15px,4.6vw,17px)] font-extrabold uppercase tracking-tight">Leonardo Ceretta</div>
+            <div className="mono-label mt-1 !text-[9.5px] text-accent-sky">
+              <span className="min-[360px]:hidden">Representante Lupo</span>
+              <span className="hidden min-[360px]:inline">Representante oficial Lupo · RS</span>
+            </div>
           </Link>
           {carregando ? (
             <span className="h-8 w-20" />
@@ -123,15 +131,15 @@ export default function AcessoRapidoPage() {
         {/* FAZER PEDIDO — o principal */}
         <Link
           href={linkPedido}
-          className="acesso-in shimmer group relative flex items-center gap-3.5 overflow-hidden rounded-2xl bg-accent px-4 py-4 shadow-[0_18px_40px_-14px_rgba(37,99,235,0.85)] transition active:scale-[0.98] hover:bg-accent-bright focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-sky"
+          className="acesso-in shimmer group relative flex items-center gap-3 overflow-hidden rounded-2xl bg-accent px-4 py-4 min-[360px]:gap-3.5 [@media(min-height:780px)]:py-5 [@media(orientation:landscape)_and_(max-height:500px)]:py-2.5 shadow-[0_18px_40px_-14px_rgba(37,99,235,0.85)] transition active:scale-[0.98] hover:bg-accent-bright focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-sky"
           style={{ animationDelay: "60ms" }}
         >
-          <span className="flex h-12 w-12 flex-none items-center justify-center rounded-xl bg-white/15 text-paper">
+          <span className="flex h-11 w-11 flex-none items-center justify-center rounded-xl bg-white/15 text-paper min-[360px]:h-12 min-[360px]:w-12 [@media(orientation:landscape)_and_(max-height:500px)]:h-10 [@media(orientation:landscape)_and_(max-height:500px)]:w-10">
             <Ic d={ICON.carrinho} size={24} />
           </span>
           <span className="min-w-0 flex-1">
             <span className="mono-label block !text-[9.5px] text-paper/70">01 · Comprar</span>
-            <span className="mt-0.5 block font-display text-[21px] font-black uppercase leading-none tracking-tight">Fazer pedido</span>
+            <span className="mt-0.5 block whitespace-nowrap font-display text-[clamp(17px,5.7vw,21px)] font-black uppercase leading-none tracking-tight [@media(min-height:780px)]:text-[24px]">Fazer pedido</span>
             <span className={`mt-1 block text-[12px] leading-snug text-paper/80 ${BAIXA}`}>
               {logado ? "Escolha os produtos no catálogo" : "Entre ou crie sua conta em 1 minuto"}
             </span>
@@ -140,7 +148,7 @@ export default function AcessoRapidoPage() {
         </Link>
 
         {/* GRADE DE ATALHOS — estica pra ocupar a tela, sem rolar */}
-        <nav aria-label="Atalhos" className="grid min-h-0 flex-1 grid-cols-2 grid-rows-3 gap-2.5">
+        <nav aria-label="Atalhos" className="grid min-h-0 flex-1 grid-cols-2 grid-rows-3 gap-2.5 [@media(min-height:780px)]:gap-3 [@media(orientation:landscape)_and_(max-height:500px)]:grid-cols-3 [@media(orientation:landscape)_and_(max-height:500px)]:grid-rows-2 [@media(orientation:landscape)_and_(max-height:500px)]:gap-2">
           {ATALHOS.map((a, i) => {
             const estilo = { animationDelay: `${120 + i * 45}ms` };
             if (a.politica) {
@@ -173,13 +181,13 @@ export default function AcessoRapidoPage() {
             href={wa}
             target="_blank"
             rel="noopener"
-            className="flex min-h-[54px] flex-1 items-center gap-3 rounded-2xl bg-[#25D366] px-4 text-[#06241a] shadow-[0_14px_32px_-14px_rgba(37,211,102,0.8)] transition active:scale-[0.98] hover:brightness-105 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
+            className="flex min-h-[54px] flex-1 items-center gap-3 rounded-2xl bg-[#25D366] px-4 text-[#06241a] [@media(min-height:780px)]:min-h-[62px] [@media(orientation:landscape)_and_(max-height:500px)]:min-h-[44px] shadow-[0_14px_32px_-14px_rgba(37,211,102,0.8)] transition active:scale-[0.98] hover:brightness-105 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white"
           >
             <svg width="24" height="24" viewBox="0 0 24 24" fill="#06241a" aria-hidden="true" className="flex-none">
               <path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.6.2-.2.3-.7.9-.8 1-.2.2-.3.2-.6.1-.3-.1-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6l.5-.5c.1-.2.2-.3.3-.5 0-.2 0-.4 0-.5 0-.1-.6-1.5-.8-2-.2-.5-.4-.5-.6-.5h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s.9 2.5 1.1 2.7c.1.2 1.8 2.8 4.4 3.9.6.3 1.1.4 1.5.5.6.2 1.2.2 1.6.1.5-.1 1.7-.7 1.9-1.3.2-.7.2-1.2.2-1.3-.1-.2-.3-.2-.6-.3z M12 2a10 10 0 0 0-8.6 15l-1.3 4.7 4.8-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2z" />
             </svg>
             <span className="min-w-0 leading-tight">
-              <span className="block font-display text-[15px] font-extrabold">Falar com o Leonardo</span>
+              <span className="block whitespace-nowrap font-display text-[clamp(13.5px,4.3vw,15px)] font-extrabold [@media(min-height:780px)]:text-[16px]">Falar com o Leonardo</span>
               <span className={`block text-[11.5px] font-medium opacity-75 ${BAIXA}`}>WhatsApp · resposta rápida</span>
             </span>
           </a>
@@ -188,14 +196,14 @@ export default function AcessoRapidoPage() {
             target="_blank"
             rel="noopener"
             aria-label="Instagram do Leonardo"
-            className="flex min-h-[54px] w-[54px] flex-none items-center justify-center rounded-2xl border border-white/15 bg-white/[0.06] text-paper transition active:scale-[0.96] hover:border-accent-sky/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-sky"
+            className="flex min-h-[54px] w-[54px] flex-none items-center justify-center rounded-2xl border [@media(min-height:780px)]:min-h-[62px] [@media(min-height:780px)]:w-[62px] [@media(orientation:landscape)_and_(max-height:500px)]:min-h-[44px] [@media(orientation:landscape)_and_(max-height:500px)]:w-[44px] border-white/15 bg-white/[0.06] text-paper transition active:scale-[0.96] hover:border-accent-sky/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent-sky"
           >
             <Ic d={ICON.insta} size={22} />
           </a>
         </div>
 
         {/* RODAPÉ */}
-        <div className="acesso-in flex items-center justify-between px-1 pt-0.5" style={{ animationDelay: "470ms" }}>
+        <div className="acesso-in flex items-center justify-between px-1 pt-0.5 [@media(orientation:landscape)_and_(max-height:500px)]:hidden" style={{ animationDelay: "470ms" }}>
           <Link href="/" className="mono-label !text-[9.5px] text-paper/45 transition hover:text-paper">← Site completo</Link>
           <span className="mono-label !text-[9.5px] text-paper/30">Coleção 26 / 27</span>
         </div>
