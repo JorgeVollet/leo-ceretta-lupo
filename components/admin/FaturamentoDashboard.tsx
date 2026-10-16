@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useMemo, useState } from "react";
+import { hojeLocalISO } from "@/lib/atraso";
 import {
   ResponsiveContainer,
   BarChart,
@@ -43,7 +44,8 @@ function brlCompacto(v: number): string {
 
 /* ---------- datas (tudo em string "AAAA-MM-DD", sem depender de timezone local) ---------- */
 function hojeISO(): string {
-  return new Date().toISOString().slice(0, 10);
+  // data local: toISOString() é UTC e, depois das 21h no Brasil, já virava o dia seguinte
+  return hojeLocalISO();
 }
 function ymd(iso: string) {
   const [y, m, d] = iso.split("-").map(Number);

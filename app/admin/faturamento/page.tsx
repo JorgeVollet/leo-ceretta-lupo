@@ -4,7 +4,9 @@ import AdminShell from "@/components/admin/AdminShell";
 import ClienteModal from "@/components/admin/ClienteModal";
 import FaturamentoDashboard from "@/components/admin/FaturamentoDashboard";
 import { supabaseBrowser } from "@/lib/supabase";
-import { lerRelatorio, lerXmlNfe, STATUS_LABEL, STATUS_COR, type PedidoImportado } from "@/lib/parsers";
+import AlertaAtraso from "@/components/admin/AlertaAtraso";
+import { LayoutNaoReconhecido, ehRelatorioCompleto, lerRelatorio, lerXmlNfe, snapshotDoNome, STATUS_LABEL, STATUS_COR, type PedidoImportado } from "@/lib/parsers";
+import { diasDesde, ehAberto, faixaDoPedido, hojeLocalISO, resumoAtraso, type FaixaAtraso } from "@/lib/atraso";
 
 type Linha = {
   ordem_venda: string; cliente_nome: string | null; uf: string | null; deposito: string | null;
@@ -12,6 +14,7 @@ type Linha = {
   nota_fiscal: string | null; data_criacao: string | null; data_emissao: string | null;
   data_expedicao: string | null; transportadora: string | null;
   reanotacao: boolean | null; pedido_pai: string | null;
+  sumiu_em: string | null;   // não veio no relatório completo mais novo do CD (ver reconciliar_relatorio)
 };
 type NotaLinha = {
   id: string; numero: string | null; ordem_venda: string | null; emissao: string | null;
@@ -19,7 +22,10 @@ type NotaLinha = {
 };
 type ItemNota = { item: number | null; codigo: string | null; ean: string | null; descricao: string | null; quantidade: number | null; valor_total: number | null };
 type DupNota = { parcela: string | null; vencimento: string | null; valor: number | null };
-type Importacao = { id: string; tipo: string; arquivo: string | null; deposito: string | null; registros: number | null; novos: number | null; atualizados: number | null; criado_em: string };
+type Importacao = {
+  id: string; tipo: string; arquivo: string | null; deposito: string | null; registros: number | null; novos: number | null; atualizados: number | null; criado_em: string;
+  relatorio_completo: boolean | null; pedidos_sumidos: number | null;
+};
 
 const ORDEM_STATUS = ["recebido", "separacao", "faturado", "despachado", "cancelado"];
 const brl = (v: number | null | undefined) => (v ?? 0).toLocaleString("pt-BR", { style: "currency", currency: "BRL" });
@@ -97,6 +103,8 @@ export default function AdminFaturamento() {
   const [arrastando, setArrastando] = useState(false);
   const [precisaSql, setPrecisaSql] = useState(false);
   const [clienteModal, setClienteModal] = useState<{ cliente: string; ordem?: string | null } | null>(null);
+  const [incompletas, setIncompletas] = useState(0);   // estragadas pelo ZSD003, esperando o próximo PEDIDOS
+  const [verTodasImp, setVerTodasImp] = useState(false);
   const inputRef = useRef<HTMLInputElement | null>(null);
 
   // filtros pedidos
@@ -107,6 +115,7 @@ export default function AdminFaturamento() {
   const [fDe, setFDe] = useState(""); const [fAte, setFAte] = useState("");
   const [fCampoData, setFCampoData] = useState<"data_criacao" | "data_emissao" | "data_expedicao">("data_criacao");
   const [fPorte, setFPorte] = useState("");
+  const [fAtraso, setFAtraso] = useState<FaixaAtraso | "">("");
   const [ordenar, setOrdenar] = useState<Ordenacao>("recentes");
   const [maisFiltros, setMaisFiltros] = useState(false);
   const [pagina, setPagina] = useState(1);
@@ -128,12 +137,16 @@ export default function AdminFaturamento() {
     setPrecisaSql(false); setCarregando(true);
     try {
       const [ov, n, imp] = await Promise.all([
-        buscarTudo<Linha>("ordens_venda", "ordem_venda,cliente_nome,uf,deposito,valor_ov,valor_fatura,status,status_origem,nota_fiscal,data_criacao,data_emissao,data_expedicao,transportadora,reanotacao,pedido_pai", "ordem_venda"),
+        buscarTudo<Linha>("ordens_venda", "ordem_venda,cliente_nome,uf,deposito,valor_ov,valor_fatura,status,status_origem,nota_fiscal,data_criacao,data_emissao,data_expedicao,transportadora,reanotacao,pedido_pai,sumiu_em", "ordem_venda"),
         buscarTudo<NotaLinha>("notas", "id,numero,ordem_venda,emissao,valor_total,dest_nome,dest_cnpj,dest_uf,transportadora", "id"),
-        supabaseBrowser.from("importacoes").select("id,tipo,arquivo,deposito,registros,novos,atualizados,criado_em").order("criado_em", { ascending: false }).limit(1000),
+        supabaseBrowser.from("importacoes").select("id,tipo,arquivo,deposito,registros,novos,atualizados,criado_em,relatorio_completo,pedidos_sumidos").order("criado_em", { ascending: false }).limit(1000),
       ]);
       n.sort((a, b) => (b.emissao || "").localeCompare(a.emissao || ""));
-      setLinhas(ov); setNotas(n); setImportacoes((imp.data as Importacao[]) || []);
+      // linha sem cliente E sem data de criação = estragada por planilha de outro formato;
+      // fica fora das contas até o próximo relatório completo preencher de novo
+      const boas = ov.filter((l) => l.cliente_nome || l.data_criacao);
+      setIncompletas(ov.length - boas.length);
+      setLinhas(boas); setNotas(n); setImportacoes((imp.data as Importacao[]) || []);
     } catch (e: any) {
       if (e?.faltaTabela) setPrecisaSql(true);
     }
@@ -201,14 +214,26 @@ export default function AdminFaturamento() {
         if (ehPlanilha) {
           const registros: PedidoImportado[] = await lerRelatorio(file);
           if (registros.length === 0) { addLog(`⚠ ${nome}: nenhuma linha reconhecida.`); continue; }
+          // mesma OV duas vezes no arquivo quebra o upsert do lote — fica a última
+          const unicos = Array.from(new Map(registros.map((r) => [r.ordem_venda, r])).values());
           let ok = 0;
-          for (let i = 0; i < registros.length; i += 400) {
-            const lote = registros.slice(i, i + 400);
+          for (let i = 0; i < unicos.length; i += 400) {
+            const lote = unicos.slice(i, i + 400);
             const { error } = await supabaseBrowser.from("ordens_venda").upsert(lote, { onConflict: "ordem_venda" });
             if (error) throw error; ok += lote.length;
           }
-          await supabaseBrowser.from("importacoes").insert({ tipo: "relatorio", arquivo: nome, registros: registros.length, atualizados: ok, deposito: registros[0]?.deposito ?? null });
+          const deposito = unicos[0]?.deposito ?? null, snapshot = snapshotDoNome(nome), completo = ehRelatorioCompleto(nome);
+          await supabaseBrowser.from("importacoes").insert({ tipo: "relatorio", arquivo: nome, registros: unicos.length, atualizados: ok, deposito, snapshot_em: snapshot, relatorio_completo: completo });
           addLog(`✓ RELATÓRIO ${nome}: ${ok} pedidos.`);
+          // relatório completo do CD: pedido aberto que não veio nele = sumiu
+          if (completo && deposito && snapshot) {
+            const { data: rec, error: eRec } = await supabaseBrowser.rpc("reconciliar_relatorio", { p_cd: deposito, p_snapshot: snapshot, p_arquivo: nome });
+            const r = rec as { ok?: boolean; sumidos?: number; motivo?: string; ignorado?: string } | null;
+            if (eRec) addLog(`⚠ ${nome}: não conferi os sumidos — ${eRec.message}`);
+            else if (r?.ignorado) addLog(`· ${nome}: sumidos não conferidos (${r.ignorado}).`);
+            else if (r && r.ok === false) addLog(`⚠ ${nome}: ${r.motivo}`);
+            else if (r?.sumidos) addLog(`⚠ ${nome}: ${r.sumidos} pedido(s) aberto(s) sumiram do relatório do CD ${deposito} → marcados como cancelados.`);
+          }
         } else if (ehXml) {
           const { nota, itens, duplicatas } = await lerXmlNfe(file);
           if (!nota.chave && !nota.numero) { addLog(`⚠ ${nome}: não parece uma NF-e.`); continue; }
@@ -224,6 +249,7 @@ export default function AdminFaturamento() {
           addLog(`✓ NOTA ${nota.numero || "?"} — cliente ${nota.dest_nome || "?"} · pedido ${nota.ordem_venda || "?"} · ${itens.length} itens · ${duplicatas.length} boleto(s) · ${brl(nota.valor_total)}`);
         } else addLog(`⚠ ${nome}: formato não suportado.`);
       } catch (e: any) {
+        if (e instanceof LayoutNaoReconhecido || e?.name === "LayoutNaoReconhecido") { addLog(`⚠ ${nome}: ignorado — ${e.message}. Nada foi gravado.`); continue; }
         if (faltaTabela(e?.message)) { addLog(`✕ ${nome}: falta rodar um SQL no Supabase (tabela ou coluna nova) — ${e?.message || "schema desatualizado"}. Rode os SUPABASE-*.sql pendentes (ex.: SUPABASE-status-snapshot.sql) e importe de novo.`); setPrecisaSql(true); }
         else addLog(`✕ ${nome}: ${e?.message || "falhou"}`);
       }
@@ -235,8 +261,9 @@ export default function AdminFaturamento() {
   /* ---------- filtros / opções ---------- */
   const UFs = useMemo(() => Array.from(new Set(linhas.map((l) => l.uf).filter(Boolean))).sort() as string[], [linhas]);
   const CDs = useMemo(() => Array.from(new Set(linhas.map((l) => l.deposito).filter(Boolean))).sort() as string[], [linhas]);
-  function limparFiltros() { setBusca(""); setFStatus([]); setFUF(""); setFCD(""); setFValMin(""); setFValMax(""); setFDe(""); setFAte(""); setFPorte(""); setOrdenar("recentes"); }
-  const temFiltro = fStatus.length > 0 || fUF || fCD || fValMin || fValMax || fDe || fAte || fPorte || busca;
+  function limparFiltros() { setBusca(""); setFStatus([]); setFUF(""); setFCD(""); setFValMin(""); setFValMax(""); setFDe(""); setFAte(""); setFPorte(""); setFAtraso(""); setOrdenar("recentes"); }
+  const temFiltro = fStatus.length > 0 || fUF || fCD || fValMin || fValMax || fDe || fAte || fPorte || fAtraso || busca;
+  const hoje = hojeLocalISO();
 
   // base: aplica todos os filtros MENOS o status (pros KPIs e cartões refletirem o período)
   const baseFiltrada = useMemo(() => {
@@ -259,7 +286,7 @@ export default function AdminFaturamento() {
   }, [linhas, busca, fUF, fCD, fValMin, fValMax, fDe, fAte, fCampoData, fPorte]);
 
   const filtradas = useMemo(() => {
-    let arr = baseFiltrada.filter((l) => !fStatus.length || fStatus.includes(l.status));
+    let arr = baseFiltrada.filter((l) => (!fStatus.length || fStatus.includes(l.status)) && (!fAtraso || faixaDoPedido(l, hoje) === fAtraso));
     const v = (l: Linha) => l.valor_fatura || l.valor_ov || 0;
     arr = [...arr].sort((a, b) => {
       switch (ordenar) {
@@ -271,8 +298,12 @@ export default function AdminFaturamento() {
       }
     });
     return arr;
-  }, [baseFiltrada, fStatus, ordenar]);
-  useEffect(() => { setPagina(1); }, [busca, fStatus, fUF, fCD, fValMin, fValMax, fDe, fAte, fPorte, ordenar]);
+  }, [baseFiltrada, fStatus, fAtraso, ordenar, hoje]);
+  useEffect(() => { setPagina(1); }, [busca, fStatus, fUF, fCD, fValMin, fValMax, fDe, fAte, fPorte, fAtraso, ordenar]);
+
+  // pedidos abertos há 30/60/90+ dias — na aba Pedidos segue os filtros; na Visão geral é tudo
+  const atrasoFiltrado = useMemo(() => resumoAtraso(baseFiltrada), [baseFiltrada]);
+  const atrasoGeral = useMemo(() => resumoAtraso(linhas), [linhas]);
 
   // KPIs de valor + QUEBRA (deduz reanotação pra não contar duas vezes)
   const kpis = useMemo(() => {
@@ -401,12 +432,25 @@ export default function AdminFaturamento() {
 
       {/* ============ ABA VISÃO GERAL ============ */}
       {aba === "visao" && (
-        carregando ? <p className="text-[14px] text-mute">Carregando...</p> : <FaturamentoDashboard linhas={linhas} />
+        carregando ? <p className="text-[14px] text-mute">Carregando...</p> : (
+          <>
+            <AlertaAtraso resumo={atrasoGeral} onEscolher={(f) => { limparFiltros(); setFAtraso(f); setOrdenar("antigos"); setAba("pedidos"); }} />
+            <FaturamentoDashboard linhas={linhas} />
+          </>
+        )
       )}
 
       {/* ============ ABA PEDIDOS ============ */}
       {aba === "pedidos" && (
         <>
+          {incompletas > 0 && (
+            <div className="mb-4 rounded-lg border border-line bg-bone px-4 py-3 text-[12.5px] text-mute">
+              <b className="text-ink">{incompletas} pedido(s)</b> estão fora das contas esperando o próximo relatório completo da Lupo
+              (ficaram sem cliente e sem data por causa de uma planilha de outro formato). Eles voltam sozinhos.
+            </div>
+          )}
+          <AlertaAtraso resumo={atrasoFiltrado} ativo={fAtraso} onEscolher={(f) => { const novo = fAtraso === f ? "" : f; setFAtraso(novo); if (novo) setOrdenar("antigos"); }} />
+
           {/* KPIs de valor + quebra */}
           <div className="mb-4 grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-6">
             <div className="rounded-lg border border-line bg-ink p-4 text-paper" title="Valor dos pedidos vendidos (raiz), sem contar reanotações">
@@ -517,7 +561,11 @@ export default function AdminFaturamento() {
                       {l.reanotacao && <span className="ml-1.5 rounded bg-violet-100 px-1.5 py-0.5 align-middle text-[9px] font-bold uppercase tracking-wide text-violet-700" title={l.pedido_pai ? `Saldo do pedido ${l.pedido_pai}` : "Saldo re-notado"}>saldo</span>}
                     </span>
                     <span className="text-[13.5px] font-medium text-ink">{l.cliente_nome || "—"}<span className="ml-1.5 text-[11.5px] text-mute">{l.uf}</span></span>
-                    <span><span className={`inline-block rounded-full px-2.5 py-1 text-[10.5px] font-bold uppercase tracking-wide ${STATUS_COR[l.status] || "bg-slate-100 text-slate-700"}`}>{STATUS_LABEL[l.status] || l.status}</span></span>
+                    <span>
+                      <span className={`inline-block rounded-full px-2.5 py-1 text-[10.5px] font-bold uppercase tracking-wide ${STATUS_COR[l.status] || "bg-slate-100 text-slate-700"}`}>{STATUS_LABEL[l.status] || l.status}</span>
+                      {l.sumiu_em && <span className="mt-1 block text-[10.5px] font-semibold text-red-600" title={`Não veio no relatório completo do CD de ${dataHora(l.sumiu_em)} — a Lupo tirou o pedido`}>sumiu do relatório</span>}
+                      {ehAberto(l.status) && (() => { const d = diasDesde(l.data_criacao, hoje); return d !== null && d >= 30 ? <span className={`mt-1 block text-[10.5px] font-semibold ${d >= 90 ? "text-red-600" : d >= 60 ? "text-orange-600" : "text-amber-700"}`}>aberto há {d} dias</span> : null; })()}
+                    </span>
                     <span className="text-[12.5px] text-mute">{l.nota_fiscal || "—"}</span>
                     <span className="lg:text-right">
                       <span className="block text-[13px] font-semibold text-ink">{brl(l.valor_ov)}</span>
@@ -688,7 +736,14 @@ export default function AdminFaturamento() {
           </div>
 
           <div className="mb-3 flex flex-wrap items-center justify-between gap-2">
-            <span className="mono-label text-ink/55">Histórico completo — cada arquivo que entrou no sistema</span>
+            <span className="mono-label text-ink/55">
+              {verTodasImp ? `Histórico completo — ${importacoes.length} arquivos` : `Últimas ${Math.min(10, importacoes.length)} importações`}
+              {importacoes.length > 10 && (
+                <button onClick={() => setVerTodasImp((v) => !v)} className="ml-2 normal-case text-accent-deep underline underline-offset-2">
+                  {verTodasImp ? "mostrar só as últimas 10" : `ver todas (${importacoes.length})`}
+                </button>
+              )}
+            </span>
             <div className="flex items-center gap-2">
               <button onClick={removerDuplicados} className="mono-label rounded border border-line px-3 py-2 text-ink/60 transition hover:border-red-300 hover:text-red-600">Remover duplicados</button>
               <button onClick={carregar} className="mono-label rounded border border-line px-3 py-2 text-ink/60 transition hover:text-ink">Atualizar</button>
@@ -706,7 +761,7 @@ export default function AdminFaturamento() {
                 <span className="mono-label">Tipo</span><span className="mono-label">Arquivo</span><span className="mono-label text-right">Registros</span><span className="mono-label text-right">Data / hora</span><span className="mono-label text-right"> </span>
               </div>
               <div className="divide-y divide-line">
-                {importacoes.map((i) => {
+                {(verTodasImp ? importacoes : importacoes.slice(0, 10)).map((i) => {
                   const xml = i.tipo === "xml";
                   return (
                     <div key={i.id} className="grid gap-1 px-4 py-3.5 lg:grid-cols-[90px_1fr_110px_150px_48px] lg:items-center lg:gap-3">
@@ -714,6 +769,8 @@ export default function AdminFaturamento() {
                       <span className="truncate text-[13.5px] font-medium text-ink" title={i.arquivo || ""}>
                         {i.arquivo || "—"}
                         {!xml && i.deposito && <span className="ml-1.5 text-[11.5px] text-mute">CD {i.deposito}</span>}
+                        {!xml && i.relatorio_completo && <span className="ml-1.5 rounded bg-emerald-50 px-1.5 py-0.5 text-[10px] font-bold uppercase text-emerald-700" title="Foto completa do CD — confere quem sumiu">completo</span>}
+                        {!!i.pedidos_sumidos && <span className="ml-1.5 rounded bg-red-50 px-1.5 py-0.5 text-[10px] font-bold uppercase text-red-600">{i.pedidos_sumidos} sumiram</span>}
                       </span>
                       <span className="text-[12.5px] text-mute lg:text-right">{xml ? `${i.registros ?? 0} itens` : `${i.atualizados ?? i.registros ?? 0} pedidos`}</span>
                       <span className="text-[12.5px] text-mute lg:text-right">{dataHora(i.criado_em)}</span>

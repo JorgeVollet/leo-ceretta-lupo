@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { createClient } from "@supabase/supabase-js";
-import { pedidosDeWorkbook } from "@/lib/parsers";
+import { LayoutNaoReconhecido, ehRelatorioCompleto, pedidosDeWorkbook, snapshotDoNome } from "@/lib/parsers";
 
 // precisa de Node (Buffer + xlsx), não pode ser edge
 export const runtime = "nodejs";
@@ -42,6 +42,11 @@ export async function POST(req: NextRequest) {
     const buf = Buffer.from(body.base64, "base64");
     pedidos = pedidosDeWorkbook(buf, arquivo);
   } catch (e: any) {
+    // ZSD003 e outras planilhas que chegam no mesmo e-mail: não são o relatório de
+    // pedidos. Responde ok (pro Apps Script marcar o e-mail como lido) e NÃO grava nada.
+    if (e instanceof LayoutNaoReconhecido) {
+      return NextResponse.json({ ok: true, arquivo, registros: 0, ignorado: e.message });
+    }
     return NextResponse.json({ ok: false, erro: "falha ao ler a planilha: " + (e?.message || e) }, { status: 422 });
   }
   if (!pedidos.length) {
@@ -96,14 +101,29 @@ export async function POST(req: NextRequest) {
   }
 
   // 6) registra no histórico de importações
+  const deposito = pedidos[0]?.deposito ?? null;
+  const snapshot = snapshotDoNome(arquivo);
+  const completo = ehRelatorioCompleto(arquivo);
   await supabase.from("importacoes").insert({
     tipo: "relatorio",
     arquivo,
     registros: pedidos.length,
     atualizados: ok,
-    deposito: pedidos[0]?.deposito ?? null,
+    deposito,
+    snapshot_em: snapshot,
+    relatorio_completo: completo,
     detalhe: "sincronização automática (Gmail)",
   });
 
-  return NextResponse.json({ ok: true, arquivo, registros: ok, deposito: pedidos[0]?.deposito ?? null });
+  // 7) relatório completo do CD: pedido aberto que não veio nele = sumiu (cancelado).
+  //    As travas (relatório mais novo, mínimo de pedidos, limite de sumidos) ficam no banco.
+  let reconciliacao: unknown = null;
+  if (completo && deposito && snapshot) {
+    const { data, error } = await supabase.rpc("reconciliar_relatorio", {
+      p_cd: deposito, p_snapshot: snapshot, p_arquivo: arquivo,
+    });
+    reconciliacao = error ? { ok: false, erro: error.message } : data;
+  }
+
+  return NextResponse.json({ ok: true, arquivo, registros: ok, deposito, reconciliacao });
 }

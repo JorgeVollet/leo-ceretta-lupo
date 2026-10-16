@@ -152,12 +152,33 @@ export function snapshotDoNome(nome?: string | null): string | null {
   return m ? `${m[1]}-${m[2]}-${m[3]}T${m[4]}:${m[5]}:${m[6]}` : null;
 }
 
+/** Planilha que não é o relatório de pedidos (ex.: ZSD003). Quem importa deve IGNORAR, não gravar. */
+export class LayoutNaoReconhecido extends Error {
+  constructor(msg: string) { super(msg); this.name = "LayoutNaoReconhecido"; }
+}
+
+// Sem estas colunas a planilha não é o relatório de pedidos. Ler mesmo assim
+// gravava pedido com cliente/valor/data vazios e status "recebido" por padrão —
+// foi o que o ZSD003 fez com 130 pedidos até 15/10/2026.
+const COLUNAS_OBRIGATORIAS = ["Ordem de Venda", "Nome do cliente", "Status", "Data criação", "Valor OV"];
+
+/** PEDIDOS_20261013_204045_1000.xls = foto COMPLETA do CD. Só esse tipo decide quais pedidos sumiram.
+ *  (ALOCADO e outros podem ter as mesmas colunas, mas trazem só uma parte dos pedidos.) */
+export function ehRelatorioCompleto(nome?: string | null): boolean {
+  const base = (nome || "").split(/[\\/]/).pop() || "";
+  return /^PEDIDOS_\d{8}_\d{6}_\d{3,6}\.xlsx?$/i.test(base);
+}
+
 /** Núcleo: transforma um workbook XLSX já lido em pedidos. Usado no navegador e no servidor.
  *  nomeArquivo é opcional e serve pra extrair o CD (depósito) do nome. */
 export function pedidosDeWorkbook(buf: ArrayBuffer | Uint8Array | Buffer, nomeArquivo?: string | null): PedidoImportado[] {
   const wb = XLSX.read(buf as any, { cellDates: true, type: "array" });
   const ws = wb.Sheets[wb.SheetNames[0]];
   const linhas = XLSX.utils.sheet_to_json<Record<string, unknown>>(ws, { defval: null });
+  if (linhas.length) {
+    const faltam = COLUNAS_OBRIGATORIAS.filter((c) => pega(linhas[0], c) === undefined);
+    if (faltam.length) throw new LayoutNaoReconhecido(`não é o relatório de pedidos (faltam as colunas: ${faltam.join(", ")})`);
+  }
   const cdArquivo = cdDoNome(nomeArquivo);
   const snapArquivo = snapshotDoNome(nomeArquivo);
 
