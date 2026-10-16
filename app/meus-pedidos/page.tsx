@@ -16,6 +16,16 @@ type Ped = {
   reanotacao: boolean | null; deposito: string | null;
 };
 
+// pedido feito pelo carrinho do site (tabela pedidos)
+type PedSite = {
+  id: number; criado_em: string; status: string; total_pecas: number;
+  itens: { nome?: string; codigo?: string; quantidade?: number }[] | null;
+};
+const SITE_LABEL: Record<string, string> = { novo: "Recebido", em_andamento: "Em andamento", concluido: "Concluído" };
+const SITE_COR: Record<string, string> = {
+  novo: "bg-sky-100 text-sky-800", em_andamento: "bg-amber-100 text-amber-800", concluido: "bg-emerald-100 text-emerald-800",
+};
+
 const brl = (v: number | null | undefined) => (v ?? 0).toLocaleString("pt-BR", { style: "currency", currency: "BRL" });
 const dataBR = (v: string | null) => { if (!v) return "—"; const d = v.slice(0, 10); const [a, m, dia] = d.split("-"); return dia ? `${dia}/${m}/${a}` : v; };
 
@@ -23,6 +33,7 @@ export default function MeusPedidos() {
   const router = useRouter();
   const { cliente, carregando, sair } = useCliente();
   const [pedidos, setPedidos] = useState<Ped[]>([]);
+  const [doSite, setDoSite] = useState<PedSite[]>([]);
   const [busy, setBusy] = useState(true);
   const [filtro, setFiltro] = useState<"todos" | "aberto" | "despachado">("todos");
 
@@ -32,8 +43,17 @@ export default function MeusPedidos() {
     (async () => {
       if (!supabaseBrowser) { setBusy(false); return; }
       setBusy(true);
-      const { data } = await supabaseBrowser.rpc("meus_pedidos");
-      setPedidos((data as Ped[]) || []);
+      const { data: { user } } = await supabaseBrowser.auth.getUser();
+      const [lupo, site] = await Promise.all([
+        supabaseBrowser.rpc("meus_pedidos"),
+        // só os do próprio login (o filtro importa pro admin, que lê todos pela RLS)
+        user
+          ? supabaseBrowser.from("pedidos").select("id,criado_em,status,total_pecas,itens")
+              .eq("auth_user_id", user.id).order("criado_em", { ascending: false }).limit(50)
+          : Promise.resolve({ data: [] as PedSite[] }),
+      ]);
+      setPedidos((lupo.data as Ped[]) || []);
+      setDoSite((site.data as PedSite[]) || []);
       setBusy(false);
     })();
   }, [cliente, carregando, router]);
@@ -64,6 +84,35 @@ export default function MeusPedidos() {
             <button onClick={() => { sair(); router.push("/"); }} className="mono-label rounded border border-line px-3.5 py-2 text-ink/55 transition hover:text-ink">Sair</button>
           </div>
 
+          {/* pedidos feitos pelo carrinho do site */}
+          {!carregando && !busy && doSite.length > 0 && (
+            <section className="mt-6">
+              <h2 className="mono-label text-ink/60">Pedidos feitos pelo site</h2>
+              <div className="mt-2.5 space-y-2.5">
+                {doSite.map((p) => {
+                  const itens = Array.isArray(p.itens) ? p.itens : [];
+                  const resumo = itens.slice(0, 3).map((i) => i.nome || i.codigo).filter(Boolean).join(" · ");
+                  return (
+                    <div key={p.id} className="rounded-lg border border-line bg-white p-4 shadow-card">
+                      <div className="flex flex-wrap items-center gap-3">
+                        <span className="font-display text-[14px] font-extrabold text-ink">Pedido {p.id}</span>
+                        <span className={`inline-block rounded-full px-2.5 py-1 text-[10.5px] font-bold uppercase tracking-wide ${SITE_COR[p.status] || "bg-slate-100 text-slate-700"}`}>
+                          {SITE_LABEL[p.status] || p.status}
+                        </span>
+                        <span className="ml-auto text-[13px] font-semibold text-ink">{p.total_pecas} peça{p.total_pecas === 1 ? "" : "s"}</span>
+                      </div>
+                      <div className="mt-2 flex flex-wrap gap-x-5 gap-y-1 text-[12px] text-mute">
+                        <span>Enviado: <b className="text-ink/80">{dataBR(p.criado_em)}</b></span>
+                        {resumo && <span className="truncate">{resumo}{itens.length > 3 ? ` +${itens.length - 3}` : ""}</span>}
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+              <h2 className="mono-label mt-8 -mb-3 text-ink/60">Pedidos na Lupo</h2>
+            </section>
+          )}
+
           <div className="mt-6 flex flex-wrap gap-2">
             {chip("todos", "Todos", pedidos.length)}
             {chip("aberto", "Em aberto", abertos)}
@@ -72,20 +121,14 @@ export default function MeusPedidos() {
 
           {carregando || busy ? (
             <p className="mt-8 text-[14px] text-mute">Carregando seus pedidos...</p>
-          ) : pedidos.length === 0 && cliente?.status === "pendente" ? (
-            /* conta nova: os pedidos da Lupo só aparecem depois que o Leonardo confere o cadastro */
-            <div className="mt-8 rounded-lg border border-amber-200 bg-amber-50 p-8 text-center">
-              <p className="font-display text-[15px] font-extrabold text-ink">Seu cadastro está em análise</p>
-              <p className="mx-auto mt-1 max-w-md text-[13px] leading-relaxed text-mute">
-                Assim que o Leonardo conferir seus dados, seus pedidos aparecem aqui com o status de entrega.
-                Enquanto isso, o catálogo e o pedido pelo site já estão liberados.
-              </p>
-              <Link href="/catalogos" className="mono-label mt-4 inline-block rounded bg-ink px-5 py-3 text-paper transition hover:bg-accent">Ver catálogos</Link>
-            </div>
           ) : pedidos.length === 0 ? (
             <div className="mt-8 rounded-lg border border-line bg-white p-10 text-center shadow-card">
               <p className="font-display text-[15px] font-extrabold text-ink">Nenhum pedido encontrado ainda</p>
-              <p className="mt-1 text-[13px] text-mute">Assim que seus pedidos entrarem no sistema, eles aparecem aqui com o status de entrega.</p>
+              <p className="mx-auto mt-1 max-w-md text-[13px] leading-relaxed text-mute">
+                {doSite.length > 0
+                  ? "Os pedidos que você fez pelo site estão acima. Quando a Lupo registrar, eles aparecem aqui com nota fiscal e status de entrega."
+                  : "Assim que seus pedidos entrarem no sistema da Lupo, eles aparecem aqui com o status de entrega."}
+              </p>
               <Link href="/catalogos" className="mono-label mt-4 inline-block rounded bg-ink px-5 py-3 text-paper transition hover:bg-accent">Ver catálogos</Link>
             </div>
           ) : (

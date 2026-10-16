@@ -17,7 +17,6 @@ export default function AdminShell({ children }: { children: ReactNode }) {
   const [senha, setSenha] = useState("");
   const [erro, setErro] = useState("");
   const [entrando, setEntrando] = useState(false);
-  const [pendentes, setPendentes] = useState(0);   // contas novas aguardando revisão
 
   useEffect(() => {
     if (!supabaseBrowser) { setPronto(true); return; }
@@ -31,13 +30,6 @@ export default function AdminShell({ children }: { children: ReactNode }) {
     return () => sub.subscription.unsubscribe();
   }, []);
 
-  // conta quantas contas de cliente estão pendentes (pro alerta no menu)
-  useEffect(() => {
-    if (!logado || !supabaseBrowser) return;
-    supabaseBrowser.rpc("contas_pendentes").then(({ data }) => {
-      setPendentes(Array.isArray(data) ? data.length : 0);
-    });
-  }, [logado, pathname]);
 
   async function entrar(e: React.FormEvent) {
     e.preventDefault();
@@ -154,11 +146,6 @@ export default function AdminShell({ children }: { children: ReactNode }) {
                     <path d={a.icon} />
                   </svg>
                   <span className="hidden sm:inline">{a.label}</span>
-                  {a.href === "/admin/contas" && pendentes > 0 && (
-                    <span className="inline-flex h-[18px] min-w-[18px] items-center justify-center rounded-full bg-amber-500 px-1 text-[10px] font-bold text-white" title={`${pendentes} conta(s) aguardando revisão`}>
-                      {pendentes}
-                    </span>
-                  )}
                 </Link>
               );
             })}

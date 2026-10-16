@@ -6,7 +6,11 @@ import { Resend } from "resend";
 
 export const dynamic = "force-dynamic";
 
-/** Confere o token do cliente logado e devolve o perfil (ou null se inválido). */
+/**
+ * Confere o token do cliente logado e devolve o perfil, o id do login e um client
+ * Supabase "como ele" — o pedido é gravado com esse client, então a RLS garante
+ * que o pedido fica no nome de quem está logado (ou null se o token for inválido).
+ */
 async function clienteDoToken(token: string | null) {
   const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
   const anon = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
@@ -19,12 +23,17 @@ async function clienteDoToken(token: string | null) {
   if (!userData?.user) return null;
   const { data: perfil } = await authed
     .from("clientes")
-    .select("razao_social,doc")
+    .select("razao_social,doc,status")
     .eq("auth_user_id", userData.user.id)
     .maybeSingle();
-  if (perfil) return perfil as { razao_social: string | null; doc: string | null };
+  const base = { userId: userData.user.id, db: authed };
+  if (perfil) {
+    const p = perfil as { razao_social: string | null; doc: string | null; status?: string | null };
+    if (p.status === "bloqueado") return null;   // conta bloqueada não faz pedido
+    return { ...base, razao_social: p.razao_social, doc: p.doc };
+  }
   // Leonardo (login do admin) também pode fazer pedido
-  if (ehAdmin(userData.user.email)) return { razao_social: "Administrador", doc: null };
+  if (ehAdmin(userData.user.email)) return { ...base, razao_social: "Administrador", doc: null };
   return null;
 }
 
@@ -100,7 +109,8 @@ export async function POST(req: Request) {
 
   // 1) salva no Supabase — segue funcionando mesmo se o e-mail falhar depois.
   if (supabase) {
-    const { error } = await supabase.from("pedidos").insert({
+    const { error } = await perfil.db.from("pedidos").insert({
+      auth_user_id: perfil.userId,   // dono do pedido — aparece em "Meus pedidos" dele
       status: "novo",
       cliente_nome: payload.cliente.nome,
       cliente_loja: payload.cliente.loja || perfil.razao_social || null,
