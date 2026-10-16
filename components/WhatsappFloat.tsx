@@ -1,6 +1,10 @@
+"use client";
+import { usePathname } from "next/navigation";
 import { CONTATO } from "@/lib/data";
 
 export default function WhatsappFloat() {
+  // a página de acesso rápido já tem o botão do WhatsApp — o flutuante ficaria por cima dos blocos
+  if (usePathname() === "/acesso") return null;
   return (
     <a
       href={`https://wa.me/${CONTATO.whatsapp}`}

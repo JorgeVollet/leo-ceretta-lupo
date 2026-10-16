@@ -9,6 +9,12 @@ import { useEffect, useRef, useState } from "react";
 
 const atalhos = [
   {
+    href: "/acesso",
+    label: "Todos os atalhos",
+    desc: "Tudo numa tela só",
+    icon: "M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h6v6h-6z",
+  },
+  {
     href: "/#materiais",
     label: "Materiais de divulgação",
     desc: "Fotos e artes pra postar",

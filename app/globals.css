@@ -324,3 +324,25 @@ section[id] {
   .reveal { animation: none; }
   .marquee-track { animation: none; }
 }
+
+/* ===== ACESSO RÁPIDO (/acesso) ===== */
+/* grade fina de "planta" que some nas bordas */
+.acesso-grade {
+  background-image:
+    linear-gradient(rgba(96, 165, 250, 0.07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(96, 165, 250, 0.07) 1px, transparent 1px);
+  background-size: 28px 28px;
+  -webkit-mask-image: radial-gradient(ellipse 80% 60% at 70% 20%, #000 20%, transparent 75%);
+  mask-image: radial-gradient(ellipse 80% 60% at 70% 20%, #000 20%, transparent 75%);
+}
+/* entrada em cascata (o atraso vai inline em cada bloco) */
+@keyframes acessoIn {
+  from { opacity: 0; transform: translateY(10px) scale(0.985); }
+  to { opacity: 1; transform: none; }
+}
+.acesso-in { animation: acessoIn 0.5s cubic-bezier(0.16, 1, 0.3, 1) both; }
+/* toque no celular: sem o destaque cinza padrão */
+.acesso-bloco, .acesso-fundo a, .acesso-fundo button { -webkit-tap-highlight-color: transparent; }
+@media (prefers-reduced-motion: reduce) {
+  .acesso-in { animation: none; }
+}

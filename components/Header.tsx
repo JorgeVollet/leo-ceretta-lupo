@@ -1,7 +1,6 @@
 import { CONTATO } from "@/lib/data";
 import HeroVideo from "./HeroVideo";
 import Nav from "./Nav";
-import AcessoRapido from "./AcessoRapido";
 
 export default function Header({ compact = false }: { compact?: boolean }) {
   /* ---------- PÁGINAS INTERNAS (compact): nav clara, sem vídeo ---------- */
@@ -33,7 +32,12 @@ export default function Header({ compact = false }: { compact?: boolean }) {
       <div className="relative z-10 mx-auto flex min-h-[calc(88svh-64px)] max-w-6xl flex-col justify-center px-5 pt-24 pb-16 md:min-h-[calc(100vh-68px)] md:py-20">
         {/* MOBILE: botão de acesso rápido no lugar do status */}
         <div className="reveal relative z-50 mb-9 border-b border-white/15 pb-6 md:hidden">
-          <AcessoRapido variant="dark" />
+          {/* no celular abre a página de atalhos (uma tela só), em vez do menu suspenso */}
+          <a href="/acesso" className="glass-dark mono-label inline-flex w-full items-center justify-center gap-2 rounded px-4 py-2.5 text-paper transition">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h6v6h-6z" /></svg>
+            Acesso rápido
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round"><path d="M9 6l6 6-6 6" /></svg>
+          </a>
         </div>
 
         {/* DESKTOP: status line (mantida) */}

@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
 import { useCart } from "@/lib/cart-context";
 import { useCliente } from "@/lib/cliente-auth";
 import { mascaraTelefone } from "@/lib/documentos";
@@ -30,6 +31,7 @@ export default function CarrinhoFlutuante() {
   } = useCart();
 
   const { cliente } = useCliente();
+  const pathname = usePathname();
   const [aberto, setAberto] = useState(false);
   const [etapa, setEtapa] = useState<Etapa>("carrinho");
   const [erroMsg, setErroMsg] = useState("");
@@ -55,6 +57,7 @@ export default function CarrinhoFlutuante() {
   }, [cliente]);
 
   if (!carregado || itens.length === 0) return null;
+  if (pathname === "/acesso") return null;   // tela única de atalhos: nada flutuando por cima
 
   function fechar() {
     setAberto(false);

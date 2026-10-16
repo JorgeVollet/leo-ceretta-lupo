@@ -27,9 +27,12 @@ const ICON_DOC = "M8 3h8l4 4v14H4V3h4zM15 3v5h5M8 12h8M8 16h6";
 export default function PoliticaComercial({
   variant = "card",
   className = "",
+  gatilho,
 }: {
   variant?: "card" | "botao";
   className?: string;
+  /** botão próprio (ex.: bloco da página /acesso) — recebe a função que abre o modal */
+  gatilho?: (abrir: () => void) => React.ReactNode;
 }) {
   const [open, setOpen] = useState(false);
 
@@ -45,7 +48,7 @@ export default function PoliticaComercial({
 
   return (
     <>
-      {variant === "card" ? (
+      {gatilho ? gatilho(() => setOpen(true)) : variant === "card" ? (
         <button
           type="button"
           id="politica"
