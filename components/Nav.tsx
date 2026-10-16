@@ -76,7 +76,7 @@ export default function Nav({ variant = "solid" }: { variant?: "hero" | "solid" 
           {/* Acesso rápido — desktop (ao lado do Fazer pedido) */}
           <AcessoRapido variant="light" className="hidden lg:block" />
           <a
-            href="/entrar"
+            href="/catalogos"
             className={`mono-label inline-flex items-center gap-2 rounded px-4 py-2.5 transition ${pedidoBtn}`}
           >
             Fazer pedido

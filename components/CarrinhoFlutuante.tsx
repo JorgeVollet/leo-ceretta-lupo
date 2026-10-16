@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import { useCart } from "@/lib/cart-context";
 import { useCliente } from "@/lib/cliente-auth";
-import { mascaraTelefone } from "@/lib/documentos";
+import { cnpjValido, limparCnpj, mascaraCnpj, mascaraTelefone, telefoneValido } from "@/lib/documentos";
 import { supabaseBrowser } from "@/lib/supabase";
 import { CONTATO } from "@/lib/data";
 
@@ -42,6 +42,8 @@ export default function CarrinhoFlutuante() {
     email: "",
     cidade: "",
     observacoes: "",
+    cnpj: "",
+    site: "",   // honeypot: escondido, só robô preenche
   });
 
   // pré-preenche com os dados do cliente logado (contas novas trazem nome e telefone)
@@ -53,8 +55,12 @@ export default function CarrinhoFlutuante() {
       loja: d.loja || cliente.razao_social || "",
       whatsapp: d.whatsapp || (cliente.telefone ? mascaraTelefone(cliente.telefone) : ""),
       email: d.email || cliente.email || "",
+      cnpj: d.cnpj || (cliente.doc && cliente.doc.length === 14 ? mascaraCnpj(cliente.doc) : ""),
     }));
   }, [cliente]);
+
+  // sem conta: o pedido vai com nome, telefone, empresa, CNPJ e e-mail (o banco confere de novo)
+  const semConta = !cliente;
 
   if (!carregado || itens.length === 0) return null;
   if (pathname === "/acesso") return null;   // tela única de atalhos: nada flutuando por cima
@@ -69,11 +75,23 @@ export default function CarrinhoFlutuante() {
     setDados((d) => ({ ...d, [campo]: valor }));
   }
 
-  async function enviarPedido() {
-    if (!dados.nome.trim() || !dados.whatsapp.trim()) {
-      setErroMsg("Preencha pelo menos o nome e o WhatsApp pra eu conseguir te retornar.");
-      return;
+  function conferirDados(): string {
+    const falta: string[] = [];
+    if (dados.nome.trim().length < 3) falta.push("seu nome");
+    if (!telefoneValido(dados.whatsapp)) falta.push("telefone com DDD");
+    if (semConta) {
+      if (dados.loja.trim().length < 3) falta.push("nome da empresa");
+      if (!cnpjValido(dados.cnpj)) falta.push("CNPJ válido");
+      if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(dados.email.trim())) falta.push("e-mail");
+    } else if (dados.cnpj && !cnpjValido(dados.cnpj)) {
+      falta.push("CNPJ válido");
     }
+    return falta.length ? `Confira: ${falta.join(", ")}.` : "";
+  }
+
+  async function enviarPedido() {
+    const problema = conferirDados();
+    if (problema) { setErroMsg(problema); return; }
     setErroMsg("");
     setEtapa("enviando");
     try {
@@ -91,7 +109,8 @@ export default function CarrinhoFlutuante() {
           img,         // miniatura pro painel do Leonardo
         })
       );
-      // token do cliente logado — a API só aceita pedido autenticado
+      // logado: vai com o token e o pedido fica no nome dele ("Meus pedidos").
+      // sem conta: vai sem token e a API grava pelo pedido sem conta.
       const { data: { session } } = supabaseBrowser
         ? await supabaseBrowser.auth.getSession()
         : { data: { session: null } };
@@ -101,10 +120,11 @@ export default function CarrinhoFlutuante() {
           "Content-Type": "application/json",
           ...(session ? { Authorization: `Bearer ${session.access_token}` } : {}),
         },
-        body: JSON.stringify({ cliente: dados, itens: itensParaEnviar }),
+        body: JSON.stringify({ cliente: { ...dados, cnpj: limparCnpj(dados.cnpj) }, itens: itensParaEnviar }),
       });
-      if (resposta.status === 401) {
-        setErroMsg("Sua sessão expirou. Entre de novo pra finalizar o pedido.");
+      if (resposta.status === 400 || resposta.status === 429) {
+        const r = await resposta.json().catch(() => ({}));
+        setErroMsg(r?.erro || "Confira os dados e tente de novo.");
         setEtapa("dados");
         return;
       }
@@ -248,6 +268,14 @@ export default function CarrinhoFlutuante() {
             {/* ETAPA: dados do cliente */}
             {(etapa === "dados" || etapa === "enviando" || etapa === "erro") && (
               <div className="flex-1 space-y-4 px-5 py-5">
+                {semConta && (
+                  <div className="rounded-lg border border-accent/25 bg-accent/5 px-3.5 py-3 text-[12.5px] leading-relaxed text-mute">
+                    <b className="text-ink">Não precisa criar conta.</b> Preencha seus dados e o pedido vai direto pro Leonardo.{" "}
+                    <a href={`/entrar?redirect=${encodeURIComponent(pathname || "/catalogos")}`} className="font-semibold text-accent-deep underline underline-offset-2">
+                      Já tenho conta
+                    </a>
+                  </div>
+                )}
                 <div>
                   <label className="mono-label mb-1 block text-[11px] text-mute">Seu nome *</label>
                   <input
@@ -258,26 +286,50 @@ export default function CarrinhoFlutuante() {
                   />
                 </div>
                 <div>
-                  <label className="mono-label mb-1 block text-[11px] text-mute">Nome da loja</label>
+                  <label className="mono-label mb-1 block text-[11px] text-mute">Telefone / WhatsApp *</label>
+                  <input
+                    type="tel"
+                    inputMode="numeric"
+                    autoComplete="tel"
+                    value={dados.whatsapp}
+                    onChange={(e) => atualizarCampo("whatsapp", mascaraTelefone(e.target.value))}
+                    placeholder="(55) 99999-9999"
+                    className="w-full rounded border border-line px-3 py-2.5 text-[13.5px] text-ink focus:border-accent focus:outline-none"
+                  />
+                </div>
+                <div>
+                  <label className="mono-label mb-1 block text-[11px] text-mute">Empresa (razão social){semConta ? " *" : ""}</label>
                   <input
                     type="text"
+                    autoComplete="organization"
                     value={dados.loja}
                     onChange={(e) => atualizarCampo("loja", e.target.value)}
                     className="w-full rounded border border-line px-3 py-2.5 text-[13.5px] text-ink focus:border-accent focus:outline-none"
                   />
                 </div>
                 <div>
-                  <label className="mono-label mb-1 block text-[11px] text-mute">WhatsApp *</label>
+                  <label className="mono-label mb-1 block text-[11px] text-mute">CNPJ{semConta ? " *" : " (opcional)"}</label>
                   <input
                     type="text"
-                    value={dados.whatsapp}
-                    onChange={(e) => atualizarCampo("whatsapp", e.target.value)}
-                    placeholder="(55) 9 9999-9999"
+                    autoComplete="off"
+                    value={dados.cnpj}
+                    onChange={(e) => atualizarCampo("cnpj", mascaraCnpj(e.target.value))}
+                    placeholder="00.000.000/0000-00"
                     className="w-full rounded border border-line px-3 py-2.5 text-[13.5px] text-ink focus:border-accent focus:outline-none"
                   />
                 </div>
                 <div>
-                  <label className="mono-label mb-1 block text-[11px] text-mute">Cidade</label>
+                  <label className="mono-label mb-1 block text-[11px] text-mute">E-mail{semConta ? " *" : " (opcional)"}</label>
+                  <input
+                    type="email"
+                    autoComplete="email"
+                    value={dados.email}
+                    onChange={(e) => atualizarCampo("email", e.target.value)}
+                    className="w-full rounded border border-line px-3 py-2.5 text-[13.5px] text-ink focus:border-accent focus:outline-none"
+                  />
+                </div>
+                <div>
+                  <label className="mono-label mb-1 block text-[11px] text-mute">Cidade (opcional)</label>
                   <input
                     type="text"
                     value={dados.cidade}
@@ -285,14 +337,9 @@ export default function CarrinhoFlutuante() {
                     className="w-full rounded border border-line px-3 py-2.5 text-[13.5px] text-ink focus:border-accent focus:outline-none"
                   />
                 </div>
-                <div>
-                  <label className="mono-label mb-1 block text-[11px] text-mute">E-mail (opcional)</label>
-                  <input
-                    type="email"
-                    value={dados.email}
-                    onChange={(e) => atualizarCampo("email", e.target.value)}
-                    className="w-full rounded border border-line px-3 py-2.5 text-[13.5px] text-ink focus:border-accent focus:outline-none"
-                  />
+                {/* honeypot: fora da tela, robô preenche e o pedido é descartado */}
+                <div aria-hidden="true" style={{ position: "absolute", left: "-9999px", width: 1, height: 1, overflow: "hidden" }}>
+                  <label>Site<input type="text" tabIndex={-1} autoComplete="off" value={dados.site} onChange={(e) => atualizarCampo("site", e.target.value)} /></label>
                 </div>
                 <div>
                   <label className="mono-label mb-1 block text-[11px] text-mute">Observações (opcional)</label>

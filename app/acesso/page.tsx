@@ -89,7 +89,7 @@ export default function AcessoRapidoPage() {
   const { cliente, carregando } = useCliente();
   const primeiroNome = (cliente?.nome_contato || "").trim().split(/\s+/)[0] || "";
   const logado = !!cliente;
-  const linkPedido = logado ? "/catalogos" : "/entrar?redirect=/catalogos";
+  const linkPedido = "/catalogos";   // pedido sem conta: o catálogo de compra é aberto
   const wa = `https://wa.me/${CONTATO.whatsapp}?text=${encodeURIComponent("Olá Leonardo! Vim pelo acesso rápido do site.")}`;
 
   return (
@@ -141,7 +141,7 @@ export default function AcessoRapidoPage() {
             <span className="mono-label block !text-[9.5px] text-paper/70">01 · Comprar</span>
             <span className="mt-0.5 block whitespace-nowrap font-display text-[clamp(17px,5.7vw,21px)] font-black uppercase leading-none tracking-tight [@media(min-height:780px)]:text-[24px]">Fazer pedido</span>
             <span className={`mt-1 block text-[12px] leading-snug text-paper/80 ${BAIXA}`}>
-              {logado ? "Escolha os produtos no catálogo" : "Entre ou crie sua conta em 1 minuto"}
+              {logado ? "Escolha os produtos no catálogo" : "Escolha os produtos — sem precisar de conta"}
             </span>
           </span>
           <Ic d={ICON.seta} size={22} className="flex-none transition group-hover:translate-x-1" />

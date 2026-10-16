@@ -28,6 +28,13 @@ type Pedido = {
   itens: ItemPedido[];
   total_pecas: number;
   observacoes: string | null;
+  cliente_cnpj?: string | null;
+  origem?: string | null;   // 'conta' | 'sem_conta' (pedido sem criar conta)
+};
+
+const cnpjFmt = (v?: string | null) => {
+  const d = (v || "").toUpperCase().replace(/[^0-9A-Z]/g, "");
+  return d.length === 14 ? `${d.slice(0, 2)}.${d.slice(2, 5)}.${d.slice(5, 8)}/${d.slice(8, 12)}-${d.slice(12)}` : v || "";
 };
 
 const STATUS_OPCOES = ["novo", "em_andamento", "concluido"];
@@ -117,12 +124,18 @@ export default function AdminPedidos() {
                 <div>
                   <div className="font-display text-[15px] font-extrabold tracking-tight text-ink">
                     {p.cliente_nome} {p.cliente_loja && <span className="text-mute">— {p.cliente_loja}</span>}
+                    {p.origem === "sem_conta" && (
+                      <span className="ml-2 inline-block rounded-full bg-amber-100 px-2.5 py-0.5 align-middle text-[10px] font-bold uppercase tracking-wide text-amber-800" title="Pedido enviado sem criar conta — confira o cliente">
+                        sem conta
+                      </span>
+                    )}
                   </div>
                   <div className="mt-1 text-[12.5px] text-mute">
                     {formatarData(p.criado_em)} · {p.total_pecas} peças · {p.catalogo_slug}
                   </div>
                   <div className="mt-1 flex flex-wrap gap-x-4 text-[12.5px] text-mute">
                     <span>WhatsApp: {p.cliente_whatsapp}</span>
+                    {p.cliente_cnpj && <span>CNPJ: {cnpjFmt(p.cliente_cnpj)}</span>}
                     {p.cliente_email && <span>E-mail: {p.cliente_email}</span>}
                     {p.cliente_cidade && <span>Cidade: {p.cliente_cidade}</span>}
                   </div>
