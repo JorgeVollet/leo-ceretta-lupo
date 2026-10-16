@@ -5,7 +5,11 @@ import type { ReactNode } from "react";
 import { supabaseBrowser } from "@/lib/supabase";
 import { ehAdmin } from "@/lib/admin-emails";
 
-export type PerfilCliente = { razao_social: string | null; doc: string | null; email: string | null; status?: string | null };
+export type PerfilCliente = {
+  razao_social: string | null; doc: string | null; email: string | null; status?: string | null;
+  // vêm do formulário de cadastro novo (contas antigas têm null)
+  nome_contato?: string | null; cargo?: string | null; telefone?: string | null;
+};
 
 type Ctx = {
   cliente: PerfilCliente | null;   // perfil do cliente logado (null = não é cliente)
@@ -32,7 +36,7 @@ export function ClienteProvider({ children }: { children: ReactNode }) {
     if (!session) { setCliente(null); setBloqueado(false); setCarregando(false); return; }
     const { data } = await supabaseBrowser
       .from("clientes")
-      .select("razao_social,doc,email,status")
+      .select("razao_social,doc,email,status,nome_contato,cargo,telefone")
       .eq("auth_user_id", session.user.id)
       .maybeSingle();
     if (data && (data as PerfilCliente).status === "bloqueado") {

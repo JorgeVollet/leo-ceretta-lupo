@@ -3,11 +3,15 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import AdminShell from "@/components/admin/AdminShell";
 import { supabaseBrowser } from "@/lib/supabase";
+import { mascaraTelefone } from "@/lib/documentos";
 
 type Conta = {
   id: string; razao_social: string | null; doc: string | null; email: string | null;
   criado_em: string; status: string; revisado_em?: string | null;
   origem_cadastro?: string | null; na_base?: boolean;
+  // cadastro novo (formulário) — contas antigas vêm com null
+  nome_contato?: string | null; cargo?: string | null; telefone?: string | null;
+  pedidos_encontrados?: number | null; nome_nos_pedidos?: string | null;
 };
 
 const dataHora = (v: string | null) => {
@@ -17,7 +21,7 @@ const dataHora = (v: string | null) => {
 };
 const cnpjFmt = (v: string | null) => {
   if (!v) return null;
-  const d = v.replace(/\D/g, "");
+  const d = v.toUpperCase().replace(/[^0-9A-Z]/g, "");   // CNPJ novo pode ter letra
   if (d.length !== 14) return v;
   return `${d.slice(0,2)}.${d.slice(2,5)}.${d.slice(5,8)}/${d.slice(8,12)}-${d.slice(12)}`;
 };
@@ -116,10 +120,24 @@ export default function AdminContas() {
                 <span className="ml-auto text-[12px] text-mute">{dataHora(c.criado_em)}</span>
               </div>
               <div className="mt-1.5 flex flex-wrap gap-x-5 gap-y-1 text-[12.5px] text-mute">
+                {c.nome_contato && <span className="font-semibold text-ink/80">{c.nome_contato}{c.cargo ? ` · ${c.cargo}` : ""}</span>}
                 {c.email && <span>{c.email}</span>}
+                {c.telefone && (
+                  <a href={`https://wa.me/55${c.telefone}`} target="_blank" rel="noopener" className="underline underline-offset-2 hover:text-ink">
+                    {mascaraTelefone(c.telefone)}
+                  </a>
+                )}
                 {c.doc && <span>CNPJ {cnpjFmt(c.doc)}</span>}
                 {c.revisado_em && <span>revisado em {dataHora(c.revisado_em)}</span>}
               </div>
+              {/* o que a conta enxerga em "Meus pedidos" se for aprovada — confira antes de aprovar */}
+              {c.pedidos_encontrados != null && (
+                <p className={`mt-2 text-[12.5px] ${c.pedidos_encontrados > 0 ? "text-ink/75" : "text-mute"}`}>
+                  {c.pedidos_encontrados > 0
+                    ? <>Casa com <b>{c.pedidos_encontrados}</b> pedido{c.pedidos_encontrados > 1 ? "s" : ""} do relatório da Lupo, que vêm como <b>{c.nome_nos_pedidos}</b></>
+                    : "Nenhum pedido da Lupo casa com esse cadastro ainda"}
+                </p>
+              )}
               <div className="mt-3 flex flex-wrap gap-2">
                 {c.status !== "aprovado" && (
                   <button disabled={busy === c.id} onClick={() => revisar(c.id, "aprovar")} className="mono-label rounded bg-emerald-600 px-4 py-2 text-white transition hover:bg-emerald-700 disabled:opacity-50">

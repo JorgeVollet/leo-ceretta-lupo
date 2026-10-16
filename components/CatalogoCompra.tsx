@@ -58,7 +58,7 @@ export default function CatalogoCompra({
           </h3>
           <p className="mt-1.5 text-[13.5px] leading-relaxed text-mute">
             A seleção de produtos e o pedido pelo site são liberados para clientes cadastrados.
-            Já é cliente do Leonardo? Crie seu acesso em 1 minuto usando seu CNPJ ou razão social.
+            Crie sua conta em 1 minuto com os dados da sua empresa.
             Você pode ver o catálogo completo em PDF logo abaixo.
           </p>
         </div>

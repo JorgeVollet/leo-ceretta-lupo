@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { useCart } from "@/lib/cart-context";
 import { useCliente } from "@/lib/cliente-auth";
+import { mascaraTelefone } from "@/lib/documentos";
 import { supabaseBrowser } from "@/lib/supabase";
 import { CONTATO } from "@/lib/data";
 
@@ -41,13 +42,14 @@ export default function CarrinhoFlutuante() {
     observacoes: "",
   });
 
-  // pré-preenche com os dados do cliente logado (razão social / e-mail)
+  // pré-preenche com os dados do cliente logado (contas novas trazem nome e telefone)
   useEffect(() => {
     if (!cliente) return;
     setDados((d) => ({
       ...d,
-      nome: d.nome || cliente.razao_social || "",
+      nome: d.nome || cliente.nome_contato || cliente.razao_social || "",
       loja: d.loja || cliente.razao_social || "",
+      whatsapp: d.whatsapp || (cliente.telefone ? mascaraTelefone(cliente.telefone) : ""),
       email: d.email || cliente.email || "",
     }));
   }, [cliente]);

@@ -72,6 +72,16 @@ export default function MeusPedidos() {
 
           {carregando || busy ? (
             <p className="mt-8 text-[14px] text-mute">Carregando seus pedidos...</p>
+          ) : pedidos.length === 0 && cliente?.status === "pendente" ? (
+            /* conta nova: os pedidos da Lupo só aparecem depois que o Leonardo confere o cadastro */
+            <div className="mt-8 rounded-lg border border-amber-200 bg-amber-50 p-8 text-center">
+              <p className="font-display text-[15px] font-extrabold text-ink">Seu cadastro está em análise</p>
+              <p className="mx-auto mt-1 max-w-md text-[13px] leading-relaxed text-mute">
+                Assim que o Leonardo conferir seus dados, seus pedidos aparecem aqui com o status de entrega.
+                Enquanto isso, o catálogo e o pedido pelo site já estão liberados.
+              </p>
+              <Link href="/catalogos" className="mono-label mt-4 inline-block rounded bg-ink px-5 py-3 text-paper transition hover:bg-accent">Ver catálogos</Link>
+            </div>
           ) : pedidos.length === 0 ? (
             <div className="mt-8 rounded-lg border border-line bg-white p-10 text-center shadow-card">
               <p className="font-display text-[15px] font-extrabold text-ink">Nenhum pedido encontrado ainda</p>
