@@ -1,0 +1,864 @@
+{
+ "produtos": [
+  {
+   "codigo": "71401-001",
+   "nome": "Top Attack II",
+   "descricao": "Top sem costura (tecnologia Seamless Dry) que permite maior respirabilidade e secagem rápida do suor, de leve suporte para esportes de baixo impacto. Possui decote arredondado com pontos que melhoram a sustentação do busto, mesmo com a alça mais fina e delicada.",
+   "tamanho": "P • M • G • GG",
+   "linha": "Inclusão de Cor",
+   "cores": [
+    {
+     "cod": "2783",
+     "nome": "Anil",
+     "img": "/produtos/lsport-atacado/71401-001/2783.jpg"
+    },
+    {
+     "cod": "3600",
+     "nome": "Camarão",
+     "img": "/produtos/lsport-atacado/71401-001/3600.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/lsport-atacado/71401-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/lsport-atacado/71401-001/2783.jpg"
+  },
+  {
+   "codigo": "71926-001",
+   "nome": "Top LSport Seamless Max II",
+   "descricao": "Top sem costura com a tecnologia Seamless Dry que proporciona maior respirabilidade e secagem rápida do suor. Possui decote, frontal e posterior, quadrado. Alças médias para suporte médio, ideal para atividades como yoga. Possui detalhe de desenhos de listras e texturas. Pontos que trazem sustentação interna, dando mais conforto durante a prática esportiva. Com tecnologia Antimicrobial.",
+   "tamanho": "P • M • G • GG • XG",
+   "linha": "Inclusão de Cor",
+   "cores": [
+    {
+     "cod": "2760",
+     "nome": "Azul",
+     "img": "/produtos/lsport-atacado/71926-001/2760.jpg"
+    },
+    {
+     "cod": "2801",
+     "nome": "Marinho",
+     "img": "/produtos/lsport-atacado/71926-001/2801.jpg"
+    },
+    {
+     "cod": "5780",
+     "nome": "Magenta",
+     "img": "/produtos/lsport-atacado/71926-001/5780.jpg"
+    },
+    {
+     "cod": "8872",
+     "nome": "Grafite",
+     "img": "/produtos/lsport-atacado/71926-001/8872.jpg"
+    },
+    {
+     "cod": "2498",
+     "nome": "Lavanda Suave",
+     "img": "/produtos/lsport-atacado/71926-001/2498.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/lsport-atacado/71926-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/lsport-atacado/71926-001/5780.jpg"
+  },
+  {
+   "codigo": "71403-003",
+   "nome": "Top Up Control",
+   "descricao": "Top sem costura desenvolvido com tecnologia Seamless Dry, que proporciona ajuste perfeito ao corpo, respirabilidade e maior liberdade de movimento. Produzido com fio Emana, auxilia na melhora do conforto térmico e no bem-estar durante o uso. Com decote nadador, oferece sustentação alta e segurança para diversas práticas, aliando funcionalidade e estilo. Possui pontos estratégicos de ventilação nas áreas de maior transpiração, favorecendo a respirabilidade, além de áreas de sustentação que garantem melhor suporte e conforto ao longo do uso.",
+   "tamanho": "P • M • G • GG • XG",
+   "linha": "Lançamento",
+   "cores": [
+    {
+     "cod": "2760",
+     "nome": "Azul",
+     "img": "/produtos/lsport-atacado/71403-003/2760.jpg"
+    },
+    {
+     "cod": "5780",
+     "nome": "Magenta",
+     "img": "/produtos/lsport-atacado/71403-003/5780.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/lsport-atacado/71403-003/9990.jpg"
+    }
+   ],
+   "img": "/produtos/lsport-atacado/71403-003/2760.jpg"
+  },
+  {
+   "codigo": "71856-001",
+   "nome": "Top Seamless Basic com Bojo",
+   "descricao": "Top sem costura (Tecnologia Seamless Dry), que permite maior respirabilidade e secagem rápida do suor. Top duplo com alto suporte e decote nadador nas costas, o que possibilita conforto até em esportes de alto impacto. Os pontos específicos de sustentação reforçam o bem-estar na atividade.",
+   "tamanho": "P • M • G • GG",
+   "linha": "Inclusão de Cor",
+   "cores": [
+    {
+     "cod": "4322",
+     "nome": "Verde",
+     "img": "/produtos/lsport-atacado/71856-001/4322.jpg"
+    },
+    {
+     "cod": "5556",
+     "nome": "Fucsia Glam",
+     "img": "/produtos/lsport-atacado/71856-001/5556.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/lsport-atacado/71856-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/lsport-atacado/71856-001/5556.jpg"
+  },
+  {
+   "codigo": "71851-001",
+   "nome": "Top LSport Alta Compressão",
+   "descricao": "Top sem costura (Tecnologia Seamless Dry), para maior respirabilidade e secagem rápida do suor. Top duplo com alto suporte, possui uma modelagem um pouco mais fechada no decote e nas costas. Desenhos e pontos específicos de sustentação e o cos mais largo possibilitam o conforto, até em esportes de alto impacto.",
+   "tamanho": "P • M • G • GG",
+   "linha": "Inclusão de Cor",
+   "cores": [
+    {
+     "cod": "1110",
+     "nome": "Branca",
+     "img": "/produtos/lsport-atacado/71851-001/1110.jpg"
+    },
+    {
+     "cod": "8000",
+     "nome": "Cinza Mescla",
+     "img": "/produtos/lsport-atacado/71851-001/8000.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preto",
+     "img": "/produtos/lsport-atacado/71851-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/lsport-atacado/71851-001/8000.jpg"
+  },
+  {
+   "codigo": "71828-001",
+   "nome": "Top Lupo AF Energy Raschel",
+   "descricao": "Top sem costura de leve suporte para esportes de baixo impacto. Produzido com a tecnologia Raschel que contém micro furos na alça e por toda a peça para melhor respirabilidade e secagem rápida do suor. Ainda com a tecnologia antimicrobial que elimina bactérias que causam odor.",
+   "tamanho": "P • M • G • GG",
+   "linha": "Inclusão de Cor",
+   "cores": [
+    {
+     "cod": "5920",
+     "nome": "Carmim",
+     "img": "/produtos/lsport-atacado/71828-001/5920.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/lsport-atacado/71828-001/9990.jpg"
+    },
+    {
+     "cod": "6750",
+     "nome": "Noz",
+     "img": "/produtos/lsport-atacado/71828-001/6750.jpg"
+    }
+   ],
+   "img": "/produtos/lsport-atacado/71828-001/6750.jpg"
+  },
+  {
+   "codigo": "71144-001",
+   "nome": "Shorts Attack",
+   "descricao": "Shorts com modelagem mais curta e sem costura. A tecnologia Seamsless Dry proporciona maior respirabilidade e secagem rápida do suor, enquanto o Antimicrobial protege das bactérias que causam mal odor. O cós anatômico para modelar a silhueta e garantir recorte curvo lateral.",
+   "tamanho": "P • M • G • GG",
+   "linha": "Inclusão de Cor",
+   "cores": [
+    {
+     "cod": "2783",
+     "nome": "Anil",
+     "img": "/produtos/lsport-atacado/71144-001/2783.jpg"
+    },
+    {
+     "cod": "3600",
+     "nome": "Camarão",
+     "img": "/produtos/lsport-atacado/71144-001/3600.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/lsport-atacado/71144-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/lsport-atacado/71144-001/3600.jpg"
+  },
+  {
+   "codigo": "71311-001",
+   "nome": "Bermuda Max Lupo",
+   "descricao": "Shorts tipo biker sem costura. O cós anatômico e os pontos de sustentação permitem maior segurança nos esportes de alto impacto. Peça produzida em fio texturizado que se assemelha ao fio de algodão, garantindo conforto extremo. A tecnologia antimicrobial impede a proliferação de bactérias que causam odores.",
+   "tamanho": "P • M • G • GG • XG",
+   "linha": "Inclusão de Cor",
+   "cores": [
+    {
+     "cod": "2760",
+     "nome": "Azul",
+     "img": "/produtos/lsport-atacado/71311-001/2760.jpg"
+    },
+    {
+     "cod": "2801",
+     "nome": "Marinho",
+     "img": "/produtos/lsport-atacado/71311-001/2801.jpg"
+    },
+    {
+     "cod": "5780",
+     "nome": "Magenta",
+     "img": "/produtos/lsport-atacado/71311-001/5780.jpg"
+    },
+    {
+     "cod": "2498",
+     "nome": "Lavanda Suave",
+     "img": "/produtos/lsport-atacado/71311-001/2498.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/lsport-atacado/71311-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/lsport-atacado/71311-001/2760.jpg"
+  },
+  {
+   "codigo": "71502-003",
+   "nome": "Calça Legging Up Control",
+   "descricao": "Calça legging seamless, justa ao corpo, desenvolvida com fio Emana, que contribui para o conforto e o bem-estar durante o uso. Sem costuras, sua modelagem se adapta perfeitamente ao corpo, proporcionando liberdade de movimento e ajuste confortável nas atividades do dia a dia ou esportivas. O cós mais largo garante maior segurança e estabilidade, sem marcar, mantendo a peça sempre no lugar mesmo em movimento.",
+   "tamanho": "P • M • G • GG • XG",
+   "linha": "Lançamento",
+   "cores": [
+    {
+     "cod": "2760",
+     "nome": "Azul",
+     "img": "/produtos/lsport-atacado/71502-003/2760.jpg"
+    },
+    {
+     "cod": "5780",
+     "nome": "Magenta",
+     "img": "/produtos/lsport-atacado/71502-003/5780.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/lsport-atacado/71502-003/9990.jpg"
+    }
+   ],
+   "img": "/produtos/lsport-atacado/71502-003/5780.jpg"
+  },
+  {
+   "codigo": "71756-001",
+   "nome": "Calça Legging Seamless Basic",
+   "descricao": "Legging sem costura com a tecnologia Seamless Dry, que permite maior respirabilidade e secagem rápida do suor. Com modelagem básica, possui cós largo e anatômico com texturas para melhor sustentação, modelando a silhueta e dando mais conforto.",
+   "tamanho": "P • M • G • GG",
+   "linha": "Inclusão de Cor",
+   "cores": [
+    {
+     "cod": "4322",
+     "nome": "Verde",
+     "img": "/produtos/lsport-atacado/71756-001/4322.jpg"
+    },
+    {
+     "cod": "5556",
+     "nome": "Fucsia Glam",
+     "img": "/produtos/lsport-atacado/71756-001/5556.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/lsport-atacado/71756-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/lsport-atacado/71756-001/5556.jpg"
+  },
+  {
+   "codigo": "71053-001",
+   "nome": "Calça Legging Max Lupo",
+   "descricao": "Calça legging com modelagem justa ao corpo sem costura. Não marca e se adequa confortavelmente sem apertar. Possui pontos de sustentação e compressão para atividades de alto impacto. O fio texturizado a ar tem toque como algodão e permite uma vestimenta com conforto extremo. Cós anatômico dá liberdade e conforto nas atividades por permitir que a peça continue ajustada ao corpo durante os movimentos",
+   "tamanho": "P • M • G • GG • XG",
+   "linha": "Inclusão de Cor",
+   "cores": [
+    {
+     "cod": "2760",
+     "nome": "Azul",
+     "img": "/produtos/lsport-atacado/71053-001/2760.jpg"
+    },
+    {
+     "cod": "2801",
+     "nome": "Marinho",
+     "img": "/produtos/lsport-atacado/71053-001/2801.jpg"
+    },
+    {
+     "cod": "8872",
+     "nome": "Grafite",
+     "img": "/produtos/lsport-atacado/71053-001/8872.jpg"
+    },
+    {
+     "cod": "2498",
+     "nome": "Lavanda Suave",
+     "img": "/produtos/lsport-atacado/71053-001/2498.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/lsport-atacado/71053-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/lsport-atacado/71053-001/2760.jpg"
+  },
+  {
+   "codigo": "71716-002",
+   "nome": "Calça Legging Act Seamless",
+   "descricao": "Calça legging sem costura ( tecnologia Seamless Dry) que proporciona secagem rápida do suor e maior respirabilidade. Cós largo e anatômico te deixa mais segura no exercício, além de modelar a silhueta. Nas laterais, detalhe de listras acompanham a calça.",
+   "tamanho": "P • M • G • GG",
+   "linha": "Inclusão de Cor",
+   "cores": [
+    {
+     "cod": "2783",
+     "nome": "Anil",
+     "img": "/produtos/lsport-atacado/71716-002/2783.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/lsport-atacado/71716-002/9990.jpg"
+    }
+   ],
+   "img": "/produtos/lsport-atacado/71716-002/2783.jpg"
+  },
+  {
+   "codigo": "71752-001",
+   "nome": "Calça Lupo Feminino Energy Raschel",
+   "descricao": "Legging sem costura com a tecnologia Raschel. Os micro furos na estrutura da peça possibilitam mais capacidade de ventilação e liberdade nos movimentos, além de construir desenhos que conversam com a silhueta do corpo. O cós anatômico permite mais segurança durante a atividade.",
+   "tamanho": "P • M • G • GG",
+   "linha": "Inclusão de Cor",
+   "cores": [
+    {
+     "cod": "5920",
+     "nome": "Carmim",
+     "img": "/produtos/lsport-atacado/71752-001/5920.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/lsport-atacado/71752-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/lsport-atacado/71752-001/5920.jpg"
+  },
+  {
+   "codigo": "71582-001",
+   "nome": "Calça Legging Underwear Warm Lupo Feminina",
+   "descricao": "Calça legging feminina justa ao corpo, desenvolvida com a tecnologia WARM em fio SENSIL® Heat, produzido a partir de resíduos da torra de grãos de café, esta peça oferece isolamento térmico natural e inteligente. A tecnologia atua retardando a perda de calor corporal em ambientes de baixa temperatura, ajudando a manter o corpo aquecido por mais tempo. Com base em poliamida, este produto possui indicação de uso como primeira camada, associado com peças bloqueadoras de vento em condições de baixas temperaturas, potencializando o efeito e proporcionando assim conforto, bem- estar e performance mesmo em condições frias.",
+   "tamanho": "P • M • G • GG",
+   "linha": "Inclusão de Cor",
+   "cores": [
+    {
+     "cod": "9990",
+     "nome": "Preto",
+     "img": "/produtos/lsport-atacado/71582-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/lsport-atacado/71582-001/9990.jpg"
+  },
+  {
+   "codigo": "71570-002",
+   "nome": "Calça Legging LSport Mom",
+   "descricao": "Calça legging ideal para grávidas. Possui cós super alto com tecnologia que proporciona conforto e não aperta a barriga. Seamless Dry, ainda garante maior respirabilidade e secagem rápida do suor e tecnologia Amni Off que protege do agente viral e antibacteriano. Perfeita para a prática de yoga.",
+   "tamanho": "P • M • G • GG",
+   "linha": "Inclusão de Cor",
+   "cores": [
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/lsport-atacado/71570-002/9990.jpg"
+    }
+   ],
+   "img": "/produtos/lsport-atacado/71570-002/9990.jpg"
+  },
+  {
+   "codigo": "77052-005",
+   "nome": "T-Shirt Poliamida Básica Feminina",
+   "descricao": "Camiseta básica com modelagem reta, manga curta e gola redonda. Possui transfer refletivo na frente e proteção contra os raios solares UV +50. Produzida especialmente com fio de poliamida biodegradável que reduz o tempo de biodegradação da peça para menos de três anos quando descartada em aterros sanitários.",
+   "tamanho": "P • M • G • GG • XG • XXG",
+   "linha": "Inclusão de Cor",
+   "cores": [
+    {
+     "cod": "1110",
+     "nome": "Branca",
+     "img": "/produtos/lsport-atacado/77052-005/1110.jpg"
+    },
+    {
+     "cod": "2783",
+     "nome": "Anil",
+     "img": "/produtos/lsport-atacado/77052-005/2783.jpg"
+    },
+    {
+     "cod": "5780",
+     "nome": "Magenta",
+     "img": "/produtos/lsport-atacado/77052-005/5780.jpg"
+    },
+    {
+     "cod": "2660",
+     "nome": "Azul",
+     "img": "/produtos/lsport-atacado/77052-005/2660.jpg"
+    },
+    {
+     "cod": "3915",
+     "nome": "Damasco Claro",
+     "img": "/produtos/lsport-atacado/77052-005/3915.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/lsport-atacado/77052-005/9990.jpg"
+    }
+   ],
+   "img": "/produtos/lsport-atacado/77052-005/5780.jpg"
+  },
+  {
+   "codigo": "71012-002",
+   "nome": "T-shirt Térmica I-Max",
+   "descricao": "Camiseta reta de proteção térmica com manga longa e gola redonda. Possui tecnologia Seamdless Dry que proporciona mais respirabilidade e secagem rápida do suor. A peça é produzida em níveis diferentes de compressão que melhoram a postura e equilibram o peso do músculos. Desenvolvida com poliamida antiviral e antibacteriano.",
+   "tamanho": "P • M • G • GG",
+   "linha": "Inclusão de Cor",
+   "cores": [
+    {
+     "cod": "1110",
+     "nome": "Branca",
+     "img": "/produtos/lsport-atacado/71012-002/1110.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preto",
+     "img": "/produtos/lsport-atacado/71012-002/9990.jpg"
+    }
+   ],
+   "img": "/produtos/lsport-atacado/71012-002/1110.jpg"
+  },
+  {
+   "codigo": "77028-003",
+   "nome": "T-Shirt Repelente UV Feminina",
+   "descricao": "Camiseta feminina com proteção UV50+, manga longa e gola redonda. Modelagem ajustada ao corpo e com detalhes refletivos. Possui ação repelente, tecido em poliamida com princípios ativos utilizados para afastar mosquitos. Produzida especialmente com fio de poliamida biodegradável que reduz o tempo de biodegradação da peça para menos de três anos quando descartada em aterros sanitários. Detalhe da logo refletiva, ideal para atividades externas, que vão desde dias de sol até exercícios noturnos.",
+   "tamanho": "P • M • G • GG • XG",
+   "linha": "Inclusão de Cor",
+   "cores": [
+    {
+     "cod": "1110",
+     "nome": "Branca",
+     "img": "/produtos/lsport-atacado/77028-003/1110.jpg"
+    },
+    {
+     "cod": "5780",
+     "nome": "Magenta",
+     "img": "/produtos/lsport-atacado/77028-003/5780.jpg"
+    },
+    {
+     "cod": "4402",
+     "nome": "Lima Citrico",
+     "img": "/produtos/lsport-atacado/77028-003/4402.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/lsport-atacado/77028-003/9990.jpg"
+    }
+   ],
+   "img": "/produtos/lsport-atacado/77028-003/4402.jpg"
+  },
+  {
+   "codigo": "70000-001",
+   "nome": "Regata Running",
+   "descricao": "Regata básica sem costura (Tecnologia Seamless Dry) proporciona maior respirabilidade e uma secagem mais rápida do suor. Modelagem reta e alongada acompanha pontos estratégicos respiráveis. Detalhes refletivos para atividades externas e tecnologia antimicrobial.",
+   "tamanho": "P • M • G • GG",
+   "linha": "Inclusão de Cor",
+   "cores": [
+    {
+     "cod": "1110",
+     "nome": "Branca",
+     "img": "/produtos/lsport-atacado/70000-001/1110.jpg"
+    },
+    {
+     "cod": "2783",
+     "nome": "Anil",
+     "img": "/produtos/lsport-atacado/70000-001/2783.jpg"
+    },
+    {
+     "cod": "4402",
+     "nome": "Lima Citrico",
+     "img": "/produtos/lsport-atacado/70000-001/4402.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/lsport-atacado/70000-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/lsport-atacado/70000-001/1110.jpg"
+  },
+  {
+   "codigo": "77173-002",
+   "nome": "Regata Poliamida Básica Masculina",
+   "descricao": "Regata reta, com alça larga e gola redonda. Produzida especialmente com fio de poliamida biodegradável que reduz o tempo de biodegradação da peça para menos de três anos quando descartada em aterros sanitários. Proporciona um toque macio e confortável e também maior respirabilidade, possui qualidade mais durável que a poliamida convencional. Possui transfer refletivo na frente e proteção contra os raios solares UV +50.",
+   "tamanho": "P • M • G • GG",
+   "linha": "Inclusão de Cor",
+   "cores": [
+    {
+     "cod": "2760",
+     "nome": "Azul",
+     "img": "/produtos/lsport-atacado/77173-002/2760.jpg"
+    },
+    {
+     "cod": "4322",
+     "nome": "Verde",
+     "img": "/produtos/lsport-atacado/77173-002/4322.jpg"
+    },
+    {
+     "cod": "8872",
+     "nome": "Grafite",
+     "img": "/produtos/lsport-atacado/77173-002/8872.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/lsport-atacado/77173-002/9990.jpg"
+    }
+   ],
+   "img": "/produtos/lsport-atacado/77173-002/2760.jpg"
+  },
+  {
+   "codigo": "70712-001",
+   "nome": "Regata Machão LSport",
+   "descricao": "Regata com alça larga e gola redonda. Peça com a tecnologia Seamless Dry, que proporciona maior respirabilidade ao corpo e a secagem rápida do suor. A modelagem um pouco mais alongada conta também com pontos estratégicos que melhoram a circulação do ar. Com detalhes refletivos e tecnologia antimicrobial.",
+   "tamanho": "P • M • G • GG",
+   "linha": "Inclusão de Cor",
+   "cores": [
+    {
+     "cod": "1110",
+     "nome": "Branca",
+     "img": "/produtos/lsport-atacado/70712-001/1110.jpg"
+    },
+    {
+     "cod": "4322",
+     "nome": "Verde",
+     "img": "/produtos/lsport-atacado/70712-001/4322.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/lsport-atacado/70712-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/lsport-atacado/70712-001/1110.jpg"
+  },
+  {
+   "codigo": "70040-001",
+   "nome": "T-shirt Térmica I-Power",
+   "descricao": "Camiseta manga curta, com gola redonda e modelagem ajustada ao corpo. Possui tecnologia Seamless Dry que garante maior transpirabilidade e secagem rápida do suor. Peça desenvolvida com diferentes níveis de compressão que melhoram a postura corporal e o contrapeso do músculo, além do fio especial com ação antiviral e antimicrobial.",
+   "tamanho": "P • M • G • GG",
+   "linha": "Inclusão de Cor",
+   "cores": [
+    {
+     "cod": "1110",
+     "nome": "Branca",
+     "img": "/produtos/lsport-atacado/70040-001/1110.jpg"
+    },
+    {
+     "cod": "4831",
+     "nome": "Verde",
+     "img": "/produtos/lsport-atacado/70040-001/4831.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/lsport-atacado/70040-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/lsport-atacado/70040-001/9990.jpg"
+  },
+  {
+   "codigo": "70728-001",
+   "nome": "T-shirt LSport Boston",
+   "descricao": "Camiseta em Seamless Dry, que proporciona maior respirabilidade ao corpo e secagem rápida do suor. Pontos estratégicos na t-shirt facilitam a transpirabilidade. Com gola redonda e manga curta, os detalhes refletivos permitem a prática de atividades externas.",
+   "tamanho": "P • M • G • GG",
+   "linha": "Inclusão de Cor",
+   "cores": [
+    {
+     "cod": "2760",
+     "nome": "Azul",
+     "img": "/produtos/lsport-atacado/70728-001/2760.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/lsport-atacado/70728-001/9990.jpg"
+    },
+    {
+     "cod": "6750",
+     "nome": "Noz",
+     "img": "/produtos/lsport-atacado/70728-001/6750.jpg"
+    }
+   ],
+   "img": "/produtos/lsport-atacado/70728-001/6750.jpg"
+  },
+  {
+   "codigo": "77053-004",
+   "nome": "T-Shirt Poliamida Básica Masculina II",
+   "descricao": "Camiseta básica com modelagem reta, manga curta e gola redonda. Possui transfer refletivo na frente e proteção contra os raios solares UV +50. Produzida especialmente com fio de poliamida biodegradável que reduz o tempo de biodegradação da peça para menos de três anos quando descartada em aterros sanitários.",
+   "tamanho": "P • M • G • GG • XG • XXG",
+   "linha": "Inclusão de Cor",
+   "cores": [
+    {
+     "cod": "1110",
+     "nome": "Branca",
+     "img": "/produtos/lsport-atacado/77053-004/1110.jpg"
+    },
+    {
+     "cod": "2783",
+     "nome": "Anil",
+     "img": "/produtos/lsport-atacado/77053-004/2783.jpg"
+    },
+    {
+     "cod": "8872",
+     "nome": "Grafite",
+     "img": "/produtos/lsport-atacado/77053-004/8872.jpg"
+    },
+    {
+     "cod": "3915",
+     "nome": "Damasco Claro",
+     "img": "/produtos/lsport-atacado/77053-004/3915.jpg"
+    },
+    {
+     "cod": "4402",
+     "nome": "Lima Citrico",
+     "img": "/produtos/lsport-atacado/77053-004/4402.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/lsport-atacado/77053-004/9990.jpg"
+    },
+    {
+     "cod": "6750",
+     "nome": "Noz",
+     "img": "/produtos/lsport-atacado/77053-004/6750.jpg"
+    }
+   ],
+   "img": "/produtos/lsport-atacado/77053-004/1110.jpg"
+  },
+  {
+   "codigo": "77085-004",
+   "nome": "T-Shirt Poliamida Básica Run Masculina",
+   "descricao": "Camiseta com modelagem reta clássica, manga curta e gola redonda. Produzida em poliamida para mais frescor e tecido confortável ao toque. Possui detalhes refletivos, ideal para uso em atividades externas.",
+   "tamanho": "P • M • G • GG • XG • XXG",
+   "linha": "Inclusão de Cor",
+   "cores": [
+    {
+     "cod": "1110",
+     "nome": "Branca",
+     "img": "/produtos/lsport-atacado/77085-004/1110.jpg"
+    },
+    {
+     "cod": "5920",
+     "nome": "Carmim",
+     "img": "/produtos/lsport-atacado/77085-004/5920.jpg"
+    },
+    {
+     "cod": "6980",
+     "nome": "Bege - 6980",
+     "img": "/produtos/lsport-atacado/77085-004/6980.jpg"
+    },
+    {
+     "cod": "8810",
+     "nome": "Mescla Grafite",
+     "img": "/produtos/lsport-atacado/77085-004/8810.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/lsport-atacado/77085-004/9990.jpg"
+    }
+   ],
+   "img": "/produtos/lsport-atacado/77085-004/9990.jpg"
+  },
+  {
+   "codigo": "70045-002",
+   "nome": "T-shirt Térmica Run",
+   "descricao": "Camiseta manga longa térmica, que mantém a temperatura, com tecnologia Seamless Dry proporciona maior respirabilidade ao corpo e secagem rápida do suor. A peça é produzida com diferentes níveis de compressão que melhoram o contrapeso do músculo e a postura corporal, além do fio Amni-Off com ação antiviral e antibactericida.",
+   "tamanho": "P • M • G • GG",
+   "linha": "Inclusão de Cor",
+   "cores": [
+    {
+     "cod": "1110",
+     "nome": "Branca",
+     "img": "/produtos/lsport-atacado/70045-002/1110.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preto",
+     "img": "/produtos/lsport-atacado/70045-002/9990.jpg"
+    }
+   ],
+   "img": "/produtos/lsport-atacado/70045-002/9990.jpg"
+  },
+  {
+   "codigo": "77031-002",
+   "nome": "T-Shirt Repelente UV Masculina",
+   "descricao": "Camiseta masculina com proteção UV50+, manga longa e gola redonda. Modelagem ajustada ao corpo e com detalhes refletivos. Possui ação repelente, tecido em poliamida com princípios ativos utilizados para afastar mosquitos. Produzida especialmente com fio de poliamida biodegradável que reduz o tempo de biodegradação da peça para menos de três anos quando descartada em aterros sanitários. Detalhe da logo refletiva, ideal para atividades externas, que vão desde dias de sol até exercícios noturnos.",
+   "tamanho": "P • M • G • GG • XG • XXG",
+   "linha": "Inclusão de Cor",
+   "cores": [
+    {
+     "cod": "1110",
+     "nome": "Branca",
+     "img": "/produtos/lsport-atacado/77031-002/1110.jpg"
+    },
+    {
+     "cod": "2783",
+     "nome": "Anil",
+     "img": "/produtos/lsport-atacado/77031-002/2783.jpg"
+    },
+    {
+     "cod": "4322",
+     "nome": "Verde",
+     "img": "/produtos/lsport-atacado/77031-002/4322.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/lsport-atacado/77031-002/9990.jpg"
+    }
+   ],
+   "img": "/produtos/lsport-atacado/77031-002/9990.jpg"
+  },
+  {
+   "codigo": "70050-003",
+   "nome": "Bermuda Térmica I-Max",
+   "descricao": "Bermuda justa ao corpo para atividades de alto impacto. Confeccionada em Seamless Dry que proporciona maior respirabilidade ao corpo e secagem rápida do suor. Desenvolvido com diferentes níveis de compressão, possui ação que melhora a postura corporal e o contrapeso do músculo. O fio Amni Off ainda garante ação antiviral e antibacteriana.",
+   "tamanho": "P • M • G • GG • XG",
+   "linha": "Inclusão de Cor",
+   "cores": [
+    {
+     "cod": "2801",
+     "nome": "Marinho",
+     "img": "/produtos/lsport-atacado/70050-003/2801.jpg"
+    },
+    {
+     "cod": "5810",
+     "nome": "Grená",
+     "img": "/produtos/lsport-atacado/70050-003/5810.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/lsport-atacado/70050-003/9990.jpg"
+    },
+    {
+     "cod": "6750",
+     "nome": "Noz",
+     "img": "/produtos/lsport-atacado/70050-003/6750.jpg"
+    }
+   ],
+   "img": "/produtos/lsport-atacado/70050-003/6750.jpg"
+  },
+  {
+   "codigo": "70602-001",
+   "nome": "Bermuda Térmica X-Run Emana",
+   "descricao": "Bermuda justa ao corpo com alta compressão. Em Seamless Dry que proporciona maior respirabilidade ao corpo e secagem rápida do suor, foi confeccionada com fio inteligente de poliamida que converte o calor do corpo em benefícios que reduz a fadiga e melhora a elasticidade da pele. Possui cós anatômico.",
+   "tamanho": "P • M • G • GG",
+   "linha": "Inclusão de Cor",
+   "cores": [
+    {
+     "cod": "9990",
+     "nome": "Preto",
+     "img": "/produtos/lsport-atacado/70602-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/lsport-atacado/70602-001/9990.jpg"
+  },
+  {
+   "codigo": "76422-003",
+   "nome": "Shorts Budapeste II",
+   "descricao": "- Secagem rápida; - Bolsinho interno; - Cordão interno para ajuste; - Detalhes refletivos.",
+   "tamanho": "P • M • G • GG • XG • XXG",
+   "linha": "Inclusão de Cor",
+   "cores": [
+    {
+     "cod": "2800",
+     "nome": "Marinho",
+     "img": "/produtos/lsport-atacado/76422-003/2800.jpg"
+    },
+    {
+     "cod": "8000",
+     "nome": "Cinza Mescla",
+     "img": "/produtos/lsport-atacado/76422-003/8000.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/lsport-atacado/76422-003/9990.jpg"
+    }
+   ],
+   "img": "/produtos/lsport-atacado/76422-003/9990.jpg"
+  },
+  {
+   "codigo": "76350-002",
+   "nome": "Shorts M Runner",
+   "descricao": "Shorts com modelagem ampla e leve para atividades físicas ou uso casual. Possui forro interno para proporcionar maior conforto, detalhe de faixa lateral em outra cor e detalhes refletivos.",
+   "tamanho": "P • M • G • GG • XG • XXG",
+   "linha": "Inclusão de Cor",
+   "cores": [
+    {
+     "cod": "8040",
+     "nome": "Lunar Grey",
+     "img": "/produtos/lsport-atacado/76350-002/8040.jpg"
+    },
+    {
+     "cod": "8670",
+     "nome": "Grafite",
+     "img": "/produtos/lsport-atacado/76350-002/8670.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/lsport-atacado/76350-002/9990.jpg"
+    }
+   ],
+   "img": "/produtos/lsport-atacado/76350-002/8040.jpg"
+  },
+  {
+   "codigo": "70601-001",
+   "nome": "Calça Térmica X-Run Emana",
+   "descricao": "Calça legging de alta compressão. Em Seamless Dry que proporciona maior respirabilidade ao corpo e secagem rápida do suor, foi confeccionada com fio inteligente de poliamida que converte o calor do corpo em benefícios que reduz a fadiga e melhora a elasticidade da pele. Possui cós anatômico para mais conforto no exercício.",
+   "tamanho": "P • M • G • GG",
+   "linha": "Inclusão de Cor",
+   "cores": [
+    {
+     "cod": "9990",
+     "nome": "Preto",
+     "img": "/produtos/lsport-atacado/70601-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/lsport-atacado/70601-001/9990.jpg"
+  },
+  {
+   "codigo": "70054-001",
+   "nome": "Calça Underwear Warm Lupo Masculina",
+   "descricao": "Calça legging masculina justa ao corpo, desenvolvida com a tecnologia WARM em fio SENSIL® Heat, produzido a partir de resíduos da torra de grãos de café, esta peça oferece isolamento térmico natural e inteligente. A tecnologia atua retardando a perda de calor corporal em ambientes de baixa temperatura, ajudando a manter o corpo aquecido por mais tempo. Com base em poliamida, este produto possui indicação de uso como primeira camada, associado com peças bloqueadoras de vento em condições de baixas temperaturas, potencializando o efeito e proporcionando assim conforto, bem- estar e performance mesmo em condições frias.",
+   "tamanho": "P • M • G • GG",
+   "linha": "Inclusão de Cor",
+   "cores": [
+    {
+     "cod": "9990",
+     "nome": "Preto",
+     "img": "/produtos/lsport-atacado/70054-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/lsport-atacado/70054-001/9990.jpg"
+  }
+ ]
+}

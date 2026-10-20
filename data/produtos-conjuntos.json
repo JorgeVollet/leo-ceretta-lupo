@@ -1,0 +1,704 @@
+{
+ "produtos": [
+  {
+   "codigo": "73405-001",
+   "nome": "Top LSport Seamless Alça Duo Ayra",
+   "descricao": "Top sem costura, confeccionado com fio antimicrobial, que ajuda a inibir a proliferação de bactérias e odores, proporcionando mais frescor e conforto durante o uso. Possui alças finas que cruzam nas costas, garantindo melhor ajuste ao corpo, liberdade de movimento e um visual moderno e feminino. Ideal para treinos de leve a média intensidade.",
+   "tamanho": "P • M • G • GG",
+   "linha": "Lançamento",
+   "cores": [
+    {
+     "cod": "3600",
+     "nome": "Camarão",
+     "img": "/produtos/conjuntos/73405-001/3600.jpg"
+    },
+    {
+     "cod": "4402",
+     "nome": "Lima Citrico",
+     "img": "/produtos/conjuntos/73405-001/4402.jpg"
+    }
+   ],
+   "img": "/produtos/conjuntos/73405-001/4402.jpg"
+  },
+  {
+   "codigo": "73234-001",
+   "nome": "Shorts LSport Seamless Ayra",
+   "descricao": "Shorts sem costura, confeccionada em tecido com tecnologia antimicrobial, que ajuda a inibir a proliferação de bactérias e odores, garantindo mais frescor durante o uso. Possui cós anatômico, que se adapta perfeitamente ao corpo oferecendo sustentação e conforto, além de aplicação de silicone no cós, proporcionando melhor aderência e segurança nos movimentos.",
+   "tamanho": "P • M • G • GG",
+   "linha": "Lançamento",
+   "cores": [
+    {
+     "cod": "3600",
+     "nome": "Camarão",
+     "img": "/produtos/conjuntos/73234-001/3600.jpg"
+    },
+    {
+     "cod": "4402",
+     "nome": "Lima Citrico",
+     "img": "/produtos/conjuntos/73234-001/4402.jpg"
+    }
+   ],
+   "img": "/produtos/conjuntos/73234-001/3600.jpg"
+  },
+  {
+   "codigo": "73235-001",
+   "nome": "Calça Legging LSport Seamless Ayra",
+   "descricao": "Legging sem costura, confeccionada em tecido com tecnologia antimicrobial, que ajuda a inibir a proliferação de bactérias e odores, garantindo mais frescor durante o uso. Possui cós anatômico, que se adapta perfeitamente ao corpo oferecendo sustentação e conforto, além de aplicação de silicone no cós, proporcionando melhor aderência e segurança nos movimentos. Ideal para treinos e atividades, unindo funcionalidade, conforto e design moderno.",
+   "tamanho": "P • M • G • GG",
+   "linha": "Lançamento",
+   "cores": [
+    {
+     "cod": "3600",
+     "nome": "Camarão",
+     "img": "/produtos/conjuntos/73235-001/3600.jpg"
+    },
+    {
+     "cod": "4402",
+     "nome": "Lima Citrico",
+     "img": "/produtos/conjuntos/73235-001/4402.jpg"
+    }
+   ],
+   "img": "/produtos/conjuntos/73235-001/3600.jpg"
+  },
+  {
+   "codigo": "73403-001",
+   "nome": "Top LSport Seamless Ondas",
+   "descricao": "Top sem costura, confeccionado com fio antimicrobial, que ajuda a inibir a proliferação de bactérias e odores, garantindo mais frescor e conforto durante o uso. Possui detalhes em texturas, que valorizam o design e contribuem para melhor respirabilidade, além de oferecer alto suporte, ideal para atividades de maior impacto. Conta ainda com detalhe refletivo, que agrega segurança em ambientes de baixa luminosidade.",
+   "tamanho": "P • M • G • GG",
+   "linha": "Lançamento",
+   "cores": [
+    {
+     "cod": "2143",
+     "nome": "Azul Claro",
+     "img": "/produtos/conjuntos/73403-001/2143.jpg"
+    },
+    {
+     "cod": "6750",
+     "nome": "Noz",
+     "img": "/produtos/conjuntos/73403-001/6750.jpg"
+    }
+   ],
+   "img": "/produtos/conjuntos/73403-001/2143.jpg"
+  },
+  {
+   "codigo": "73233-001",
+   "nome": "Shorts LSport Seamless Ondas",
+   "descricao": "Shorts sem costura, confeccionado em tecido com tecnologia antimicrobial, que ajuda a inibir a proliferação de bactérias e odores, garantindo mais frescor durante o uso. Possui pontos com textura estrategicamente posicionados, que valorizam o design e contribuem para melhor respirabilidade e conforto. O cós anatômico se adapta ao corpo oferecendo sustentação, além de aplicação de silicone no cós, proporcionando melhor aderência e segurança durante os movimentos.",
+   "tamanho": "P • M • G • GG",
+   "linha": "Lançamento",
+   "cores": [
+    {
+     "cod": "2143",
+     "nome": "Azul Claro",
+     "img": "/produtos/conjuntos/73233-001/2143.jpg"
+    },
+    {
+     "cod": "6750",
+     "nome": "Noz",
+     "img": "/produtos/conjuntos/73233-001/6750.jpg"
+    }
+   ],
+   "img": "/produtos/conjuntos/73233-001/6750.jpg"
+  },
+  {
+   "codigo": "73232-001",
+   "nome": "Calça Legging LSport Seamless Ondas",
+   "descricao": "Legging sem costura, confeccionada em tecido com tecnologia antimicrobial, que ajuda a inibir a proliferação de bactérias e odores, garantindo mais frescor durante o uso. Possui pontos com textura estrategicamente posicionados, que valorizam o design e contribuem para melhor respirabilidade e conforto. O cós anatômico se adapta ao corpo oferecendo sustentação, além de aplicação de silicone no cós, proporcionando melhor aderência e segurança durante os movimentos.",
+   "tamanho": "P • M • G • GG",
+   "linha": "Lançamento",
+   "cores": [
+    {
+     "cod": "2143",
+     "nome": "Azul Claro",
+     "img": "/produtos/conjuntos/73232-001/2143.jpg"
+    },
+    {
+     "cod": "6750",
+     "nome": "Noz",
+     "img": "/produtos/conjuntos/73232-001/6750.jpg"
+    }
+   ],
+   "img": "/produtos/conjuntos/73232-001/2143.jpg"
+  },
+  {
+   "codigo": "73401-001",
+   "nome": "Top LSport Raschel Alça Textura",
+   "descricao": "Top seamless desenvolvido em tecnologia Raschel, que proporciona ajuste confortável e adaptação ao corpo com excelente elasticidade. Com suporte leve, é ideal para o dia a dia e atividades de baixa intensidade, oferecendo liberdade de movimento sem abrir mão do bem-estar. Possui alças finas com design cruzado nas costas, que valorizam o visual e garantem melhor distribuição do ajuste. Conta ainda com tecnologia antimicrobial, que auxilia no controle de odores, mantendo a peça fresca por mais tempo.",
+   "tamanho": "P • M • G • GG",
+   "linha": "Lançamento",
+   "cores": [
+    {
+     "cod": "2783",
+     "nome": "Anil",
+     "img": "/produtos/conjuntos/73401-001/2783.jpg"
+    },
+    {
+     "cod": "4322",
+     "nome": "Verde",
+     "img": "/produtos/conjuntos/73401-001/4322.jpg"
+    }
+   ],
+   "img": "/produtos/conjuntos/73401-001/2783.jpg"
+  },
+  {
+   "codigo": "73231-001",
+   "nome": "Calça LSport Legging Raschel Textura",
+   "descricao": "Legging seamless desenvolvida com tecnologia Raschel, que proporciona ajuste confortável e excelente adaptação ao corpo. Sua estrutura com micro perfurações favorece a ventilação e a respirabilidade, garantindo maior conforto térmico durante o uso, além de oferecer total liberdade de movimento. O design dos pontos acompanha a silhueta, valorizando o corpo com um visual moderno e funcional. Conta ainda com cós anatômico, que proporciona melhor ajuste, segurança e sustentação ao longo das atividades.",
+   "tamanho": "P • M • G • GG",
+   "linha": "Lançamento",
+   "cores": [
+    {
+     "cod": "2783",
+     "nome": "Anil",
+     "img": "/produtos/conjuntos/73231-001/2783.jpg"
+    },
+    {
+     "cod": "4322",
+     "nome": "Verde",
+     "img": "/produtos/conjuntos/73231-001/4322.jpg"
+    }
+   ],
+   "img": "/produtos/conjuntos/73231-001/4322.jpg"
+  },
+  {
+   "codigo": "73400-001",
+   "nome": "Top LSport Raschel Gota",
+   "descricao": "Top sem costura desenvolvido em tecnologia Raschel, que garante ajuste confortável e adaptação ao corpo com excelente elasticidade. Com modelagem mais fechada, oferece maior cobertura e segurança durante o uso, sendo ideal para o dia a dia e atividades leves. Possui detalhe em pontos nas costas, que agrega ventilação estratégica e um toque moderno ao visual. Conta com tecnologia antimicrobial, que auxilia no controle de odores, mantendo a peça fresca por mais tempo.",
+   "tamanho": "P • M • G • GG",
+   "linha": "Lançamento",
+   "cores": [
+    {
+     "cod": "2801",
+     "nome": "Marinho",
+     "img": "/produtos/conjuntos/73400-001/2801.jpg"
+    },
+    {
+     "cod": "5556",
+     "nome": "Fucsia Glam",
+     "img": "/produtos/conjuntos/73400-001/5556.jpg"
+    }
+   ],
+   "img": "/produtos/conjuntos/73400-001/5556.jpg"
+  },
+  {
+   "codigo": "73230-001",
+   "nome": "Calça Legging LSport Raschel Gota",
+   "descricao": "Legging seamless desenvolvida com tecnologia Raschel, que proporciona ajuste confortável e excelente adaptação ao corpo. Sua estrutura com micro perfurações favorece a ventilação e a respirabilidade, garantindo maior conforto térmico durante o uso, além de oferecer total liberdade de movimento. O design dos pontos acompanha a silhueta, valorizando o corpo com um visual moderno e funcional. Conta ainda com cós anatômico, que proporciona melhor ajuste, segurança e sustentação ao longo das atividades.",
+   "tamanho": "P • M • G • GG",
+   "linha": "Lançamento",
+   "cores": [
+    {
+     "cod": "2801",
+     "nome": "Marinho",
+     "img": "/produtos/conjuntos/73230-001/2801.jpg"
+    },
+    {
+     "cod": "5556",
+     "nome": "Fucsia Glam",
+     "img": "/produtos/conjuntos/73230-001/5556.jpg"
+    }
+   ],
+   "img": "/produtos/conjuntos/73230-001/2801.jpg"
+  },
+  {
+   "codigo": "71911-001",
+   "nome": "Top LSport Slim",
+   "descricao": "Top sem costura (tecnologia Seamless Dry) com modelagem slim, decote arrendondado na frente e nas costas e alças finas. Possui detalhe na parte frontal para desenho e suporte da região do busto, garantindo maior conforto no uso. Indicado para atividades de baixo e médio impacto, possui suporte leve. Sua base em poliamida e elastano entrega um ajuste perfeito ao corpo, toque agradável e secagem rápida.",
+   "tamanho": "P • M • G",
+   "linha": "Inclusão de Cor",
+   "cores": [
+    {
+     "cod": "2143",
+     "nome": "Azul Claro",
+     "img": "/produtos/conjuntos/71911-001/2143.jpg"
+    },
+    {
+     "cod": "5920",
+     "nome": "Carmim",
+     "img": "/produtos/conjuntos/71911-001/5920.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/conjuntos/71911-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/conjuntos/71911-001/2143.jpg"
+  },
+  {
+   "codigo": "71376-001",
+   "nome": "Calça Capri Slim Lupo",
+   "descricao": "Calça capri sem costura, possui detalhes de pontos de sustetanção na cintura e ao longo da peça proporcionando ajuste e compressão. O cós anatômico desenha a silhueta e deixa o exercício físico com mais conforto e segurança.",
+   "tamanho": "P • M • G • GG",
+   "linha": "Inclusão de Cor",
+   "cores": [
+    {
+     "cod": "5920",
+     "nome": "Carmim",
+     "img": "/produtos/conjuntos/71376-001/5920.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/conjuntos/71376-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/conjuntos/71376-001/5920.jpg"
+  },
+  {
+   "codigo": "71914-001",
+   "nome": "Top Canelado Basic Seamless",
+   "descricao": "Top sem costura com estrutura canelada. Possui decote quadrado na frente e levemente mais aprofundado nas costas. Sua alça larga traz uma vestidade mais segura e confortável. Possui leve suporte, sendo ideal para práticas de atividades físicas ou até para uso casual e urbano.",
+   "tamanho": "P • M • G • GG",
+   "linha": "Inclusão de Cor",
+   "cores": [
+    {
+     "cod": "0510",
+     "nome": "Coral",
+     "img": "/produtos/conjuntos/71914-001/0510.jpg"
+    },
+    {
+     "cod": "4402",
+     "nome": "Lima Citrico",
+     "img": "/produtos/conjuntos/71914-001/4402.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/conjuntos/71914-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/conjuntos/71914-001/0510.jpg"
+  },
+  {
+   "codigo": "71382-002",
+   "nome": "Shorts Canelado Seamless Lupo",
+   "descricao": "Shorts sem costura canelado com cós alto e anatômico que modela a silhueta e proporciona conforto durante a atividade, enquanto a borda de silicone garante que ele não saia do lugar. Sua estrutura em pontos canelados garante uma vestibilidade ajustada e uma textura interessante ao produto. Uma peça moderna para compor looks esportivos, casuais e urbanos.",
+   "tamanho": "P • M • G",
+   "linha": "Inclusão de Cor",
+   "cores": [
+    {
+     "cod": "0510",
+     "nome": "Coral",
+     "img": "/produtos/conjuntos/71382-002/0510.jpg"
+    },
+    {
+     "cod": "4402",
+     "nome": "Lima Citrico",
+     "img": "/produtos/conjuntos/71382-002/4402.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/conjuntos/71382-002/9990.jpg"
+    }
+   ],
+   "img": "/produtos/conjuntos/71382-002/0510.jpg"
+  },
+  {
+   "codigo": "71392-001",
+   "nome": "Calça Legging Basic Sem Costura Canelada",
+   "descricao": "Calça legging justa ao corpo com tecnologia Seamless Dry, que proporciona maior respirabilidade e secagem rápida do suor. Peça toda sem costura com textura canelada com a tecnologia Antimicrobial. Possui cintura alta com cós largo e anatômico. A borda de silicone garante ainda maior conforto durante os movimentos do exercício.",
+   "tamanho": "P • M • G • GG",
+   "linha": "Inclusão de Cor",
+   "cores": [
+    {
+     "cod": "0510",
+     "nome": "Coral",
+     "img": "/produtos/conjuntos/71392-001/0510.jpg"
+    },
+    {
+     "cod": "8384",
+     "nome": "Cinza",
+     "img": "/produtos/conjuntos/71392-001/8384.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/conjuntos/71392-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/conjuntos/71392-001/9990.jpg"
+  },
+  {
+   "codigo": "71926-001",
+   "nome": "Top LSport Seamless Max II",
+   "descricao": "Top sem costura com a tecnologia Seamless Dry que proporciona maior respirabilidade e secagem rápida do suor. Possui decote, frontal e posterior, quadrado. Alças médias para suporte médio, ideal para atividades como yoga. Possui detalhe de desenhos de listras e texturas. Pontos que trazem sustentação interna, dando mais conforto durante a prática esportiva. Com tecnologia Antimicrobial.",
+   "tamanho": "P • M • G • GG • XG",
+   "linha": "Inclusão de Cor",
+   "cores": [
+    {
+     "cod": "2760",
+     "nome": "Azul",
+     "img": "/produtos/conjuntos/71926-001/2760.jpg"
+    },
+    {
+     "cod": "2801",
+     "nome": "Marinho",
+     "img": "/produtos/conjuntos/71926-001/2801.jpg"
+    },
+    {
+     "cod": "5780",
+     "nome": "Magenta",
+     "img": "/produtos/conjuntos/71926-001/5780.jpg"
+    },
+    {
+     "cod": "8872",
+     "nome": "Grafite",
+     "img": "/produtos/conjuntos/71926-001/8872.jpg"
+    },
+    {
+     "cod": "2498",
+     "nome": "Lavanda Suave",
+     "img": "/produtos/conjuntos/71926-001/2498.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/conjuntos/71926-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/conjuntos/71926-001/5780.jpg"
+  },
+  {
+   "codigo": "71311-001",
+   "nome": "Bermuda Max Lupo",
+   "descricao": "Shorts tipo biker sem costura. O cós anatômico e os pontos de sustentação permitem maior segurança nos esportes de alto impacto. Peça produzida em fio texturizado que se assemelha ao fio de algodão, garantindo conforto extremo. A tecnologia antimicrobial impede a proliferação de bactérias que causam odores.",
+   "tamanho": "P • M • G • GG • XG",
+   "linha": "Inclusão de Cor",
+   "cores": [
+    {
+     "cod": "2760",
+     "nome": "Azul",
+     "img": "/produtos/conjuntos/71311-001/2760.jpg"
+    },
+    {
+     "cod": "2801",
+     "nome": "Marinho",
+     "img": "/produtos/conjuntos/71311-001/2801.jpg"
+    },
+    {
+     "cod": "5780",
+     "nome": "Magenta",
+     "img": "/produtos/conjuntos/71311-001/5780.jpg"
+    },
+    {
+     "cod": "2498",
+     "nome": "Lavanda Suave",
+     "img": "/produtos/conjuntos/71311-001/2498.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/conjuntos/71311-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/conjuntos/71311-001/2760.jpg"
+  },
+  {
+   "codigo": "71053-001",
+   "nome": "Calça Legging Max Lupo",
+   "descricao": "Calça legging com modelagem justa ao corpo sem costura. Não marca e se adequa confortavelmente sem apertar. Possui pontos de sustentação e compressão para atividades de alto impacto. O fio texturizado a ar tem toque como algodão e permite uma vestimenta com conforto extremo. Cós anatômico dá liberdade e conforto nas atividades por permitir que a peça continue ajustada ao corpo durante os movimentos",
+   "tamanho": "P • M • G • GG • XG",
+   "linha": "Inclusão de Cor",
+   "cores": [
+    {
+     "cod": "2760",
+     "nome": "Azul",
+     "img": "/produtos/conjuntos/71053-001/2760.jpg"
+    },
+    {
+     "cod": "2801",
+     "nome": "Marinho",
+     "img": "/produtos/conjuntos/71053-001/2801.jpg"
+    },
+    {
+     "cod": "8872",
+     "nome": "Grafite",
+     "img": "/produtos/conjuntos/71053-001/8872.jpg"
+    },
+    {
+     "cod": "2498",
+     "nome": "Lavanda Suave",
+     "img": "/produtos/conjuntos/71053-001/2498.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/conjuntos/71053-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/conjuntos/71053-001/2760.jpg"
+  },
+  {
+   "codigo": "71401-001",
+   "nome": "Top Attack II",
+   "descricao": "Top sem costura (tecnologia Seamless Dry) que permite maior respirabilidade e secagem rápida do suor, de leve suporte para esportes de baixo impacto. Possui decote arredondado com pontos que melhoram a sustentação do busto, mesmo com a alça mais fina e delicada.",
+   "tamanho": "P • M • G • GG",
+   "linha": "Inclusão de Cor",
+   "cores": [
+    {
+     "cod": "2783",
+     "nome": "Anil",
+     "img": "/produtos/conjuntos/71401-001/2783.jpg"
+    },
+    {
+     "cod": "3600",
+     "nome": "Camarão",
+     "img": "/produtos/conjuntos/71401-001/3600.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/conjuntos/71401-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/conjuntos/71401-001/2783.jpg"
+  },
+  {
+   "codigo": "71144-001",
+   "nome": "Shorts Attack",
+   "descricao": "Shorts com modelagem mais curta e sem costura. A tecnologia Seamsless Dry proporciona maior respirabilidade e secagem rápida do suor, enquanto o Antimicrobial protege das bactérias que causam mal odor. O cós anatômico para modelar a silhueta e garantir recorte curvo lateral.",
+   "tamanho": "P • M • G • GG",
+   "linha": "Inclusão de Cor",
+   "cores": [
+    {
+     "cod": "2783",
+     "nome": "Anil",
+     "img": "/produtos/conjuntos/71144-001/2783.jpg"
+    },
+    {
+     "cod": "3600",
+     "nome": "Camarão",
+     "img": "/produtos/conjuntos/71144-001/3600.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/conjuntos/71144-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/conjuntos/71144-001/3600.jpg"
+  },
+  {
+   "codigo": "71843-001",
+   "nome": "Top LSport Canelado Essential",
+   "descricao": "Top sem costura (tecnologia Seamless Dry) que permite maior respirabilidade e secagem rápida do suor. Top duplo com decote em V e bojo removível. Possui cós mais largo, com detalhe da logo, e alças confortáveis. Top de médio suporte para esportes de baixo impacto.",
+   "tamanho": "P • M • G • GG",
+   "linha": "Inclusão de Cor",
+   "cores": [
+    {
+     "cod": "1110",
+     "nome": "Branca",
+     "img": "/produtos/conjuntos/71843-001/1110.jpg"
+    },
+    {
+     "cod": "2498",
+     "nome": "Lavanda Suave - 2498",
+     "img": "/produtos/conjuntos/71843-001/2498.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/conjuntos/71843-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/conjuntos/71843-001/2498.jpg"
+  },
+  {
+   "codigo": "71348-001",
+   "nome": "Shorts LSport Basic",
+   "descricao": "Shorts sem costura com modelagem que se adapta ao corpo de forma confortável. Cós alto e anatômico dá liberdade e conforto nas atividades por permitir que a peça continue ajustada ao corpo durante os movimentos, incluindo o alto impacto. Possui detalhe de linhas laterais.",
+   "tamanho": "P • M • G • GG",
+   "linha": "Inclusão de Cor",
+   "cores": [
+    {
+     "cod": "2143",
+     "nome": "Azul Claro",
+     "img": "/produtos/conjuntos/71348-001/2143.jpg"
+    },
+    {
+     "cod": "4322",
+     "nome": "Verde",
+     "img": "/produtos/conjuntos/71348-001/4322.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/conjuntos/71348-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/conjuntos/71348-001/2143.jpg"
+  },
+  {
+   "codigo": "71774-001",
+   "nome": "Calça Legging LSport Essential",
+   "descricao": "Legging sem costura com a tecnologia Seamless Dry, que permite maior respirabilidade e secagem rápida do suor, e a Antimicrobial, que protege das bactérias que causam odor. O cós largo e anatômico modela a silhueta e o recorte curvo na lateral. Possui logo na parte posterior do cós.",
+   "tamanho": "P • M • G • GG",
+   "linha": "Inclusão de Cor",
+   "cores": [
+    {
+     "cod": "1110",
+     "nome": "Branca",
+     "img": "/produtos/conjuntos/71774-001/1110.jpg"
+    },
+    {
+     "cod": "2498",
+     "nome": "Lavanda Suave - 2498",
+     "img": "/produtos/conjuntos/71774-001/2498.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/conjuntos/71774-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/conjuntos/71774-001/2498.jpg"
+  },
+  {
+   "codigo": "71403-003",
+   "nome": "Top Up Control",
+   "descricao": "Top sem costura desenvolvido com tecnologia Seamless Dry, que proporciona ajuste perfeito ao corpo, respirabilidade e maior liberdade de movimento. Produzido com fio Emana, auxilia na melhora do conforto térmico e no bem-estar durante o uso. Com decote nadador, oferece sustentação alta e segurança para diversas práticas, aliando funcionalidade e estilo. Possui pontos estratégicos de ventilação nas áreas de maior transpiração, favorecendo a respirabilidade, além de áreas de sustentação que garantem melhor suporte e conforto ao longo do uso.",
+   "tamanho": "P • M • G • GG • XG",
+   "linha": "Lançamento",
+   "cores": [
+    {
+     "cod": "2760",
+     "nome": "Azul",
+     "img": "/produtos/conjuntos/71403-003/2760.jpg"
+    },
+    {
+     "cod": "5780",
+     "nome": "Magenta",
+     "img": "/produtos/conjuntos/71403-003/5780.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/conjuntos/71403-003/9990.jpg"
+    }
+   ],
+   "img": "/produtos/conjuntos/71403-003/2760.jpg"
+  },
+  {
+   "codigo": "71502-003",
+   "nome": "Calça Legging Up Control",
+   "descricao": "Calça legging seamless, justa ao corpo, desenvolvida com fio Emana, que contribui para o conforto e o bem-estar durante o uso. Sem costuras, sua modelagem se adapta perfeitamente ao corpo, proporcionando liberdade de movimento e ajuste confortável nas atividades do dia a dia ou esportivas. O cós mais largo garante maior segurança e estabilidade, sem marcar, mantendo a peça sempre no lugar mesmo em movimento.",
+   "tamanho": "P • M • G • GG • XG",
+   "linha": "Lançamento",
+   "cores": [
+    {
+     "cod": "2760",
+     "nome": "Azul",
+     "img": "/produtos/conjuntos/71502-003/2760.jpg"
+    },
+    {
+     "cod": "5780",
+     "nome": "Magenta",
+     "img": "/produtos/conjuntos/71502-003/5780.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/conjuntos/71502-003/9990.jpg"
+    }
+   ],
+   "img": "/produtos/conjuntos/71502-003/5780.jpg"
+  },
+  {
+   "codigo": "71856-001",
+   "nome": "Top Seamless Basic com Bojo",
+   "descricao": "Top sem costura (Tecnologia Seamless Dry), que permite maior respirabilidade e secagem rápida do suor. Top duplo com alto suporte e decote nadador nas costas, o que possibilita conforto até em esportes de alto impacto. Os pontos específicos de sustentação reforçam o bem-estar na atividade.",
+   "tamanho": "P • M • G • GG",
+   "linha": "Inclusão de Cor",
+   "cores": [
+    {
+     "cod": "4322",
+     "nome": "Verde",
+     "img": "/produtos/conjuntos/71856-001/4322.jpg"
+    },
+    {
+     "cod": "5556",
+     "nome": "Fucsia Glam",
+     "img": "/produtos/conjuntos/71856-001/5556.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/conjuntos/71856-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/conjuntos/71856-001/5556.jpg"
+  },
+  {
+   "codigo": "71756-001",
+   "nome": "Calça Legging Seamless Basic",
+   "descricao": "Legging sem costura com a tecnologia Seamless Dry, que permite maior respirabilidade e secagem rápida do suor. Com modelagem básica, possui cós largo e anatômico com texturas para melhor sustentação, modelando a silhueta e dando mais conforto.",
+   "tamanho": "P • M • G • GG",
+   "linha": "Inclusão de Cor",
+   "cores": [
+    {
+     "cod": "4322",
+     "nome": "Verde",
+     "img": "/produtos/conjuntos/71756-001/4322.jpg"
+    },
+    {
+     "cod": "5556",
+     "nome": "Fucsia Glam",
+     "img": "/produtos/conjuntos/71756-001/5556.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/conjuntos/71756-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/conjuntos/71756-001/5556.jpg"
+  },
+  {
+   "codigo": "71828-001",
+   "nome": "Top Lupo AF Energy Raschel",
+   "descricao": "Top sem costura de leve suporte para esportes de baixo impacto. Produzido com a tecnologia Raschel que contém micro furos na alça e por toda a peça para melhor respirabilidade e secagem rápida do suor. Ainda com a tecnologia antimicrobial que elimina bactérias que causam odor.",
+   "tamanho": "P • M • G • GG",
+   "linha": "Inclusão de Cor",
+   "cores": [
+    {
+     "cod": "5920",
+     "nome": "Carmim",
+     "img": "/produtos/conjuntos/71828-001/5920.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/conjuntos/71828-001/9990.jpg"
+    },
+    {
+     "cod": "6750",
+     "nome": "Noz",
+     "img": "/produtos/conjuntos/71828-001/6750.jpg"
+    }
+   ],
+   "img": "/produtos/conjuntos/71828-001/6750.jpg"
+  },
+  {
+   "codigo": "71752-001",
+   "nome": "Calça Lupo Feminino Energy Raschel",
+   "descricao": "Legging sem costura com a tecnologia Raschel. Os micro furos na estrutura da peça possibilitam mais capacidade de ventilação e liberdade nos movimentos, além de construir desenhos que conversam com a silhueta do corpo. O cós anatômico permite mais segurança durante a atividade.",
+   "tamanho": "P • M • G • GG",
+   "linha": "Inclusão de Cor",
+   "cores": [
+    {
+     "cod": "5920",
+     "nome": "Carmim",
+     "img": "/produtos/conjuntos/71752-001/5920.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/conjuntos/71752-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/conjuntos/71752-001/5920.jpg"
+  }
+ ]
+}

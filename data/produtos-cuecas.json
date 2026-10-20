@@ -4,10 +4,10 @@
  "produtos": [
   {
    "codigo": "00766-030",
-   "nome": "Boxer Micro bra Sem Costura",
-   "descricao": "e  exível, que, além de garantir durabilidade e secagem rápida,",
-   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
-   "linha": "Lançamento",
+   "nome": "Boxer Microfibra Sem Costura",
+   "descricao": "Tecnologia Seamless com punho “comfortable” ao corpo sem apertar, proporcionando toque suave e ajuste perfeito. Logo Logo Lupo localizado em contraste no punho com detalhe arredondado nas laterais e listras discretas no corpo, que valorizam o design. Confeccionada em microfibra resistente e flexível, que, além de garantir durabilidade e secagem rápida, oferece toque macio e sedoso.",
+   "tamanho": "P (38 a 40) • M (42 a 44) • G (46 a 48) • GG (50 a 52)",
+   "linha": "Lançamento 1ª Entrada",
    "cores": [
     {
      "cod": "8230",
@@ -29,10 +29,10 @@
   },
   {
    "codigo": "00766-031",
-   "nome": "Boxer Micro bra Sem Costura",
-   "descricao": "exível, que, além de garantir durabilidade e secagem rápida,",
-   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
-   "linha": "Lançamento",
+   "nome": "Boxer Microfibra Sem Costura",
+   "descricao": "Tecnologia Seamless com punho “comfortable” ao corpo sem apertar, proporcionando toque suave e ajuste perfeito. Logo Lupo centralizado com recorte frontal contrastante. Confeccionada em microfibra resistente e flexível, que, além de garantir durabilidade e secagem rápida, oferece toque macio e sedoso.",
+   "tamanho": "P (38 a 40) • M (42 a 44) • G (46 a 48) • GG (50 a 52)",
+   "linha": "Lançamento 1ª Entrada",
    "cores": [
     {
      "cod": "0770",
@@ -53,11 +53,76 @@
    "img": "/produtos/cuecas/00766-031/1110.jpg"
   },
   {
+   "codigo": "00766-032",
+   "nome": "Boxer Microfibra Sem Costura",
+   "descricao": "Tecnologia Seamless com punho “comfortable” ao corpo sem apertar, proporcionando toque suave e ajuste perfeito. Logo Lupo centralizado e faixa superior em contraste. Confeccionada em microfibra resistente e flexível, que, além de garantir durabilidade e secagem rápida, oferece toque macio e sedoso.",
+   "tamanho": "P (38 a 40) • M (42 a 44) • G (46 a 48) • GG (50 a 52)",
+   "linha": "Lançamento 2ª Entrada",
+   "cores": [
+    {
+     "cod": "1110",
+     "nome": "Branca",
+     "img": "/produtos/cuecas/00766-032/1110.jpg"
+    },
+    {
+     "cod": "1830",
+     "nome": "Off White",
+     "img": "/produtos/cuecas/00766-032/1830.jpg"
+    },
+    {
+     "cod": "2805",
+     "nome": "Marinho",
+     "img": "/produtos/cuecas/00766-032/2805.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/cuecas/00766-032/9990.jpg"
+    }
+   ],
+   "img": "/produtos/cuecas/00766-032/9990.jpg"
+  },
+  {
+   "codigo": "00766-033",
+   "nome": "Boxer Microfibra Sem Costura",
+   "descricao": "Tecnologia Seamless com punho “comfortable” ao corpo sem apertar, proporcionando toque suave e ajuste perfeito. Logo Lupo centralizado em contraste, com detalhe nas laterais de listras interrompidas com textura. Confeccionada em microfibra resistente e flexível, que, além de garantir durabilidade e secagem rápida, oferece toque macio e sedoso.",
+   "tamanho": "P (38 a 40) • M (42 a 44) • G (46 a 48) • GG (50 a 52)",
+   "linha": "Lançamento 2ª Entrada",
+   "cores": [
+    {
+     "cod": "1110",
+     "nome": "Branca",
+     "img": "/produtos/cuecas/00766-033/1110.jpg"
+    },
+    {
+     "cod": "2143",
+     "nome": "Azul Claro",
+     "img": "/produtos/cuecas/00766-033/2143.jpg"
+    },
+    {
+     "cod": "5110",
+     "nome": "Rosa",
+     "img": "/produtos/cuecas/00766-033/5110.jpg"
+    },
+    {
+     "cod": "2805",
+     "nome": "Marinho",
+     "img": "/produtos/cuecas/00766-033/2805.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/cuecas/00766-033/9990.jpg"
+    }
+   ],
+   "img": "/produtos/cuecas/00766-033/5110.jpg"
+  },
+  {
    "codigo": "00766-019",
-   "nome": "Boxer Micro bra Sem Costura",
-   "descricao": "perfeito. Logo Lupo centralizado sem contraste no punho. Com",
-   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
-   "linha": "",
+   "nome": "Boxer Microfibra Sem Costura",
+   "descricao": "Tecnologia SEAMLES S com “punho comfortable” que se adapta ao corpo sem apertar, proporcionando toque suave e ajuste perfeito. Logo Lupo centralizado sem contraste no punho. Com diferencial em textura rib, toda canelada, que não deforma e possui durabilidade. Confeccionada em Microfibra resistente, flexível, que além da durabilidade e da capacidade de secagem rápida tem toque macio e sedoso.",
+   "tamanho": "P (38 a 40) • M (42 a 44) • G (46 a 48) • GG (50 a 52)",
+   "linha": "Inclusão de Cor",
    "cores": [
     {
      "cod": "1110",
@@ -65,9 +130,19 @@
      "img": "/produtos/cuecas/00766-019/1110.jpg"
     },
     {
+     "cod": "8230",
+     "nome": "Cinza",
+     "img": "/produtos/cuecas/00766-019/8230.jpg"
+    },
+    {
      "cod": "4831",
      "nome": "Verde",
      "img": "/produtos/cuecas/00766-019/4831.jpg"
+    },
+    {
+     "cod": "5880",
+     "nome": "Berinjela",
+     "img": "/produtos/cuecas/00766-019/5880.jpg"
     },
     {
      "cod": "9990",
@@ -79,11 +154,21 @@
   },
   {
    "codigo": "00766-025",
-   "nome": "Boxer Micro bra Sem Costura",
-   "descricao": "Confeccionada em micro bra resistente e  exível, que, além de",
-   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
-   "linha": "",
+   "nome": "Boxer Microfibra Sem Costura",
+   "descricao": "Tecnologia Seamless com punho “comfortable” ao corpo sem apertar, proporcionando toque suave e ajuste perfeito. Logo L localizado em contraste no punho. Confeccionada em microfibra resistente e flexível, que, além de garantir durabilidade e secagem rápida, oferece toque macio e sedoso.",
+   "tamanho": "P (38 a 40) • M (42 a 44) • G (46 a 48) • GG (50 a 52)",
+   "linha": "Inclusão de Cor",
    "cores": [
+    {
+     "cod": "0770",
+     "nome": "Azul",
+     "img": "/produtos/cuecas/00766-025/0770.jpg"
+    },
+    {
+     "cod": "1110",
+     "nome": "Branca",
+     "img": "/produtos/cuecas/00766-025/1110.jpg"
+    },
     {
      "cod": "7860",
      "nome": "Cerâmica",
@@ -104,9 +189,9 @@
   },
   {
    "codigo": "00766-029",
-   "nome": "Boxer Micro bra Sem Costura",
-   "descricao": "perfeito. Logo Lupo localizado em contraste na lateral do punho",
-   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
+   "nome": "Boxer Microfibra Sem Costura",
+   "descricao": "Tecnologia Seamless com “punho comfortable” que se adapta ao corpo sem apertar, proporcionando toque suave e ajuste perfeito. Logo Lupo localizado em contraste na lateral do punho e listras discretas no corpo, que valorizam o design. Confeccionada em microfibra resistente e flexível, que, além de garantir durabilidade e secagem rápida, oferece toque macio e sedoso.",
+   "tamanho": "P (38 a 40) • M (42 a 44) • G (46 a 48) • GG (50 a 52)",
    "linha": "",
    "cores": [
     {
@@ -135,8 +220,8 @@
   {
    "codigo": "00733-004",
    "nome": "Boxer Sem Costura",
-   "descricao": "estilo ao visual. Produzida em  o texturizado a ar, que oferece a",
-   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
+   "descricao": "CÓD. FILHO: 00137-010 Tecnologia Seamless com punho “Comfortable” ao corpo sem apertar, proporcionando toque suave e ajuste perfeito. Apresenta logo Lupo centralizado e listras com contraste no punho, agregando estilo ao visual. Produzida em fio texturizado a ar, que oferece a sensação do algodão com a tecnologia e resistência do nylon. Disponível também na versão infantil, ideal para os pequenos.",
+   "tamanho": "P (38 a 40) • M (42 a 44) • G (46 a 48) • GG (50 a 52)",
    "linha": "",
    "cores": [
     {
@@ -170,9 +255,9 @@
   {
    "codigo": "00661-001",
    "nome": "Boxer Micromodal Sem Costura",
-   "descricao": "P  38 a 40  • M  42 a 44  • G  46 a 48  • GG  50 a 52  • XG  54 a",
-   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52 • XG 54 a",
-   "linha": "",
+   "descricao": "Tecnologia SEAMLES S com “punho comfortable” que se adapta ao corpo sem apertar, proporcionando toque suave e ajuste perfeito. Logo Lupo centralizado com cor em contraste clássico. Confeccionada em Micromodal, fio feito a partir de fibras naturais com propriedades de absorção de umidade, permitindo que sua pele respire livremente, além de oferecer toque suave.",
+   "tamanho": "P (38 a 40) • M (42 a 44) • G (46 a 48) • GG (50 a 52) • XG (54 a 56)",
+   "linha": "Inclusão de Cor",
    "cores": [
     {
      "cod": "1110",
@@ -183,6 +268,16 @@
      "cod": "2800",
      "nome": "Marinho",
      "img": "/produtos/cuecas/00661-001/2800.jpg"
+    },
+    {
+     "cod": "3740",
+     "nome": "Amarelo",
+     "img": "/produtos/cuecas/00661-001/3740.jpg"
+    },
+    {
+     "cod": "5760",
+     "nome": "Açaí",
+     "img": "/produtos/cuecas/00661-001/5760.jpg"
     },
     {
      "cod": "8870",
@@ -200,8 +295,8 @@
   {
    "codigo": "18471-002",
    "nome": "Boxer Bambu Sem Costura",
-   "descricao": "perfeito. Logo Lupo centralizado na cor do peça. Confeccionada",
-   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
+   "descricao": "Tecnologia SEAMLES S com “punho comfortable” que se adapta ao corpo sem apertar, proporcionando toque suave e ajuste perfeito. Logo Lupo centralizado na cor do peça. Confeccionada com fio de Bambu, de toque macio e aveludado. Tem propriedade termo reguladora que mantem o corpo seco e fresco. Além do “agente’’ bacteriostático natural, que faz com que as bactérias que causam odor não se proliferem.",
+   "tamanho": "P (38 a 40) • M (42 a 44) • G (46 a 48) • GG (50 a 52)",
    "linha": "",
    "cores": [
     {
@@ -229,10 +324,10 @@
   },
   {
    "codigo": "00671-002",
-   "nome": "Boxer Micro bra Sem Costura",
-   "descricao": "P  38 a 40  • M  42 a 44  • G  46 a 48  • GG  50 a 52  • XG  54 a",
-   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52 • XG 54 a",
-   "linha": "",
+   "nome": "Boxer Microfibra Sem Costura",
+   "descricao": "Cód. Filho: 00136-001 Tecnologia Seamless com punho “Comfortable” ao corpo sem apertar, proporcionando toque suave e ajuste perfeito. Apresenta logo Lupo lateral e listras diagonais interrompidas com contraste no punho. Confeccionada em microfibra resistente e flexível, que além de oferecer durabilidade e secagem rápida, possui toque macio e sedoso. Disponível também para os pequenos.",
+   "tamanho": "P (38 a 40) • M (42 a 44) • G (46 a 48) • GG (50 a 52) • XG (54 a 56) • XXG (58 a 60)",
+   "linha": "Inclusão de Cor",
    "cores": [
     {
      "cod": "1110",
@@ -243,6 +338,26 @@
      "cod": "2800",
      "nome": "Marinho",
      "img": "/produtos/cuecas/00671-002/2800.jpg"
+    },
+    {
+     "cod": "3740",
+     "nome": "Amarelo",
+     "img": "/produtos/cuecas/00671-002/3740.jpg"
+    },
+    {
+     "cod": "5650",
+     "nome": "Vermelho",
+     "img": "/produtos/cuecas/00671-002/5650.jpg"
+    },
+    {
+     "cod": "5760",
+     "nome": "Açaí",
+     "img": "/produtos/cuecas/00671-002/5760.jpg"
+    },
+    {
+     "cod": "8710",
+     "nome": "Chumbo",
+     "img": "/produtos/cuecas/00671-002/8710.jpg"
     },
     {
      "cod": "2660",
@@ -259,9 +374,9 @@
   },
   {
    "codigo": "00436-002",
-   "nome": "Boxer Micro bra Sem Costura",
-   "descricao": "proporcionando toque suave e ajuste perfeito. Logo Lupo lateral",
-   "tamanho": "P 38 A 40 • M 42 A 44 • G 46 A 48 • GG 50 a 52",
+   "nome": "Boxer Microfibra Sem Costura",
+   "descricao": "Cód. Filho: 00132-002 Tecnologia SEAMLES S com “punho comfortable” que se adapta ao corpo sem apertar, proporcionando toque suave e ajuste perfeito. Logo Lupo lateral e listras desiguais em contraste e destaque no punho. Confeccionada em Microfibra resistente, flexível, que além da durabilidade e da capacidade de secagem rápida tem toque macio e sedoso. Disponível também na versão infantil para os pequenos.",
+   "tamanho": "P (38 A 40) • M (42 A 44) • G (46 A 48) • GG (50 a 52)",
    "linha": "",
    "cores": [
     {
@@ -294,10 +409,10 @@
   },
   {
    "codigo": "00436-004",
-   "nome": "Boxer Micro bra Sem Costura",
-   "descricao": "Tecnologia Seamless com punho “Comfortable”, que se adapta",
-   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
-   "linha": "",
+   "nome": "Boxer Microfibra Sem Costura",
+   "descricao": "Tecnologia Seamless com punho “Comfortable” ao corpo sem apertar, proporcionando toque suave e ajuste perfeito. Apresenta logo Lupo centralizado e listras com contraste e destaque no punho. Confeccionada em microfibra resistente e flexível, que, além de oferecer durabilidade e secagem rápida, possui toque macio e sedoso.",
+   "tamanho": "P (38 a 40) • M (42 a 44) • G (46 a 48) • GG (50 a 52)",
+   "linha": "Inclusão de Cor",
    "cores": [
     {
      "cod": "1130",
@@ -308,6 +423,11 @@
      "cod": "2300",
      "nome": "Blue Nights",
      "img": "/produtos/cuecas/00436-004/2300.jpg"
+    },
+    {
+     "cod": "3740",
+     "nome": "Amarelo",
+     "img": "/produtos/cuecas/00436-004/3740.jpg"
     },
     {
      "cod": "5940",
@@ -325,42 +445,42 @@
   {
    "codigo": "00436-088",
    "nome": "Kit 2 Cuecas Boxer Adulto Sem Costura",
-   "descricao": "perfeito. Confeccionada em Micro bra resistente,  exível, que",
-   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
+   "descricao": "Tecnologia SEAMLES S com “punho comfortable” que se adapta ao corpo sem apertar, proporcionando toque suave e ajuste perfeito. Confeccionada em Microfibra resistente, flexível, que além da durabilidade e da capacidade de secagem rápida tem toque macio e sedoso.",
+   "tamanho": "P (38 a 40) • M (42 a 44) • G (46 a 48) • GG (50 a 52)",
    "linha": "",
    "cores": [
     {
      "cod": "0908",
      "nome": "Sortida · Bege / Preta",
-     "img": "/produtos/cuecas/00436-088/0908.jpg",
      "composicao": [
       "Bege",
       "Preta"
-     ]
+     ],
+     "img": "/produtos/cuecas/00436-088/0908.jpg"
     },
     {
      "cod": "0912",
      "nome": "Sortida · Preta",
-     "img": "/produtos/cuecas/00436-088/0912.jpg",
      "composicao": [
       "Preta"
-     ]
+     ],
+     "img": "/produtos/cuecas/00436-088/0912.jpg"
     },
     {
      "cod": "0927",
      "nome": "Sortida · Preta",
-     "img": "/produtos/cuecas/00436-088/0927.jpg",
      "composicao": [
       "Preta"
-     ]
+     ],
+     "img": "/produtos/cuecas/00436-088/0927.jpg"
     },
     {
      "cod": "0928",
      "nome": "Sortida · Preta",
-     "img": "/produtos/cuecas/00436-088/0928.jpg",
      "composicao": [
       "Preta"
-     ]
+     ],
+     "img": "/produtos/cuecas/00436-088/0928.jpg"
     }
    ],
    "img": "/produtos/cuecas/00436-088/0927.jpg"
@@ -368,8 +488,8 @@
   {
    "codigo": "17800-001",
    "nome": "Boxer Sem Costura Tamanho Especial",
-   "descricao": "punho. Produzida em  o texturizado a ar, que traz a sensação",
-   "tamanho": "XG 54 a 56 • XXG 58 a 60 • XXXG 62 a 64",
+   "descricao": "Tecnologia SEAMLES S com “punho confortable” que se adapta ao corpo sem apertar, proporcionando toque suave e ajuste perfeito. Logo Lupo centralizado e listras com contraste no punho. Produzida em fio texturizado a ar, que traz a sensação de algodão, com a tecnologia e resistência do Nylon.",
+   "tamanho": "XG (54 a 56) • XXG (58 a 60) • XXXG (62 a 64)",
    "linha": "",
    "cores": [
     {
@@ -393,9 +513,9 @@
   {
    "codigo": "00784-074",
    "nome": "Boxer Algodão com elastano",
-   "descricao": "anatômico, sem costuras laterais, que garantem melhor ajuste",
-   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
-   "linha": "Lançamento",
+   "descricao": "Confeccionado em algodão com elastano Lupo: que oferece leveza, maciez e conforto. Desenvolvido especialmente para quem valoriza a sensação natural do algodão. Com design anatômico, sem costuras laterais, que garantem melhor ajuste ao corpo e um toque suave na pele. Cós em elástico mescla de microfibra, de 40mm, com Logo Lupo e listras, com toque macio e sedoso.",
+   "tamanho": "P (38 a 40) • M (42 a 44) • G (46 a 48) • GG (50 a 52)",
+   "linha": "Lançamento 1ª Entrada",
    "cores": [
     {
      "cod": "1830",
@@ -423,9 +543,9 @@
   {
    "codigo": "00784-075",
    "nome": "Boxer Algodão com elastano",
-   "descricao": "anatômico, sem costuras laterais, que garantem melhor ajuste",
-   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
-   "linha": "Lançamento",
+   "descricao": "Confeccionado em algodão com elastano Lupo: que oferece leveza, maciez e conforto. Desenvolvido especialmente para quem valoriza a sensação natural do algodão. Com design anatômico, sem costuras laterais, que garantem melhor ajuste ao corpo e um toque suave na pele. Cós em elástico de microfibra de 40mm, com textura clássica e Logo Lupo centralizado, com toque macio e sedoso.",
+   "tamanho": "P (38 a 40) • M (42 a 44) • G (46 a 48) • GG (50 a 52)",
+   "linha": "Lançamento 1ª Entrada",
    "cores": [
     {
      "cod": "1830",
@@ -446,10 +566,70 @@
    "img": "/produtos/cuecas/00784-075/9990.jpg"
   },
   {
+   "codigo": "00784-076",
+   "nome": "Boxer Algodão com Elastano",
+   "descricao": "Confeccionado em algodão com elastano Lupo: que oferece leveza, maciez e conforto. Desenvolvido especialmente para quem valoriza a sensação natural do algodão. Com design anatômico, sem costuras laterais, que garantem melhor ajuste ao corpo e um toque suave na pele. Cós em elástico de microfibra de 40mm, com Logo Lupo centralizado e sobreposto, com toque macio e sedoso.",
+   "tamanho": "P (38 a 40) • M (42 a 44) • G (46 a 48) • GG (50 a 52)",
+   "linha": "Lançamento 2ª Entrada",
+   "cores": [
+    {
+     "cod": "5650",
+     "nome": "Vermelho",
+     "img": "/produtos/cuecas/00784-076/5650.jpg"
+    },
+    {
+     "cod": "2021",
+     "nome": "Azul Pastel",
+     "img": "/produtos/cuecas/00784-076/2021.jpg"
+    },
+    {
+     "cod": "2805",
+     "nome": "Marinho",
+     "img": "/produtos/cuecas/00784-076/2805.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/cuecas/00784-076/9990.jpg"
+    }
+   ],
+   "img": "/produtos/cuecas/00784-076/2805.jpg"
+  },
+  {
+   "codigo": "00784-077",
+   "nome": "Boxer Algodão com elastano",
+   "descricao": "Confeccionado em algodão com elastano Lupo: que oferece leveza, maciez e conforto. Desenvolvido especialmente para quem valoriza a sensação natural do algodão. Com design anatômico, sem costuras laterais, que garantem melhor ajuste ao corpo e um toque suave na pele. Cós em elástico de microfibra de 40mm, com Logo Lupo centralizado em contraste, com toque macio e sedoso.",
+   "tamanho": "P (38 a 40) • M (42 a 44) • G (46 a 48) • GG (50 a 52)",
+   "linha": "Lançamento 2ª Entrada",
+   "cores": [
+    {
+     "cod": "1110",
+     "nome": "Branca",
+     "img": "/produtos/cuecas/00784-077/1110.jpg"
+    },
+    {
+     "cod": "4841",
+     "nome": "Oliva",
+     "img": "/produtos/cuecas/00784-077/4841.jpg"
+    },
+    {
+     "cod": "2805",
+     "nome": "Marinho",
+     "img": "/produtos/cuecas/00784-077/2805.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/cuecas/00784-077/9990.jpg"
+    }
+   ],
+   "img": "/produtos/cuecas/00784-077/1110.jpg"
+  },
+  {
    "codigo": "00784-016",
    "nome": "Boxer Algodão com Elastano",
-   "descricao": "micro bra, de 40mm, com Logo Lupo e listras que formam efeito",
-   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
+   "descricao": "Confeccionado em algodão com elastano Lupo: leve, macio e confortável; Desenvolvido especialmente para quem não abre mão do conforto do algodão; Cós em elástico mescla de microfibra, de 40mm, com Logo Lupo e listras que formam efeito degradê; Com formato anatômico, sem costuras laterais que proporcionam ajuste e toque perfeito ao corpo.",
+   "tamanho": "P (38 a 40) • M (42 a 44) • G (46 a 48) • GG (50 a 52)",
    "linha": "",
    "cores": [
     {
@@ -473,14 +653,19 @@
   {
    "codigo": "00784-017",
    "nome": "Boxer Algodão com Elastano",
-   "descricao": "costuras laterais que proporcionam ajuste e toque perfeito ao",
-   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
-   "linha": "",
+   "descricao": "Confeccionado em algodão com elastano Lupo: leve, macio e confortável. Desenvolvido especialmente para quem não abre mão do conforto do algodão. Com formato anatômico, sem costuras laterais que proporcionam ajuste e toque perfeito ao corpo. Cós em elástico acetinado de 35mm, de microfibra com toque leve e macio. Em logo em jacquard de baixo relevo para efeito monocromático e minimalista.",
+   "tamanho": "P (38 a 40) • M (42 a 44) • G (46 a 48) • GG (50 a 52)",
+   "linha": "Inclusão de Cor",
    "cores": [
     {
      "cod": "1110",
      "nome": "Branca",
      "img": "/produtos/cuecas/00784-017/1110.jpg"
+    },
+    {
+     "cod": "3380",
+     "nome": "Solarium",
+     "img": "/produtos/cuecas/00784-017/3380.jpg"
     },
     {
      "cod": "2805",
@@ -498,61 +683,61 @@
   {
    "codigo": "00784-088",
    "nome": "Kit 2 Cuecas Boxer Adulto Com Elastano",
-   "descricao": "anatômico, sem costuras laterais, que garantem melhor ajuste",
-   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
+   "descricao": "Confeccionado em algodão com elastano Lupo: que oferece leveza, maciez e conforto. Desenvolvido especialmente para quem valoriza a sensação natural do algodão. Com design anatômico, sem costuras laterais, que garantem melhor ajuste ao corpo e um toque suave na pele. Cós em elástico de microfibra 40mm, com toque macio e sedoso.",
+   "tamanho": "P (38 a 40) • M (42 a 44) • G (46 a 48) • GG (50 a 52)",
    "linha": "",
    "cores": [
     {
      "cod": "0904",
      "nome": "Sortida · Marinho / Preta",
-     "img": "/produtos/cuecas/00784-088/0904.jpg",
      "composicao": [
       "Marinho",
       "Preta"
-     ]
+     ],
+     "img": "/produtos/cuecas/00784-088/0904.jpg"
     },
     {
      "cod": "0905",
      "nome": "Sortida · Bege / Preta",
-     "img": "/produtos/cuecas/00784-088/0905.jpg",
      "composicao": [
       "Bege",
       "Preta"
-     ]
+     ],
+     "img": "/produtos/cuecas/00784-088/0905.jpg"
     },
     {
      "cod": "0906",
      "nome": "Sortida · Preta",
-     "img": "/produtos/cuecas/00784-088/0906.jpg",
      "composicao": [
       "Preta"
-     ]
+     ],
+     "img": "/produtos/cuecas/00784-088/0906.jpg"
     },
     {
      "cod": "0919",
      "nome": "Sortida · Preta",
-     "img": "/produtos/cuecas/00784-088/0919.jpg",
      "composicao": [
       "Preta"
-     ]
+     ],
+     "img": "/produtos/cuecas/00784-088/0919.jpg"
     },
     {
      "cod": "0920",
      "nome": "Sortida · Bege / Preta",
-     "img": "/produtos/cuecas/00784-088/0920.jpg",
      "composicao": [
       "Bege",
       "Preta"
-     ]
+     ],
+     "img": "/produtos/cuecas/00784-088/0920.jpg"
     }
    ],
    "img": "/produtos/cuecas/00784-088/0906.jpg"
   },
   {
    "codigo": "18445-001",
-   "nome": "Boxer Algodão com elastano modelagem",
-   "descricao": "naturalidade, garantindo um ajuste perfeito e confortável. Além",
-   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
+   "nome": "Boxer Neo Cotton",
+   "descricao": "Confeccionada com Neo Cotton Lupo: matéria-prima exclusiva que combina toque sedoso, maior elasticidade e excelente conforto. Sua composição proporciona mais resistência, durabilidade e liberdade de movimentos para o dia a dia. A modelagem anatômica tridimensional acompanha o corpo com naturalidade, garantindo um ajuste perfeito e confortável. Além disso, a peça não possui costuras laterais, oferecendo um caimento mais uniforme e uma sensação suave em contato com a pele. Cós em elástico de microfibra 40mm, com toque macio e sedoso.",
+   "tamanho": "P (38 a 40) • M (42 a 44) • G (46 a 48) • GG (50 a 52)",
    "linha": "Lançamento",
    "cores": [
     {
@@ -580,9 +765,9 @@
   },
   {
    "codigo": "18446-001",
-   "nome": "Boxer Algodão com Elastano modelagem",
-   "descricao": "naturalidade, garantindo um ajuste perfeito e confortável. Além",
-   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
+   "nome": "Boxer Neo Cotton",
+   "descricao": "Confeccionada com Neo Cotton Lupo: matéria-prima exclusiva que combina toque sedoso, maior elasticidade e excelente conforto. Sua composição proporciona mais resistência, durabilidade e liberdade de movimentos para o dia a dia. A modelagem anatômica tridimensional acompanha o corpo com naturalidade, garantindo um ajuste perfeito e confortável. Além disso, a peça não possui costuras laterais, oferecendo um caimento mais uniforme e uma sensação suave em contato com a pele. Cós em elástico de microfibra 40mm, com toque macio e sedoso.",
+   "tamanho": "P (38 a 40) • M (42 a 44) • G (46 a 48) • GG (50 a 52)",
    "linha": "Lançamento",
    "cores": [
     {
@@ -610,28 +795,28 @@
   },
   {
    "codigo": "18445-088",
-   "nome": "Boxer Algodão com elastano modelagem",
-   "descricao": "naturalidade, garantindo um ajuste perfeito e confortável. Além",
-   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
+   "nome": "Boxer Neo Cotton - KIT 2",
+   "descricao": "Confeccionada com Neo Cotton Lupo: matéria-prima exclusiva que combina toque sedoso, maior elasticidade e excelente conforto. Sua composição proporciona mais resistência, durabilidade e liberdade de movimentos para o dia a dia. A modelagem anatômica tridimensional acompanha o corpo com naturalidade, garantindo um ajuste perfeito e confortável. Além disso, a peça não possui costuras laterais, oferecendo um caimento mais uniforme e uma sensação suave em contato com a pele. Cós em elástico de microfibra 40mm, com toque macio e sedoso.",
+   "tamanho": "P (38 a 40) • M (42 a 44) • G (46 a 48) • GG (50 a 52)",
    "linha": "Lançamento",
    "cores": [
     {
      "cod": "0900",
      "nome": "Sortida · Preta / Branca",
-     "img": "/produtos/cuecas/18445-088/0900.jpg",
      "composicao": [
       "Preta",
       "Branca"
-     ]
+     ],
+     "img": "/produtos/cuecas/18445-088/0900.jpg"
     },
     {
      "cod": "0901",
      "nome": "Sortida · Preta / Cinza",
-     "img": "/produtos/cuecas/18445-088/0901.jpg",
      "composicao": [
       "Preta",
       "Cinza"
-     ]
+     ],
+     "img": "/produtos/cuecas/18445-088/0901.jpg"
     }
    ],
    "img": "/produtos/cuecas/18445-088/0901.jpg"
@@ -639,8 +824,8 @@
   {
    "codigo": "18463-001",
    "nome": "Boxer Tecnofusão Micromodal com Elastano",
-   "descricao": "corpo. Produto todo soldado para garantir maior conforto ao",
-   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
+   "descricao": "Confeccionado em Micromodal, com toque leve e macio. Acabamento em tecnofusão, que se ajusta perfeitamente ao corpo. Produto todo soldado para garantir maior conforto ao vestir.",
+   "tamanho": "P (38 a 40) • M (42 a 44) • G (46 a 48) • GG (50 a 52)",
    "linha": "",
    "cores": [
     {
@@ -664,8 +849,8 @@
   {
    "codigo": "18465-001",
    "nome": "Boxer Adapt Algodão com Elastano",
-   "descricao": "35mm, com listra e jacquard em alto relevo. Indicado para uso no",
-   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
+   "descricao": "Confeccionado em algodão com elastano Lupo, que oferece leveza, maciez e conforto. Desenvolvido especialmente para quem valoriza a sensação natural do algodão. Modelagem especial com encaixe anatômico, que envolve e traz maior suporte e segurança no vestir. Cós em elástico de microfibra de 35mm, com listra e jacquard em alto relevo. Indicado para uso no dia a dia e nas práticas esportivas.",
+   "tamanho": "P (38 a 40) • M (42 a 44) • G (46 a 48) • GG (50 a 52)",
    "linha": "",
    "cores": [
     {
@@ -684,8 +869,8 @@
   {
    "codigo": "18474-001",
    "nome": "Boxer Micromodal com elastano",
-   "descricao": "naturais com propriedades de absorção de umidade, permitindo",
-   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
+   "descricao": "Confeccionada em Modal, superfino, feito a partir de fibras naturais com propriedades de absorção de umidade, permitindo que a pele respire livremente, além de oferecer toque suave. Com formato anatômico, sem costuras laterais que proporcionam ajuste e toque perfeito ao corpo. Cós com elástico de 40 mm, com logo repetido em marca d’água, em um design monocromático, minimalista e confortável.",
+   "tamanho": "P (38 a 40) • M (42 a 44) • G (46 a 48) • GG (50 a 52)",
    "linha": "",
    "cores": [
     {
@@ -703,9 +888,9 @@
   },
   {
    "codigo": "00660-003",
-   "nome": "Boxer Algodão com Elastano Canelada com",
-   "descricao": "não abre mão do conforto do algodão. Com abertura para maior",
-   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
+   "nome": "Boxer Algodão com Elastano Canelada com Abertura",
+   "descricao": "Confeccionado em ribana de algodão com elastano Lupo: leve, macio e confortável. Desenvolvido especialmente para quem não abre mão do conforto do algodão. Com abertura para maior praticidade no dia a dia. Cós com elástico 30mm com logo localizado em marca d’agua, monocromático e minimalista, confortável.",
+   "tamanho": "P (38 a 40) • M (42 a 44) • G (46 a 48) • GG (50 a 52)",
    "linha": "",
    "cores": [
     {
@@ -724,8 +909,8 @@
   {
    "codigo": "00615-003",
    "nome": "Boxer Algodão com Elastano",
-   "descricao": "Lupo: leve, macio e confortável. Desenvolvido especialmente",
-   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
+   "descricao": "Cód. Filho 00150-003 Confeccionado em algodão com elastano Lupo: leve, macio e confortável. Desenvolvido especialmente para quem não abre mão do conforto do algodão. Com formato anatômico, sem costuras laterais que proporcionam ajuste e toque perfeito ao corpo. Cós com elástico 30mm com logo localizado em marca d’agua, monocromático e minimalista, confortável.",
+   "tamanho": "P (38 a 40) • M (42 a 44) • G (46 a 48) • GG (50 a 52)",
    "linha": "",
    "cores": [
     {
@@ -749,14 +934,19 @@
   {
    "codigo": "00523-003",
    "nome": "Boxer Algodão com Elastano",
-   "descricao": "Lupo: leve, macio e confortável. Desenvolvido especialmente",
-   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
-   "linha": "",
+   "descricao": "Cód. Filho 00141-003 Confeccionado em algodão com elastano Lupo: leve, macio e confortável. Desenvolvido especialmente para quem não abre mão do conforto do algodão. Com formato anatômico, sem costuras laterais que proporcionam ajuste e toque perfeito ao corpo. Cós em elástico 30mm em mix de listras e logos repetidos de Lupo Underwear.",
+   "tamanho": "P (38 a 40) • M (42 a 44) • G (46 a 48) • GG (50 a 52)",
+   "linha": "Inclusão de Cor",
    "cores": [
     {
      "cod": "1110",
      "nome": "Branca",
      "img": "/produtos/cuecas/00523-003/1110.jpg"
+    },
+    {
+     "cod": "3380",
+     "nome": "Solarium",
+     "img": "/produtos/cuecas/00523-003/3380.jpg"
     },
     {
      "cod": "8001",
@@ -774,8 +964,8 @@
   {
    "codigo": "00523-004",
    "nome": "Boxer Algodão com Elastano",
-   "descricao": "anatômico, sem costuras laterais, que garantem melhor ajuste",
-   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
+   "descricao": "Confeccionado em algodão com elastano Lupo: que oferece leveza, maciez e conforto. Desenvolvido especialmente para quem valoriza a sensação natural do algodão. Com design anatômico, sem costuras laterais, que garantem melhor ajuste ao corpo e um toque suave na pele. Cós com elástico de microfibra com 40mm, que oferece toque macio e sedoso.",
+   "tamanho": "P (38 a 40) • M (42 a 44) • G (46 a 48) • GG (50 a 52)",
    "linha": "",
    "cores": [
     {
@@ -804,44 +994,44 @@
   {
    "codigo": "00523-088",
    "nome": "Kit 2 Cuecas Boxer Adulto Com Elastano",
-   "descricao": "garantem melhor ajuste ao corpo e um toque suave na pele. Cós",
-   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
+   "descricao": "Cód. Filho 00141-088 Confeccionado em algodão com elastano Lupo, que oferece leveza, maciez e conforto. Desenvolvido especialmente para quem valoriza a sensação natural do algodão, com design anatômico, sem costuras laterais, que garantem melhor ajuste ao corpo e um toque suave na pele. Cós em elástico de microfibra, com toque macio e sedoso.",
+   "tamanho": "P (38 a 40) • M (42 a 44) • G (46 a 48) • GG (50 a 52)",
    "linha": "",
    "cores": [
     {
      "cod": "0901",
      "nome": "Sortida · Cinza / Preta",
-     "img": "/produtos/cuecas/00523-088/0901.jpg",
      "composicao": [
       "Cinza",
       "Preta"
-     ]
+     ],
+     "img": "/produtos/cuecas/00523-088/0901.jpg"
     },
     {
      "cod": "0902",
      "nome": "Sortida · Preta",
-     "img": "/produtos/cuecas/00523-088/0902.jpg",
      "composicao": [
       "Preta"
-     ]
+     ],
+     "img": "/produtos/cuecas/00523-088/0902.jpg"
     },
     {
      "cod": "0960",
      "nome": "Sortida · Preta / Bege",
-     "img": "/produtos/cuecas/00523-088/0960.jpg",
      "composicao": [
       "Preta",
       "Bege"
-     ]
+     ],
+     "img": "/produtos/cuecas/00523-088/0960.jpg"
     }
    ],
    "img": "/produtos/cuecas/00523-088/0960.jpg"
   },
   {
    "codigo": "00653-003",
-   "nome": "Boxer Algodão com Elastano Tamanho",
-   "descricao": "costuras laterais que proporcionam ajuste e toque perfeito ao",
-   "tamanho": "XG 54 a 56 • XXG 58 a 60 • XXXG 62 a 64",
+   "nome": "Boxer Algodão com Elastano Tamanho Especial",
+   "descricao": "Confeccionado em algodão com elastano Lupo: leve, macio e confortável. Desenvolvido especialmente para quem não abre mão do conforto do algodão. Com formato anatômico, sem costuras laterais que proporcionam ajuste e toque perfeito ao corpo. Cós em elástico 30mm em mix de listras e logos repetidos de Lupo Underwear.",
+   "tamanho": "XG (54 a 56) • XXG (58 a 60) • XXXG (62 a 64)",
    "linha": "",
    "cores": [
     {
@@ -865,8 +1055,8 @@
   {
    "codigo": "00526-001",
    "nome": "Sunga Sem Costura",
-   "descricao": "intermediaria. Logo Lupo centralizado e listras com contraste no",
-   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
+   "descricao": "Tecnologia SEAMLES S com “punho comfortable” que se adapta ao corpo sem apertar, proporcionando toque suave e ajuste perfeito. Modelagem sunga, para quem prefere cobertura intermediaria. Logo Lupo centralizado e listras com contraste no punho. Produzida em fio Texturizado a ar que traz a sensação de algodão, com a tecnologia e resistência do Nylon.",
+   "tamanho": "P (38 a 40) • M (42 a 44) • G (46 a 48) • GG (50 a 52)",
    "linha": "",
    "cores": [
     {
@@ -889,9 +1079,9 @@
   },
   {
    "codigo": "00676-002",
-   "nome": "Sunga Micro bra Sem Costura",
-   "descricao": "perfeito. Logo Lupo localizado lateral e listras que contrasta",
-   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
+   "nome": "Sunga Microfibra Sem Costura",
+   "descricao": "Tecnologia SEAMLES S com “punho comfortable” que se adapta ao corpo sem apertar, proporcionando toque suave e ajuste perfeito. Logo Lupo localizado lateral e listras que contrasta com a peça em visual clássico. Modelagem sunga, para quem prefere cobertura intermediaria. Confeccionada em Microfibra resistente, flexível, que além da durabilidade e da capacidade de secagem rápida tem toque macio e sedoso.",
+   "tamanho": "P (38 a 40) • M (42 a 44) • G (46 a 48) • GG (50 a 52)",
    "linha": "",
    "cores": [
     {
@@ -910,8 +1100,8 @@
   {
    "codigo": "00656-001",
    "nome": "Sunga Micromodal Sem Costura",
-   "descricao": "feito a partir de  bras naturais com propriedades de absorção",
-   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
+   "descricao": "Tecnologia Seamless com punho “Comfortable” ao corpo sem apertar, proporcionando toque suave e ajuste perfeito. Apresenta logo Lupo centralizado, com cor em contraste clássico. Modelagem sunga, ideal para quem prefere cobertura intermediária. Confeccionada em micromodal, fio feito a partir de fibras naturais com propriedades de absorção de umidade, permitindo que a pele respire livremente, além de oferecer toque suave.",
+   "tamanho": "P (38 a 40) • M (42 a 44) • G (46 a 48) • GG (50 a 52)",
    "linha": "",
    "cores": [
     {
@@ -921,7 +1111,7 @@
     },
     {
      "cod": "9990",
-     "nome": "Preto",
+     "nome": "Preta",
      "img": "/produtos/cuecas/00656-001/9990.jpg"
     }
    ],
@@ -930,8 +1120,8 @@
   {
    "codigo": "00480-003",
    "nome": "Sunga Algodão com Elastano",
-   "descricao": "costuras laterais que proporcionam ajuste e toque perfeito ao",
-   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
+   "descricao": "Confeccionado em algodão com elastano Lupo: leve, macio e confortável. Desenvolvido especialmente para quem não abre mão do conforto do algodão. Modelagem sunga, para quem prefere cobertura intermediaria. Com formato anatômico, sem costuras laterais que proporcionam ajuste e toque perfeito ao corpo. Cós com elástico 30mm com logo localizado em marca d’agua, monocromático e minimalista, confortável.",
+   "tamanho": "P (38 a 40) • M (42 a 44) • G (46 a 48) • GG (50 a 52)",
    "linha": "",
    "cores": [
     {
@@ -955,8 +1145,8 @@
   {
    "codigo": "00460-003",
    "nome": "Sunga Algodão com Elastano",
-   "descricao": "costuras laterais que proporcionam ajuste e toque perfeito ao",
-   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
+   "descricao": "Confeccionado em algodão com elastano Lupo: leve, macio e confortável. Desenvolvido especialmente para quem não abre mão do conforto do algodão. Modelagem sunga, para quem prefere cobertura intermediaria. Com formato anatômico, sem costuras laterais que proporcionam ajuste e toque perfeito ao corpo. Cós em elástico 30mm em mix de listras e logos repetidos de Lupo Underwear.",
+   "tamanho": "P (38 a 40) • M (42 a 44) • G (46 a 48) • GG (50 a 52)",
    "linha": "",
    "cores": [
     {
@@ -985,8 +1175,8 @@
   {
    "codigo": "00624-003",
    "nome": "Slip Sem Costura",
-   "descricao": "pernas e elástico rebatido. Apresenta logo Lupo centralizado e",
-   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
+   "descricao": "Tecnologia Seamless com punho “Comfortable” ao corpo sem apertar, proporcionando toque suave e ajuste perfeito. Modelagem slip, com acabamento de costura entre as pernas e elástico rebatido. Apresenta logo Lupo centralizado e listras com contraste no punho. Produzida em fio texturizado a ar, que traz a sensação do algodão, com a tecnologia e resistência do nylon.",
+   "tamanho": "P (38 a 40) • M (42 a 44) • G (46 a 48) • GG (50 a 52)",
    "linha": "",
    "cores": [
     {
@@ -1009,9 +1199,9 @@
   },
   {
    "codigo": "00691-002",
-   "nome": "Slip Micro bra Sem Costura",
-   "descricao": "pernas e elástico rebatido. Apresenta logo Lupo lateral e listras",
-   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52 • XG 54 a",
+   "nome": "Slip Microfibra Sem Costura",
+   "descricao": "Tecnologia Seamless com punho “Comfortable” ao corpo sem apertar, proporcionando toque suave e ajuste perfeito. Modelagem slip, com acabamento de costura entre as pernas e elástico rebatido. Apresenta logo Lupo lateral e listras diagonais interrompidas com contraste no punho. Confeccionada em microfibra resistente e flexível, que, além da durabilidade e da capacidade de secagem rápida, possui toque macio e sedoso.",
+   "tamanho": "P (38 a 40) • M (42 a 44) • G (46 a 48) • GG (50 a 52) • XG (54 a 56)",
    "linha": "",
    "cores": [
     {
@@ -1026,7 +1216,7 @@
     },
     {
      "cod": "9990",
-     "nome": "Preto",
+     "nome": "Preta",
      "img": "/produtos/cuecas/00691-002/9990.jpg"
     }
    ],
@@ -1035,9 +1225,9 @@
   {
    "codigo": "00681-001",
    "nome": "Slip Micromodal Sem Costura",
-   "descricao": "P  38 a 40  • M  42 a 44  • G  46 a 48  • GG  50 a 52  • XG  54 a",
-   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52 • XG 54 a",
-   "linha": "",
+   "descricao": "Tecnologia Seamless com punho “Comfortable” ao corpo sem apertar, proporcionando toque suave e ajuste perfeito. Apresenta logo Lupo centralizado, com cor em contraste clássico. Modelagem slip, com acabamento de costura entre as pernas e elástico rebatido. Confeccionada em micromodal, fio feito a partir de fibras naturais com propriedades de absorção de umidade, permitindo que a pele respire livremente, além de oferecer toque suave.",
+   "tamanho": "P (38 a 40) • M (42 a 44) • G (46 a 48) • GG (50 a 52) • XG (54 a 56)",
+   "linha": "Inclusão de Cor",
    "cores": [
     {
      "cod": "1110",
@@ -1050,6 +1240,11 @@
      "img": "/produtos/cuecas/00681-001/2800.jpg"
     },
     {
+     "cod": "3740",
+     "nome": "Amarelo",
+     "img": "/produtos/cuecas/00681-001/3740.jpg"
+    },
+    {
      "cod": "9990",
      "nome": "Preta",
      "img": "/produtos/cuecas/00681-001/9990.jpg"
@@ -1060,8 +1255,8 @@
   {
    "codigo": "00546-003",
    "nome": "Slip Canelada com Abertura",
-   "descricao": "não abre mão do conforto do algodão. Com abertura para maior",
-   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
+   "descricao": "Confeccionado em ribana de algodão com elastano Lupo: leve, macio e confortável. Desenvolvido especialmente para quem não abre mão do conforto do algodão. Com abertura para maior praticidade no dia a dia. Modelagem slip com acabamento de costura entre pernas, com galão da própria malha e elástico embutido. Cós com elástico 30mm com logo localizado em marca d’agua, monocromático e minimalista, confortável.",
+   "tamanho": "P (38 a 40) • M (42 a 44) • G (46 a 48) • GG (50 a 52)",
    "linha": "",
    "cores": [
     {
@@ -1080,8 +1275,8 @@
   {
    "codigo": "00485-003",
    "nome": "Slip Algodão com Elastano",
-   "descricao": "de costura entre pernas, com galão da própria malha e elástico",
-   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
+   "descricao": "Confeccionado em algodão com elastano Lupo: leve, macio e confortável. Desenvolvido especialmente para quem não abre mão do conforto do algodão. Modelagem slip com acabamento de costura entre pernas, com galão da própria malha e elástico embutido. Com formato anatômico, sem costuras laterais que proporcionam ajuste e toque perfeito ao corpo. Cós com elástico 30mm com logo localizado em marca d’agua, monocromático e minimalista, confortável.",
+   "tamanho": "P (38 a 40) • M (42 a 44) • G (46 a 48) • GG (50 a 52)",
    "linha": "",
    "cores": [
     {
@@ -1105,8 +1300,8 @@
   {
    "codigo": "00524-003",
    "nome": "Slip Algodão com Elastano",
-   "descricao": "de costura entre pernas, com galão da própria malha e elástico",
-   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
+   "descricao": "Confeccionado em algodão com elastano Lupo: leve, macio e confortável. Desenvolvido especialmente para quem não abre mão do conforto do algodão. Modelagem slip com acabamento de costura entre pernas, com galão da própria malha e elástico embutido. Com formato anatômico, sem costuras laterais que proporcionam ajuste e toque perfeito ao corpo. Cós em elástico 30mm em mix de listras e logos repetidos de Lupo Underwear.",
+   "tamanho": "P (38 a 40) • M (42 a 44) • G (46 a 48) • GG (50 a 52)",
    "linha": "",
    "cores": [
     {
@@ -1130,26 +1325,26 @@
   {
    "codigo": "00524-088",
    "nome": "Kit 2 Cuecas Slip Adulto Com Elastano",
-   "descricao": "de costura entre pernas, com galão da própria malha e elástico",
-   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
+   "descricao": "Confeccionado em algodão com elastano Lupo: leve, macio e confortável. Desenvolvido especialmente para quem não abre mão do conforto do algodão. Modelagem slip com acabamento de costura entre pernas, com galão da própria malha e elástico embutido. Com design anatômico, sem costuras laterais que proporcionam ajuste e toque perfeito ao corpo. Cós em elástico 30mm em mix de listras e logos repetidos de Lupo Underwear.",
+   "tamanho": "P (38 a 40) • M (42 a 44) • G (46 a 48) • GG (50 a 52)",
    "linha": "",
    "cores": [
     {
      "cod": "0905",
      "nome": "Sortida · Preta / Cinza",
-     "img": "/produtos/cuecas/00524-088/0905.jpg",
      "composicao": [
       "Preta",
       "Cinza"
-     ]
+     ],
+     "img": "/produtos/cuecas/00524-088/0905.jpg"
     },
     {
      "cod": "0906",
      "nome": "Sortida · Preta",
-     "img": "/produtos/cuecas/00524-088/0906.jpg",
      "composicao": [
       "Preta"
-     ]
+     ],
+     "img": "/produtos/cuecas/00524-088/0906.jpg"
     }
    ],
    "img": "/produtos/cuecas/00524-088/0905.jpg"
@@ -1157,17 +1352,17 @@
   {
    "codigo": "00524-089",
    "nome": "Kit 3 Cuecas Slip Adulto Com Elastano",
-   "descricao": "proporcionam ajuste e toque perfeito ao corpo. Cós em elástico",
-   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
+   "descricao": "Desenvolvido especialmente para quem não abre mão do conforto do algodão. Modelagem slip com acabamento de costura entre pernas, com galão da própria malha e elástico embutido. Com design anatômico, sem costuras laterais que proporcionam ajuste e toque perfeito ao corpo. Cós em elástico 30mm em mix de listras e logos repetidos de Lupo Underwear.",
+   "tamanho": "P (38 a 40) • M (42 a 44) • G (46 a 48) • GG (50 a 52)",
    "linha": "",
    "cores": [
     {
      "cod": "0903",
      "nome": "Sortida · Preta",
-     "img": "/produtos/cuecas/00524-089/0903.jpg",
      "composicao": [
       "Preta"
-     ]
+     ],
+     "img": "/produtos/cuecas/00524-089/0903.jpg"
     }
    ],
    "img": "/produtos/cuecas/00524-089/0903.jpg"
@@ -1175,26 +1370,26 @@
   {
    "codigo": "00515-089",
    "nome": "Kit 3 Cuecas Slip Adulto Algodão",
-   "descricao": "as pernas e elástico rebatido. Uma cueca clássica e tradicional.",
-   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
+   "descricao": "Confeccionada em malha 100% algodão, com toque superleve e macio. Possui modelagem slip, acabamento com costura entre as pernas e elástico rebatido. Uma cueca clássica e tradicional.",
+   "tamanho": "P (38 a 40) • M (42 a 44) • G (46 a 48) • GG (50 a 52)",
    "linha": "",
    "cores": [
     {
      "cod": "0901",
      "nome": "Sortida · Bege / Preta",
-     "img": "/produtos/cuecas/00515-089/0901.jpg",
      "composicao": [
       "Bege",
       "Preta"
-     ]
+     ],
+     "img": "/produtos/cuecas/00515-089/0901.jpg"
     },
     {
      "cod": "0903",
      "nome": "Sortida · Preta",
-     "img": "/produtos/cuecas/00515-089/0903.jpg",
      "composicao": [
       "Preta"
-     ]
+     ],
+     "img": "/produtos/cuecas/00515-089/0903.jpg"
     }
    ],
    "img": "/produtos/cuecas/00515-089/0903.jpg"
@@ -1202,8 +1397,8 @@
   {
    "codigo": "00554-003",
    "nome": "Slip Algodão com Elastano Tamanho Especial",
-   "descricao": "ajuste e toque perfeito ao corpo. Cós em elástico 30mm em mix",
-   "tamanho": "XG 54 a 56 • XXG 58 a 60 • XXXG 62 a 64",
+   "descricao": "Confeccionado em algodão com elastano Lupo: leve, macio e confortável. Modelagem slip com acabamento de costura entre pernas, com galão da própria malha e elástico embutido. Com formato anatômico, sem costuras laterais que proporcionam ajuste e toque perfeito ao corpo. Cós em elástico 30mm em mix de listras e logos repetidos de Lupo Underwear.",
+   "tamanho": "XG (54 a 56) • XXG (58 a 60) • XXXG (62 a 64)",
    "linha": "",
    "cores": [
     {
@@ -1222,8 +1417,8 @@
   {
    "codigo": "00674-001",
    "nome": "Long Leg Micromodal Sem Costura",
-   "descricao": "P  38 a 40  • M  42 a 44  • G  46 a 48  • GG  50 a 52  • XG  54 a",
-   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52 • XG 54 a",
+   "descricao": "Tecnologia SEAMLES S com “punho comfortable” que se adapta ao corpo sem apertar, proporcionando toque suave e ajuste perfeito. Logo Lupo centralizado com cor em contraste clássico. Modelagem alongada levemente à cima do joelho, para proteger do atrito entre pernas. Confeccionada em Micromodal, fio feito a partir de fibras naturais com propriedades de absorção de umidade, permitindo que sua pele respire livremente, além de oferecer toque suave.",
+   "tamanho": "P (38 a 40) • M (42 a 44) • G (46 a 48) • GG (50 a 52) • XG (54 a 56)",
    "linha": "",
    "cores": [
     {
@@ -1237,7 +1432,7 @@
   {
    "codigo": "75044-001",
    "nome": "T-shirt Micromodal Unissex Sem Costura",
-   "descricao": "Confeccionada em Micromodal que traz leveza, caimento e",
+   "descricao": "Confeccionada em Micromodal que traz leveza, caimento e toque supermacio, e poliamida pra maior estabilidade e resistência da peça.",
    "tamanho": "PP • P • M • G • GG",
    "linha": "",
    "cores": [
@@ -1256,52 +1451,52 @@
   },
   {
    "codigo": "77284-088",
-   "nome": "T Shirt algodão com Elastano – Kit 2",
-   "descricao": "conforto e estilo, ideal para acompanhar sua rotina, do treino ao",
+   "nome": "T-Shirt algodão com Elastano – Kit 2",
+   "descricao": "KIT 2 Camiseta produzida em algodão nobre, oferece toque macio, caimento leve e excelente respirabilidade, trazendo conforto e estilo, ideal para acompanhar sua rotina, do treino ao dia a dia.",
    "tamanho": "P • M • G • GG",
    "linha": "",
    "cores": [
     {
      "cod": "0900",
      "nome": "Sortida · Bege",
-     "img": "/produtos/cuecas/77284-088/0900.jpg",
      "composicao": [
       "Bege"
-     ]
+     ],
+     "img": "/produtos/cuecas/77284-088/0900.jpg"
     },
     {
      "cod": "0910",
      "nome": "Sortida · Branca",
-     "img": "/produtos/cuecas/77284-088/0910.jpg",
      "composicao": [
       "Branca"
-     ]
+     ],
+     "img": "/produtos/cuecas/77284-088/0910.jpg"
     },
     {
      "cod": "0920",
      "nome": "Sortida · Bege / Preta",
-     "img": "/produtos/cuecas/77284-088/0920.jpg",
      "composicao": [
       "Bege",
       "Preta"
-     ]
+     ],
+     "img": "/produtos/cuecas/77284-088/0920.jpg"
     },
     {
      "cod": "0930",
      "nome": "Sortida · Bege / Preta",
-     "img": "/produtos/cuecas/77284-088/0930.jpg",
      "composicao": [
       "Bege",
       "Preta"
-     ]
+     ],
+     "img": "/produtos/cuecas/77284-088/0930.jpg"
     }
    ],
    "img": "/produtos/cuecas/77284-088/0920.jpg"
   },
   {
    "codigo": "77283-002",
-   "nome": "T Shirt Basic Co on Masculina",
-   "descricao": "estilo, ideal para acompanhar sua rotina, do treino ao dia a dia.",
+   "nome": "T-Shirt Basic Cotton Masculina",
+   "descricao": "Camiseta produzida em algodão nobre, oferece toque macio, caimento leve e excelente respirabilidade, trazendo conforto e estilo, ideal para acompanhar sua rotina, do treino ao dia a dia. Esporte Treino",
    "tamanho": "P • M • G • GG",
    "linha": "",
    "cores": [
@@ -1341,8 +1536,8 @@
   {
    "codigo": "18611-001",
    "nome": "Samba-canção de Malha",
-   "descricao": "e macio. Cintura em elástico embutido, toque zero na pele, além",
-   "tamanho": "P 38 a 40 • M 42 a 44 • G 46 a 48 • GG 50 a 52",
+   "descricao": "Confeccionada em malha de algodão 100%, de toque superleve e macio. Cintura em elástico embutido, toque zero na pele, além de proporcionar ajuste perfeito ao corpo. Etiqueta localizada com Logo Lupo.",
+   "tamanho": "P (38 a 40) • M (42 a 44) • G (46 a 48) • GG (50 a 52)",
    "linha": "",
    "cores": [
     {
@@ -1371,8 +1566,8 @@
   {
    "codigo": "18612-001",
    "nome": "Samba-Canção Tecido Plano com Abertura",
-   "descricao": "e macio. Cintura em elástico embutido, toque zero na pele, além",
-   "tamanho": "P 36 a 38 • M 40 a 42 • G 44 a 46 • GG 48 a 50",
+   "descricao": "Confeccionada em tecido plano, algodão 100%, de toque suave e macio. Cintura em elástico embutido, toque zero na pele, além de proporcionar ajuste perfeito ao corpo. Modelagem samba-canção, extremamente confortável, com braguilha em abertura para maior praticidade no dia-dia. Etiqueta localizada com Logo Lupo.",
+   "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50)",
    "linha": "",
    "cores": [
     {
@@ -1391,8 +1586,8 @@
   {
    "codigo": "18613-001",
    "nome": "Samba-canção Tecido Plano",
-   "descricao": "o tinto. Cintura em elástico embutido, toque zero na pele, além",
-   "tamanho": "P 36 a 38 • M 40 a 42 • G 44 a 46 • GG 48 a 50",
+   "descricao": "Confeccionada em tecido plano, algodão 100%, em xadrez de fio tinto. Cintura em elástico embutido, toque zero na pele, além de proporcionar ajuste perfeito ao corpo. Modelagem samba-canção, extremamente confortável, com botão enfeite para braguilha. Etiqueta localizada com Logo Lupo.",
+   "tamanho": "P (36 a 38) • M (40 a 42) • G (44 a 46) • GG (48 a 50)",
    "linha": "",
    "cores": [
     {
@@ -1411,8 +1606,8 @@
   {
    "codigo": "18615-001",
    "nome": "Samba Canção de Malha Tamanho Especial",
-   "descricao": "toque zero na pele, além de proporcionar ajuste perfeito ao",
-   "tamanho": "XG 54 a 56 • XXG 58 a 60 • XXXG 62 a 64",
+   "descricao": "Confeccionada em malha de algodão 100%, de toque superleve e macio. Modelagem especial, cintura em elástico embutido, toque zero na pele, além de proporcionar ajuste perfeito ao corpo. Etiqueta localizada com Logo Lupo.",
+   "tamanho": "XG (54 a 56) • XXG (58 a 60) • XXXG (62 a 64)",
    "linha": "",
    "cores": [
     {
@@ -1431,17 +1626,17 @@
   {
    "codigo": "36004-900",
    "nome": "Máscara Zero Costura Virus-Bac OFF",
-   "descricao": "especial que possui ação antiviral e bacteriana. Com dupla",
+   "descricao": "A máscara zero costura vírus bac-off é desenvolvida com fio especial que possui ação antiviral e bacteriana. Com dupla camada e higienizada para o primeiro uso.",
    "tamanho": "ÚNICO",
    "linha": "",
    "cores": [
     {
      "cod": "0904",
      "nome": "Sortida · Bege",
-     "img": "/produtos/cuecas/36004-900/0904.jpg",
      "composicao": [
       "Bege"
-     ]
+     ],
+     "img": "/produtos/cuecas/36004-900/0904.jpg"
     }
    ],
    "img": "/produtos/cuecas/36004-900/0904.jpg"

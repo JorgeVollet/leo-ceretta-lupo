@@ -183,19 +183,19 @@
    "linha": "",
    "cores": [
     {
-     "cod": "5450",
-     "nome": "Rosa Fruti",
-     "img": "/produtos/meias-baby/02027-004/5450.jpg"
-    },
-    {
      "cod": "2660",
      "nome": "Azul",
      "img": "/produtos/meias-baby/02027-004/2660.jpg"
     },
     {
      "cod": "9990",
-     "nome": "Preto",
+     "nome": "Preta",
      "img": "/produtos/meias-baby/02027-004/9990.jpg"
+    },
+    {
+     "cod": "5450",
+     "nome": "Rosa Fruti",
+     "img": "/produtos/meias-baby/02027-004/5450.jpg"
     }
    ],
    "img": "/produtos/meias-baby/02027-004/2660.jpg"
@@ -383,6 +383,11 @@
    "linha": "",
    "cores": [
     {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/meias-baby/02005-004/9990.jpg"
+    },
+    {
      "cod": "1120",
      "nome": "Branca",
      "img": "/produtos/meias-baby/02005-004/1120.jpg"
@@ -401,11 +406,6 @@
      "cod": "5651",
      "nome": "Vermelho",
      "img": "/produtos/meias-baby/02005-004/5651.jpg"
-    },
-    {
-     "cod": "9990",
-     "nome": "Preto",
-     "img": "/produtos/meias-baby/02005-004/9990.jpg"
     }
    ],
    "img": "/produtos/meias-baby/02005-004/1120.jpg"
@@ -413,10 +413,15 @@
   {
    "codigo": "02127-004",
    "nome": "Meia Lupo BU Sapatilha",
-   "descricao": "Sapatilha confeccionada em algodão livre de aditivos químicos e com elastano. T em ajuste de elastano em cima do pé para dificultar ser engolida pelo sapato. Produto com aspecto esportivo trazendo um charme a mais para os pequenos.",
+   "descricao": "Sapatilha confeccionada em algodão livre de aditivos químicos e com elastano. Tem ajuste de elastano em cima do pé para dificultar ser engolida pelo sapato. Produto com aspecto esportivo trazendo um charme a mais para os pequenos.",
    "tamanho": "16 a 23",
    "linha": "",
    "cores": [
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/meias-baby/02127-004/9990.jpg"
+    },
     {
      "cod": "1120",
      "nome": "Branca",
@@ -426,11 +431,6 @@
      "cod": "8020",
      "nome": "Cinza",
      "img": "/produtos/meias-baby/02127-004/8020.jpg"
-    },
-    {
-     "cod": "9990",
-     "nome": "Preto",
-     "img": "/produtos/meias-baby/02127-004/9990.jpg"
     }
    ],
    "img": "/produtos/meias-baby/02127-004/1120.jpg"
@@ -438,7 +438,7 @@
   {
    "codigo": "02127-006",
    "nome": "Meia Lupo BU Sapatilha",
-   "descricao": "Sapatilha confeccionada em algodão livre de aditivos químicos e com elastano. T em ajuste de elastano em cima do pé para dificultar ser engolida pelo sapato. Produto com aspecto esportivo trazendo um charme a mais para os pequenos.",
+   "descricao": "Sapatilha confeccionada em algodão livre de aditivos químicos e com elastano. Tem ajuste de elastano em cima do pé para dificultar ser engolida pelo sapato. Produto com aspecto esportivo trazendo um charme a mais para os pequenos.",
    "tamanho": "16 a 23",
    "linha": "LANÇAMENTO",
    "cores": [
@@ -468,20 +468,40 @@
   {
    "codigo": "02261-001",
    "nome": "Meia Lupo BF Artesanal",
-   "descricao": "A Meia Infantil Lisa com Aplique Lupo é um produto de alta qualidade e conforto, ideal para manter os pés das crianças protegidos e confortáveis. Feita com 100% de poliamida, essa meia oferece um toque suave e macio, além de ser respirável e durável. Com cano de 10cm, ela proporciona um ajuste perfeito e cobertura adequada para os pés. O design liso e elegante, juntamente com o aplique decorativo, adiciona um toque de estilo e diversão ao visual. A tecnologia sem costura evita atritos e incômodos, garantindo ainda mais conforto durante o uso.",
+   "descricao": "A Meia Infantil Lisa com Aplique Lupo é um produto de alta qualidade e conforto, ideal para manter os pés das crianças protegidos e confortáveis. Feita com 100% de poliamida, essa meia oferece um toque suave e macio, além de ser respirável e durável. Com cano de 10cm, ela proporciona um ajuste perfeito e cobertura adequada para os pés. O design liso e elegante, juntamente com o aplique decorativo, adiciona um toque de estilo e diversão ao visual.",
    "tamanho": "16 a 23",
    "linha": "LANÇAMENTO",
    "cores": [
     {
      "cod": "0990",
      "nome": "Sortida · Bege",
-     "img": "/produtos/meias-baby/02261-001/0990.jpg",
      "composicao": [
       "Bege"
-     ]
+     ],
+     "img": "/produtos/meias-baby/02261-001/0990.jpg"
     }
    ],
    "img": "/produtos/meias-baby/02261-001/0990.jpg"
+  },
+  {
+   "codigo": "02122-005",
+   "nome": "Meia Lupo BF",
+   "descricao": "Meia infantil lisa com babado confeccionado em algodão, possui ótima elasticidade ajustando-se com facilidade ao pé do bebê. Cano de 5 cm aproximadamente.",
+   "tamanho": "16 a 23 • RN (0 a 04 meses)",
+   "linha": "",
+   "cores": [
+    {
+     "cod": "1110",
+     "nome": "Branca",
+     "img": "/produtos/meias-baby/02122-005/1110.jpg"
+    },
+    {
+     "cod": "2490",
+     "nome": "Lavanda",
+     "img": "/produtos/meias-baby/02122-005/2490.jpg"
+    }
+   ],
+   "img": "/produtos/meias-baby/02122-005/1110.jpg"
   },
   {
    "codigo": "02090-001",
@@ -661,6 +681,11 @@
    "linha": "LANÇAMENTO",
    "cores": [
     {
+     "cod": "2660",
+     "nome": "Azul",
+     "img": "/produtos/meias-baby/02000-431/2660.jpg"
+    },
+    {
      "cod": "1120",
      "nome": "Branca",
      "img": "/produtos/meias-baby/02000-431/1120.jpg"
@@ -669,11 +694,6 @@
      "cod": "8020",
      "nome": "Cinza",
      "img": "/produtos/meias-baby/02000-431/8020.jpg"
-    },
-    {
-     "cod": "2660",
-     "nome": "Azul",
-     "img": "/produtos/meias-baby/02000-431/2660.jpg"
     }
    ],
    "img": "/produtos/meias-baby/02000-431/8020.jpg"
@@ -813,103 +833,103 @@
     {
      "cod": "0908",
      "nome": "Sortida · Azul",
-     "img": "/produtos/meias-baby/02000-789/0908.jpg",
      "composicao": [
       "Azul"
-     ]
+     ],
+     "img": "/produtos/meias-baby/02000-789/0908.jpg"
     },
     {
      "cod": "0909",
      "nome": "Sortida · Bege",
-     "img": "/produtos/meias-baby/02000-789/0909.jpg",
      "composicao": [
       "Bege"
-     ]
+     ],
+     "img": "/produtos/meias-baby/02000-789/0909.jpg"
     },
     {
      "cod": "0910",
      "nome": "Sortida · Bege / Cinza",
-     "img": "/produtos/meias-baby/02000-789/0910.jpg",
      "composicao": [
       "Bege",
       "Cinza"
-     ]
+     ],
+     "img": "/produtos/meias-baby/02000-789/0910.jpg"
     },
     {
      "cod": "0911",
      "nome": "Sortida · Bege",
-     "img": "/produtos/meias-baby/02000-789/0911.jpg",
      "composicao": [
       "Bege"
-     ]
+     ],
+     "img": "/produtos/meias-baby/02000-789/0911.jpg"
     },
     {
      "cod": "0912",
      "nome": "Sortida · Bege",
-     "img": "/produtos/meias-baby/02000-789/0912.jpg",
      "composicao": [
       "Bege"
-     ]
+     ],
+     "img": "/produtos/meias-baby/02000-789/0912.jpg"
     },
     {
      "cod": "0913",
      "nome": "Sortida · Bege",
-     "img": "/produtos/meias-baby/02000-789/0913.jpg",
      "composicao": [
       "Bege"
-     ]
+     ],
+     "img": "/produtos/meias-baby/02000-789/0913.jpg"
     },
     {
      "cod": "0914",
      "nome": "Sortida · Bege",
-     "img": "/produtos/meias-baby/02000-789/0914.jpg",
      "composicao": [
       "Bege"
-     ]
+     ],
+     "img": "/produtos/meias-baby/02000-789/0914.jpg"
     },
     {
      "cod": "0915",
      "nome": "Sortida · Branca",
-     "img": "/produtos/meias-baby/02000-789/0915.jpg",
      "composicao": [
       "Branca"
-     ]
+     ],
+     "img": "/produtos/meias-baby/02000-789/0915.jpg"
     },
     {
      "cod": "0916",
      "nome": "Sortida · Bege / Cinza",
-     "img": "/produtos/meias-baby/02000-789/0916.jpg",
      "composicao": [
       "Bege",
       "Cinza"
-     ]
+     ],
+     "img": "/produtos/meias-baby/02000-789/0916.jpg"
     },
     {
      "cod": "0917",
      "nome": "Sortida · Bege / Azul",
-     "img": "/produtos/meias-baby/02000-789/0917.jpg",
      "composicao": [
       "Bege",
       "Azul"
-     ]
+     ],
+     "img": "/produtos/meias-baby/02000-789/0917.jpg"
     },
     {
      "cod": "0918",
      "nome": "Sortida · Bege / Azul",
-     "img": "/produtos/meias-baby/02000-789/0918.jpg",
      "composicao": [
       "Bege",
       "Azul"
-     ]
+     ],
+     "img": "/produtos/meias-baby/02000-789/0918.jpg"
     },
     {
      "cod": "0919",
      "nome": "Sortida · Bege / Cinza",
-     "img": "/produtos/meias-baby/02000-789/0919.jpg",
      "composicao": [
       "Bege",
       "Cinza"
-     ]
+     ],
+     "img": "/produtos/meias-baby/02000-789/0919.jpg"
     }
    ],
    "img": "/produtos/meias-baby/02000-789/0919.jpg"
@@ -969,27 +989,27 @@
     {
      "cod": "0900",
      "nome": "Sortida · Bege",
-     "img": "/produtos/meias-baby/02030-088/0900.jpg",
      "composicao": [
       "Bege"
-     ]
+     ],
+     "img": "/produtos/meias-baby/02030-088/0900.jpg"
     },
     {
      "cod": "0903",
      "nome": "Sortida · Cinza / Bege",
-     "img": "/produtos/meias-baby/02030-088/0903.jpg",
      "composicao": [
       "Cinza",
       "Bege"
-     ]
+     ],
+     "img": "/produtos/meias-baby/02030-088/0903.jpg"
     },
     {
      "cod": "0904",
      "nome": "Sortida · Bege",
-     "img": "/produtos/meias-baby/02030-088/0904.jpg",
      "composicao": [
       "Bege"
-     ]
+     ],
+     "img": "/produtos/meias-baby/02030-088/0904.jpg"
     }
    ],
    "img": "/produtos/meias-baby/02030-088/0903.jpg"
@@ -1004,26 +1024,26 @@
     {
      "cod": "0900",
      "nome": "Sortida · Branca",
-     "img": "/produtos/meias-baby/02002-088/0900.jpg",
      "composicao": [
       "Branca"
-     ]
+     ],
+     "img": "/produtos/meias-baby/02002-088/0900.jpg"
     },
     {
      "cod": "0901",
      "nome": "Sortida · Bege",
-     "img": "/produtos/meias-baby/02002-088/0901.jpg",
      "composicao": [
       "Bege"
-     ]
+     ],
+     "img": "/produtos/meias-baby/02002-088/0901.jpg"
     },
     {
      "cod": "0902",
      "nome": "Sortida · Bege",
-     "img": "/produtos/meias-baby/02002-088/0902.jpg",
      "composicao": [
       "Bege"
-     ]
+     ],
+     "img": "/produtos/meias-baby/02002-088/0902.jpg"
     }
    ],
    "img": "/produtos/meias-baby/02002-088/0901.jpg"
@@ -1031,36 +1051,36 @@
   {
    "codigo": "02127-088",
    "nome": "Meia Lupo BU Sapatilha Kit2",
-   "descricao": "Kit com 2 pares de sapatilhas confeccionadas em algodão livre de aditivos químicos e com elastano. T em ajuste de elastano em cima do pé para dificultar ser engolida pelo sapato. Produto com aspecto esportivo trazendo um charme a mais para os pequenos.",
+   "descricao": "Kit com 2 pares de sapatilhas confeccionadas em algodão livre de aditivos químicos e com elastano. Tem ajuste de elastano em cima do pé para dificultar ser engolida pelo sapato. Produto com aspecto esportivo trazendo um charme a mais para os pequenos.",
    "tamanho": "16 a 23",
    "linha": "",
    "cores": [
     {
      "cod": "0903",
      "nome": "Sortida · Branca / Bege",
-     "img": "/produtos/meias-baby/02127-088/0903.jpg",
      "composicao": [
       "Branca",
       "Bege"
-     ]
+     ],
+     "img": "/produtos/meias-baby/02127-088/0903.jpg"
     },
     {
      "cod": "0905",
      "nome": "Sortida · Bege / Vermelha",
-     "img": "/produtos/meias-baby/02127-088/0905.jpg",
      "composicao": [
       "Bege",
       "Vermelha"
-     ]
+     ],
+     "img": "/produtos/meias-baby/02127-088/0905.jpg"
     },
     {
      "cod": "0906",
      "nome": "Sortida · Bege / Marinho",
-     "img": "/produtos/meias-baby/02127-088/0906.jpg",
      "composicao": [
       "Bege",
       "Marinho"
-     ]
+     ],
+     "img": "/produtos/meias-baby/02127-088/0906.jpg"
     }
    ],
    "img": "/produtos/meias-baby/02127-088/0905.jpg"
@@ -1075,60 +1095,60 @@
     {
      "cod": "0900",
      "nome": "Sortida · Branca",
-     "img": "/produtos/meias-baby/02025-088/0900.jpg",
      "composicao": [
       "Branca"
-     ]
+     ],
+     "img": "/produtos/meias-baby/02025-088/0900.jpg"
     },
     {
      "cod": "0901",
      "nome": "Sortida · Bege",
-     "img": "/produtos/meias-baby/02025-088/0901.jpg",
      "composicao": [
       "Bege"
-     ]
+     ],
+     "img": "/produtos/meias-baby/02025-088/0901.jpg"
     },
     {
      "cod": "0902",
      "nome": "Sortida · Bege",
-     "img": "/produtos/meias-baby/02025-088/0902.jpg",
      "composicao": [
       "Bege"
-     ]
+     ],
+     "img": "/produtos/meias-baby/02025-088/0902.jpg"
     },
     {
      "cod": "0903",
      "nome": "Sortida · Branca",
-     "img": "/produtos/meias-baby/02025-088/0903.jpg",
      "composicao": [
       "Branca"
-     ]
+     ],
+     "img": "/produtos/meias-baby/02025-088/0903.jpg"
     },
     {
      "cod": "0904",
      "nome": "Sortida · Preta",
-     "img": "/produtos/meias-baby/02025-088/0904.jpg",
      "composicao": [
       "Preta"
-     ]
+     ],
+     "img": "/produtos/meias-baby/02025-088/0904.jpg"
     },
     {
      "cod": "0905",
      "nome": "Sortida · Bege / Vermelha",
-     "img": "/produtos/meias-baby/02025-088/0905.jpg",
      "composicao": [
       "Bege",
       "Vermelha"
-     ]
+     ],
+     "img": "/produtos/meias-baby/02025-088/0905.jpg"
     },
     {
      "cod": "0906",
      "nome": "Sortida · Bege / Cinza",
-     "img": "/produtos/meias-baby/02025-088/0906.jpg",
      "composicao": [
       "Bege",
       "Cinza"
-     ]
+     ],
+     "img": "/produtos/meias-baby/02025-088/0906.jpg"
     }
    ],
    "img": "/produtos/meias-baby/02025-088/0904.jpg"
@@ -1143,20 +1163,20 @@
     {
      "cod": "0900",
      "nome": "Sortida · Bege / Branca",
-     "img": "/produtos/meias-baby/02090-088/0900.jpg",
      "composicao": [
       "Bege",
       "Branca"
-     ]
+     ],
+     "img": "/produtos/meias-baby/02090-088/0900.jpg"
     },
     {
      "cod": "0903",
      "nome": "Sortida · Preta / Branca",
-     "img": "/produtos/meias-baby/02090-088/0903.jpg",
      "composicao": [
       "Preta",
       "Branca"
-     ]
+     ],
+     "img": "/produtos/meias-baby/02090-088/0903.jpg"
     }
    ],
    "img": "/produtos/meias-baby/02090-088/0903.jpg"
@@ -1171,10 +1191,10 @@
     {
      "cod": "0900",
      "nome": "Sortida · Bege",
-     "img": "/produtos/meias-baby/02035-088/0900.jpg",
      "composicao": [
       "Bege"
-     ]
+     ],
+     "img": "/produtos/meias-baby/02035-088/0900.jpg"
     }
    ],
    "img": "/produtos/meias-baby/02035-088/0900.jpg"
@@ -1189,58 +1209,58 @@
     {
      "cod": "0900",
      "nome": "Sortida · Branca",
-     "img": "/produtos/meias-baby/02005-088/0900.jpg",
      "composicao": [
       "Branca"
-     ]
+     ],
+     "img": "/produtos/meias-baby/02005-088/0900.jpg"
     },
     {
      "cod": "0901",
      "nome": "Sortida · Preta",
-     "img": "/produtos/meias-baby/02005-088/0901.jpg",
      "composicao": [
       "Preta"
-     ]
+     ],
+     "img": "/produtos/meias-baby/02005-088/0901.jpg"
     },
     {
      "cod": "0902",
      "nome": "Sortida · Bege",
-     "img": "/produtos/meias-baby/02005-088/0902.jpg",
      "composicao": [
       "Bege"
-     ]
+     ],
+     "img": "/produtos/meias-baby/02005-088/0902.jpg"
     },
     {
      "cod": "0903",
      "nome": "Sortida · Bege",
-     "img": "/produtos/meias-baby/02005-088/0903.jpg",
      "composicao": [
       "Bege"
-     ]
+     ],
+     "img": "/produtos/meias-baby/02005-088/0903.jpg"
     },
     {
      "cod": "0904",
      "nome": "Sortida · Bege",
-     "img": "/produtos/meias-baby/02005-088/0904.jpg",
      "composicao": [
       "Bege"
-     ]
+     ],
+     "img": "/produtos/meias-baby/02005-088/0904.jpg"
     },
     {
      "cod": "0905",
      "nome": "Sortida · Preta",
-     "img": "/produtos/meias-baby/02005-088/0905.jpg",
      "composicao": [
       "Preta"
-     ]
+     ],
+     "img": "/produtos/meias-baby/02005-088/0905.jpg"
     },
     {
      "cod": "0906",
      "nome": "Sortida · Vermelha",
-     "img": "/produtos/meias-baby/02005-088/0906.jpg",
      "composicao": [
       "Vermelha"
-     ]
+     ],
+     "img": "/produtos/meias-baby/02005-088/0906.jpg"
     }
    ],
    "img": "/produtos/meias-baby/02005-088/0900.jpg"
@@ -1255,27 +1275,27 @@
     {
      "cod": "0902",
      "nome": "Sortida · Bege",
-     "img": "/produtos/meias-baby/02724-088/0902.jpg",
      "composicao": [
       "Bege"
-     ]
+     ],
+     "img": "/produtos/meias-baby/02724-088/0902.jpg"
     },
     {
      "cod": "0903",
      "nome": "Sortida · Bege",
-     "img": "/produtos/meias-baby/02724-088/0903.jpg",
      "composicao": [
       "Bege"
-     ]
+     ],
+     "img": "/produtos/meias-baby/02724-088/0903.jpg"
     },
     {
      "cod": "0904",
      "nome": "Sortida · Preta / Bege",
-     "img": "/produtos/meias-baby/02724-088/0904.jpg",
      "composicao": [
       "Preta",
       "Bege"
-     ]
+     ],
+     "img": "/produtos/meias-baby/02724-088/0904.jpg"
     }
    ],
    "img": "/produtos/meias-baby/02724-088/0902.jpg"
@@ -1284,32 +1304,32 @@
    "codigo": "02165-088",
    "nome": "Meia Lupo BU Kit2",
    "descricao": "Kit com 2 pares de Meias Bebê em algodão livre de aditivos químicos, com elastano para maior ajuste e conforto. Cano 5 cm aproximadamente.",
-   "tamanho": "RN (0 a 04 meses)",
+   "tamanho": "16 a 23 • RN (0 a 04 meses)",
    "linha": "LANÇAMENTO",
    "cores": [
     {
      "cod": "0900",
      "nome": "Sortida · Bege",
-     "img": "/produtos/meias-baby/02165-088/0900.jpg",
      "composicao": [
       "Bege"
-     ]
+     ],
+     "img": "/produtos/meias-baby/02165-088/0900.jpg"
     },
     {
      "cod": "0901",
      "nome": "Sortida · Bege",
-     "img": "/produtos/meias-baby/02165-088/0901.jpg",
      "composicao": [
       "Bege"
-     ]
+     ],
+     "img": "/produtos/meias-baby/02165-088/0901.jpg"
     },
     {
      "cod": "0902",
      "nome": "Sortida · Rosa",
-     "img": "/produtos/meias-baby/02165-088/0902.jpg",
      "composicao": [
       "Rosa"
-     ]
+     ],
+     "img": "/produtos/meias-baby/02165-088/0902.jpg"
     }
    ],
    "img": "/produtos/meias-baby/02165-088/0902.jpg"
@@ -1322,14 +1342,14 @@
    "linha": "",
    "cores": [
     {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/meias-baby/13502-001/9990.jpg"
+    },
+    {
      "cod": "1120",
      "nome": "Branca",
      "img": "/produtos/meias-baby/13502-001/1120.jpg"
-    },
-    {
-     "cod": "9990",
-     "nome": "Preto",
-     "img": "/produtos/meias-baby/13502-001/9990.jpg"
     }
    ],
    "img": "/produtos/meias-baby/13502-001/9990.jpg"
@@ -1342,19 +1362,19 @@
    "linha": "",
    "cores": [
     {
-     "cod": "8020",
-     "nome": "Cinza",
-     "img": "/produtos/meias-baby/13501-009/8020.jpg"
-    },
-    {
      "cod": "2660",
      "nome": "Azul",
      "img": "/produtos/meias-baby/13501-009/2660.jpg"
     },
     {
      "cod": "9990",
-     "nome": "Preto",
+     "nome": "Preta",
      "img": "/produtos/meias-baby/13501-009/9990.jpg"
+    },
+    {
+     "cod": "8020",
+     "nome": "Cinza",
+     "img": "/produtos/meias-baby/13501-009/8020.jpg"
     }
    ],
    "img": "/produtos/meias-baby/13501-009/9990.jpg"
@@ -1362,7 +1382,7 @@
   {
    "codigo": "02571-001",
    "nome": "Meia-Calça fina bebê",
-   "descricao": "",
+   "descricao": "Poliamida 98% Elastano 2%",
    "tamanho": "RN (0 a 04 meses) • BB (05 a 11 meses)",
    "linha": "",
    "cores": [
@@ -1387,7 +1407,7 @@
   {
    "codigo": "02554-001",
    "nome": "Meia-Calça Cute",
-   "descricao": "",
+   "descricao": "Poliamida 94% Elastano 6%",
    "tamanho": "P (03 a 05 Anos )",
    "linha": "",
    "cores": [
@@ -1402,7 +1422,7 @@
   {
    "codigo": "02576-001",
    "nome": "Meia-Calça Microfibra",
-   "descricao": "",
+   "descricao": "Poliamida 97% Elastano 3%",
    "tamanho": "RN • G",
    "linha": "",
    "cores": [

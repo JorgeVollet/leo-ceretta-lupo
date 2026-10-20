@@ -1,881 +1,1279 @@
 {
-  "produtos": [
+ "produtos": [
+  {
+   "codigo": "05898-001",
+   "nome": "Meia-calça Opaca Fio 20",
+   "descricao": "A mais fina e transparente da linha Opaca, tem leve transparência, disfarça pequenas imperfeições e uniformiza a tonalidade da pele, valorizando a aparência das pernas. Ideal para ocasiões que pedem discrição e elegância. Diferenciais: • Fio 20: leve transparência com acabamento sofisticado. • Sem demarcação de calça: ideal para usar sob roupas ajustadas, transparentes ou com fendas. • Sem demarcação de ponteira: acabamento invisível nos dedos, permitindo o uso com calçados mais abertos. • Ajuste confortável: adapta-se ao corpo e acompanha os movimentos. Ideal para: • Uso diário • Looks sociais • Vestidos e saias • Uso com bodies e collants cavados • Figurinos e dança",
+   "tamanho": "P • M • G • GG",
+   "linha": "Linha Opaca",
+   "cores": [
     {
-      "codigo": "05898-001",
-      "nome": "Meia-calça Opaca Fio 20",
-      "descricao": "• Sem demarcação de calça • Sem demarcação de ponteira",
-      "tamanho": "",
-      "linha": "Linha Opaca",
-      "cores": [],
-      "img": ""
+     "cod": "6540",
+     "nome": "Pó de Arroz",
+     "img": "/produtos/loba/05898-001/6540.jpg"
     },
     {
-      "codigo": "05830-001",
-      "nome": "Meia-calça Opaca Fio 40",
-      "descricao": "• Sem demarcação de calça • Sem demarcação de ponteira",
-      "tamanho": "P • GG",
-      "linha": "Linha Opaca",
-      "cores": [
-        {
-          "cod": "1000",
-          "nome": "Branco Antártida",
-          "img": "/produtos/loba/05830-001/1000.jpg"
-        },
-        {
-          "cod": "5680",
-          "nome": "Vermelho Intenso",
-          "img": "/produtos/loba/05830-001/5680.jpg"
-        },
-        {
-          "cod": "6540",
-          "nome": "Pó de Arroz",
-          "img": "/produtos/loba/05830-001/6540.jpg"
-        },
-        {
-          "cod": "7570",
-          "nome": "Café",
-          "img": "/produtos/loba/05830-001/7570.jpg"
-        }
-      ],
-      "img": "/produtos/loba/05830-001/7570.jpg"
-    },
-    {
-      "codigo": "05837-001",
-      "nome": "Meia-calça Opaca Plus",
-      "descricao": "• Tamanho XG: possui forro de algodão • Tamanho XXG: possui complemento de calça",
-      "tamanho": "",
-      "linha": "Linha Opaca",
-      "cores": [],
-      "img": ""
-    },
-    {
-      "codigo": "05716-001",
-      "nome": "Meia-calça Ballet Versátil",
-      "descricao": "Meia com abertura no solado, que garante maior praticidade para as bailarinas. • Sem demarcação de calça • Sem demarcação de ponteira",
-      "tamanho": "",
-      "linha": "Linha Opaca",
-      "cores": [],
-      "img": ""
-    },
-    {
-      "codigo": "05805-001",
-      "nome": "Meia Calça Fio 80 Adulto Acrílico Opaca Loba",
-      "descricao": "• Sem demarcação de calça • Sem demarcação de ponteira",
-      "tamanho": "",
-      "linha": "Linha Opaca",
-      "cores": [],
-      "img": ""
-    },
-    {
-      "codigo": "05858-001",
-      "nome": "Meia-calça Opaca Fio 80",
-      "descricao": "• Sem demarcação de calça • Sem demarcação de ponteira",
-      "tamanho": "",
-      "linha": "Linha Opaca",
-      "cores": [],
-      "img": ""
-    },
-    {
-      "codigo": "05852-001",
-      "nome": "Meia-calça Opaca Plus Fio 80",
-      "descricao": "• Sem demarcação de calça • Sem demarcação de ponteira • Tamanho XG: possui forro de algodão • Tamanho XXG: possui complemento de calça",
-      "tamanho": "",
-      "linha": "Linha Opaca",
-      "cores": [],
-      "img": ""
-    },
-    {
-      "codigo": "17613-001",
-      "nome": "Meia-calça Opaca Plus Raschel",
-      "descricao": "• Sem demarcação de calça • Sem demarcação de ponteira",
-      "tamanho": "",
-      "linha": "Linha Opaca",
-      "cores": [],
-      "img": ""
-    },
-    {
-      "codigo": "05687-001",
-      "nome": "Meia-calça Clássica Poá",
-      "descricao": "• Com demarcação de calça • Sem demarcação de ponteira",
-      "tamanho": "P • G",
-      "linha": "Linha Fina",
-      "cores": [
-        {
-          "cod": "9990",
-          "nome": "Preta",
-          "img": "/produtos/loba/05687-001/9990.jpg"
-        }
-      ],
-      "img": "/produtos/loba/05687-001/9990.jpg"
-    },
-    {
-      "codigo": "05097-002",
-      "nome": "Meia-Calça Arrastão Raschel",
-      "descricao": "• Sem demarcação de calça • Sem demarcação de ponteira",
-      "tamanho": "M • G",
-      "linha": "Linha Fina",
-      "cores": [
-        {
-          "cod": "9990",
-          "nome": "Preta",
-          "img": "/produtos/loba/05097-002/9990.jpg"
-        }
-      ],
-      "img": "/produtos/loba/05097-002/9990.jpg"
-    },
-    {
-      "codigo": "17610-001",
-      "nome": "Meia-calça Arrastão Raschel Plus",
-      "descricao": "• Sem demarcação de calça • Sem demarcação de ponteira",
-      "tamanho": "",
-      "linha": "Linha Fina",
-      "cores": [],
-      "img": ""
-    },
-    {
-      "codigo": "05590-001",
-      "nome": "Meia 7/8 Tradicional",
-      "descricao": "• Punho Comfort Band • Com ponteira transparente",
-      "tamanho": "U",
-      "linha": "Linha Fina",
-      "cores": [
-        {
-          "cod": "1000",
-          "nome": "Branco Antártida",
-          "img": "/produtos/loba/05590-001/1000.jpg"
-        },
-        {
-          "cod": "6700",
-          "nome": "Natural Peach",
-          "img": "/produtos/loba/05590-001/6700.jpg"
-        },
-        {
-          "cod": "9990",
-          "nome": "Preta",
-          "img": "/produtos/loba/05590-001/9990.jpg"
-        }
-      ],
-      "img": "/produtos/loba/05590-001/9990.jpg"
-    },
-    {
-      "codigo": "05660-001",
-      "nome": "Meia 7/8 com renda",
-      "descricao": "• Sem demarcação de ponteira • Renda com elastano e silicone",
-      "tamanho": "",
-      "linha": "Linha Fina",
-      "cores": [],
-      "img": ""
-    },
-    {
-      "codigo": "05870-002",
-      "nome": "Meia-calça Invisível",
-      "descricao": "• Com demarcação de calça • Com ponteira transparente",
-      "tamanho": "",
-      "linha": "Linha Fina",
-      "cores": [],
-      "img": ""
-    },
-    {
-      "codigo": "05765-001",
-      "nome": "Meia-calça Clássica Fina Dedos Livres",
-      "descricao": "• Com demarcação de calça • Com ponteira dedos livres",
-      "tamanho": "P",
-      "linha": "Linha Fina",
-      "cores": [
-        {
-          "cod": "6700",
-          "nome": "Natural Peach",
-          "img": "/produtos/loba/05765-001/6700.jpg"
-        },
-        {
-          "cod": "6930",
-          "nome": "Cacao",
-          "img": "/produtos/loba/05765-001/6930.jpg"
-        }
-      ],
-      "img": "/produtos/loba/05765-001/6930.jpg"
-    },
-    {
-      "codigo": "05760-001",
-      "nome": "Meia-calça Clássica Fina",
-      "descricao": "• Com demarcação de calça • Sem demarcação de ponteira • Tamanhos P, M, G e GG: possui demarcação de ponteira",
-      "tamanho": "P • M • G • GG",
-      "linha": "Linha Fina",
-      "cores": [
-        {
-          "cod": "1000",
-          "nome": "Branco Antártida",
-          "img": "/produtos/loba/05760-001/1000.jpg"
-        },
-        {
-          "cod": "6540",
-          "nome": "Pó de Arroz",
-          "img": "/produtos/loba/05760-001/6540.jpg"
-        },
-        {
-          "cod": "6700",
-          "nome": "Natural Peach",
-          "img": "/produtos/loba/05760-001/6700.jpg"
-        },
-        {
-          "cod": "7780",
-          "nome": "Café",
-          "img": "/produtos/loba/05760-001/7780.jpg"
-        }
-      ],
-      "img": "/produtos/loba/05760-001/6700.jpg"
-    },
-    {
-      "codigo": "05795-001",
-      "nome": "Meia-calça Clássica Plus",
-      "descricao": "• Com demarcação de calça • Com demarcação de ponteira • Tamanho XG: possui forro de algodão • Tamanho XXG: possui complemento de calça",
-      "tamanho": "",
-      "linha": "Linha Fina",
-      "cores": [],
-      "img": ""
-    },
-    {
-      "codigo": "05770-002",
-      "nome": "Meia-calça Essencial",
-      "descricao": "• Sem demarcação de calça • Sem demarcação de ponteira",
-      "tamanho": "P",
-      "linha": "Linha Fina",
-      "cores": [
-        {
-          "cod": "6540",
-          "nome": "Pó de Arroz",
-          "img": "/produtos/loba/05770-002/6540.jpg"
-        }
-      ],
-      "img": "/produtos/loba/05770-002/6540.jpg"
-    },
-    {
-      "codigo": "05685-001",
-      "nome": "Meia-calça Risca Atrás",
-      "descricao": "• Com demarcação de calça • Sem demarcação de ponteira",
-      "tamanho": "GG",
-      "linha": "Linha Fina",
-      "cores": [
-        {
-          "cod": "9990",
-          "nome": "Preta",
-          "img": "/produtos/loba/05685-001/9990.jpg"
-        }
-      ],
-      "img": "/produtos/loba/05685-001/9990.jpg"
-    },
-    {
-      "codigo": "05680-001",
-      "nome": "MEIA-CALÇA NEWS",
-      "descricao": "• Com demarcação de calça • Sem demarcação de ponteira",
-      "tamanho": "P",
-      "linha": "Linha Fina",
-      "cores": [
-        {
-          "cod": "6540",
-          "nome": "Pó de Arroz",
-          "img": "/produtos/loba/05680-001/6540.jpg"
-        },
-        {
-          "cod": "6700",
-          "nome": "Natural Peach",
-          "img": "/produtos/loba/05680-001/6700.jpg"
-        }
-      ],
-      "img": "/produtos/loba/05680-001/6540.jpg"
-    },
-    {
-      "codigo": "17622-001",
-      "nome": "Soquete Raschel",
-      "descricao": "",
-      "tamanho": "U",
-      "linha": "Linha 3/4",
-      "cores": [
-        {
-          "cod": "9990",
-          "nome": "Preto",
-          "img": "/produtos/loba/17622-001/9990.jpg"
-        }
-      ],
-      "img": "/produtos/loba/17622-001/9990.jpg"
-    },
-    {
-      "codigo": "17623-001",
-      "nome": "Soquete Floral Raschel",
-      "descricao": "",
-      "tamanho": "U",
-      "linha": "Linha 3/4",
-      "cores": [
-        {
-          "cod": "6140",
-          "nome": "Natural Peach",
-          "img": "/produtos/loba/17623-001/6140.jpg"
-        },
-        {
-          "cod": "9990",
-          "nome": "Preto",
-          "img": "/produtos/loba/17623-001/9990.jpg"
-        }
-      ],
-      "img": "/produtos/loba/17623-001/9990.jpg"
-    },
-    {
-      "codigo": "05552-001",
-      "nome": "Meia Sapatilha Invisível Adulto Lupo",
-      "descricao": "Com calcanhar verdadeiro.",
-      "tamanho": "33 a 36 • 37 a 40",
-      "linha": "Linha 3/4",
-      "cores": [
-        {
-          "cod": "6140",
-          "nome": "Natural Peach",
-          "img": "/produtos/loba/05552-001/6140.jpg"
-        },
-        {
-          "cod": "9990",
-          "nome": "Preto",
-          "img": "/produtos/loba/05552-001/9990.jpg"
-        }
-      ],
-      "img": "/produtos/loba/05552-001/9990.jpg"
-    },
-    {
-      "codigo": "05520-001",
-      "nome": "Sapatilha",
-      "descricao": "",
-      "tamanho": "U",
-      "linha": "Linha 3/4",
-      "cores": [
-        {
-          "cod": "6540",
-          "nome": "Pó de Arroz",
-          "img": "/produtos/loba/05520-001/6540.jpg"
-        }
-      ],
-      "img": "/produtos/loba/05520-001/6540.jpg"
-    },
-    {
-      "codigo": "05510-001",
-      "nome": "Mini Lu 3/4 Básica",
-      "descricao": "",
-      "tamanho": "",
-      "linha": "Linha 3/4",
-      "cores": [],
-      "img": ""
-    },
-    {
-      "codigo": "05530-001",
-      "nome": "Soquete Fina",
-      "descricao": "• Sem demarcação de ponteira",
-      "tamanho": "U",
-      "linha": "Linha 3/4",
-      "cores": [
-        {
-          "cod": "1110",
-          "nome": "Branca",
-          "img": "/produtos/loba/05530-001/1110.jpg"
-        }
-      ],
-      "img": "/produtos/loba/05530-001/1110.jpg"
-    },
-    {
-      "codigo": "05531-001",
-      "nome": "Soquete Opaca Fio 40",
-      "descricao": "• Sem demarcação de ponteira",
-      "tamanho": "",
-      "linha": "Linha 3/4",
-      "cores": [],
-      "img": ""
-    },
-    {
-      "codigo": "05550-001",
-      "nome": "Mini Lu 3/4 Opaca Fio 40",
-      "descricao": "• Sem demarcação de ponteira",
-      "tamanho": "",
-      "linha": "Linha 3/4",
-      "cores": [],
-      "img": ""
-    },
-    {
-      "codigo": "17752-001",
-      "nome": "Body Raschel",
-      "descricao": "",
-      "tamanho": "ÚNICO",
-      "linha": "Linha Segunda Pele",
-      "cores": [
-        {
-          "cod": "9990",
-          "nome": "Preta",
-          "img": "/produtos/loba/17752-001/9990.jpg"
-        }
-      ],
-      "img": "/produtos/loba/17752-001/9990.jpg"
-    },
-    {
-      "codigo": "00840-001",
-      "nome": "Segunda Pele Gola Alta",
-      "descricao": "",
-      "tamanho": "U",
-      "linha": "Linha Segunda Pele",
-      "cores": [
-        {
-          "cod": "1000",
-          "nome": "Branco Antártida",
-          "img": "/produtos/loba/00840-001/1000.jpg"
-        },
-        {
-          "cod": "9990",
-          "nome": "Preta",
-          "img": "/produtos/loba/00840-001/9990.jpg"
-        }
-      ],
-      "img": "/produtos/loba/00840-001/1000.jpg"
-    },
-    {
-      "codigo": "00800-001",
-      "nome": "Blusa Segunda Pele Manga Longa",
-      "descricao": "",
-      "tamanho": "GG • U",
-      "linha": "Linha Segunda Pele",
-      "cores": [
-        {
-          "cod": "1000",
-          "nome": "Branco Antártida",
-          "img": "/produtos/loba/00800-001/1000.jpg"
-        },
-        {
-          "cod": "6540",
-          "nome": "Pó de Arroz",
-          "img": "/produtos/loba/00800-001/6540.jpg"
-        },
-        {
-          "cod": "9990",
-          "nome": "Preta",
-          "img": "/produtos/loba/00800-001/9990.jpg"
-        }
-      ],
-      "img": "/produtos/loba/00800-001/1000.jpg"
-    },
-    {
-      "codigo": "05690-003",
-      "nome": "Short Up-Line",
-      "descricao": "",
-      "tamanho": "M • G • GG",
-      "linha": "Linha Atributos",
-      "cores": [
-        {
-          "cod": "6006",
-          "nome": "Nude",
-          "img": "/produtos/loba/05690-003/6006.jpg"
-        },
-        {
-          "cod": "6540",
-          "nome": "Pó de Arroz",
-          "img": "/produtos/loba/05690-003/6540.jpg"
-        },
-        {
-          "cod": "9990",
-          "nome": "Preta",
-          "img": "/produtos/loba/05690-003/9990.jpg"
-        }
-      ],
-      "img": "/produtos/loba/05690-003/6006.jpg"
-    },
-    {
-      "codigo": "05695-001",
-      "nome": "Bermuda Up-Line",
-      "descricao": "",
-      "tamanho": "P • M • G • GG • XG",
-      "linha": "Linha Atributos",
-      "cores": [
-        {
-          "cod": "6540",
-          "nome": "Pó de Arroz",
-          "img": "/produtos/loba/05695-001/6540.jpg"
-        }
-      ],
-      "img": "/produtos/loba/05695-001/6540.jpg"
-    },
-    {
-      "codigo": "05865-001",
-      "nome": "Corsário Up-Line",
-      "descricao": "",
-      "tamanho": "",
-      "linha": "Linha Atributos",
-      "cores": [],
-      "img": ""
-    },
-    {
-      "codigo": "05895-001",
-      "nome": "Meia-Calça Up-Line",
-      "descricao": "",
-      "tamanho": "",
-      "linha": "Linha Atributos",
-      "cores": [],
-      "img": ""
-    },
-    {
-      "codigo": "05694-001",
-      "nome": "Short Slim",
-      "descricao": "",
-      "tamanho": "",
-      "linha": "Linha Atributos",
-      "cores": [],
-      "img": ""
-    },
-    {
-      "codigo": "05696-001",
-      "nome": "Bermuda Slim",
-      "descricao": "",
-      "tamanho": "M",
-      "linha": "Linha Atributos",
-      "cores": [
-        {
-          "cod": "9990",
-          "nome": "Preta",
-          "img": "/produtos/loba/05696-001/9990.jpg"
-        }
-      ],
-      "img": "/produtos/loba/05696-001/9990.jpg"
-    },
-    {
-      "codigo": "05697-001",
-      "nome": "Bermuda Slim Plus",
-      "descricao": "",
-      "tamanho": "",
-      "linha": "Linha Atributos",
-      "cores": [],
-      "img": ""
-    },
-    {
-      "codigo": "59000-002",
-      "nome": "Meia-calça Suave Compressão Importada",
-      "descricao": "",
-      "tamanho": "P • M • G • GG",
-      "linha": "Linha Terapêutica",
-      "cores": [
-        {
-          "cod": "6540",
-          "nome": "Pó de Arroz",
-          "img": "/produtos/loba/59000-002/6540.jpg"
-        }
-      ],
-      "img": "/produtos/loba/59000-002/6540.jpg"
-    },
-    {
-      "codigo": "59100-002",
-      "nome": "Meia-calça Média Compressão Importada",
-      "descricao": "",
-      "tamanho": "P • M • G • GG",
-      "linha": "Linha Terapêutica",
-      "cores": [
-        {
-          "cod": "6540",
-          "nome": "Pó de Arroz",
-          "img": "/produtos/loba/59100-002/6540.jpg"
-        }
-      ],
-      "img": "/produtos/loba/59100-002/6540.jpg"
-    },
-    {
-      "codigo": "59200-002",
-      "nome": "Meia-calça Alta Compressão Importada",
-      "descricao": "",
-      "tamanho": "P • M • G • GG",
-      "linha": "Linha Terapêutica",
-      "cores": [
-        {
-          "cod": "6540",
-          "nome": "Pó de Arroz",
-          "img": "/produtos/loba/59200-002/6540.jpg"
-        }
-      ],
-      "img": "/produtos/loba/59200-002/6540.jpg"
-    },
-    {
-      "codigo": "59700-002",
-      "nome": "Meia 3/4 Suave Compressão Importada",
-      "descricao": "",
-      "tamanho": "34 a 36 • 37 a 39",
-      "linha": "Linha Terapêutica",
-      "cores": [
-        {
-          "cod": "6540",
-          "nome": "Pó de Arroz",
-          "img": "/produtos/loba/59700-002/6540.jpg"
-        }
-      ],
-      "img": "/produtos/loba/59700-002/6540.jpg"
-    },
-    {
-      "codigo": "59800-002",
-      "nome": "Meia 3/4 Média Compressão Importada",
-      "descricao": "",
-      "tamanho": "34 a 36 • 37 a 39",
-      "linha": "Linha Terapêutica",
-      "cores": [
-        {
-          "cod": "6540",
-          "nome": "Pó de Arroz",
-          "img": "/produtos/loba/59800-002/6540.jpg"
-        }
-      ],
-      "img": "/produtos/loba/59800-002/6540.jpg"
-    },
-    {
-      "codigo": "59900-002",
-      "nome": "Meia 3/4 Alta Compressão Importada",
-      "descricao": "",
-      "tamanho": "34 a 36 • 37 a 39",
-      "linha": "Linha Terapêutica",
-      "cores": [
-        {
-          "cod": "6540",
-          "nome": "Pó de Arroz",
-          "img": "/produtos/loba/59900-002/6540.jpg"
-        }
-      ],
-      "img": "/produtos/loba/59900-002/6540.jpg"
-    },
-    {
-      "codigo": "41850-002",
-      "nome": "Legging Sem Costura",
-      "descricao": "•Opaca •Punho confortável •Amni Bac Off •Antiviral e Bacteriostático",
-      "tamanho": "P • M • G • GG • XG",
-      "linha": "Leggings Sem Costura",
-      "cores": [
-        {
-          "cod": "9990",
-          "nome": "Preta",
-          "img": "/produtos/loba/41850-002/9990.jpg"
-        }
-      ],
-      "img": "/produtos/loba/41850-002/9990.jpg"
-    },
-    {
-      "codigo": "41851-001",
-      "nome": "Legging Sem Costura",
-      "descricao": "• Superopaca • Punho confortável • Fio texturizado a ar, toque macio",
-      "tamanho": "P • M • G • GG • XG",
-      "linha": "Leggings Sem Costura",
-      "cores": [
-        {
-          "cod": "9990",
-          "nome": "Preta",
-          "img": "/produtos/loba/41851-001/9990.jpg"
-        }
-      ],
-      "img": "/produtos/loba/41851-001/9990.jpg"
-    },
-    {
-      "codigo": "41853-002",
-      "nome": "Legging Gestante",
-      "descricao": "•Opaca •Punho confortável •Envolve e suporta suavemente a barriga •Malha canelada nas costas para aliviar a lombar •Malha macia e flexível, conforto extremo em todo período da gestação •Amni Bac Off •Antiviral e Bateriostático",
-      "tamanho": "P • M • G • GG",
-      "linha": "Leggings Sem Costura",
-      "cores": [
-        {
-          "cod": "9990",
-          "nome": "Preta",
-          "img": "/produtos/loba/41853-002/9990.jpg"
-        }
-      ],
-      "img": "/produtos/loba/41853-002/9990.jpg"
-    },
-    {
-      "codigo": "41888-001",
-      "nome": "Calça Alfaiataria",
-      "descricao": "•Superopaca •Liberdade de movimento •Bolso frontal verdadeiro",
-      "tamanho": "P • M • G • GG",
-      "linha": "Calças Comfy",
-      "cores": [
-        {
-          "cod": "2800",
-          "nome": "Marinho",
-          "img": "/produtos/loba/41888-001/2800.jpg"
-        },
-        {
-          "cod": "8820",
-          "nome": "Chumbo Mescla",
-          "img": "/produtos/loba/41888-001/8820.jpg"
-        },
-        {
-          "cod": "7530",
-          "nome": "Canela",
-          "img": "/produtos/loba/41888-001/7530.jpg"
-        },
-        {
-          "cod": "9990",
-          "nome": "Preta",
-          "img": "/produtos/loba/41888-001/9990.jpg"
-        }
-      ],
-      "img": "/produtos/loba/41888-001/9990.jpg"
-    },
-    {
-      "codigo": "41886-001",
-      "nome": "Calça Ballon",
-      "descricao": "•Superopaca •Cós com botão e passante para cinto •Braguilha com zíper •Botão na barra •Detalhe de bolso traseiro",
-      "tamanho": "P • M • G • GG",
-      "linha": "Calças Comfy",
-      "cores": [
-        {
-          "cod": "5144",
-          "nome": "Telha",
-          "img": "/produtos/loba/41886-001/5144.jpg"
-        },
-        {
-          "cod": "6670",
-          "nome": "Cáqui",
-          "img": "/produtos/loba/41886-001/6670.jpg"
-        },
-        {
-          "cod": "2805",
-          "nome": "Marinho",
-          "img": "/produtos/loba/41886-001/2805.jpg"
-        },
-        {
-          "cod": "9990",
-          "nome": "Preta",
-          "img": "/produtos/loba/41886-001/9990.jpg"
-        }
-      ],
-      "img": "/produtos/loba/41886-001/2805.jpg"
-    },
-    {
-      "codigo": "41887-001",
-      "nome": "Calça Alfaiataria Cropped",
-      "descricao": "•Superopaca •Liberdade de movimento •Bolso frontal verdadeiro",
-      "tamanho": "P • M • G • GG",
-      "linha": "Calças Comfy",
-      "cores": [
-        {
-          "cod": "9990",
-          "nome": "Preta",
-          "img": "/produtos/loba/41887-001/9990.jpg"
-        }
-      ],
-      "img": "/produtos/loba/41887-001/9990.jpg"
-    },
-    {
-      "codigo": "41885-001",
-      "nome": "Calça com zíper na barra",
-      "descricao": "•Superopaca •Com zíper na barra",
-      "tamanho": "P • M • G • GG",
-      "linha": "Calças Comfy",
-      "cores": [
-        {
-          "cod": "9990",
-          "nome": "Preta",
-          "img": "/produtos/loba/41885-001/9990.jpg"
-        }
-      ],
-      "img": "/produtos/loba/41885-001/9990.jpg"
-    },
-    {
-      "codigo": "41867-001",
-      "nome": "Calça Alfaiataria",
-      "descricao": "•Liberdade de movimento •Superopaca •Braguilha •Cós com passantes para cinto •Barra italiana",
-      "tamanho": "P • M • G • GG",
-      "linha": "Calças Comfy",
-      "cores": [
-        {
-          "cod": "2300",
-          "nome": "Blue Nights",
-          "img": "/produtos/loba/41867-001/2300.jpg"
-        },
-        {
-          "cod": "2800",
-          "nome": "Marinho",
-          "img": "/produtos/loba/41867-001/2800.jpg"
-        },
-        {
-          "cod": "8020",
-          "nome": "Cinza",
-          "img": "/produtos/loba/41867-001/8020.jpg"
-        },
-        {
-          "cod": "8820",
-          "nome": "Chumbo Mescla",
-          "img": "/produtos/loba/41867-001/8820.jpg"
-        },
-        {
-          "cod": "9990",
-          "nome": "Preta",
-          "img": "/produtos/loba/41867-001/9990.jpg"
-        }
-      ],
-      "img": "/produtos/loba/41867-001/9990.jpg"
-    },
-    {
-      "codigo": "05857-001",
-      "nome": "CALÇA MONTARIA",
-      "descricao": "•Superopaca •Braguilha •Detalhe de bolso frontal",
-      "tamanho": "P • M • G • GG",
-      "linha": "Calças Comfy",
-      "cores": [
-        {
-          "cod": "7560",
-          "nome": "Cravo",
-          "img": "/produtos/loba/05857-001/7560.jpg"
-        },
-        {
-          "cod": "9990",
-          "nome": "Preta",
-          "img": "/produtos/loba/05857-001/9990.jpg"
-        }
-      ],
-      "img": "/produtos/loba/05857-001/9990.jpg"
-    },
-    {
-      "codigo": "41880-001",
-      "nome": "Calca Jogging Cargo",
-      "descricao": "•Liberdade de movimento •Super opaca •Bolso frontal em fechamento zíper •Cordão de ajuste •Bolso lateral cargo •Malha elástica no cós e entrepernas para liberdade de movimento",
-      "tamanho": "P • M • G • GG",
-      "linha": "Calças Comfy",
-      "cores": [
-        {
-          "cod": "9990",
-          "nome": "Preta",
-          "img": "/produtos/loba/41880-001/9990.jpg"
-        }
-      ],
-      "img": "/produtos/loba/41880-001/9990.jpg"
-    },
-    {
-      "codigo": "41883-001",
-      "nome": "CALÇA COTTON",
-      "descricao": "•Liberdade de movimento •Superopaca •Toque macio e natural •Detalhe de bolso frontal •Bolso traseiro verdadeiro",
-      "tamanho": "P • M • G • GG • XG",
-      "linha": "Calças Comfy",
-      "cores": [
-        {
-          "cod": "2800",
-          "nome": "Marinho",
-          "img": "/produtos/loba/41883-001/2800.jpg"
-        },
-        {
-          "cod": "4990",
-          "nome": "Verde Selva",
-          "img": "/produtos/loba/41883-001/4990.jpg"
-        },
-        {
-          "cod": "5940",
-          "nome": "Vinho",
-          "img": "/produtos/loba/41883-001/5940.jpg"
-        },
-        {
-          "cod": "6670",
-          "nome": "Cáqui",
-          "img": "/produtos/loba/41883-001/6670.jpg"
-        },
-        {
-          "cod": "9990",
-          "nome": "Preta",
-          "img": "/produtos/loba/41883-001/9990.jpg"
-        }
-      ],
-      "img": "/produtos/loba/41883-001/4990.jpg"
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/loba/05898-001/9990.jpg"
     }
-  ]
+   ],
+   "img": "/produtos/loba/05898-001/9990.jpg"
+  },
+  {
+   "codigo": "05830-001",
+   "nome": "Meia-Calça Opaca fio 40",
+   "descricao": "Com leve transparência, disfarça imperfeições e uniformiza a tonalidade da pele, valorizando a aparência das pernas. A modelagem se adapta ao corpo com conforto e liberdade de movimento, sendo uma ótima opção para temperaturas mais amenas. A variedade de cores aumenta as possibilidades de combinação, dos tons neutros às opções mais marcantes, permitindo criar produções clássicas ou com mais personalidade. Diferenciais: • Fio 40: cobertura opaca com leve transparência. • Sem demarcação de calça: ideal para usar sob roupas ajustadas, transparentes ou com fendas. • Sem demarcação de ponteira: acabamento discreto nos dedos, permitindo o uso com calçados mais abertos. • Variedade de cores: permite diferentes propostas de look. Ideal para: • Meia-estação • Looks sociais • Vestidos e saias • Uso com bodies e collants cavados • Figurinos e dança",
+   "tamanho": "P • M • G • GG",
+   "linha": "Linha Opaca",
+   "cores": [
+    {
+     "cod": "1000",
+     "nome": "Branco Antártida",
+     "img": "/produtos/loba/05830-001/1000.jpg"
+    },
+    {
+     "cod": "2300",
+     "nome": "Blue Nights",
+     "img": "/produtos/loba/05830-001/2300.jpg"
+    },
+    {
+     "cod": "5680",
+     "nome": "Vermelho Intenso",
+     "img": "/produtos/loba/05830-001/5680.jpg"
+    },
+    {
+     "cod": "6540",
+     "nome": "Pó de Arroz",
+     "img": "/produtos/loba/05830-001/6540.jpg"
+    },
+    {
+     "cod": "7570",
+     "nome": "Café",
+     "img": "/produtos/loba/05830-001/7570.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/loba/05830-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/loba/05830-001/7570.jpg"
+  },
+  {
+   "codigo": "05837-001",
+   "nome": "Meia-calça Opaca Plus",
+   "descricao": "Com leve transparência, disfarça imperfeições e uniformiza a tonalidade da pele, valorizando a aparência das pernas. Modelagem especial que se adapta às curvas do corpo com conforto e liberdade de movimento. Indicada para temperaturas mais amenas. Diferenciais: • Fio 40: Cobertura opaca com leve transparência. • Modelagem Plus: ajuste confortável, sem apertar ou incomodar. • Sem demarcação de calça: ideal para usar sob roupas ajustadas, transparentes ou com fendas. • Sem demarcação de ponteira: acabamento invisível nos dedos, permitindo o uso com calçados mais abertos. • Forro de algodão no tamanho XG: permite o uso sem underwear. • Complemento de calça no tamanho XXG: aumenta a circunferência da peça e facilita o vestir. Ideal para: • Looks sociais • Vestidos e saias • Uso com bodies e collants cavados • Figurinos e dança",
+   "tamanho": "XG • XXG",
+   "linha": "Linha Opaca",
+   "cores": [
+    {
+     "cod": "6540",
+     "nome": "Pó de Arroz",
+     "img": "/produtos/loba/05837-001/6540.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/loba/05837-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/loba/05837-001/9990.jpg"
+  },
+  {
+   "codigo": "05716-001",
+   "nome": "Meia-calça Ballet Versátil",
+   "descricao": "Desenvolvida para danças e figurinos, combina alta cobertura, elasticidade e segurança para acompanhar cada movimento. Ideal para ensaios e apresentações, oferecendo praticidade para a rotina de quem dança. Diferenciais: • Fio 60: alta cobertura com acabamento opaco. • Abertura no solado: facilita a troca de sapatilhas e calçados. • Sem demarcação de calça: ideal para uso sob bodies e colantes cavados • Sem demarcação de ponteira: acabamento invisível nos dedos, permitindo o uso com calçados mais abertos. • Ajuste confortável: acompanha o corpo com elasticidade e liberdade de movimento. • Forro de algodão: permite o uso sem underwear. Ideal para: • Todas as modalidades de dança • Ensaios e apresentações • Bodies e colantes cavados • Figurinos",
+   "tamanho": "P • M • G",
+   "linha": "Linha Opaca",
+   "cores": [
+    {
+     "cod": "5110",
+     "nome": "Rosa",
+     "img": "/produtos/loba/05716-001/5110.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/loba/05716-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/loba/05716-001/9990.jpg"
+  },
+  {
+   "codigo": "05805-001",
+   "nome": "Meia Calça Fio 80 Adulto Acrílico Opaca Loba",
+   "descricao": "A aliada perfeita para manter o estilo e o conforto térmico nos dias mais frios do ano. Seu visual uniforme valoriza produções de inverno, seja com vestidos e saias ou como uma camada extra sob outras peças. Diferenciais: • Fio 80: trama fechada com maior cobertura e proteção contra o frio. • Toque semelhante à lã: macio, quente e aconchegante. • Sem demarcação de calça: ideal para usar sob roupas ajustadas, transparentes ou com fendas. • Sem demarcação de ponteira: acabamento invisível nos dedos, permitindo o uso com calçados mais abertos. • Forro de algodão: permite o uso sem underwear. Ideal para: • Dias frios • Vestidos, saias e shorts • Roupas ajustadas, transparentes ou com fendas • Uso como camada sob outras peças",
+   "tamanho": "P • M • G • GG",
+   "linha": "Linha Opaca",
+   "cores": [
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/loba/05805-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/loba/05805-001/9990.jpg"
+  },
+  {
+   "codigo": "05858-001",
+   "nome": "Meia-calça Opaca Fio 80",
+   "descricao": "A aliada perfeita para manter o estilo e o conforto térmico nos dias mais frios do ano. Com opções de cores, valoriza produções de inverno, seja com vestidos e saias ou como uma camada extra sob outras peças. Diferenciais: • Fio 80: trama fechada com maior cobertura e proteção contra o frio. • Opções de cores: versatilidade e personalidade aos looks de inverno. • Sem demarcação de calça: ideal para usar sob roupas ajustadas, transparentes ou com fendas. • Sem demarcação de ponteira: acabamento invisível nos dedos, permitindo o uso com calçados mais abertos. • Forro de algodão: permite o uso sem underwear. Ideal para: • Dias frios • Vestidos, saias e shorts • Roupas ajustadas, transparentes ou com fendas • Looks coloridos de inverno • Uso como camada sob outras peças",
+   "tamanho": "P • M • G • GG",
+   "linha": "Linha Opaca",
+   "cores": [
+    {
+     "cod": "2800",
+     "nome": "Marinho",
+     "img": "/produtos/loba/05858-001/2800.jpg"
+    },
+    {
+     "cod": "5920",
+     "nome": "Carmim",
+     "img": "/produtos/loba/05858-001/5920.jpg"
+    },
+    {
+     "cod": "6540",
+     "nome": "Pó de Arroz",
+     "img": "/produtos/loba/05858-001/6540.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/loba/05858-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/loba/05858-001/9990.jpg"
+  },
+  {
+   "codigo": "05852-001",
+   "nome": "Meia-calça Opaca Plus Fio 80",
+   "descricao": "A aliada perfeita para manter o estilo e o conforto térmico nos dias mais frios do ano. Modelagem especial que se adapta às curvas do corpo com conforto e liberdade de movimento. Seu visual uniforme valoriza produções de inverno, seja com vestidos e saias ou como uma camada extra sob outras peças. Diferenciais: • Fio 80: trama fechada com maior cobertura e proteção contra o frio. • Modelagem Plus: ajuste confortável, sem apertar ou incomodar. • Sem demarcação de calça: ideal para usar sob roupas ajustadas, transparentes ou com fendas. • Sem demarcação de ponteira: acabamento invisível nos dedos, permitindo o uso com calçados mais abertos. • Forro de algodão no tamanho XG: permite o uso sem underwear. • Complemento de calça no tamanho XXG: aumenta a circunferência da peça e facilita o vestir. Ideal para: • Dias frios • Vestidos, saias e shorts • Roupas ajustadas, transparentes ou com fendas • Uso como camada sob outras peças",
+   "tamanho": "XG • XXG",
+   "linha": "Linha Opaca",
+   "cores": [
+    {
+     "cod": "6540",
+     "nome": "Pó de Arroz",
+     "img": "/produtos/loba/05852-001/6540.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/loba/05852-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/loba/05852-001/9990.jpg"
+  },
+  {
+   "codigo": "17613-001",
+   "nome": "Meia-calça Opaca Plus Raschel",
+   "descricao": "A aliada perfeita para manter o estilo e o conforto térmico nos dias mais gelados do ano. Modelagem especial que se adapta às curvas do corpo com conforto e liberdade de movimento. Seu visual uniforme valoriza produções de inverno, seja com vestidos e saias ou como uma camada extra sob outras peças. Diferenciais: • Fio 180: superopaca com altíssima cobertura. • Modelagem Plus: ajuste confortável, sem apertar ou incomodar. • Sem demarcação de calça: ideal para usar sob roupas ajustadas, transparentes ou com fendas. • Sem demarcação de ponteira: acabamento invisível nos dedos, permitindo o uso com calçados mais abertos. • Forro de algodão no tamanho XG: permite o uso sem underwear. • Complemento de calça no tamanho XXG: aumenta a circunferência da peça e facilita o vestir. Ideal para: • Dias frios • Vestidos, saias e shorts • Roupas ajustadas, transparentes ou com fendas • Uso como camada sob outras peças",
+   "tamanho": "XG • XXG • XXXG",
+   "linha": "Linha Opaca",
+   "cores": [
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/loba/17613-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/loba/17613-001/9990.jpg"
+  },
+  {
+   "codigo": "05687-001",
+   "nome": "Meia-calça Clássica Poá",
+   "descricao": "Com alta transparência e acabamento leve sobre a pele, suaviza pequenas imperfeições sem esconder sua aparência natural. A estampa de minipoás traz um toque retrô e romântico, ideal para compor produções do dia à noite. Diferenciais: • Fio 15: alta transparência com acabamento sofisticado. • Estampa clássica: traz charme e personalidade ao look. • Com demarcação de calça: proporciona maior resistência à peça. • Sem demarcação de ponteira: acabamento invisível próximo aos dedos, permitindo o uso com calçados abertos. Ideal para: • Vestidos e saias • Produções românticas • Ocasiões especiais • Looks com inspiração retrô",
+   "tamanho": "P • M • G • GG",
+   "linha": "Linha Fina",
+   "cores": [
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/loba/05687-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/loba/05687-001/9990.jpg"
+  },
+  {
+   "codigo": "05097-002",
+   "nome": "Meia-Calça Arrastão Raschel",
+   "descricao": "Um clássico que nunca sai de moda. A microtrama vazada traz textura ao look, enquanto a tecnologia Raschel, exclusiva do Grupo Lupo, garante maior resistência. Permite sobreposições com meias-calças opacas e coloridas, aumentando as possibilidades de combinação. Diferenciais: • Microtrama vazada: textura e estilo ao look. • Tecnologia Raschel: maior resistência e durabilidade. • Sem demarcação de calça: fica discreta sob roupas ajustadas, transparentes ou com fendas. • Sem demarcação de ponteira: acabamento invisível nos dedos, permitindo o uso com calçados mais abertos. Ideal para: • Vestidos, saias e shorts • Produções com sobreposição • Roupas ajustadas • Looks casuais ou sofisticados • Ocasiões especiais",
+   "tamanho": "M • G",
+   "linha": "Linha Fina",
+   "cores": [
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/loba/05097-002/9990.jpg"
+    }
+   ],
+   "img": "/produtos/loba/05097-002/9990.jpg"
+  },
+  {
+   "codigo": "17610-001",
+   "nome": "Meia-Calça Arrastão Raschel Plus",
+   "descricao": "Um clássico que nunca sai de moda. A microtrama vazada traz textura ao look, enquanto a tecnologia Raschel, exclusiva do Grupo Lupo, garante maior resistência. Modelagem especial que se adapta às curvas do corpo, garantindo ajuste confortável. Pode ser usada sozinha ou em sobreposições para criar diferentes produções. Diferenciais: • Microtrama vazada: textura e estilo ao look. • Tecnologia Raschel: maior resistência e durabilidade. • Modelagem Plus: acompanha as curvas do corpo com conforto e liberdade de movimento. • Sem demarcação de calça: fica discreta sob roupas ajustadas, transparentes ou com fendas. • Sem demarcação de ponteira: acabamento invisível nos dedos, permitindo o uso com calçados mais abertos. Ideal para: • Vestidos, saias e shorts • Produções com sobreposição • Roupas ajustadas • Looks casuais ou sofisticados • Ocasiões especiais",
+   "tamanho": "XG • XXG",
+   "linha": "Linha Fina",
+   "cores": [
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/loba/17610-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/loba/17610-001/9990.jpg"
+  },
+  {
+   "codigo": "05590-001",
+   "nome": "Meia 7/8 Tradicional",
+   "descricao": "Com alta transparência, suaviza pequenas imperfeições e mantém o aspecto natural da pele. O comprimento 7/8 valoriza a silhueta e se ajusta confortavelmente às pernas, trazendo mais elegância às produções. Diferenciais: • Fio 15: alta transparência com acabamento sofisticado. • Comprimento 7/8: vai até a metade da coxa, podendo ser usada sozinha ou com cinta-liga. • Punho Comfort Band: elasticidade que mantém a meia no lugar. • Sem demarcação de ponteira: acabamento invisível próximo aos dedos. Ideal para: • Vestidos e saias • Ocasiões especiais • Uso com cinta-liga",
+   "tamanho": "U",
+   "linha": "Linha Fina",
+   "cores": [
+    {
+     "cod": "1000",
+     "nome": "Branco Antártida",
+     "img": "/produtos/loba/05590-001/1000.jpg"
+    },
+    {
+     "cod": "6700",
+     "nome": "Natural Peach",
+     "img": "/produtos/loba/05590-001/6700.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/loba/05590-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/loba/05590-001/9990.jpg"
+  },
+  {
+   "codigo": "05660-001",
+   "nome": "Meia 7/8 com renda",
+   "descricao": "Com alta transparência, suaviza pequenas imperfeições e mantém o aspecto natural da pele. O comprimento 7/8 valoriza a silhueta e se ajusta confortavelmente às pernas. O detalhe em renda traz mais elegância à peça, ideal para ocasiões especiais. Diferenciais: • Fio 15: alta transparência com acabamento sofisticado. • Comprimento 7/8: vai até a metade da coxa, podendo ser usada sozinha ou com cinta-liga. • Renda com elastano e silicone: ajuda a manter a meia no lugar. • Versátil: pode ser usada sozinha ou com cinta-liga. • Sem demarcação de ponteira: acabamento invisível próximo aos dedos. Ideal para: • Vestidos e saias • Ocasiões especiais • Uso com cinta-liga",
+   "tamanho": "M • G",
+   "linha": "Linha Fina",
+   "cores": [
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/loba/05660-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/loba/05660-001/9990.jpg"
+  },
+  {
+   "codigo": "05870-002",
+   "nome": "Meia-calça Invisível",
+   "descricao": "A mais fina e transparente da linha, proporciona efeito quase invisível sobre a pele. Ajuda a disfarçar pequenas imperfeições, uniformiza suavemente a tonalidade das pernas e é ideal para dias quentes ou ocasiões em que você quer um acabamento discreto, sem parecer que está usando meia-calça. Diferenciais: • Fio 6: transparência máxima e efeito quase invisível. • Ajuste confortável: adapta-se ao corpo e acompanha os movimentos. • Com demarcação de calça: maior resistência à peça. • Sem demarcação de ponteira: acabamento invisível próximo aos dedos, permitindo o uso com calçados mais abertos. Ideal para: • Dias quentes • Vestidos e saias • Looks leves e delicados • Produções que pedem aparência natural nas pernas",
+   "tamanho": "P • M • G • GG",
+   "linha": "Linha Fina",
+   "cores": [
+    {
+     "cod": "6540",
+     "nome": "Pó de Arroz",
+     "img": "/produtos/loba/05870-002/6540.jpg"
+    },
+    {
+     "cod": "6700",
+     "nome": "Natural Peach",
+     "img": "/produtos/loba/05870-002/6700.jpg"
+    },
+    {
+     "cod": "6930",
+     "nome": "Cacao",
+     "img": "/produtos/loba/05870-002/6930.jpg"
+    },
+    {
+     "cod": "6940",
+     "nome": "Praline",
+     "img": "/produtos/loba/05870-002/6940.jpg"
+    },
+    {
+     "cod": "7800",
+     "nome": "Brown",
+     "img": "/produtos/loba/05870-002/7800.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/loba/05870-002/9990.jpg"
+    }
+   ],
+   "img": "/produtos/loba/05870-002/6540.jpg"
+  },
+  {
+   "codigo": "05765-001",
+   "nome": "Meia-calça Clássica Fina Dedos Livres",
+   "descricao": "Com alta transparência, ajuda a disfarçar pequenas imperfeições e uniformiza a tonalidade da pele, mantendo a aparência natural das pernas. Ideal para dias quentes e produções leves. Diferenciais: • Fio 15: alta transparência com acabamento natural. • Ajuste confortável: adapta-se ao corpo e acompanha os movimentos. • Com demarcação de calça: maior resistência à peça. • Dedos livres: uso com sandálias, peep toes e calçados abertos. Ideal para: • Dias quentes • Looks leves e delicados • Vestidos e saias • Produções que pedem aparência natural nas pernas",
+   "tamanho": "P • M • G • GG",
+   "linha": "Linha Fina",
+   "cores": [
+    {
+     "cod": "6540",
+     "nome": "Pó de Arroz",
+     "img": "/produtos/loba/05765-001/6540.jpg"
+    },
+    {
+     "cod": "6700",
+     "nome": "Natural Peach",
+     "img": "/produtos/loba/05765-001/6700.jpg"
+    },
+    {
+     "cod": "6930",
+     "nome": "Cacao",
+     "img": "/produtos/loba/05765-001/6930.jpg"
+    },
+    {
+     "cod": "7800",
+     "nome": "Brown",
+     "img": "/produtos/loba/05765-001/7800.jpg"
+    }
+   ],
+   "img": "/produtos/loba/05765-001/6930.jpg"
+  },
+  {
+   "codigo": "05760-001",
+   "nome": "Meia-calça Clássica Fina",
+   "descricao": "Com alta transparência, ajuda a disfarçar pequenas imperfeições e uniformiza a tonalidade da pele, mantendo a aparência natural das pernas. Um modelo clássico e versátil para diversas ocasiões. Diferenciais: • Fio 15: alta transparência com acabamento natural. • Com demarcação de calça: maior resistência à peça. • Tamanhos P proteger os dedos e reduzir o desgaste da peça. • Tamanho U sem demarcação de ponteira: acabamento invisível próximo aos dedos, permitindo o uso com calçados mais abertos. Ideal para: • Uso diário • Looks sociais • Vestidos e saias • Produções que pedem aparência natural nas pernas",
+   "tamanho": "P • M • G • GG",
+   "linha": "Linha Fina",
+   "cores": [
+    {
+     "cod": "1000",
+     "nome": "Branco Antártida",
+     "img": "/produtos/loba/05760-001/1000.jpg"
+    },
+    {
+     "cod": "6540",
+     "nome": "Pó de Arroz",
+     "img": "/produtos/loba/05760-001/6540.jpg"
+    },
+    {
+     "cod": "6700",
+     "nome": "Natural Peach",
+     "img": "/produtos/loba/05760-001/6700.jpg"
+    },
+    {
+     "cod": "6930",
+     "nome": "Cacao",
+     "img": "/produtos/loba/05760-001/6930.jpg"
+    },
+    {
+     "cod": "6940",
+     "nome": "Praline",
+     "img": "/produtos/loba/05760-001/6940.jpg"
+    },
+    {
+     "cod": "7780",
+     "nome": "Café",
+     "img": "/produtos/loba/05760-001/7780.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/loba/05760-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/loba/05760-001/6700.jpg"
+  },
+  {
+   "codigo": "05795-001",
+   "nome": "Meia-calça Clássica Plus",
+   "descricao": "Com leve transparência, disfarça pequenas imperfeições e uniformiza a tonalidade da pele, valorizando a aparência das pernas. Modelagem especial que se adapta às curvas do corpo com conforto e liberdade de movimento. Um modelo clássico e versátil para diferentes ocasiões. Diferenciais: • Fio 20: ura com leve transparência. • Modelagem Plus: ajuste confortável, sem apertar ou incomodar. • Com demarcação de calça: maior resistência à peça. • Com demarcação de ponteira: protege os dedos e reduz desgastes, ideal para calçados fechados. • Forro de algodão no tamanho XG: permite o uso sem underwear. • Complemento de calça no tamanho XXG: aumenta a circunferência da peça e facilita o vestir. Ideal para: • Uso diário • Looks sociais • Vestidos e saias • Produções que pedem discrição e elegância",
+   "tamanho": "XG • XXG",
+   "linha": "Linha Fina",
+   "cores": [
+    {
+     "cod": "6540",
+     "nome": "Pó de Arroz",
+     "img": "/produtos/loba/05795-001/6540.jpg"
+    },
+    {
+     "cod": "6700",
+     "nome": "Natural Peach",
+     "img": "/produtos/loba/05795-001/6700.jpg"
+    },
+    {
+     "cod": "7630",
+     "nome": "Castanho",
+     "img": "/produtos/loba/05795-001/7630.jpg"
+    },
+    {
+     "cod": "7780",
+     "nome": "Café",
+     "img": "/produtos/loba/05795-001/7780.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/loba/05795-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/loba/05795-001/6540.jpg"
+  },
+  {
+   "codigo": "05770-002",
+   "nome": "Meia-calça Essencial",
+   "descricao": "Com alta transparência, ajuda a disfarçar pequenas imperfeições e uniformiza a tonalidade da pele, mantendo a aparência natural das pernas. Um modelo clássico e versátil para diversas ocasiões. Diferenciais: • Fio 15: alta transparência com acabamento natural. • Sem demarcação de calça: fica discreta sob roupas ajustadas, transparentes ou com fendas. • Sem demarcação de ponteira: acabamento invisível próximo aos dedos, permitindo o uso com calçados mais abertos. Ideal para: • Uso diário • Looks sociais • Vestidos e saias • Produções que pedem aparência natural nas pernas.",
+   "tamanho": "P • M • G • GG",
+   "linha": "Linha Fina",
+   "cores": [
+    {
+     "cod": "6540",
+     "nome": "Pó de Arroz",
+     "img": "/produtos/loba/05770-002/6540.jpg"
+    },
+    {
+     "cod": "6700",
+     "nome": "Natural Peach",
+     "img": "/produtos/loba/05770-002/6700.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/loba/05770-002/9990.jpg"
+    }
+   ],
+   "img": "/produtos/loba/05770-002/6540.jpg"
+  },
+  {
+   "codigo": "05685-001",
+   "nome": "Meia-calça Risca Atrás",
+   "descricao": "Com alta transparência, valoriza a aparência das pernas com elegância. A risca vertical na parte de trás traz charme ao visual, ideal para ocasiões especiais ou para dar um toque mais refinado às produções do dia a dia. Diferenciais: • Fio 15: alta transparência com acabamento sofisticado. • Risca vertical atrás: alonga visualmente as pernas e valoriza o look. • Demarcação de calça: trama mais fechada para maior resistência. • Sem demarcação de ponteira: acabamento invisível próximo aos dedos, permitindo o uso com calçados mais abertos. Ideal para: • Vestidos e saias • Ocasiões especiais • Produções clássicas • Looks do dia a dia com um toque de elegância",
+   "tamanho": "P • M • G",
+   "linha": "Linha Fina",
+   "cores": [
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/loba/05685-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/loba/05685-001/9990.jpg"
+  },
+  {
+   "codigo": "05680-001",
+   "nome": "MEIA-CALÇA NEWS",
+   "descricao": "Com alta transparência, ajuda a disfarçar pequenas imperfeições e uniformiza a tonalidade da pele, mantendo a aparência natural das pernas. Um modelo clássico e versátil, ideal para o uso diário e ocasiões especiais. Diferenciais: • Fio 15: alta transparência com acabamento natural. • Cós em tecido duplo: ajuste confortável ao corpo. • Com demarcação de calça: maior resistência à peça e facilidade ao vestir. • Sem demarcação de ponteira: acabamento invisível próximo aos dedos, permitindo o uso com calçados mais abertos. Ideal para: • Uso diário • Looks sociais • Vestidos e saias • Produções que pedem aparência natural nas pernas.",
+   "tamanho": "P • M • G • GG",
+   "linha": "Linha Fina",
+   "cores": [
+    {
+     "cod": "6540",
+     "nome": "Pó de Arroz",
+     "img": "/produtos/loba/05680-001/6540.jpg"
+    },
+    {
+     "cod": "6700",
+     "nome": "Natural Peach",
+     "img": "/produtos/loba/05680-001/6700.jpg"
+    },
+    {
+     "cod": "6930",
+     "nome": "Cacao",
+     "img": "/produtos/loba/05680-001/6930.jpg"
+    },
+    {
+     "cod": "6940",
+     "nome": "Praline",
+     "img": "/produtos/loba/05680-001/6940.jpg"
+    },
+    {
+     "cod": "7630",
+     "nome": "Castanho",
+     "img": "/produtos/loba/05680-001/7630.jpg"
+    },
+    {
+     "cod": "7800",
+     "nome": "Brown",
+     "img": "/produtos/loba/05680-001/7800.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/loba/05680-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/loba/05680-001/6540.jpg"
+  },
+  {
+   "codigo": "17622-001",
+   "nome": "Soquete Raschel",
+   "descricao": "O arrastão é um clássico que ganha uma proposta mais atual no comprimento soquete. Com trama vazada, traz textura e personalidade ao visual, ideal para compor produções de diferentes estilos. Diferenciais: • Trama arrastão: traz textura e estilo ao look. • Tecnologia Raschel: maior resistência e durabilidade. • Punho confortável: ajuda a manter a meia no lugar durante o uso. • Comprimento soquete: valoriza produções em que a meia aparece como parte do visual. Ideal para: • Looks casuais • Tênis • Mocassins e oxfords • Produções modernas e estilosas",
+   "tamanho": "U",
+   "linha": "Linha 3/4",
+   "cores": [
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/loba/17622-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/loba/17622-001/9990.jpg"
+  },
+  {
+   "codigo": "17623-001",
+   "nome": "Soquete Floral Raschel",
+   "descricao": "Com renda floral delicada e sofisticada, transforma a soquete em um elemento de estilo para diferentes produções. Versátil, combina com tênis, botas e sapatos baixos. Diferenciais: • Renda floral: traz delicadeza e sofisticação ao visual. • Tecnologia Raschel: maior resistência e durabilidade. • Comprimento soquete: ideal para criar composições em que a meia aparece como parte do look. • Punho confortável: não aperta nem marca a pele. Ideal para: • Looks casuais • Produções românticas • Tênis • Botas • Sapatos baixos",
+   "tamanho": "U",
+   "linha": "Linha 3/4",
+   "cores": [
+    {
+     "cod": "6140",
+     "nome": "Natural Peach",
+     "img": "/produtos/loba/17623-001/6140.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/loba/17623-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/loba/17623-001/9990.jpg"
+  },
+  {
+   "codigo": "05552-001",
+   "nome": "Meia Sapatilha Invisível Adulto Lupo",
+   "descricao": "Com efeito quase invisível, é uma opção prática e discreta para o dia a dia, ideal para usar com sapatos baixos e fechados. Diferenciais: • Sapatilha: fica discreta em sapatilhas, mocassins e tênis. • Calcanhar bem ajustado: evita que a meia escorregue ou se mova. • Leve e respirável: ajuda a manter os pés secos e confortáveis. • Zero volume: conforto sem interferir no ajuste do calçado. Ideal para: • Uso diário • Sapatilhas • Mocassins • Tênis",
+   "tamanho": "33 a 36 • 37 a 40",
+   "linha": "Linha 3/4",
+   "cores": [
+    {
+     "cod": "6140",
+     "nome": "Natural Peach",
+     "img": "/produtos/loba/05552-001/6140.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/loba/05552-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/loba/05552-001/9990.jpg"
+  },
+  {
+   "codigo": "05520-001",
+   "nome": "Sapatilha",
+   "descricao": "Com cobertura opaca e ajuste confortável, é uma opção prática e discreta para o dia a dia, ideal para usar com sapatos baixos e fechados. Diferenciais: • Fio 40: cobertura opaca com leve transparência. • Sapatilha: conforto e discrição para usar calçados fechados. • Calcanhar bem ajustado ajuda a manter a meia no lugar durante o uso. • Baixo volume: conforto sem interferir no ajuste do calçado. Ideal para: • Uso diário • Sapatilhas • Mocassins • Sapatos baixos e fechados • Looks clássicos",
+   "tamanho": "U",
+   "linha": "Linha 3/4",
+   "cores": [
+    {
+     "cod": "6540",
+     "nome": "Pó de Arroz",
+     "img": "/produtos/loba/05520-001/6540.jpg"
+    }
+   ],
+   "img": "/produtos/loba/05520-001/6540.jpg"
+  },
+  {
+   "codigo": "05510-001",
+   "nome": "Mini Lu 3/4 Básica",
+   "descricao": "Com leve transparência e acabamento discreto, cobre até abaixo do joelho e é uma opção prática para o dia a dia. Combina com saias, vestidos, calças e botas de cano alto, além de funcionar bem com sapatos mais finos e elegantes. Diferenciais: • Fio 20: leve transparência com acabamento discreto. • Punho confortável: não aperta nem marca a pele. • Comprimento 3/4: cobre até abaixo do joelho. • Efeito discreto: deixa a meia pouco aparente no visual. • Sem demarcação de ponteira: acabamento invisível próximo aos dedos. Ideal para: • Uso diário • Saias, vestidos e calças • Sapatos finos e elegantes • Botas de cano alto",
+   "tamanho": "U",
+   "linha": "Linha 3/4",
+   "cores": [
+    {
+     "cod": "1110",
+     "nome": "Branca",
+     "img": "/produtos/loba/05510-001/1110.jpg"
+    },
+    {
+     "cod": "6540",
+     "nome": "Pó de Arroz",
+     "img": "/produtos/loba/05510-001/6540.jpg"
+    },
+    {
+     "cod": "6700",
+     "nome": "Natural Peach",
+     "img": "/produtos/loba/05510-001/6700.jpg"
+    },
+    {
+     "cod": "6930",
+     "nome": "Cacao",
+     "img": "/produtos/loba/05510-001/6930.jpg"
+    },
+    {
+     "cod": "7800",
+     "nome": "Brown",
+     "img": "/produtos/loba/05510-001/7800.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/loba/05510-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/loba/05510-001/9990.jpg"
+  },
+  {
+   "codigo": "05530-001",
+   "nome": "Soquete Fina",
+   "descricao": "Com leve transparência e acabamento discreto, é uma opção prática para o dia a dia, especialmente com sapatos mais finos e elegantes. Diferenciais: • Fio 20: leve transparência com acabamento discreto. • Punho confortável: não aperta nem marca a pele. • Sem volume: ideal para calçados mais finos e ajustados. • Efeito discreto: deixa a meia pouco aparente no visual. • Sem demarcação de ponteira: acabamento invisível próximo aos dedos. Ideal para: • Uso diário • Trabalho • Sapatos finos e elegantes • Looks clássicos",
+   "tamanho": "U",
+   "linha": "Linha 3/4",
+   "cores": [
+    {
+     "cod": "1110",
+     "nome": "Branca",
+     "img": "/produtos/loba/05530-001/1110.jpg"
+    },
+    {
+     "cod": "6540",
+     "nome": "Pó de Arroz",
+     "img": "/produtos/loba/05530-001/6540.jpg"
+    },
+    {
+     "cod": "6700",
+     "nome": "Natural Peach",
+     "img": "/produtos/loba/05530-001/6700.jpg"
+    },
+    {
+     "cod": "6930",
+     "nome": "Cacao",
+     "img": "/produtos/loba/05530-001/6930.jpg"
+    },
+    {
+     "cod": "7800",
+     "nome": "Brown",
+     "img": "/produtos/loba/05530-001/7800.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/loba/05530-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/loba/05530-001/1110.jpg"
+  },
+  {
+   "codigo": "05531-001",
+   "nome": "Soquete Opaca Fio 40",
+   "descricao": "Com cobertura opaca e ajuste confortável, é uma opção prática para o dia a dia, especialmente com sapatos mais finos e elegantes. Diferenciais: • Fio 40: cobertura opaca com leve transparência. • Punho confortável: não aperta nem marca a pele. • Sem volume: ideal para calçados mais ajustados. • Sem demarcação de ponteira: acabamento invisível próximo aos dedos. Ideal para: • Uso diário • Trabalho • Sapatos finos e elegantes • Looks clássicos",
+   "tamanho": "U",
+   "linha": "Linha 3/4",
+   "cores": [
+    {
+     "cod": "6540",
+     "nome": "Pó de Arroz",
+     "img": "/produtos/loba/05531-001/6540.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/loba/05531-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/loba/05531-001/6540.jpg"
+  },
+  {
+   "codigo": "05550-001",
+   "nome": "Mini Lu 3/4 Opaca Fio 40",
+   "descricao": "Com cobertura opaca e ajuste confortável, é uma opção prática para acompanhar a rotina. O comprimento até abaixo do joelho combina facilmente com calças, saias, vestidos e botas de cano alto. Diferenciais: • Fio 40: cobertura opaca com leve transparência. • Punho confortável: não aperta nem marca a pele. • Comprimento 3/4: cobre até abaixo do joelho, permitindo o uso com diferentes peças e calçados. • Sem demarcação de ponteira: acabamento invisível próximo aos dedos. Ideal para: • Uso diário • Produções divertidas com saias e vestidos • Botas de cano alto • Looks clássicos",
+   "tamanho": "U",
+   "linha": "Linha 3/4",
+   "cores": [
+    {
+     "cod": "1000",
+     "nome": "Branco Antártida",
+     "img": "/produtos/loba/05550-001/1000.jpg"
+    },
+    {
+     "cod": "6540",
+     "nome": "Pó de Arroz",
+     "img": "/produtos/loba/05550-001/6540.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/loba/05550-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/loba/05550-001/9990.jpg"
+  },
+  {
+   "codigo": "17752-001",
+   "nome": "Body Floral Raschel",
+   "descricao": "Com renda floral e transparência delicada, traz feminilidade e um toque de sensualidade às produções. Versátil, pode ser usado sozinho, com calças, saias e blazers ou em sobreposições que deixam a renda aparecer no look. Diferenciais: • Renda floral: textura e delicadeza ao visual. • Tecnologia Raschel: maior resistência e durabilidade. • Transparência: valoriza sobreposições e composições. Ideal para: • Looks românticos • Produções com calças, saias e blazers • Sobreposições com camisetas • Uso como lingerie ou peça de destaque no look",
+   "tamanho": "U",
+   "linha": "Linha Segunda Pele",
+   "cores": [
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/loba/17752-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/loba/17752-001/9990.jpg"
+  },
+  {
+   "codigo": "00841-001",
+   "nome": "Segunda Pele gola alta Raschel",
+   "descricao": "Com alta cobertura e leve transparência, é uma peça versátil para criar diferentes composições. Desenvolvida com a tecnologia Raschel, exclusiva do Grupo Lupo, não possui costuras laterais e se destaca pela alta elasticidade e maior resistência. Leve e sem volume, pode ser usada como camada extra por baixo de outras peças, trazendo mais conforto e proteção nos dias frios. Diferenciais: • Fio 60: alta cobertura com acabamento opaco. • Tecnologia Raschel: maior resistência e durabilidade. • Toque macio: mais conforto durante o uso. • Gola alta: protege do frio e adiciona um toque sofisticado ao visual. • Modelagem ajustada: realça e valoriza o corpo. • Sem volume: facilita o uso como camada extra por baixo de outras peças. Ideal para: • Dias frios • Uso como camada sob outras peças • Looks com tops e lingeries aparentes • Blazers, jaquetas e casacos",
+   "tamanho": "U",
+   "linha": "Linha Segunda Pele",
+   "cores": [
+    {
+     "cod": "1000",
+     "nome": "Branco Antártida",
+     "img": "/produtos/loba/00841-001/1000.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/loba/00841-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/loba/00841-001/9990.jpg"
+  },
+  {
+   "codigo": "00840-001",
+   "nome": "Segunda Pele Gola Alta",
+   "descricao": "Com transparência e ajustada ao corpo, é uma peça versátil para criar diferentes composições. Leve e sem volume, também pode ser usada como camada extra por baixo de outras peças, trazendo mais conforto e proteção. Diferenciais: • Fio 40: cobertura opaca com leve transparência. • Toque macio: mais conforto durante o uso. • Gola alta: protege do frio e adiciona um toque sofisticado ao visual. • Modelagem ajustada: realça e valoriza o corpo. • Sem volume: facilita o uso como camada extra por baixo de outras peças. Ideal para: • Dias frios • Uso como camada sob outras peças • Looks com tops e lingeries aparentes • Blazers, jaquetas e casacos",
+   "tamanho": "U",
+   "linha": "Linha Segunda Pele",
+   "cores": [
+    {
+     "cod": "1000",
+     "nome": "Branco Antártida",
+     "img": "/produtos/loba/00840-001/1000.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/loba/00840-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/loba/00840-001/1000.jpg"
+  },
+  {
+   "codigo": "00801-001",
+   "nome": "Segunda Pele Raschel",
+   "descricao": "Poliamida Elastano 92% | 8%",
+   "tamanho": "U",
+   "linha": "Linha Segunda Pele",
+   "cores": [
+    {
+     "cod": "1000",
+     "nome": "Branco Antártida",
+     "img": "/produtos/loba/00801-001/1000.jpg"
+    },
+    {
+     "cod": "6540",
+     "nome": "Pó de Arroz",
+     "img": "/produtos/loba/00801-001/6540.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/loba/00801-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/loba/00801-001/6540.jpg"
+  },
+  {
+   "codigo": "00800-001",
+   "nome": "Blusa Segunda Pele Manga Longa",
+   "descricao": "Com transparência e ajustada ao corpo, é uma peça versátil para criar diferentes composições. Leve e sem volume, também pode ser usada como camada extra por baixo de outras peças, trazendo mais conforto e proteção. Diferenciais: • Fio 40: cobertura opaca com leve transparência. • Toque macio: mais conforto durante o uso. • Modelagem ajustada: realça e valoriza o corpo. • Sem volume: facilita o uso como camada extra por baixo de outras peças. Ideal para: • Dias frios • Uso como camada sob outras peças • Looks com tops e lingeries aparentes • Blazers, jaquetas e casacos",
+   "tamanho": "GG • U",
+   "linha": "Linha Segunda Pele",
+   "cores": [
+    {
+     "cod": "1000",
+     "nome": "Branco Antártida",
+     "img": "/produtos/loba/00800-001/1000.jpg"
+    },
+    {
+     "cod": "6540",
+     "nome": "Pó de Arroz",
+     "img": "/produtos/loba/00800-001/6540.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/loba/00800-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/loba/00800-001/1000.jpg"
+  },
+  {
+   "codigo": "05690-003",
+   "nome": "Short Up-Line",
+   "descricao": "Com efeito modelador e ajuste perfeito ao corpo, valoriza as formas e ajuda a deixar a silhueta mais uniforme sob as roupas. Ideal para quem busca mais segurança e confiança ao vestir. Diferenciais: • Modelagem estratégica: atua na região do abdômen e culote, valorizando as formas e deixando a silhueta mais uniforme. • Levanta bumbum: realça o contorno natural. • Forro de algodão: conforto e praticidade durante o uso. Ideal para: • Roupas ajustadas • Vestidos e saias • Produções que pedem mais segurança ao vestir",
+   "tamanho": "P • M • G • GG • XG",
+   "linha": "Linha Atributos",
+   "cores": [
+    {
+     "cod": "6006",
+     "nome": "Nude",
+     "img": "/produtos/loba/05690-003/6006.jpg"
+    },
+    {
+     "cod": "6540",
+     "nome": "Pó de Arroz",
+     "img": "/produtos/loba/05690-003/6540.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/loba/05690-003/9990.jpg"
+    }
+   ],
+   "img": "/produtos/loba/05690-003/6006.jpg"
+  },
+  {
+   "codigo": "05695-001",
+   "nome": "Bermuda Up-Line",
+   "descricao": "Com efeito modelador e ajuste perfeito ao corpo, valoriza as formas e ajuda a deixar a silhueta mais uniforme sob as roupas. O comprimento maior oferece mais cobertura e ajuda a evitar o atrito entre as pernas. Diferenciais: • Modelagem estratégica: atua na região do abdômen e culote, levanta o bumbum, realçando o contorno natural. • Comprimento bermuda: maior cobertura e evita o atrito entre as pernas. • Forro de algodão: conforto e praticidade durante o uso. Ideal para: • Roupas ajustadas • Peças claras ou que marcam o corpo • Vestidos e saias • Produções que pedem mais segurança ao vestir",
+   "tamanho": "P • M • G • GG • XG",
+   "linha": "Linha Atributos",
+   "cores": [
+    {
+     "cod": "6540",
+     "nome": "Pó de Arroz",
+     "img": "/produtos/loba/05695-001/6540.jpg"
+    }
+   ],
+   "img": "/produtos/loba/05695-001/6540.jpg"
+  },
+  {
+   "codigo": "05865-001",
+   "nome": "Corsário Up-Line",
+   "descricao": "Com efeito modelador e ajuste perfeito, ajuda a valorizar a silhueta. O comprimento corsário oferece maior cobertura, reduz marcas na região das coxas e proporciona um acabamento uniforme sob roupas ajustadas, claras ou transparentes. Diferenciais: • Fio 20: leve transparência com acabamento discreto. • Modelagem estratégica: atua na região do abdômen e culote, levanta o bumbum, realçando o contorno natural. • Comprimento corsário: maior cobertura, evita o atrito entre as pernas. • Forro de algodão: mais conforto e praticidade durante o uso. Ideal para: • Roupas claras e transparentes • Peças ajustadas ou que marcam o corpo • Vestidos, saias e calças • Quem busca maior cobertura e uniformidade nas pernas",
+   "tamanho": "P • M • G • GG",
+   "linha": "Linha Atributos",
+   "cores": [
+    {
+     "cod": "6540",
+     "nome": "Pó de Arroz",
+     "img": "/produtos/loba/05865-001/6540.jpg"
+    },
+    {
+     "cod": "6700",
+     "nome": "Natural Peach",
+     "img": "/produtos/loba/05865-001/6700.jpg"
+    }
+   ],
+   "img": "/produtos/loba/05865-001/6540.jpg"
+  },
+  {
+   "codigo": "05895-001",
+   "nome": "Meia-Calça Up-Line",
+   "descricao": "Com alta transparência, efeito modelador e ajuste perfeito, ajuda a valorizar a silhueta e proporcionar um acabamento uniforme sob roupas ajustadas, claras ou transparentes. Diferenciais: • Fio 15: alta transparência com acabamento natural. • Modelagem estratégica: atua na região do abdômen e culote, levanta o bumbum, realçando o contorno natural. • Uniformiza a tonalidade da pele: disfarça pequenas imperfeições e mantém a aparência natural das pernas. • Forro de algodão: mais conforto e praticidade durante o uso. Ideal para: • Roupas claras e transparentes • Peças ajustadas ou que marcam o corpo • Vestidos, saias e calças • Quem busca maior cobertura e uniformidade nas pernas",
+   "tamanho": "P • M • G • GG",
+   "linha": "Linha Atributos",
+   "cores": [
+    {
+     "cod": "6540",
+     "nome": "Pó de Arroz",
+     "img": "/produtos/loba/05895-001/6540.jpg"
+    },
+    {
+     "cod": "6700",
+     "nome": "Natural Peach",
+     "img": "/produtos/loba/05895-001/6700.jpg"
+    },
+    {
+     "cod": "6940",
+     "nome": "Praline",
+     "img": "/produtos/loba/05895-001/6940.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/loba/05895-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/loba/05895-001/9990.jpg"
+  },
+  {
+   "codigo": "05694-001",
+   "nome": "Short Slim",
+   "descricao": "Com efeito modelador e ajuste perfeito ao corpo, valoriza as formas e ajuda a deixar a silhueta mais uniforme sob as roupas. Ideal para quem busca mais segurança e confiança ao vestir. Diferenciais: • Modelagem estratégica: atua no abdômen e culote, define a cintura e levanta o bumbum, realçando o contorno natural. • Cintura alta: maior cobertura e sustentação na região abdominal. • Borda interna de silicone: aumenta a aderência e mantém a peça no lugar, sem enrolar. • Abertura entre as pernas: praticidade para o dia a dia. Ideal para: • Roupas ajustadas • Peças claras ou que marcam o corpo • Vestidos e saias • Produções que pedem mais segurança ao vestir",
+   "tamanho": "P • M • G • GG",
+   "linha": "Linha Atributos",
+   "cores": [
+    {
+     "cod": "6540",
+     "nome": "Pó de Arroz",
+     "img": "/produtos/loba/05694-001/6540.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/loba/05694-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/loba/05694-001/9990.jpg"
+  },
+  {
+   "codigo": "05696-001",
+   "nome": "Bermuda Slim",
+   "descricao": "Com efeito modelador e ajuste perfeito ao corpo, valoriza as formas e ajuda a deixar a silhueta mais uniforme sob as roupas. O comprimento maior oferece mais cobertura e conforto, ideal para quem busca mais segurança e confiança ao vestir. Diferenciais: • Modelagem estratégica: atua no abdômen e quadris, define a cintura e realça o bumbum. • Cintura alta: oferece maior cobertura e sustentação na região abdominal. • Comprimento bermuda: oferece mais cobertura e evita o atrito entre as pernas. • Borda interna de silicone: aumenta a aderência e mantém a peça no lugar, sem enrolar. Ideal para: • Roupas ajustadas • Peças claras ou que marcam o corpo • Vestidos e saias • Produções que pedem mais segurança ao vestir",
+   "tamanho": "P • M • G • GG",
+   "linha": "Linha Atributos",
+   "cores": [
+    {
+     "cod": "6540",
+     "nome": "Pó de Arroz",
+     "img": "/produtos/loba/05696-001/6540.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/loba/05696-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/loba/05696-001/9990.jpg"
+  },
+  {
+   "codigo": "05697-001",
+   "nome": "Bermuda Slim Plus",
+   "descricao": "Com efeito modelador e ajuste perfeito ao corpo, valoriza as formas e ajuda a deixar a silhueta mais uniforme sob as roupas. Modelagem especial que se adapta às curvas do corpo com conforto e liberdade de movimento. Ideal para quem busca mais segurança e confiança ao vestir. Diferenciais: • Modelagem estratégica: atua no abdômen e quadris, define a cintura e realça o bumbum. • Cintura alta: maior cobertura e sustentação na região abdominal. • Comprimento bermuda: evita o atrito entre as pernas. • Borda interna de silicone: aumenta a aderência e mantém a peça no lugar, sem enrolar. Ideal para: • Roupas ajustadas • Peças claras ou que marcam o corpo • Vestidos e saias • Produções que pedem mais segurança ao vestir",
+   "tamanho": "XG",
+   "linha": "Linha Atributos",
+   "cores": [
+    {
+     "cod": "6540",
+     "nome": "Pó de Arroz",
+     "img": "/produtos/loba/05697-001/6540.jpg"
+    }
+   ],
+   "img": "/produtos/loba/05697-001/6540.jpg"
+  },
+  {
+   "codigo": "59000-002",
+   "nome": "Meia-calça Suave Compressão Importada",
+   "descricao": "A suave compressão auxilia a circulação sanguínea, ajudando a prevenir ou aliviar inchaço, cansaço e dores nas pernas. Com cobertura completa e ajuste uniforme, oferece sustentação contínua e conforto para o uso diário. Diferenciais: • Fio 70: maior cobertura para as pernas. • Suave compressão: alivia a sensação de cansaço, inchaço e dores nas pernas. • Cobertura completa: oferece sustentação uniforme dos pés à cintura. • Com elastano: ajuste perfeito que acompanha os movimentos. • Calcanhar verdadeiro: contorno anatômico para melhor encaixe. Ideal para: • Quem passa muito tempo em pé • Viagens longas • Pernas cansadas, inchadas ou com sensação de peso • Uso diário",
+   "tamanho": "P • M • G • GG",
+   "linha": "Linha Terapêutica",
+   "cores": [
+    {
+     "cod": "6540",
+     "nome": "Pó de Arroz",
+     "img": "/produtos/loba/59000-002/6540.jpg"
+    }
+   ],
+   "img": "/produtos/loba/59000-002/6540.jpg"
+  },
+  {
+   "codigo": "59100-002",
+   "nome": "Meia-calça Média Compressão Importada",
+   "descricao": "A média compressão auxilia a circulação sanguínea, ajudando a prevenir ou aliviar inchaço, cansaço, dores e a sensação de peso nas pernas. Compressão mais intensa no tornozelo e diminui gradativamente em direção à coxa, oferecendo sustentação e conforto ao longo do dia. Diferenciais: • Fio 140: alta cobertura para as pernas. • Média compressão: ajuda a aliviar inchaço, cansaço e dores nas pernas. • Compressão graduada: maior pressão no tornozelo, reduzindo gradativamente em direção à coxa. • Com elastano: ajuste perfeito que acompanha os movimentos. • Calcanhar verdadeiro: contorno anatômico para melhor encaixe. Ideal para: • Quem passa muito tempo em pé • Viagens longas • Pernas cansadas, inchadas ou com sensação de peso",
+   "tamanho": "P • M • G • GG",
+   "linha": "Linha Terapêutica",
+   "cores": [
+    {
+     "cod": "6540",
+     "nome": "Pó de Arroz",
+     "img": "/produtos/loba/59100-002/6540.jpg"
+    }
+   ],
+   "img": "/produtos/loba/59100-002/6540.jpg"
+  },
+  {
+   "codigo": "59200-002",
+   "nome": "Meia-calça Alta Compressão Importada",
+   "descricao": "A alta compressão auxilia a circulação sanguínea, ajudando a prevenir ou aliviar inchaço, cansaço, dores e a sensação de peso nas pernas. Compressão mais intensa no tornozelo e diminui gradativamente em direção à coxa, oferecendo maior sustentação ao longo do dia. Diferenciais: • Fio 280: altíssima cobertura para as pernas. • Alta compressão: auxilia a circulação e ajuda a aliviar inchaço, cansaço e dores nas pernas. • Compressão graduada: maior pressão no tornozelo, reduzindo gradativamente em direção à coxa. • Com elastano: ajuste perfeito que acompanha os movimentos. • Calcanhar verdadeiro: contorno anatômico para melhor encaixe. Ideal para: • Quem passa muito tempo em pé • Viagens longas • Pernas cansadas, inchadas ou com sensação de peso",
+   "tamanho": "P • M • G • GG",
+   "linha": "Linha Terapêutica",
+   "cores": [
+    {
+     "cod": "6540",
+     "nome": "Pó de Arroz",
+     "img": "/produtos/loba/59200-002/6540.jpg"
+    }
+   ],
+   "img": "/produtos/loba/59200-002/6540.jpg"
+  },
+  {
+   "codigo": "59700-002",
+   "nome": "Meia 3/4 Suave Compressão Importada",
+   "descricao": "A suave compressão auxilia a circulação sanguínea, ajudando a prevenir ou aliviar inchaço, cansaço e dores nas pernas. Com comprimento até abaixo do joelho, oferece sustentação na região dos pés, tornozelos e panturrilhas, com mais praticidade e conforto para o uso diário. Diferenciais: • Fio 70: maior cobertura para as pernas. • Suave compressão: auxilia a circulação e ajuda a aliviar inchaço, cansaço e dores. • Comprimento 3/4: compressão concentrada e mais praticidade. • Com elastano: ajuste perfeito que acompanha os movimentos. • Calcanhar verdadeiro: contorno anatômico para melhor encaixe. Ideal para: • Quem passa muito tempo em pé • Viagens longas • Pernas cansadas ou com sensação de peso • Uso diário",
+   "tamanho": "34 a 36 • 37 a 39",
+   "linha": "Linha Terapêutica",
+   "cores": [
+    {
+     "cod": "6540",
+     "nome": "Pó de Arroz",
+     "img": "/produtos/loba/59700-002/6540.jpg"
+    }
+   ],
+   "img": "/produtos/loba/59700-002/6540.jpg"
+  },
+  {
+   "codigo": "59800-002",
+   "nome": "Meia 3/4 Média Compressão Importada",
+   "descricao": "A média compressão auxilia a circulação sanguínea, ajudando a prevenir ou aliviar inchaço, cansaço, dores e a sensação de peso nas pernas. Com comprimento até abaixo do joelho, oferece sustentação na região dos pés, tornozelos e panturrilhas, com mais praticidade e conforto para o uso diário. Diferenciais: • Fio 140: alta cobertura para as pernas. • Média compressão: auxilia a circulação e ajuda a aliviar inchaço, cansaço e dores. • Comprimento 3/4: compressão concentrada e mais praticidade. • Com elastano: ajuste perfeito que acompanha os movimentos. • Calcanhar verdadeiro: contorno anatômico para melhor encaixe. Ideal para: • Quem passa muito tempo em pé • Viagens longas • Pernas cansadas, inchadas ou com sensação de peso • Uso diário",
+   "tamanho": "34 a 36 • 37 a 39",
+   "linha": "Linha Terapêutica",
+   "cores": [
+    {
+     "cod": "6540",
+     "nome": "Pó de Arroz",
+     "img": "/produtos/loba/59800-002/6540.jpg"
+    }
+   ],
+   "img": "/produtos/loba/59800-002/6540.jpg"
+  },
+  {
+   "codigo": "59900-002",
+   "nome": "Meia 3/4 Alta Compressão Importada",
+   "descricao": "A alta compressão auxilia a circulação sanguínea, ajudando a prevenir ou aliviar inchaço, cansaço, dores e a sensação de peso nas pernas. Com comprimento até abaixo do joelho, oferece maior sustentação na região dos pés, tornozelos e panturrilhas, com praticidade e conforto para o uso diário. Diferenciais: • Alta compressão: auxilia a circulação e ajuda a aliviar inchaço, cansaço e dores. • Comprimento 3/4: compressão concentrada e mais praticidade. • Com elastano: ajuste perfeito que acompanha os movimentos. • Calcanhar verdadeiro: contorno anatômico para melhor encaixe. Ideal para: • Quem passa muito tempo em pé • Viagens longas • Pernas cansadas, inchadas ou com sensação de peso • Quem busca maior sustentação nas pernas • Uso diário",
+   "tamanho": "34 a 36 • 37 a 39",
+   "linha": "Linha Terapêutica",
+   "cores": [
+    {
+     "cod": "6540",
+     "nome": "Pó de Arroz",
+     "img": "/produtos/loba/59900-002/6540.jpg"
+    }
+   ],
+   "img": "/produtos/loba/59900-002/6540.jpg"
+  },
+  {
+   "codigo": "41850-002",
+   "nome": "Legging Sem Costura",
+   "descricao": "Com cobertura total e zero transparência, oferece segurança e conforto para acompanhar a rotina. Versátil e fácil de combinar, é uma peça-chave do guarda-roupa feminino, transitando de produções casuais a looks mais arrumados. Diferenciais: • Fio 150: alta cobertura com acabamento superopaco. • Zero transparência: mais segurança e confiança ao vestir. • Sem costura: ajuste impecável ao corpo, sem costuras laterais. • Amni Bac Off: propriedades antivirais e bacteriostáticas que oferecem proteção. • Punho confortável: mantém a peça ajustada com liberdade de movimento. Ideal para: • Uso diário • Looks casuais ou mais arrumados • Viagens e momentos de lazer • Quem busca uma peça versátil e fácil de combinar",
+   "tamanho": "P • M • G • GG • XG",
+   "linha": "Leggings Sem Costura",
+   "cores": [
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/loba/41850-002/9990.jpg"
+    }
+   ],
+   "img": "/produtos/loba/41850-002/9990.jpg"
+  },
+  {
+   "codigo": "41851-001",
+   "nome": "Legging Sem Costura",
+   "descricao": "Com cobertura total e zero transparência, oferece segurança e conforto para o dia a dia. Versátil e fácil de combinar, é uma peça-chave do guarda-roupa feminino, transitando de produções casuais a looks mais arrumados. Diferenciais: • Fio 150: alta cobertura com acabamento superopaco. • Fio texturizado a ar: toque macio do algodão com a resistência e durabilidade da poliamida. • Zero transparência: segurança e confiança ao vestir. • Sem costura: ajuste impecável ao corpo, sem costuras laterais. • Borda interna de silicone: aumenta a aderência e mantém a peça no lugar. Ideal para: • Uso diário • Looks casuais ou mais arrumados • Produções com tênis ou salto • Quem busca uma peça versátil, confortável e resistente",
+   "tamanho": "P • M • G • GG • XG",
+   "linha": "Leggings Sem Costura",
+   "cores": [
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/loba/41851-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/loba/41851-001/9990.jpg"
+  },
+  {
+   "codigo": "41853-002",
+   "nome": "Legging Gestante",
+   "descricao": "Desenvolvida para acompanhar a gestação com conforto, segurança e sustentação. Prática e versátil, oferece bem-estar e se adapta às mudanças do corpo ao longo de todas as fases. Diferenciais: • Fio 150: alta cobertura com acabamento superopaco. • Modelagem gestante: envolve e sustenta a barriga com conforto. • Malha canelada nas costas: oferece suporte à região lombar e ajuda a aliviar o desconforto. • Sem costura: ajuste confortável ao corpo, sem costuras laterais. • Amni Bac Off: propriedades antivirais e bacteriostáticas que oferecem proteção. • Malha macia e flexível: acompanha todas as fases da gestação. Ideal para: • Todas as fases da gestação • Uso diário • Quem busca conforto e sustentação para a barriga • Quem deseja mais suporte para a região lombar",
+   "tamanho": "P • M • G • GG",
+   "linha": "Leggings Sem Costura",
+   "cores": [
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/loba/41853-002/9990.jpg"
+    }
+   ],
+   "img": "/produtos/loba/41853-002/9990.jpg"
+  },
+  {
+   "codigo": "41888-001",
+   "nome": "Calça Alfaiataria",
+   "descricao": "O equilíbrio perfeito entre a sofisticação da alfaiataria e o conforto para o dia a dia. A modelagem com caimento amplo na medida certa valoriza a produção trazendo elegância sem limitar os movimentos. Com tecido de toque macio e acabamento refinado, é peça coringa no guarda-roupa para criar desde looks formais até combinações modernas e casuais. Diferenciais: • Superopaca: cobertura total para mais segurança ao vestir. • Bolso frontal verdadeiro: funcionalidade no dia a dia. • Não amassa: mais praticidade para a rotina e viagens. • Com elastano: veste bem com liberdade de movimento. Ideal para: • Trabalho • Looks casuais mais arrumados • Produções com camisas, blusas e blazers • Uso com sapatilhas, tênis ou salto • Quem busca conforto com aparência sofisticada",
+   "tamanho": "P • M • G • GG",
+   "linha": "Calças Comfy",
+   "cores": [
+    {
+     "cod": "2800",
+     "nome": "Marinho",
+     "img": "/produtos/loba/41888-001/2800.jpg"
+    },
+    {
+     "cod": "8820",
+     "nome": "Chumbo Mescla",
+     "img": "/produtos/loba/41888-001/8820.jpg"
+    },
+    {
+     "cod": "7530",
+     "nome": "Canela",
+     "img": "/produtos/loba/41888-001/7530.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/loba/41888-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/loba/41888-001/9990.jpg"
+  },
+  {
+   "codigo": "41886-001",
+   "nome": "Calça Ballon",
+   "descricao": "A calça Balloon é a aposta certeira para trazer informação de moda às produções. O cós estruturado com botão e passantes permite o uso de cintos, um truque de styling perfeito para marcar a cintura e adicionar personalidade ao look. Com shape mais solto e contemporâneo, a peça equilibra conforto e estilo em combinações que vão do casual a propostas mais arrumadas. Diferenciais: • Superopaca: cobertura total para mais segurança ao vestir. • Braguilha com zíper: praticidade ao vestir. • Botão na barra: acabamento que traz charme à peça. • Detalhe de bolso traseiro: valoriza o visual. • Com elastano: veste bem com liberdade de movimento. Ideal para: • Trabalho • Looks casuais mais arrumados • Produções com informação de moda • Uso com tênis, sapatilhas ou salto • Quem busca conforto com aparência moderna",
+   "tamanho": "P • M • G • GG",
+   "linha": "Calças Comfy",
+   "cores": [
+    {
+     "cod": "5144",
+     "nome": "Telha",
+     "img": "/produtos/loba/41886-001/5144.jpg"
+    },
+    {
+     "cod": "6670",
+     "nome": "Cáqui",
+     "img": "/produtos/loba/41886-001/6670.jpg"
+    },
+    {
+     "cod": "2805",
+     "nome": "Marinho",
+     "img": "/produtos/loba/41886-001/2805.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/loba/41886-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/loba/41886-001/2805.jpg"
+  },
+  {
+   "codigo": "41887-001",
+   "nome": "Calça Alfaiataria Cropped",
+   "descricao": "Uma leitura mais leve e atual da clássica calça alfaiataria. A Calça Alfaiataria Cropped tem uma modelagem que quebra a seriedade do corte tradicional, trazendo um ar despojado e moderno que valoriza a produção. Com caimento elegante, é uma peça versátil que multiplica facilmente os looks, indo do trabalho aos momentos mais casuais. Diferenciais: • Superopaca: cobertura total para mais segurança ao vestir. • Comprimento cropped: valoriza os calçados e atualiza o visual. • Bolso frontal verdadeiro: praticidade no dia a dia. • Com elastano: veste bem com liberdade de movimento. Ideal para: • Trabalho • Looks casuais mais arrumados • Produções com camisas, blusas e blazers • Uso com tênis, sapatilhas ou salto • Quem busca conforto com aparência moderna",
+   "tamanho": "P • M • G • GG",
+   "linha": "Calças Comfy",
+   "cores": [
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/loba/41887-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/loba/41887-001/9990.jpg"
+  },
+  {
+   "codigo": "41885-001",
+   "nome": "Calça com zíper na barra",
+   "descricao": "Prática e versátil, a Calça com zíper na barra aposta em um shape ajustado para um visual urbano e descomplicado. Com design minimalista, traz o charme do zíper, um detalhe que permite personalizar o caimento da barra e dar mais personalidade à produção. Uma peça curinga perfeita para adicionar estilo aos looks do dia a dia. Diferenciais: • Superopaca: cobertura total para mais segurança ao vestir. • Com elastano: ajuste confortável e liberdade de movimento. • Não amassa: mais praticidade para a rotina e viagens. Ideal para: • Uso diário • Trabalho • Looks casuais ou mais arrumados • Uso com tênis, botas, sapatilhas ou salto",
+   "tamanho": "P • M • G • GG",
+   "linha": "Calças Comfy",
+   "cores": [
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/loba/41885-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/loba/41885-001/9990.jpg"
+  },
+  {
+   "codigo": "41867-001",
+   "nome": "Calça Alfaiataria",
+   "descricao": "•Liberdade de movimento •Superopaca •Braguilha •Cós com passantes para cinto •Barra italiana",
+   "tamanho": "P • M • G • GG",
+   "linha": "Calças Comfy",
+   "cores": [
+    {
+     "cod": "2300",
+     "nome": "Blue Nights",
+     "img": "/produtos/loba/41867-001/2300.jpg"
+    },
+    {
+     "cod": "2800",
+     "nome": "Marinho",
+     "img": "/produtos/loba/41867-001/2800.jpg"
+    },
+    {
+     "cod": "8020",
+     "nome": "Cinza",
+     "img": "/produtos/loba/41867-001/8020.jpg"
+    },
+    {
+     "cod": "8820",
+     "nome": "Chumbo Mescla",
+     "img": "/produtos/loba/41867-001/8820.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/loba/41867-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/loba/41867-001/9990.jpg"
+  },
+  {
+   "codigo": "05857-001",
+   "nome": "Calça Legging Montaria",
+   "descricao": "A calça montaria é uma peça-chave no guarda-roupa feminino. A modelagem ajustada ao corpo e o tecido encorpado garantem total opacidade, unindo conforto e segurança para acompanhar todos os movimentos. Os detalhes de braguilha e bolsos frontais deixam a peça mais estruturada e valorizam o acabamento do design. Prática e versátil, funciona bem tanto em compromissos profissionais quanto em momentos de lazer. Diferenciais: • Superopaca: zero transparência para mais segurança. • Com elastano: ajuste confortável e liberdade de movimento. • Não amassa: mais praticidade para a rotina, dias longos e viagens. • Detalhes de bolsos e braguilha: reforçam o visual de calça tradicional. Ideal para: • Uso diário • Trabalho • Looks com camisas, tricôs e blazers • Uso com botas, sapatilhas ou tênis",
+   "tamanho": "P • M • G • GG",
+   "linha": "Calças Comfy",
+   "cores": [
+    {
+     "cod": "7560",
+     "nome": "Cravo",
+     "img": "/produtos/loba/05857-001/7560.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/loba/05857-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/loba/05857-001/9990.jpg"
+  },
+  {
+   "codigo": "41880-001",
+   "nome": "Calca Jogging Cargo",
+   "descricao": "A Calça Jogging Cargo une inspiração utilitária e conforto em uma proposta urbana e atual. Com shape descontraído e modelagem moderna de caimento impecável, valoriza a silhueta sem limitar os movimentos. Versátil e cheia de atitude, é a escolha certa para compor looks com estilo, do visual despojado de fim de semana às produções urbanas mais sofisticadas. Diferenciais: • Superopaca: cobertura total para mais segurança ao vestir. • Com elastano: liberdade de movimento. • Cordão de ajuste: permite regular o cós ao corpo. • Bolso frontal com zíper: mais segurança para pequenos objetos. • Bolso lateral cargo: funcionalidade com informação de moda. • Malha elástica no cós e entrepernas: mais mobilidade e conforto. Ideal para: • Uso diário • Looks casuais e urbanos • Viagens e momentos de lazer • Produções com tênis, sapatilhas ou scarpins",
+   "tamanho": "P • M • G • GG",
+   "linha": "Calças Comfy",
+   "cores": [
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/loba/41880-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/loba/41880-001/9990.jpg"
+  },
+  {
+   "codigo": "41883-001",
+   "nome": "Calça Cotton",
+   "descricao": "A Calça Cotton é uma peça indispensável para o guarda-roupa da mulher moderna. Com tecido de toque macio e caimento estruturado, adapta-se ao corpo com zero transparência, trazendo mais segurança para o uso diário. Prática, versátil e com design minimalista, acompanha diferentes momentos da rotina, do trabalho ao lazer, com conforto e liberdade de movimento. Diferenciais: • Algodão: toque macio e natural. • Superopaca: cobertura total para mais segurança ao vestir. • Com elastano: ajuste confortável, sem limitar os movimentos. • Detalhe de bolso frontal: valoriza o acabamento da peça. • Bolso traseiro verdadeiro: praticidade no dia a dia. Ideal para: • Uso diário • Trabalho • Looks casuais • Produções com tênis, sapatilhas ou botas",
+   "tamanho": "P • M • G • GG • XG",
+   "linha": "Calças Comfy",
+   "cores": [
+    {
+     "cod": "2800",
+     "nome": "Marinho",
+     "img": "/produtos/loba/41883-001/2800.jpg"
+    },
+    {
+     "cod": "4990",
+     "nome": "Verde Selva",
+     "img": "/produtos/loba/41883-001/4990.jpg"
+    },
+    {
+     "cod": "5940",
+     "nome": "Vinho",
+     "img": "/produtos/loba/41883-001/5940.jpg"
+    },
+    {
+     "cod": "6670",
+     "nome": "Cáqui",
+     "img": "/produtos/loba/41883-001/6670.jpg"
+    },
+    {
+     "cod": "9990",
+     "nome": "Preta",
+     "img": "/produtos/loba/41883-001/9990.jpg"
+    }
+   ],
+   "img": "/produtos/loba/41883-001/4990.jpg"
+  }
+ ]
 }

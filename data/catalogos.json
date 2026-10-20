@@ -120,6 +120,26 @@
   "total_produtos": null
  },
  {
+  "slug": "lsport-atacado",
+  "titulo": "Lupo Sport Atacado",
+  "segmento": "Lupo Sport",
+  "descricao": "Linha esportiva, atacado. Primavera/Verão 27.",
+  "drive": "https://wxcggdfcmcqhegpgnizz.supabase.co/storage/v1/object/public/catalogos/lsport-atacado.pdf",
+  "capa": "/capas/lsport-atacado.jpg",
+  "navegavel": true,
+  "total_produtos": null
+ },
+ {
+  "slug": "conjuntos",
+  "titulo": "Conjuntos",
+  "segmento": "Lupo Sport",
+  "descricao": "Conjuntos fitness: tops e leggings. Primavera/Verão 27.",
+  "drive": "https://wxcggdfcmcqhegpgnizz.supabase.co/storage/v1/object/public/catalogos/conjuntos.pdf",
+  "capa": "/capas/conjuntos.jpg",
+  "navegavel": true,
+  "total_produtos": null
+ },
+ {
   "slug": "pijamas",
   "titulo": "Pijamas",
   "segmento": "Pijamas",
